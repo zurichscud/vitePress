@@ -6,6 +6,8 @@ hero:
   name: "赖的知识库"
   text: "A VitePress Site"
   tagline: My great project tagline
+  image:
+    src: /bgc.png
   actions:
     - theme: brand
       text: Markdown Examples
@@ -22,4 +24,3 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
