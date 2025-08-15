@@ -1,12 +1,21 @@
 # Markdown Extension Examples
 
-This page demonstrates some of the built-in markdown extensions provided by VitePress.
+文章描述
 
-## Syntax Highlighting
+
+## 标题
+
+h1标题为页面标题，h2标题以下的标题会渲染成页面目录。
+一级标题和二级标题会添加分割线
+
+## 链接方式
 
 VitePress provides Syntax Highlighting powered by [Shiki](https://github.com/shikijs/shiki), with additional features like line-highlighting:
 
-**Input**
+
+## 代码块
+
+**markdown源码**
 
 ````md
 ```js{4}
@@ -20,7 +29,9 @@ export default {
 ```
 ````
 
-**Output**
+**实际效果**
+
+高亮某一行
 
 ```js{4}
 export default {
@@ -32,7 +43,9 @@ export default {
 }
 ```
 
-## Custom Containers
+## 容器
+
+容器是vitepress扩展语法，原生markdown并不支持
 
 **Input**
 
@@ -80,6 +93,28 @@ This is a dangerous warning.
 This is a details block.
 :::
 
-## More
+::: code-group
 
-Check out the documentation for the [full list of markdown extensions](https://vitepress.dev/guide/markdown).
+```sh [npm]
+$ npm add -D vitepress
+```
+
+```sh [pnpm]
+$ pnpm add -D vitepress
+```
+
+```sh [yarn]
+$ yarn add -D vitepress
+```
+
+```sh [yarn (pnp)]
+$ yarn add -D vitepress vue
+```
+
+```sh [bun]
+$ bun add -D vitepress
+```
+
+:::
+
+[Link to pure.html](/pure.html){target="_self"}
