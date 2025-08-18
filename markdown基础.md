@@ -1,12 +1,16 @@
-# Markdown Extension Examples
+---
+outline: deep
 
-文章描述
+---
+# Markdown基础
+
+一级标题下方可以写一段描述
 
 
 ## 标题
 
-h1标题为页面标题，h2标题以下的标题会渲染成页面目录。
-一级标题和二级标题会添加分割线
+h1标题为页面标题，h2标题以下的标题会渲染成右方的页面目录。
+一级标题和二级标题会在标题下方添加分割线
 
 ## 链接方式
 
@@ -15,6 +19,7 @@ VitePress provides Syntax Highlighting powered by [Shiki](https://github.com/shi
 
 ## 代码块
 
+### 高亮某一行
 **markdown源码**
 
 ````md
@@ -31,7 +36,6 @@ export default {
 
 **实际效果**
 
-高亮某一行
 
 ```js{4}
 export default {

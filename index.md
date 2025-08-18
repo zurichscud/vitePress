@@ -10,11 +10,11 @@ hero:
     src: /bgc.png
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: markdown扩展
+      link: /markdown扩展
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: markdown基础
+      link: /markdown基础
 
 features:
   - title: Feature A
