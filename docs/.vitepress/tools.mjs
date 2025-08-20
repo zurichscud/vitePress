@@ -14,7 +14,7 @@ import path from "path";
  */
 export function generateSidebar(dirPath, options = {}) {
   const {
-    useFrontmatter = true,
+    useFrontmatter = false,
     exclude = ["assets", "images", "public"],
     collapsible = true,
     collapsed = false,
@@ -56,25 +56,26 @@ export function generateSidebar(dirPath, options = {}) {
         });
       }
     } else if (entry.name.endsWith(".md")) {
-      // 处理Markdown文件
+      // 如果在markdown中没有读取到标题，则以文件名的名字作为标题
       const title =
         getTitleFromFile(fullPath, useFrontmatter) ||
         path.basename(entry.name, ".md");
-
-              // 生成相对于docs目录的链接
-        let link;
-        if (docsRoot) {
-          const relativePath = path.relative(docsRoot, fullPath);
-          link = "/" + relativePath.replace(/\\/g, "/").replace(".md", "");
+      // 生成相对于docs目录的链接
+      let link;
+      if (docsRoot) {
+        const relativePath = path.relative(docsRoot, fullPath);
+        link = "/" + relativePath.replace(/\\/g, "/").replace(".md", "");
+      } else {
+        // 如果没有提供docsRoot，尝试自动检测
+        const relativePath = path.relative(process.cwd(), fullPath);
+        if (relativePath.startsWith("docs/")) {
+          link =
+            "/" +
+            relativePath.substring(5).replace(/\\/g, "/").replace(".md", "");
         } else {
-          // 如果没有提供docsRoot，尝试自动检测
-          const relativePath = path.relative(process.cwd(), fullPath);
-          if (relativePath.startsWith("docs/")) {
-            link = "/" + relativePath.substring(5).replace(/\\/g, "/").replace(".md", "");
-          } else {
-            link = "/" + relativePath.replace(/\\/g, "/").replace(".md", "");
-          }
+          link = "/" + relativePath.replace(/\\/g, "/").replace(".md", "");
         }
+      }
 
       items.push({
         text: title,

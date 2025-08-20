@@ -1,5 +1,6 @@
 import { defineConfig } from "vitepress";
 import { autoGenerateSidebar } from "./tools.mjs";
+import { local, algolia } from "./plugins/search.js";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -16,12 +17,11 @@ export default defineConfig({
     outlineTitle: "目录",
 
     sidebar: autoGenerateSidebar("./docs", {
-      useFrontmatter: true,
+      // useFrontmatter: true,
       collapsible: true,
       collapsed: false,
-      exclude: ["assets", "images", "public", ".vitepress"],
     }),
-
+    search: local,
     socialLinks: [
       { icon: "github", link: "https://github.com/vuejs/vitepress" },
     ],
