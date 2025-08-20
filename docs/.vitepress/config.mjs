@@ -15,13 +15,16 @@ export default defineConfig({
     ],
     outline: "deep",
     outlineTitle: "目录",
-
     sidebar: autoGenerateSidebar("./docs", {
       // useFrontmatter: true,
       collapsible: true,
       collapsed: false,
     }),
     search: local,
+    docFooter: {
+      prev: "上一页",
+      next: "下一页",
+    },
     socialLinks: [
       { icon: "github", link: "https://github.com/vuejs/vitepress" },
     ],
