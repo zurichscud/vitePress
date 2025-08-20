@@ -140,3 +140,4 @@ This is a .md using a custom component
 | ` # text `<Tag/>` ` | `<h1>text <code><Tag/></code></h1>` | `text <Tag/>` |
 
 被 `<code>` 包裹的 HTML 将按原样显示，只有未包裹的 HTML 才会被 Vue 解析。
+

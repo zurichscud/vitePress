@@ -11,10 +11,10 @@ hero:
   actions:
     - theme: brand
       text: markdown扩展
-      link: /markdown扩展
+      link: /vitepress/markdown扩展
     - theme: alt
       text: markdown基础
-      link: /markdown基础
+      link: /vitepress/markdown基础
 
 features:
   - title: Feature A
