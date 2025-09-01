@@ -12,6 +12,7 @@ export default defineConfig({
     nav: [
       { text: "VitePress", link: "/vitepress/markdown基础" },
       { text: "Nuxt", link: "/nuxt/基础" },
+      { text: "TypeScript", link: "/TypeScript/tsconfig" },
     ],
     outline: "deep",
     outlineTitle: "目录",
