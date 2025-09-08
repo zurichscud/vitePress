@@ -13,6 +13,10 @@ export default defineConfig({
       { text: "VitePress", link: "/vitepress/markdown基础" },
       { text: "Nuxt", link: "/nuxt/基础" },
       { text: "TypeScript", link: "/TypeScript/tsconfig" },
+      {
+        text: "JavaScript",
+        items: [{ text: "第三方模块", link: "/package/unplugin-auto-import" }],
+      },
     ],
     outline: "deep",
     outlineTitle: "目录",
