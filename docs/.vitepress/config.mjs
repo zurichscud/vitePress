@@ -5,6 +5,7 @@ import { local, algolia } from "./plugins/search.js";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "文档库",
+  base: "/vitePress/", // GitHub Pages 子路径配置
   logo: "/logo.png",
   description: "A VitePress SiteA",
   themeConfig: {

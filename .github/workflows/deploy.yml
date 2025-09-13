@@ -47,6 +47,8 @@ jobs:
         run: pnpm install --frozen-lockfile # 使用 pnpm 安装依赖
       - name: Build with VitePress
         run: pnpm run docs:build # 使用 pnpm 构建
+      - name: Add .nojekyll file
+        run: touch docs/.vitepress/dist/.nojekyll
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
