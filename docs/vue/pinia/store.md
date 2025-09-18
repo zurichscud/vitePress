@@ -116,6 +116,12 @@ const doubleValue = computed(() => store.doubleCount)
 </script>
 ```
 
+# useStore
+
+每次某个 store 第一次被 `useXxxStore()` 调用时，这个store才会被初始化加载至内存中。
+
+多次调用 `useXxxStore()` 并不会创建多个相同的store。store在第一次调用 `useXxxStore()` 就已经创建好。
+
 
 
 ## 从 Store 解构
@@ -134,4 +140,21 @@ const { name, doubleCount } = storeToRefs(store)
 const { increment } = store
 </script>
 ```
+
+## TS
+
+Store本质上是一个响应式对象（`reactive` 包裹的）。每一个store实例都存在如下属性：
+
+| 属性/方法      | 类型                                       | 说明                | 备注                                |
+| -------------- | ------------------------------------------ | ------------------- | ----------------------------------- |
+| **$id**        | `string`                                   | store 的唯一 id     | 定义时传入的第一个参数              |
+| **$state**     | `object`                                   | 整个 state 对象     | 可整体替换，也能解构出 state        |
+| **$patch**     | `(partialState | (state) => void) => void` | 部分/批量修改 state | 推荐用于批量更新                    |
+| **$reset**     | `() => void`                               | 重置 state 为初始值 | **仅 Option Store** 默认有          |
+| **$subscribe** | `(callback, options?) => () => void`       | 订阅 state 变化     | 返回取消订阅函数                    |
+| **$onAction**  | `(callback, after?, error?) => () => void` | 订阅 action 调用    | 可在 action 前后执行逻辑            |
+| **$dispose**   | `() => void`                               | 手动销毁 store 实例 | 一般用于测试或动态创建的 store      |
+| Action         | function                                   | 同名                | store中定义的action都将直接挂载在此 |
+| Getter         | ComputedRefImpl                            | 同名                | store中定义的getter都将直接挂载在此 |
+| State          | RefImpl                                    | 同名                | store中定义的state都将直接挂载在此  |
 

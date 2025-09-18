@@ -1,6 +1,10 @@
 # getter
 
-Getter 完全等同于 store 的 state 的[计算值](https://cn.vuejs.org/guide/essentials/computed.html)。可以通过 `defineStore()` 中的 `getters` 属性来定义它们。**推荐**使用箭头函数，并且它将接收 `state` 作为第一个参数：
+Getter 完全等同于 store 的 state 的computed。
+
+## 定义getter
+
+可以通过 `defineStore()` 中的 `getters` 属性来定义它们。**推荐**使用箭头函数，并且它将接收 `state` 作为第一个参数：
 
 ```ts
 export const useCounterStore = defineStore('counter', {
@@ -36,31 +40,66 @@ export const useCounterStore = defineStore('counter', {
 
 ## 向 getter 传递参数
 
-*Getter* 只是幕后的**计算**属性，所以不可以向它们传递任何参数。不过，你可以从 *getter* 返回一个函数，该函数可以接受任意参数：
+*Getter* 只是幕后的**计算**属性，所以不可以向它们传递任何参数。你可以通过action实现
 
-```ts
-export const useUserListStore = defineStore('userList', {
+## 访问getter
+
+### Option Store
+
+Pinia 在处理 `getters` 时，做了一层封装：
+
+- 内部确实是 `computed`，但是对外暴露时，把 `.value` 自动“解包”了。
+- 在你访问 `store.doubleCount` 时，Pinia 拦截了属性读取，自动帮你返回 `getter.value`。
+- 所以在 store 上访问 getter，得到的就是 **直接的值**，而不是 `Ref`。
+
+:::code-group 
+
+```ts [count.ts]
+export const useCountStore = defineStore('count', {
+  state: () => ({ count: 0 }),
   getters: {
-    getUserById: (state) => {
-      return (userId) => state.users.find((user) => user.id === userId)
-    },
+    doubleCount: (state) => state.count * 2,
   },
 })
 ```
 
-```ts
-<script setup>
-import { useUserListStore } from './store'
-const userList = useUserListStore()
-const { getUserById } = storeToRefs(userList)
-// 请注意，你需要使用 `getUserById.value` 来访问
-// <script setup> 中的函数
-</script>
+```ts [使用时]
+const store = useCountStore()
 
-<template>
-  <p>User 2: {{ getUserById(2) }}</p>
-</template>
+console.log(store.doubleCount) // 0 ✅ 直接就是 number
 ```
+
+
+
+:::
+
+### Setup store
+
+:::code-group
+
+```ts [使用]
+console.log(store.doubleCount.value) // 需要 .value
+```
+
+
+
+```ts [countStore]
+export const useCountStore = defineStore('count', () => {
+  const count = ref(0)
+  const doubleCount = computed(() => count.value * 2)
+
+  return { count, doubleCount }
+})
+
+```
+
+
+
+:::
+
+因为 setup 写法返回的就是你定义的内容，Pinia 不会再帮你 unwrap。
+
+
 
 ## 访问其他 store 的 getter
 

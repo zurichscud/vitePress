@@ -1,5 +1,7 @@
 # state
 
+## 定义state
+
 在 Pinia 中，state 被定义为一个返回初始状态的函数。这使得 Pinia 可以同时支持服务端和客户端。
 
 ```ts
@@ -45,6 +47,8 @@ interface UserInfo {
 
 ## 访问state
 
+### Setup API
+
 默认情况下，你可以通过 `store` 实例访问 state，直接对其进行读写。
 
 ```ts
@@ -53,41 +57,13 @@ const store = useStore()
 store.count++
 ```
 
-注意，新的属性**如果没有在 `state()` 中被定义**，则不能被添加。它必须包含初始状态。例如：如果 `secondCount` 没有在 `state()` 中定义，我们无法执行 `store.secondCount = 2`。
+:::warning 注意
 
-## 重置 state
+新的属性**如果没有在 `state()` 中被定义**，则不能被添加。它必须包含初始状态。例如：如果 `secondCount` 没有在 `state()` 中定义，我们无法执行 `store.secondCount = 2`。
+
+:::
 
 ### Option API
-
-使用[选项式 API](https://pinia.vuejs.org/zh/core-concepts/#option-stores) 时，你可以通过调用 store 的 `$reset()` 方法将 state 重置为初始值。
-
-```
-const store = useStore()
-
-store.$reset()
-```
-
-在 `$reset()` 内部，会调用 `state()` 函数来创建一个新的状态对象，并用它替换当前状态。
-
-## Setup API
-
-在 [Setup Stores](https://pinia.vuejs.org/core-concepts/#setup-stores) 中，您需要创建自己的 `$reset()` 方法：
-
-```ts
-export const useCounterStore = defineStore('counter', () => {
-  const count = ref(0)
-
-  function $reset() {
-    count.value = 0
-  }
-
-  return { count, $reset }
-})
-```
-
-## Vue2
-
-### 获取state
 
 如果你不能使用组合式 API，但你可以使用 `computed`，`methods`，...，那你可以使用 `mapState()` 辅助函数将 state 属性映射为只读的计算属性：
 
@@ -110,7 +86,44 @@ export default {
 }
 ```
 
+##
+
+## 重置 state
+
+### Option Store
+
+使用选项式 API时，你可以通过调用 store 的 `$reset()` 方法将 state 重置为初始值。
+
+```ts
+const store = useStore()
+store.$reset()
+```
+
+在 `$reset()` 内部，会调用 `state()` 函数来创建一个新的状态对象，并用它替换当前状态。
+
+### Setup Store
+
+在 Setup Stores中，您需要创建自己的 `$reset()` 方法：
+
+```ts
+export const useCounterStore = defineStore('counter', () => {
+  const count = ref(0)
+
+  function $reset() {
+    count.value = 0
+  }
+
+  return { count, $reset }
+})
+```
+
 ## 变更 state
+
+### 直接修改
+
+在setup中可以通过 `store` 实例访问 state，直接对其进行读写。
+
+### $patch修改
 
 除了用 `store.count++` 直接改变 store，你还可以调用 `$patch` 方法。它允许你用一个 `state` 的补丁对象在同一时间更改多个属性：
 
@@ -130,6 +143,10 @@ store.$patch((state) => {
   state.hasChanged = true
 })
 ```
+
+### 通过action修改
+
+
 
 ## 替换 `state`
 
