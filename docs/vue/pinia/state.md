@@ -63,6 +63,16 @@ store.count++
 
 :::
 
+::: tip setup store
+
+因为 setup 写法返回的就是你定义的内容，Pinia 不会再帮你 unwrap。
+
+##
+
+
+
+:::
+
 ### Option API
 
 如果你不能使用组合式 API，但你可以使用 `computed`，`methods`，...，那你可以使用 `mapState()` 辅助函数将 state 属性映射为只读的计算属性：
@@ -90,20 +100,16 @@ export default {
 
 ## 重置 state
 
-### Option Store
-
-使用选项式 API时，你可以通过调用 store 的 `$reset()` 方法将 state 重置为初始值。
+可以通过调用 store 的 `$reset()` 方法将 state 重置为初始值。
 
 ```ts
 const store = useStore()
 store.$reset()
 ```
 
-在 `$reset()` 内部，会调用 `state()` 函数来创建一个新的状态对象，并用它替换当前状态。
+:::tip setup store
 
-### Setup Store
-
-在 Setup Stores中，您需要创建自己的 `$reset()` 方法：
+在 Setup Stores中，不能直接调用 `$reset()` 方法重置store，您需要创建自己的 `$reset()` 方法：
 
 ```ts
 export const useCounterStore = defineStore('counter', () => {
@@ -117,23 +123,41 @@ export const useCounterStore = defineStore('counter', () => {
 })
 ```
 
+##
+
+
+
+:::
+
+
+
 ## 变更 state
 
 ### 直接修改
 
-在setup中可以通过 `store` 实例访问 state，直接对其进行读写。
+在setup API中可以通过 `store` 实例访问 state，直接对其进行读写。
+
+```ts
+countStore.num++
+```
+
+
+
+
 
 ### $patch修改
 
-除了用 `store.count++` 直接改变 store，你还可以调用 `$patch` 方法。它允许你用一个 `state` 的补丁对象在同一时间更改多个属性：
+调用 `$patch` 方法。它允许你用一个 `state` 的补丁对象在同一时间批量修改多个属性：
 
 ```ts
 store.$patch({
   count: store.count + 1,
   age: 120,
   name: 'DIO',
-})
+})//同名的state会被替换，其他state保持不变
 ```
+
+
 
 不过，用这种语法的话，有些变更真的很难实现或者很耗时：任何集合的修改（例如，向数组中添加、移除一个元素或是做 `splice` 操作）都需要你创建一个新的集合。因此，`$patch` 方法也接受一个函数来组合这种难以用补丁对象实现的变更。
 
@@ -146,7 +170,7 @@ store.$patch((state) => {
 
 ### 通过action修改
 
-
+直接创建一个action修改state
 
 ## 替换 `state`
 

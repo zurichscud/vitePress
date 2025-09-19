@@ -28,7 +28,7 @@ export const useCounterStore = defineStore('main', {
 
 ### setup API
 
-```ts
+```vue
 <script setup>
 const store = useCounterStore()
 // 将 action 作为 store 的方法进行调用
@@ -40,7 +40,7 @@ store.randomizeCounter()
 </template>
 ```
 
-### options API
+### option API
 
 如果你不喜欢使用组合式 API，你也可以使用 `mapActions()` 辅助函数将 action 属性映射为你组件中的方法。
 

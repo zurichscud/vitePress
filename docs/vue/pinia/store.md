@@ -14,7 +14,9 @@ export const useAlertsStore = defineStore('alerts', {
 })
 ```
 
-## Option Store
+## 定义store
+
+### Option Store
 
 与 Vue 的选项式 API 类似，我们也可以传入一个带有 `state`、`actions` 与 `getters` 属性的 Option 对象
 
@@ -34,7 +36,7 @@ export const useCounterStore = defineStore('counter', {
 
 你可以认为 `state` 是 store 的数据 (`data`)，`getters` 是 store 的计算属性 (`computed`)，而 `actions` 则是方法 (`methods`)。
 
-## Setup Store
+### Setup Store
 
 ```ts
 export const useCounterStore = defineStore('counter', () => {
@@ -116,7 +118,7 @@ const doubleValue = computed(() => store.doubleCount)
 </script>
 ```
 
-# useStore
+## useStore
 
 每次某个 store 第一次被 `useXxxStore()` 调用时，这个store才会被初始化加载至内存中。
 
@@ -158,3 +160,77 @@ Store本质上是一个响应式对象（`reactive` 包裹的）。每一个stor
 | Getter         | ComputedRefImpl                            | 同名                | store中定义的getter都将直接挂载在此 |
 | State          | RefImpl                                    | 同名                | store中定义的state都将直接挂载在此  |
 
+
+
+## 生命周期钩子
+
+生命周期钩子只能在setup store中使用。
+
+store 的 `onMounted` **依赖于第一个调用它的组件**
+
+```ts
+export const useCountStore = defineStore('count', () => {
+  onMounted(() => {
+    console.log('store onMounted')
+  })
+
+  return {}
+})
+```
+
+- `onMounted` 必须依赖于 **当前组件的生命周期上下文**。
+- Store 本身不是组件，它没有挂载过程。
+- 如果你在组件外部调用 `useCountStore()`（比如在模块顶层），此时没有 `setup` 上下文，`onMounted` 也就不会生效。
+
+```ts
+// MyComponent.vue
+<script setup lang="ts">
+import { useCountStore } from '@/stores/count'
+
+const store = useCountStore()
+
+onMounted(() => {
+  console.log('component mounted')
+})
+</script>
+
+```
+
+- 组件挂载时 → `onMounted` 会执行
+
+- Store 里的 `onMounted`，如果调用发生在组件 `setup` 内部，同样会挂到这个组件的生命周期上，也会执行
+
+## 初始化store
+
+### setup store
+
+如果只是想在 **store 创建时**做一些初始化逻辑，不需要用 `onMounted`，直接写在 `defineStore` 里面就行：
+
+```ts
+// stores/count.ts
+import { defineStore } from 'pinia'
+import { ref } from 'vue'
+
+export const useCountStore = defineStore('count', () => {
+  const count = ref(0)
+
+  // ✅ 初始化逻辑（store 一创建就会执行）
+  console.log('store initialized')
+
+  function increment() {
+    count.value++
+  }
+
+  return { count, increment }
+})
+
+```
+
+```ts
+// 只要调用 useCountStore()，初始化逻辑就会运行
+const store = useCountStore()
+```
+
+### option store
+
+在action中定义初始化的逻辑，然后调用

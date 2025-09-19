@@ -44,7 +44,7 @@ export const useCounterStore = defineStore('counter', {
 
 ## 访问getter
 
-### Option Store
+### option store
 
 Pinia 在处理 `getters` 时，做了一层封装：
 
@@ -73,15 +73,15 @@ console.log(store.doubleCount) // 0 ✅ 直接就是 number
 
 :::
 
-### Setup store
+### setup store
+
+因为 setup 写法返回的就是你定义的内容，Pinia 不会再帮你 unwrap。
 
 :::code-group
 
 ```ts [使用]
 console.log(store.doubleCount.value) // 需要 .value
 ```
-
-
 
 ```ts [countStore]
 export const useCountStore = defineStore('count', () => {
@@ -96,10 +96,6 @@ export const useCountStore = defineStore('count', () => {
 
 
 :::
-
-因为 setup 写法返回的就是你定义的内容，Pinia 不会再帮你 unwrap。
-
-
 
 ## 访问其他 store 的 getter
 
