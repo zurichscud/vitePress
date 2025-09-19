@@ -85,3 +85,31 @@ export const useSettingsStore = defineStore('settings', {
   },
 })
 ```
+
+
+
+## 私有方法
+
+将方法声明在store外部即可创建私有方法，只供store内部使用。
+
+因为 `this` 在 `actions` 里就是当前 store 实例，所以action函数可以直接访问 `this.state`。 但是私有方法的this并不是state，我们可以将 state传入私有方法：
+
+```ts
+function _formatId(id: string, state: { id: string }) {
+  console.log('old id:', state.id)
+  return id.trim().toUpperCase()
+}
+
+export const useUserStore = defineStore('user', {
+  state: () => ({
+    id: '',
+  }),
+  actions: {
+    setId(id: string) {
+      this.id = _formatId(id, this)
+    }
+  }
+})
+
+```
+
