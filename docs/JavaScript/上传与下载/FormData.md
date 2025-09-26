@@ -1,5 +1,13 @@
 # FormData
 
+`FormData` 是浏览器提供的一个 **Web API 接口**，用于构造一组表示表单字段及其值的键值对，**主要用于发送 `multipart/form-data` 类型的 HTTP 请求**
+
+:::warning
+
+发送FormData类型的数据，浏览器会自动帮我设置**`Content-Type:multipart/form-data`**，不需要我们手动设置
+
+:::
+
 ```ts
 interface FormData {
   /** 添加一个字段（如果 key 已存在，不会删除旧值，而是追加） */
@@ -38,6 +46,15 @@ type FormDataEntryValue = string | File
 
 ```
 
+## constructor
+
+```ts
+const form = document.querySelector('form');
+const formData = new FormData(form);
+```
+
+
+
 ## append
 
 ```ts
@@ -63,3 +80,13 @@ fd.append('avatar', fileInput.files[0]); // 文件（File 是 Blob 的子类）
 如果传入 `File`，会自动带上 `file.name`。
 
 如果传入 `Blob`，默认文件名是 `"blob"`，可以手动传入 `fileName`。
+
+## 发送
+
+```ts
+fetch('/upload', {
+  method: 'POST',
+  body: formData // 不需要设置 Content-Type，浏览器会自动设置
+});
+```
+
