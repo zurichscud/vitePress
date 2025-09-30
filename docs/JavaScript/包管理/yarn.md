@@ -50,3 +50,13 @@ npmRegistryServer: "https://registry.npmmirror.com"
 enableGlobalCache: true
 ```
 
+## 命令
+
+- 查看pkg所有的版本
+
+```sh
+yarn info <pkg> versions
+```
+
+
+

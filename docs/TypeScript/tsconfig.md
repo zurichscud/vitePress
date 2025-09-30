@@ -6,16 +6,17 @@
 
 ## include
 
-指定 **需要编译的文件或目录**。
+指定 **需要编译的文件或目录**，即：将TS语法编译成JS的文件和目录。
 
 默认值：`["**/*"]`（除了 `exclude` 指定的）。
 
 ```json
 {
   "include": [
-    "src",              // 整个 src 目录
-    "types/**/*.d.ts",  // 所有 types 下的声明文件
-    "scripts/build.ts"  // 单独文件
+    "**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
   ]
 }
 
@@ -88,10 +89,10 @@
 | 选项                  | 默认值  | 作用                                              |
 | --------------------- | ------- | ------------------------------------------------- |
 | `strict`              | `false` | 打开全部严格检查（等价打开多项）                  |
-| `noImplicitAny`       | `false` | 禁止隐式 any                                      |
+| `noImplicitAny`       | `false` | 禁用隐式 any                                      |
 | `strictFunctionTypes` | `false` | 函数参数类型必须严格匹配                          |
 | `strictBindCallApply` | `false` | 检查 `bind`、`call`、`apply` 的参数是否正确。     |
-| `noImplicitThis`      | `false` | 禁止 `this` 推断为 `any`                          |
+| `noImplicitThis`      | `false` | 禁用 `this` 推断为 `any`                          |
 | `strictNullChecks`    | `false` | 是否允许`null` / `undefined` 赋值给其他类型的变量 |
 | `alwaysStrict`        | `false` | 生成的 JS 文件自动加 `use strict`                 |
 

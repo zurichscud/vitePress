@@ -22,3 +22,11 @@ cache=/path/to/npm-cache
 
 :::
 
+## 命令
+
+- 查看pkg所有的版本
+
+```sh
+npm view <pkg> versions
+```
+

@@ -15,3 +15,11 @@ auto-install-peers=true
 node-linker=hoisted
 ```
 
+## 命令
+
+- 查看pkg所有的版本
+
+```sh
+pnpm view <pkg> versions
+```
+
