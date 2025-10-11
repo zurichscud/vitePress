@@ -1,14 +1,19 @@
 # unplugin-auto-import
 
+> `unplugin-auto-import` 是 antfu主导开发的一个开源项目。
+
 ## 安装
 
 ```shell
-npm install -D unplugin-auto-import
+pnpm install -D unplugin-auto-import
 ```
 
 ## 配置
 
-```ts
+
+:::code-group
+
+```ts [范本]
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import AutoImport from 'unplugin-auto-import/vite'
@@ -29,7 +34,7 @@ export default defineConfig({
         }
       ],
       // 自动生成类型声明文件，方便 TS 提示
-      dts: 'src/auto-imports.d.ts',
+      dts: 'src/types/auto-imports.d.ts',
 
       // 生成 ESLint 配置，避免 eslint 报未定义
       eslintrc: {
@@ -42,9 +47,9 @@ export default defineConfig({
 })
 ```
 
-这样配置完之后，你就可以在组件里直接使用，而无需手动导入：
 
-```ts
+
+```ts [结果]
 <script setup lang="ts">
 // 不需要 import { ref } from 'vue'
 const count = ref(0)
@@ -57,10 +62,7 @@ axios.get('/api/test').then(res => console.log(res))
 </script>
 ```
 
-
-
-## 配置
-
+:::
 
 
 ### **imports**
@@ -168,7 +170,7 @@ AutoImport({
 
 ### resolvers
 
-用于自定义解析和自定义库的导入方式。例如，你可以用它来自动导入组件库中的组件或按需加载组件。
+用于自定义解析和自定义库的导入方式。例如，你可以用它来自动导入组件库中的函数式组件。
 
  **配置示例（与** **unplugin-vue-components**配合使用）：
 
@@ -182,7 +184,7 @@ AutoImport({
 })
 ```
 
-AntDesignVueResolver 是 unplugin-vue-components 插件提供的一个解析器，用于在**JS环境**中 自动导入 Ant Design Vue 组件**，
+AntDesignVueResolver 是 unplugin-vue-components 插件提供的一个解析器，用于在**JS环境**中 自动导入 Ant Design Vue 组件，
 
 ```ts
 // 不需要手动写：

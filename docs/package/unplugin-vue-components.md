@@ -2,6 +2,20 @@
 
 
 
+## 安装
+
+
+
+```sh
+pnpm install -D unplugin-auto-import
+```
+
+
+
+## 配置
+
+
+
 
 
 ## 手动实现Resolver
