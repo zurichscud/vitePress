@@ -170,9 +170,9 @@ AutoImport({
 
 ### resolvers
 
-用于自定义解析和自定义库的导入方式。例如，你可以用它来自动导入组件库中的函数式组件。
+用于自定义解析和自定义库的导入方式。
 
- **配置示例（与** **unplugin-vue-components**配合使用）：
+**unplugin-vue-components**中内置了常见库的Resolver，我们可以直接引入：
 
 ```ts
 import { AntDesignVueResolver } from 'unplugin-vue-components/resolvers'
@@ -200,12 +200,29 @@ ElMessage.success('Hello')
 
 - `AutoImport` 的 `resolvers`：**解析“函数/API”**，用于**自动导入 JS/TS 逻辑**。
 - `Components` 的 `resolvers`：**解析“组件”**，用于**自动导入 Vue 组件**。
+- 内置Resolver都来自unplugin-vue-components
 
 ::: 
 
-## 手写Resolver
+## 实现Resolver
 
 resolver接受一个参数name表示JS中使用的变量名
+
+
+
+```ts
+//name：待解析的名称
+type ResolverFunction = (name: string) => Awaitable<string | ResolverResult | ImportExtended | null | undefined | void>;
+type Resolver = ResolverFunction | ResolverResultObject;
+interface ResolverResult {
+  as?: string;
+  name?: string;
+  from: string;
+}
+
+```
+
+
 
 ```ts
 import type { AutoImportResolver } from 'unplugin-auto-import/types'

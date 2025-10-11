@@ -18,7 +18,7 @@ pnpm install -D unplugin-auto-import
 
 
 
-## 手动实现Resolver
+## 实现Resolver
 
 由于 unplugin-vue-components 插件本身并没有内置对 **TDesign** 的解析器支持，你可以手动配置按需导入。
 
@@ -33,11 +33,11 @@ export default defineConfig({
     Components({
       resolvers: [
         (name) => {
-          // 如果组件名以 "My" 开头，自动导入我的自定义库
-          if (name.startsWith('My')) {
+          // 如果组件名以 "T" 开头
+          if (name.startsWith('T')) {
             return {
-              name: name.slice(2), // 去掉 "My" 前缀
-              from: 'my-ui-library', // 从自定义库导入
+              name: name.slice(1), // 去掉 "t" 前缀
+              from: 'tdesign-vue-next', // 从自定义库导入
             }
           }
         }
