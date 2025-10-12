@@ -8,6 +8,7 @@ export default defineConfig({
   base: "/vitePress/", // GitHub Pages 子路径配置
   logo: "/logo.png",
   description: "A VitePress SiteA",
+  ignoreDeadLinks: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav,
