@@ -1,7 +1,7 @@
 import { defineConfig } from "vitepress";
-import { autoGenerateSidebar } from "./tools.mjs";
+import sidebar from "./sidebar.mjs";
 import { local, algolia } from "./plugins/search.js";
-
+import nav from "./nav.js";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "文档库",
@@ -10,37 +10,11 @@ export default defineConfig({
   description: "A VitePress SiteA",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: "VitePress", link: "/vitepress/markdown基础" },
-      { text: "Nuxt", link: "/nuxt/基础" },
-      { text: "TypeScript", link: "/TypeScript/tsconfig" },
-      {
-        text: "JavaScript",
-        items: [{ text: "上传与下载", link: "/JavaScript/上传与下载/上传" }],
-      },
-      { text: "package", link: "/package/unplugin-auto-import" },
-      {
-        text: "Vue",
-        items: [
-          { text: "pinia", link: "/vue/pinia/action" },
-          {
-            text: "Vue2",
-            items: [{ text: "全局属性", link: "/vue/vue2/全局属性" }],
-          },
-          {
-            text: "Vue3",
-            items: [{ text: "全局属性", link: "/vue/vue3/全局属性" }],
-          },
-        ],
-      },
-    ],
+    nav,
     outline: "deep",
     outlineTitle: "目录",
-    sidebar: autoGenerateSidebar("./docs", {
-      // useFrontmatter: true,
-      collapsible: true,
-      collapsed: false,
-    }),
+    lastUpdated: true,
+    sidebar,
     search: local,
     docFooter: {
       prev: "上一页",

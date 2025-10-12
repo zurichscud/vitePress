@@ -1,12 +1,14 @@
 ---
 deepline: deep
-lastUpdated: true
+title: hello
+titleTemplate: 标题后缀
+description: 描述
 
 ---
 
 # frontmatter
 
-## 定义frontmatter
+## 定义frontmatter数据
 
 在每个 markdown 文件中，可以使用 frontmatter 配置来覆盖站点级别或主题级别的配置选项。
 
@@ -43,43 +45,51 @@ Guide content
 ## title
 
 - 类型：`string`
+- 默认值：站点级配置 [config.title](https://vitepress.dev/zh/reference/site-config#title) 
 
-页面的标题。它与 [config.title](https://vitepress.dev/zh/reference/site-config#title) 相同，并且覆盖站点级配置。
+![image-20251012015057502](./assets/image-20251012015057502.png)
+
+页面的标题。
 
 ```yaml
 ---
-title: VitePress
+title: hello
 ---
 ```
 
 ## titleTemplate
 
 - 类型：`string | boolean`
+- 默认值：站点级配置 [config.titleTemplate](https://vitepress.dev/zh/reference/site-config#titletemplate)
 
-标题的后缀。它与 [config.titleTemplate](https://vitepress.dev/zh/reference/site-config#titletemplate) 相同，它会覆盖站点级别的配置。
-
+标题的后缀。
 
 
 ```yaml
 ---
-title: VitePress
-titleTemplate: Vite & Vue powered static site generator
+title: hello
+titleTemplate: 标题后缀
 ---
 ```
 
 ## description
 
 - 类型：`string`
+- 默认值：站点级配置 [config.description](https://vitepress.dev/zh/reference/site-config#description) 
 
-页面的描述。它与 [config.description](https://vitepress.dev/zh/reference/site-config#description) 相同，它会覆盖站点级别的配置。
-
-
+页面的描述。
 
 ```
 ---
 description: VitePress
 ---
 ```
+
+::: tip TODO
+
+暂时还没有找到在哪里表现
+
+:::
 
 ## 默认主题配置
 

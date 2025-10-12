@@ -56,10 +56,9 @@ export function generateSidebar(dirPath, options = {}) {
         });
       }
     } else if (entry.name.endsWith(".md")) {
-      // 如果在markdown中没有读取到标题，则以文件名的名字作为标题
+      // 文件名或markdown中提取的标题
       const title =
-        getTitleFromFile(fullPath, useFrontmatter) ||
-        path.basename(entry.name, ".md");
+        path.basename(entry.name, ".md") || getTitleFromFile(fullPath, useFrontmatter);
       // 生成相对于docs目录的链接
       let link;
       if (docsRoot) {
@@ -178,3 +177,11 @@ export function autoGenerateSidebar(docsPath, globalOptions = {}) {
 
   return generateSidebarConfig(docsPath, config);
 }
+
+const sidebar = autoGenerateSidebar("./docs", {
+  // useFrontmatter: true,
+  collapsible: true,
+  collapsed: false,
+});
+
+export default sidebar;

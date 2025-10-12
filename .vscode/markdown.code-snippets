@@ -1,0 +1,80 @@
+{
+	"代码块模板": {
+		"prefix": "codeblock",
+		"body": [
+			"```$1",
+			"$2",
+			"```"
+		],
+		"description": "插入 Markdown 代码块",
+		"scope": "markdown"
+	},
+	"Info 块": {
+		"prefix": "info",
+		"body": [
+			"::: info $1",
+			"  $2",
+			":::"
+		],
+		"description": "VitePress Info 块（可带标题）",
+		"scope": "markdown"
+	},
+	"Tip 块": {
+		"prefix": "tip",
+		"body": [
+			"::: tip $1",
+			"  $2",
+			":::"
+		],
+		"description": "VitePress Tip 块（可带标题）",
+		"scope": "markdown"
+	},
+	"Warning 块": {
+		"prefix": "warning",
+		"body": [
+			"::: warning $1",
+			"  $2",
+			":::"
+		],
+		"description": "VitePress Warning 块（可带标题）",
+		"scope": "markdown"
+	},
+	"Danger 块": {
+		"prefix": "danger",
+		"body": [
+			"::: danger $1",
+			"  $2",
+			":::"
+		],
+		"description": "VitePress Danger 块（可带标题）",
+		"scope": "markdown"
+	},
+	"Details 块": {
+		"prefix": "details",
+		"body": [
+			"::: details $1",
+			"  $2",
+			":::"
+		],
+		"description": "VitePress Details 块（可带标题）",
+		"scope": "markdown"
+	},
+	"Code Group 块": {
+		"prefix": "codegroup",
+		"body": [
+			"::: code-group",
+			"  $1",
+			":::"
+		],
+		"description": "VitePress Code Group 块（不带标题）",
+		"scope": "markdown"
+	},
+	"链接文字": {
+		"prefix": "linktext",
+		"body": [
+			"[$1]($2)"
+		],
+		"description": "链接文字",
+		"scope": "markdown"
+	}
+}
