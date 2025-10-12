@@ -1,11 +1,9 @@
-# 徽标 
+# Badge
 
-全局组件徽标（Badge）。在markdown文档的任意位置使用组件`Badge`即可创建徽标 。
+全局组件徽标（Badge）。在 markdown 文档的任意位置使用组件`Badge`即可创建徽标 。
 一般用于为标题添加状态。例如，指定类型或支持的版本。
 
 ## 组件用法 {#usage}
-
-
 
 `<Badge>` 组件接受以下属性：
 
@@ -22,22 +20,21 @@ interface Props {
 示例
 
 ```html
-### Title <Badge type="info" text="default" />
-### Title <Badge type="tip" text="^1.9.0" /> 
-### Title <Badge type="warning" text="beta" />
-### Title <Badge type="danger" text="caution" />
-<Badge type="danger" text="caution" />
+### Title <Badge type="info" text="default" /> ### Title
+<Badge type="tip" text="^1.9.0" /> ### Title
+<Badge type="warning" text="beta" /> ### Title
+<Badge type="danger" text="caution" /> <Badge type="danger" text="caution" />
 ```
 
 上面的代码渲染如下：
 
- Title <Badge type="info" text="default" />
+Title <Badge type="info" text="default" />
 
- Title <Badge type="tip" text="^1.9.0" />
+Title <Badge type="tip" text="^1.9.0" />
 
 Title <Badge type="warning" text="beta" />
 
- Title <Badge type="danger" text="caution" />
+Title <Badge type="danger" text="caution" />
 
 <Badge type="danger" text="caution" />
 
@@ -74,4 +71,3 @@ Title <Badge type="warning" text="beta" />
   --vp-badge-danger-bg: var(--vp-c-danger-soft);
 }
 ```
-

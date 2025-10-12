@@ -13,7 +13,9 @@ export default defineConfig({
     nav,
     outline: "deep",
     outlineTitle: "目录",
-    lastUpdated: true,
+    lastUpdated: {
+      text: "最后更新于",
+    },
     sidebar,
     search: local,
     docFooter: {
@@ -21,7 +23,7 @@ export default defineConfig({
       next: "下一页",
     },
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      { icon: "github", link: "https://github.com/zurichscud/vitePress" },
     ],
   },
 });

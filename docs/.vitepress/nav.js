@@ -1,5 +1,5 @@
 export default [
-  { text: "VitePress", link: "/vitepress/markdown基础" },
+  { text: "VitePress", link: "/vitepress/markdown语法/运行时API" },
   { text: "Nuxt", link: "/nuxt/基础" },
   { text: "TypeScript", link: "/TypeScript/tsconfig" },
   {

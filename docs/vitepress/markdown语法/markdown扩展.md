@@ -4,7 +4,7 @@ outline: deep
 
 # 在 Markdown 使用 Vue
 
-在 VitePress 中，每个 Markdown 文件都被编译成 HTML，而且将其作为 Vue 单文件组件处理。这意味着可以在 Markdown 中使用任何 Vue 功能，包括动态模板、使用 Vue 组件或通过添加 `<script>` 标签为页面的 Vue 组件添加逻辑。
+在 VitePress 中，每个 Markdown 文件都被编译成一个 Vue 组件。这意味着可以在 Markdown 中使用任何 Vue 功能，包括动态模板、使用 Vue 组件或通过添加 `<script>` 标签为页面的 Vue 组件添加逻辑。
 
 ## template
 
@@ -20,8 +20,7 @@ outline: deep
 
 Markdown 文件中的根级 `<script>` 和 `<style>` 标签与 Vue SFC 中的一样，包括 `<script setup>`、`<style module>` 等。
 
-这里的主要区别是没有 `<template>` 标签：所有其他根级内容都是 Markdown。另请注意，所有标签都应放在 frontmatter **之后**
-
+这里的主要区别是没有 `<template>` 标签。另请注意，所有标签都应放在 frontmatter **之后**
 
 `useData()` 为我们提供了所有的运行时数据，以便我们根据不同条件渲染不同的布局。
 
@@ -54,8 +53,6 @@ import { useData } from 'vitepress'
 const { site, theme, page, frontmatter } = useData()
 </script>
 
-
-
 :::danger 警告
 
 避免在 Markdown 中使用 `<style scoped>`
@@ -68,21 +65,25 @@ const { site, theme, page, frontmatter } = useData()
 
 ### Theme Data
 
+```html
 <pre>{{ theme }}</pre>
+```
 
 ### Page Data
 
+```HTML
 <pre>{{ page }}</pre>
+```
 
 ### Page Frontmatter（前言）
 
+```html
 <pre>{{ frontmatter }}</pre>
+```
 
 ## 转义
 
-## v-pre
-
-使用v-pre可以对模板语法进行转义
+使用 v-pre 可以对模板语法进行转义
 
 <span v-pre>{{1+1}}</span>
 
@@ -90,9 +91,14 @@ const { site, theme, page, frontmatter } = useData()
 
 默认情况下，代码块是受到保护的，都会自动使用 v-pre 包装，因此内部不会处理任何 Vue 语法。要在代码块内启用 Vue 插值语法，可以在代码语言后附加 -vue 后缀，例如 js-vue：
 
+````md
+实际渲染的结果为 Hello 2
+
 ```js-vue
 Hello {{ 1 + 1 }}
+
 ```
+````
 
 ## 使用组件
 
@@ -104,18 +110,14 @@ Hello {{ 1 + 1 }}
 
 ```vue
 <script setup>
-import CustomComponent from '../../components/CustomComponent.vue'
+import CustomComponent from "../../components/CustomComponent.vue";
 </script>
 
-# Docs
-
-This is a .md using a custom component
+# Docs This is a .md using a custom component
 
 <CustomComponent />
 
-## More docs
-
-...
+## More docs ...
 ```
 
 ### 注册全局组件
@@ -128,16 +130,13 @@ This is a .md using a custom component
 
 :::
 
-
-
 ### 在标题中使用组件 ⚡
 
 可以在标题中使用 Vue 组件，但请注意以下语法之间的区别：
 
-| Markdown            | 输出的 HTML                         | 被解析的标题  |
-| :------------------ | :---------------------------------- | :------------ |
-| ` # text <Tag/> `   | `<h1>text <Tag/></h1>`              | `text`        |
-| ` # text `<Tag/>` ` | `<h1>text <code><Tag/></code></h1>` | `text <Tag/>` |
+| Markdown          | 输出的 HTML                         | 被解析的标题  |
+| :---------------- | :---------------------------------- | :------------ |
+| `# text <Tag/>`   | `<h1>text <Tag/></h1>`              | `text`        |
+| `# text`<Tag/>` ` | `<h1>text <code><Tag/></code></h1>` | `text <Tag/>` |
 
 被 `<code>` 包裹的 HTML 将按原样显示，只有未包裹的 HTML 才会被 Vue 解析。
-
