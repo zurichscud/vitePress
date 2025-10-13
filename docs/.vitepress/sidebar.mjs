@@ -5,4 +5,5 @@ const autoSidebar = generateSidebar("docs/posts", {
   collapsed: false,        // 默认展开
   exclude: ["assets", "images", "public", ".DS_Store"]  // 排除的目录
 });
+// console.log('[ autoSidebar ]-4', JSON.stringify(autoSidebar))
 export default autoSidebar;

@@ -109,9 +109,11 @@ function generateSidebarItems(dirPath, options = {}) {
             const title = path.basename(entry.name, ".md")
             const displayTitle = removeNumberPrefix(title)
 
-            // 生成相对于 docs 目录的链接
+            // 生成相对于 docs 目录的链接，并移除 posts/ 前缀以匹配 rewrites 配置
             const relativePath = path.relative(path.resolve("docs"), fullPath)
-            const link = "/" + relativePath.replace(/\\/g, "/").replace(".md", "")
+            let link = "/" + relativePath.replace(/\\/g, "/").replace(".md", "")
+            // 移除 /posts/ 前缀以匹配 config.mjs 中的 rewrites 配置
+            link = link.replace(/^\/posts\//, "/")
 
             items.push({
                 text: displayTitle,
