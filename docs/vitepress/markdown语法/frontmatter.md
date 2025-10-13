@@ -8,15 +8,13 @@ description: 描述
 
 # frontmatter
 
-## 定义frontmatter数据
-
-在每个 markdown 文件中，可以使用 frontmatter 配置来覆盖站点级别或主题级别的配置选项。
-
-frontmatter 必须位于 Markdown 文件的顶部 (在任何元素之前，包括 `<script>` 标签)，并且需要在三条虚线之间采用有效的 **YAML** 格式。例如：
 
 
+## 定义
 
-```
+VitePress 支持在所有 Markdown 文件中使用 YAML frontmatter，并使用 [gray-matter](https://github.com/jonschlinkert/gray-matter) 解析。frontmatter 必须位于 Markdown 文件的顶部 (在任何元素之前，包括 `<script>` 标签)，并且需要在三条虚线之间采用有效的 YAML 格式。例如：
+
+```md
 ---
 title: Docs with VitePress
 editLink: true
