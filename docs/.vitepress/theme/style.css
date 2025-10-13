@@ -137,3 +137,25 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+
+/** 链接样式 */
+.VPDoc a {
+  text-decoration: none !important;
+}
+
+.VPDoc a:hover {
+  text-decoration: underline !important;
+}
+
+.VPFooter a {
+  text-decoration: none !important;
+}
+
+.VPFooter a:hover {
+  text-decoration: underline !important;
+}
+
+.VPDoc img {
+  border-radius: 4px;
+  cursor: zoom-in;
+}

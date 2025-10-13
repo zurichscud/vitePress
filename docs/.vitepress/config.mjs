@@ -9,6 +9,9 @@ const base = "/vitePress/";// GitHub Pages 子路径配置
 export default defineConfig({
   title: "文档库",
   base,
+  rewrites: {
+    'posts/:pkg/(.*)': ':pkg/(.*)'
+  },
   head: [
     [
       "link",
