@@ -3,6 +3,8 @@ import sidebar from "./sidebar.mjs";
 import markdown from "./markdown.js";
 import { local, algolia } from "./plugins/search.js";
 import nav from "./nav.js";
+import { groupIconMdPlugin, groupIconVitePlugin, localIconLoader } from 'vitepress-plugin-group-icons'
+
 // https://vitepress.dev/reference/site-config
 
 const base = "/vitePress/";// GitHub Pages 子路径配置
@@ -41,4 +43,15 @@ export default defineConfig({
       { icon: "github", link: "https://github.com/zurichscud/vitePress" },
     ],
   },
+  vite: {
+    plugins: [groupIconVitePlugin({
+      // customIcon: {
+      //   vitepress: localIconLoader(
+      //     import.meta.url,
+      //     '../../public/vitepress-logo-mini.svg'
+      //   ),
+      //   firebase: 'logos:firebase'
+      // }
+    })]
+  }
 });
