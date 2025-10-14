@@ -16,6 +16,7 @@
     "docs:preview": "vitepress preview",
     "generate": "node scripts/generate.js",
     "generate:sidebar": "node scripts/generate-sidebar.js",
-    "generate:all": "node scripts/generate.js && node scripts/generate-sidebar.js"
+    "generate:homepage": "node scripts/generate-homepage.js",
+    "generate:all": "node scripts/generate.js && node scripts/generate-sidebar.js && node scripts/generate-homepage.js"
   }
 }
