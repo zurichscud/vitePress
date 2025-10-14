@@ -65,47 +65,7 @@ function countMarkdownFiles(dirPath) {
     return count;
 }
 
-/**
- * 生成分类描述
- * @param {string} category - 分类名称
- * @returns {string} 分类描述
- */
-function getCategoryDescription(category) {
-    const descriptions = {
-        'CSS': 'CSS样式与布局相关技术文档',
-        'JavaScript': 'JavaScript核心语法与API文档',
-        'nuxt': 'Nuxt.js全栈框架开发指南',
-        'package': '常用npm包使用说明与配置',
-        'TypeScript': 'TypeScript类型系统与高级特性',
-        'vitepress': 'VitePress静态站点生成器文档',
-        'vue': 'Vue.js框架开发文档与最佳实践',
-        '前端工程化': '前端开发工具链与工程化配置',
-        '百科': '前端开发相关知识百科'
-    };
 
-    return descriptions[category] || `${category}相关技术文档`;
-}
-
-/**
- * 获取分类图标
- * @param {string} category - 分类名称
- * @returns {string} 图标emoji
- */
-function getCategoryIcon(category) {
-    const icons = {
-        'CSS': '🎨',
-        'JavaScript': '⚡',
-        'nuxt': '🚀',
-        'package': '📦',
-        'TypeScript': '🔷',
-        'vitepress': '📚',
-        'vue': '💚',
-        '前端工程化': '🔧',
-        '百科': '📖'
-    };
-
-    return icons[category] || '📄';
-}
 
 /**
  * 生成首页特性配置
@@ -128,13 +88,10 @@ function generateHomepageFeatures() {
 
             if (firstFile) {
                 const link = `/${category}/${firstFile.replace('.md', '')}`;
-                const icon = getCategoryIcon(category);
-                const description = getCategoryDescription(category);
 
                 features.push({
-                    icon: icon,
                     title: category,
-                    details: `${description} (${fileCount}篇文档)`,
+                    details: `${fileCount}篇文档`,
                     link: link
                 });
             }
@@ -165,11 +122,11 @@ function updateHomepage() {
 
         // 构建新的特性部分
         const featuresYaml = features.map(feature =>
-            `  - icon: ${feature.icon}\n    title: ${feature.title}\n    details: ${feature.details}\n    link: ${feature.link}`
+            `  - title: ${feature.title}\n    details: ${feature.details}\n    link: ${feature.link}`
         ).join('\n');
 
-        // 替换features部分
-        const featuresRegex = /features:\s*\n(?:  - .*\n?)*/;
+        // 替换features部分 - 使用更精确的正则表达式
+        const featuresRegex = /features:\s*\n(?:(?:  - .*\n?)*(?:    .*\n?)*)+/;
         const newFeaturesSection = `features:\n${featuresYaml}\n`;
 
         if (featuresRegex.test(content)) {
@@ -185,7 +142,7 @@ function updateHomepage() {
         console.log('首页已更新');
         console.log(`生成了 ${features.length} 个分类链接:`);
         features.forEach(feature => {
-            console.log(`  ${feature.icon} ${feature.title} -> ${feature.link}`);
+            console.log(`  📄 ${feature.title} -> ${feature.link}`);
         });
 
     } catch (error) {
