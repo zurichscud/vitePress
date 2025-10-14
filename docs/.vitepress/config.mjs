@@ -1,9 +1,10 @@
 import { defineConfig } from "vitepress";
-import sidebar from "./sidebar.mjs";
+import sidebar from "./sidebar.js";
 import markdown from "./markdown.js";
 import { local, algolia } from "./plugins/search.js";
 import nav from "./nav.js";
 import { groupIconMdPlugin, groupIconVitePlugin, localIconLoader } from 'vitepress-plugin-group-icons'
+import links from './links.js';
 
 // https://vitepress.dev/reference/site-config
 
@@ -11,9 +12,7 @@ const base = "/vitePress/";// GitHub Pages 子路径配置
 export default defineConfig({
   title: "文档库",
   base,
-  rewrites: {
-    'posts/:pkg/(.*)': ':pkg/(.*)'
-  },
+  rewrites: links,
   head: [
     [
       "link",
