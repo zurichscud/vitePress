@@ -129,3 +129,51 @@ const compRef = useTemplateRef<FooType | BarType>('comp')
 </template>
 ```
 
+
+
+## 为自定义全局属性添加类型 <Badge text="未成功" type="warning" />
+
+
+
+[官方文档](https://cn.vuejs.org/guide/typescript/options-api.html#augmenting-global-properties)
+
+通过 [`app.config.globalProperties`](https://cn.vuejs.org/api/application.html#app-config-globalproperties) 声明的属性我们可以为其添加类型
+
+Vue 暴露了一个被设计为可以通过 [TypeScript 模块扩展](https://www.typescriptlang.org/docs/handbook/declaration-merging.html#module-augmentation)来扩展的 `ComponentCustomProperties` 接口：
+
+```ts
+import axios from 'axios'
+
+declare module 'vue' {
+  interface ComponentCustomProperties {
+    $http: typeof axios
+    $translate: (key: string) => string
+  }
+}
+```
+
+为了利用模块扩展的优势，你需要确保将扩展的模块放在 [TypeScript 模块](https://www.typescriptlang.org/docs/handbook/modules.html) 中。 也就是说，该文件需要包含至少一个顶级的 `import` 或 `export`，即使它只是 `export {}`。如果扩展被放在模块之外，它将覆盖原始类型，而不是扩展!
+
+
+
+```ts
+// 不工作，将覆盖原始类型。
+declare module 'vue' {
+  interface ComponentCustomProperties {
+    $translate: (key: string) => string
+  }
+}
+```
+
+
+
+```ts
+// 正常工作。
+export {}
+
+declare module 'vue' {
+  interface ComponentCustomProperties {
+    $translate: (key: string) => string
+  }
+}
+```
