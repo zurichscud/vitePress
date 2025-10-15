@@ -1,5 +1,4 @@
 import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-icons'
-
 export default {
     container: {
         tipLabel: "提示",
@@ -10,5 +9,7 @@ export default {
     },
     config(md) {
         md.use(groupIconMdPlugin)   // 解析 ```ts [foo.ts]
+        md.renderer.rules.table_open = () => '<div class="vp-table"><table>'
+        md.renderer.rules.table_close = () => '</table></div>'
     }
 };

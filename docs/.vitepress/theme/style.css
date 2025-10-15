@@ -159,3 +159,48 @@
   border-radius: 4px;
   cursor: zoom-in;
 }
+
+/* Element Plus */
+/* 外层滚动容器 */
+div.vp-table {
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: auto;
+  margin-bottom: 45px;
+}
+
+/* 表格本身 */
+div.vp-table>table {
+  border-collapse: collapse;
+  width: 100%;
+  /* background-color: yellow; */
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
+/* 第二列用常规字体 */
+div.vp-table>table tr td:nth-child(2) {
+  font-family: var(--font-family);
+}
+
+/* 单元格公共样式 */
+div.vp-table>table th,
+div.vp-table>table td {
+  white-space: nowrap;
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  padding: 0.6em 1em;
+  text-align: left;
+  max-width: 250px;
+  white-space: pre-wrap;
+}
+
+/* 表头顶部去线 */
+div.vp-table>table thead tr:first-child th {
+  border-top: none;
+}
+
+/* 第一列等宽字体（代码风） */
+div.vp-table>table tbody tr td:first-child {
+  font-family: var(--font-family-mono);
+}
