@@ -1,5 +1,70 @@
 // 自动生成，请勿修改
 export default {
+  "/CSS/": [
+    {
+      "text": "CSS",
+      "items": [
+        {
+          "text": "Flexbox",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "三栏式布局",
+              "link": "/CSS/5-Flexbox/3-三栏式布局"
+            },
+            {
+              "text": "从单行到多行",
+              "link": "/CSS/5-Flexbox/4-从单行到多行"
+            },
+            {
+              "text": "给子项多一点自由",
+              "link": "/CSS/5-Flexbox/5-给子项多一点自由"
+            }
+          ]
+        },
+        {
+          "text": "css分类",
+          "link": "/CSS/1-css分类"
+        },
+        {
+          "text": "选择器",
+          "link": "/CSS/2-选择器"
+        },
+        {
+          "text": "文本样式",
+          "link": "/CSS/3-文本样式"
+        },
+        {
+          "text": "重置浏览器样式",
+          "link": "/CSS/重置浏览器样式"
+        },
+        {
+          "text": "Emmt",
+          "link": "/CSS/Emmt"
+        }
+      ]
+    }
+  ],
+  "/HTML/": [
+    {
+      "text": "HTML",
+      "items": [
+        {
+          "text": "表格",
+          "link": "/HTML/表格"
+        },
+        {
+          "text": "调试工具",
+          "link": "/HTML/调试工具"
+        },
+        {
+          "text": "img",
+          "link": "/HTML/img"
+        }
+      ]
+    }
+  ],
   "/TypeScript/": [
     {
       "text": "TypeScript",
@@ -218,32 +283,6 @@ export default {
         {
           "text": "favicons",
           "link": "/百科/favicons"
-        }
-      ]
-    }
-  ],
-  "/CSS/": [
-    {
-      "text": "CSS",
-      "items": [
-        {
-          "text": "Flexbox",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "三栏式布局",
-              "link": "/CSS/Flexbox/3.三栏式布局"
-            },
-            {
-              "text": "从单行到多行",
-              "link": "/CSS/Flexbox/4.从单行到多行"
-            },
-            {
-              "text": "给子项多一点自由",
-              "link": "/CSS/Flexbox/5.给子项多一点自由"
-            }
-          ]
         }
       ]
     }

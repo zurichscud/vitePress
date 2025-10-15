@@ -24,8 +24,11 @@ features:
     details: 4篇文档
     link: /前端工程化/@antfueslint-config
   - title: CSS
+    details: 8篇文档
+    link: /CSS/1-css分类
+  - title: HTML
     details: 3篇文档
-    link: /CSS/Flexbox/3.三栏式布局
+    link: /HTML/img
   - title: JavaScript
     details: 17篇文档
     link: /JavaScript/DOM/window
