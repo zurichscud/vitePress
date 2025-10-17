@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        /* margin: 0 auto; */
+        text-align: center;
+      }
+      /* 边框 */
+      table,
+      td {
+        border: 1px solid #000;
+      }
+      /* 表头 */
+      table thead tr {
+        background-color: skyblue;
+        font-weight: bold;
+      }
+      /* 斑马纹 */
+      table tbody tr:nth-child(even) {
+        background-color: gray;
+      }
+      /* 实现选择行高亮 */
+      table tbody tr:hover {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="height: 20px"></div>
+    <table>
+      <thead>
+        <tr>
+          <td>姓名</td>
+          <td>年龄</td>
+          <td>性别</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>张三</td>
+          <td>20</td>
+          <td>男</td>
+        </tr>
+        <tr>
+          <td>李四</td>
+          <td>21</td>
+          <td>女</td>
+        </tr>
+        <tr>
+          <td>王五</td>
+          <td>22</td>
+          <td>男</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
