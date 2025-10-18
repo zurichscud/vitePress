@@ -5,6 +5,41 @@ export default {
       "text": "CSS",
       "items": [
         {
+          "text": "盒模型",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "边框",
+              "link": "/CSS/4-盒模型/1-边框"
+            },
+            {
+              "text": "圆角",
+              "link": "/CSS/4-盒模型/2-圆角"
+            },
+            {
+              "text": "内边距",
+              "link": "/CSS/4-盒模型/3-内边距"
+            },
+            {
+              "text": "外边距",
+              "link": "/CSS/4-盒模型/4-外边距"
+            },
+            {
+              "text": "尺寸计算",
+              "link": "/CSS/4-盒模型/5-尺寸计算"
+            },
+            {
+              "text": "盒子背景",
+              "link": "/CSS/4-盒模型/6-盒子背景"
+            },
+            {
+              "text": "渐变",
+              "link": "/CSS/4-盒模型/7-渐变"
+            }
+          ]
+        },
+        {
           "text": "Flexbox",
           "collapsible": true,
           "collapsed": false,
@@ -50,25 +85,6 @@ export default {
         {
           "text": "Emmt",
           "link": "/CSS/Emmt"
-        }
-      ]
-    }
-  ],
-  "/HTML/": [
-    {
-      "text": "HTML",
-      "items": [
-        {
-          "text": "表格",
-          "link": "/HTML/表格"
-        },
-        {
-          "text": "调试工具",
-          "link": "/HTML/调试工具"
-        },
-        {
-          "text": "img",
-          "link": "/HTML/img"
         }
       ]
     }
@@ -218,44 +234,6 @@ export default {
       ]
     }
   ],
-  "/前端工程化/": [
-    {
-      "text": "前端工程化",
-      "items": [
-        {
-          "text": "@antfueslint-config",
-          "link": "/前端工程化/@antfueslint-config"
-        },
-        {
-          "text": "biome",
-          "link": "/前端工程化/biome"
-        },
-        {
-          "text": "eslint",
-          "link": "/前端工程化/eslint"
-        },
-        {
-          "text": "prettier",
-          "link": "/前端工程化/prettier"
-        }
-      ]
-    }
-  ],
-  "/百科/": [
-    {
-      "text": "百科",
-      "items": [
-        {
-          "text": "CMS",
-          "link": "/百科/CMS"
-        },
-        {
-          "text": "favicons",
-          "link": "/百科/favicons"
-        }
-      ]
-    }
-  ],
   "/nuxt/": [
     {
       "text": "nuxt",
@@ -291,6 +269,63 @@ export default {
         {
           "text": "SEO与元数据",
           "link": "/nuxt/SEO与元数据"
+        }
+      ]
+    }
+  ],
+  "/HTML/": [
+    {
+      "text": "HTML",
+      "items": [
+        {
+          "text": "表格",
+          "link": "/HTML/表格"
+        },
+        {
+          "text": "调试工具",
+          "link": "/HTML/调试工具"
+        },
+        {
+          "text": "img",
+          "link": "/HTML/img"
+        }
+      ]
+    }
+  ],
+  "/前端工程化/": [
+    {
+      "text": "前端工程化",
+      "items": [
+        {
+          "text": "@antfueslint-config",
+          "link": "/前端工程化/@antfueslint-config"
+        },
+        {
+          "text": "biome",
+          "link": "/前端工程化/biome"
+        },
+        {
+          "text": "eslint",
+          "link": "/前端工程化/eslint"
+        },
+        {
+          "text": "prettier",
+          "link": "/前端工程化/prettier"
+        }
+      ]
+    }
+  ],
+  "/百科/": [
+    {
+      "text": "百科",
+      "items": [
+        {
+          "text": "CMS",
+          "link": "/百科/CMS"
+        },
+        {
+          "text": "favicons",
+          "link": "/百科/favicons"
         }
       ]
     }

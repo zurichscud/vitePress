@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>视差效果</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        height: 100%;
+        overscroll-behavior: none; /* 标准写法，禁止反弹/滚动链 */
+      }
+      .container {
+        height: 100%;
+        width: 100%;
+      }
+      .text {
+        height: 20%;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: #fff;
+        padding: 20px;
+      }
+      .bg1 {
+        background: url(./1.jpeg) no-repeat fixed center/cover;
+      }
+      .bg2 {
+        background: url(./2.jpeg) no-repeat fixed center/cover;
+      }
+      h1 {
+        text-align: center;
+        color: #fff;
+        margin-top: 200px;
+        letter-spacing: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container bg1">
+      <div class="text">这里是文本</div>
+
+      <h1>宁静的世界</h1>
+    </div>
+    <div class="container bg2">
+      <div class="text">这里是文本</div>
+
+      <h1>繁忙的世界</h1>
+    </div>
+  </body>
+</html>
