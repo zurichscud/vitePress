@@ -137,7 +137,6 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
-
 /** 链接样式 */
 .VPDoc a {
   text-decoration: none !important;
@@ -170,25 +169,31 @@ div.vp-table {
 }
 
 /* 表格本身 */
-div.vp-table>table {
-  border-collapse: collapse;
+div.vp-table > table {
+  display: table;
   width: 100%;
-  /* background-color: yellow; */
   font-size: 14px;
   line-height: 1.5em;
 }
 
-/* 第二列用常规字体 */
-div.vp-table>table tr td:nth-child(2) {
-  font-family: var(--font-family);
+/* 删除斑马纹 */
+div.vp-table > table tr:nth-child(2n),
+.vp-doc th {
+  background-color: transparent;
+}
+
+div.vp-table > table th {
+  font-weight: bold;
 }
 
 /* 单元格公共样式 */
-div.vp-table>table th,
-div.vp-table>table td {
+div.vp-table > table th,
+div.vp-table > table td {
   white-space: nowrap;
-  border-top: 1px solid var(--border-color);
-  border-bottom: 1px solid var(--border-color);
+  border: none;
+  /* 需要匹配亮色模式 */
+  border-top: 1px solid rgb(48, 49, 51);
+  border-bottom: 1px solid rgb(48, 49, 51);
   padding: 0.6em 1em;
   text-align: left;
   max-width: 250px;
@@ -196,11 +201,12 @@ div.vp-table>table td {
 }
 
 /* 表头顶部去线 */
-div.vp-table>table thead tr:first-child th {
+div.vp-table > table thead tr:first-child th,
+div.vp-table > table thead tr:first-child {
   border-top: none;
 }
 
 /* 第一列等宽字体（代码风） */
-div.vp-table>table tbody tr td:first-child {
+div.vp-table > table tbody tr td:first-child {
   font-family: var(--font-family-mono);
 }

@@ -37,7 +37,7 @@ export default {
         },
         {
           "text": "表格样式",
-          "link": "/CSS/表格样式"
+          "link": "/CSS/4-表格样式"
         },
         {
           "text": "重置浏览器样式",
@@ -218,6 +218,44 @@ export default {
       ]
     }
   ],
+  "/前端工程化/": [
+    {
+      "text": "前端工程化",
+      "items": [
+        {
+          "text": "@antfueslint-config",
+          "link": "/前端工程化/@antfueslint-config"
+        },
+        {
+          "text": "biome",
+          "link": "/前端工程化/biome"
+        },
+        {
+          "text": "eslint",
+          "link": "/前端工程化/eslint"
+        },
+        {
+          "text": "prettier",
+          "link": "/前端工程化/prettier"
+        }
+      ]
+    }
+  ],
+  "/百科/": [
+    {
+      "text": "百科",
+      "items": [
+        {
+          "text": "CMS",
+          "link": "/百科/CMS"
+        },
+        {
+          "text": "favicons",
+          "link": "/百科/favicons"
+        }
+      ]
+    }
+  ],
   "/nuxt/": [
     {
       "text": "nuxt",
@@ -253,44 +291,6 @@ export default {
         {
           "text": "SEO与元数据",
           "link": "/nuxt/SEO与元数据"
-        }
-      ]
-    }
-  ],
-  "/前端工程化/": [
-    {
-      "text": "前端工程化",
-      "items": [
-        {
-          "text": "@antfueslint-config",
-          "link": "/前端工程化/@antfueslint-config"
-        },
-        {
-          "text": "biome",
-          "link": "/前端工程化/biome"
-        },
-        {
-          "text": "eslint",
-          "link": "/前端工程化/eslint"
-        },
-        {
-          "text": "prettier",
-          "link": "/前端工程化/prettier"
-        }
-      ]
-    }
-  ],
-  "/百科/": [
-    {
-      "text": "百科",
-      "items": [
-        {
-          "text": "CMS",
-          "link": "/百科/CMS"
-        },
-        {
-          "text": "favicons",
-          "link": "/百科/favicons"
         }
       ]
     }
@@ -398,112 +398,6 @@ export default {
       ]
     }
   ],
-  "/vue/": [
-    {
-      "text": "vue",
-      "items": [
-        {
-          "text": "pinia",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "插件",
-              "link": "/vue/pinia/插件"
-            },
-            {
-              "text": "持久化",
-              "link": "/vue/pinia/持久化"
-            },
-            {
-              "text": "action",
-              "link": "/vue/pinia/action"
-            },
-            {
-              "text": "getter",
-              "link": "/vue/pinia/getter"
-            },
-            {
-              "text": "state",
-              "link": "/vue/pinia/state"
-            },
-            {
-              "text": "store",
-              "link": "/vue/pinia/store"
-            }
-          ]
-        },
-        {
-          "text": "vue2",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "全局属性",
-              "link": "/vue/vue2/全局属性"
-            }
-          ]
-        },
-        {
-          "text": "vue3",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "基础",
-              "collapsible": true,
-              "collapsed": false,
-              "items": [
-                {
-                  "text": "生命周期",
-                  "link": "/vue/vue3/基础/生命周期"
-                },
-                {
-                  "text": "属性绑定",
-                  "link": "/vue/vue3/基础/属性绑定"
-                },
-                {
-                  "text": "computed",
-                  "link": "/vue/vue3/基础/computed"
-                },
-                {
-                  "text": "watch",
-                  "link": "/vue/vue3/基础/watch"
-                },
-                {
-                  "text": "watchEffect",
-                  "link": "/vue/vue3/基础/watchEffect"
-                }
-              ]
-            },
-            {
-              "text": "深入组件",
-              "collapsible": true,
-              "collapsed": false,
-              "items": [
-                {
-                  "text": "注册",
-                  "link": "/vue/vue3/深入组件/注册"
-                },
-                {
-                  "text": "Props",
-                  "link": "/vue/vue3/深入组件/Props"
-                }
-              ]
-            },
-            {
-              "text": "全局属性",
-              "link": "/vue/vue3/全局属性"
-            },
-            {
-              "text": "TS与组合式API",
-              "link": "/vue/vue3/TS与组合式API"
-            }
-          ]
-        }
-      ]
-    }
-  ],
   "/vitepress/": [
     {
       "text": "vitepress",
@@ -516,6 +410,10 @@ export default {
             {
               "text": "vitepress-plugin-group-icons",
               "link": "/vitepress/插件/1-vitepress-plugin-group-icons"
+            },
+            {
+              "text": "demo",
+              "link": "/vitepress/插件/2-demo"
             }
           ]
         },
@@ -635,6 +533,112 @@ export default {
             {
               "text": "markdown中使用Vue",
               "link": "/vitepress/markdown语法/markdown中使用Vue"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "/vue/": [
+    {
+      "text": "vue",
+      "items": [
+        {
+          "text": "pinia",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "插件",
+              "link": "/vue/pinia/插件"
+            },
+            {
+              "text": "持久化",
+              "link": "/vue/pinia/持久化"
+            },
+            {
+              "text": "action",
+              "link": "/vue/pinia/action"
+            },
+            {
+              "text": "getter",
+              "link": "/vue/pinia/getter"
+            },
+            {
+              "text": "state",
+              "link": "/vue/pinia/state"
+            },
+            {
+              "text": "store",
+              "link": "/vue/pinia/store"
+            }
+          ]
+        },
+        {
+          "text": "vue2",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "全局属性",
+              "link": "/vue/vue2/全局属性"
+            }
+          ]
+        },
+        {
+          "text": "vue3",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "基础",
+              "collapsible": true,
+              "collapsed": false,
+              "items": [
+                {
+                  "text": "生命周期",
+                  "link": "/vue/vue3/基础/生命周期"
+                },
+                {
+                  "text": "属性绑定",
+                  "link": "/vue/vue3/基础/属性绑定"
+                },
+                {
+                  "text": "computed",
+                  "link": "/vue/vue3/基础/computed"
+                },
+                {
+                  "text": "watch",
+                  "link": "/vue/vue3/基础/watch"
+                },
+                {
+                  "text": "watchEffect",
+                  "link": "/vue/vue3/基础/watchEffect"
+                }
+              ]
+            },
+            {
+              "text": "深入组件",
+              "collapsible": true,
+              "collapsed": false,
+              "items": [
+                {
+                  "text": "注册",
+                  "link": "/vue/vue3/深入组件/注册"
+                },
+                {
+                  "text": "Props",
+                  "link": "/vue/vue3/深入组件/Props"
+                }
+              ]
+            },
+            {
+              "text": "全局属性",
+              "link": "/vue/vue3/全局属性"
+            },
+            {
+              "text": "TS与组合式API",
+              "link": "/vue/vue3/TS与组合式API"
             }
           ]
         }

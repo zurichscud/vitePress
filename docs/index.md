@@ -42,7 +42,7 @@ features:
     details: 20篇文档
     link: /TypeScript/tsconfig
   - title: vitepress
-    details: 22篇文档
+    details: 23篇文档
     link: /vitepress/markdown语法/frontmatter
   - title: vue
     details: 16篇文档
