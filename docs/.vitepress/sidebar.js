@@ -5,6 +5,25 @@ export default {
       "text": "CSS",
       "items": [
         {
+          "text": "文本",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "文本样式",
+              "link": "/CSS/3-文本/1-文本样式"
+            },
+            {
+              "text": "iconfont",
+              "link": "/CSS/3-文本/2-iconfont"
+            },
+            {
+              "text": "字体",
+              "link": "/CSS/3-文本/3-字体"
+            }
+          ]
+        },
+        {
           "text": "盒模型",
           "collapsible": true,
           "collapsed": false,
@@ -36,6 +55,10 @@ export default {
             {
               "text": "渐变",
               "link": "/CSS/4-盒模型/7-渐变"
+            },
+            {
+              "text": "阴影",
+              "link": "/CSS/4-盒模型/8-阴影"
             }
           ]
         },
@@ -59,6 +82,36 @@ export default {
           ]
         },
         {
+          "text": "布局",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "标准流",
+              "link": "/CSS/5-布局/标准流"
+            },
+            {
+              "text": "定位",
+              "link": "/CSS/5-布局/定位"
+            },
+            {
+              "text": "模式切换",
+              "link": "/CSS/5-布局/模式切换"
+            }
+          ]
+        },
+        {
+          "text": "动画",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "过渡",
+              "link": "/CSS/6-动画/过渡"
+            }
+          ]
+        },
+        {
           "text": "css分类",
           "link": "/CSS/1-css分类"
         },
@@ -67,16 +120,12 @@ export default {
           "link": "/CSS/2-选择器"
         },
         {
-          "text": "文本样式",
-          "link": "/CSS/3-文本样式"
-        },
-        {
           "text": "表格样式",
           "link": "/CSS/4-表格样式"
         },
         {
-          "text": "重置浏览器样式",
-          "link": "/CSS/重置浏览器样式"
+          "text": "样式初始化",
+          "link": "/CSS/样式初始化"
         },
         {
           "text": "CSS特性",
@@ -85,6 +134,64 @@ export default {
         {
           "text": "Emmt",
           "link": "/CSS/Emmt"
+        }
+      ]
+    }
+  ],
+  "/HTML/": [
+    {
+      "text": "HTML",
+      "items": [
+        {
+          "text": "表格",
+          "link": "/HTML/表格"
+        },
+        {
+          "text": "调试工具",
+          "link": "/HTML/调试工具"
+        },
+        {
+          "text": "img",
+          "link": "/HTML/img"
+        }
+      ]
+    }
+  ],
+  "/nuxt/": [
+    {
+      "text": "nuxt",
+      "items": [
+        {
+          "text": "布局",
+          "link": "/nuxt/布局"
+        },
+        {
+          "text": "服务器",
+          "link": "/nuxt/服务器"
+        },
+        {
+          "text": "基础",
+          "link": "/nuxt/基础"
+        },
+        {
+          "text": "路由",
+          "link": "/nuxt/路由"
+        },
+        {
+          "text": "视图",
+          "link": "/nuxt/视图"
+        },
+        {
+          "text": "数据请求",
+          "link": "/nuxt/数据请求"
+        },
+        {
+          "text": "资源管理",
+          "link": "/nuxt/资源管理"
+        },
+        {
+          "text": "SEO与元数据",
+          "link": "/nuxt/SEO与元数据"
         }
       ]
     }
@@ -230,64 +337,6 @@ export default {
         {
           "text": "unplugin-vue-components",
           "link": "/package/unplugin-vue-components"
-        }
-      ]
-    }
-  ],
-  "/nuxt/": [
-    {
-      "text": "nuxt",
-      "items": [
-        {
-          "text": "布局",
-          "link": "/nuxt/布局"
-        },
-        {
-          "text": "服务器",
-          "link": "/nuxt/服务器"
-        },
-        {
-          "text": "基础",
-          "link": "/nuxt/基础"
-        },
-        {
-          "text": "路由",
-          "link": "/nuxt/路由"
-        },
-        {
-          "text": "视图",
-          "link": "/nuxt/视图"
-        },
-        {
-          "text": "数据请求",
-          "link": "/nuxt/数据请求"
-        },
-        {
-          "text": "资源管理",
-          "link": "/nuxt/资源管理"
-        },
-        {
-          "text": "SEO与元数据",
-          "link": "/nuxt/SEO与元数据"
-        }
-      ]
-    }
-  ],
-  "/HTML/": [
-    {
-      "text": "HTML",
-      "items": [
-        {
-          "text": "表格",
-          "link": "/HTML/表格"
-        },
-        {
-          "text": "调试工具",
-          "link": "/HTML/调试工具"
-        },
-        {
-          "text": "img",
-          "link": "/HTML/img"
         }
       ]
     }

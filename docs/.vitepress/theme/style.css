@@ -210,3 +210,8 @@ div.vp-table > table thead tr:first-child {
 div.vp-table > table tbody tr td:first-child {
   font-family: var(--font-family-mono);
 }
+
+/* 加粗字体 */
+.vp-doc strong {
+  font-weight: 700;
+}
