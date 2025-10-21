@@ -68,8 +68,16 @@ export default {
           "collapsed": false,
           "items": [
             {
-              "text": "三栏式布局",
-              "link": "/CSS/5-Flexbox/3-三栏式布局"
+              "text": "基本概念",
+              "link": "/CSS/5-Flexbox/1-基本概念"
+            },
+            {
+              "text": "弹性盒本质",
+              "link": "/CSS/5-Flexbox/2-弹性盒本质"
+            },
+            {
+              "text": "弹性限度",
+              "link": "/CSS/5-Flexbox/3-弹性限度"
             },
             {
               "text": "从单行到多行",
@@ -78,6 +86,10 @@ export default {
             {
               "text": "给子项多一点自由",
               "link": "/CSS/5-Flexbox/5-给子项多一点自由"
+            },
+            {
+              "text": "案例",
+              "link": "/CSS/5-Flexbox/6-案例"
             }
           ]
         },
@@ -153,45 +165,6 @@ export default {
         {
           "text": "img",
           "link": "/HTML/img"
-        }
-      ]
-    }
-  ],
-  "/nuxt/": [
-    {
-      "text": "nuxt",
-      "items": [
-        {
-          "text": "布局",
-          "link": "/nuxt/布局"
-        },
-        {
-          "text": "服务器",
-          "link": "/nuxt/服务器"
-        },
-        {
-          "text": "基础",
-          "link": "/nuxt/基础"
-        },
-        {
-          "text": "路由",
-          "link": "/nuxt/路由"
-        },
-        {
-          "text": "视图",
-          "link": "/nuxt/视图"
-        },
-        {
-          "text": "数据请求",
-          "link": "/nuxt/数据请求"
-        },
-        {
-          "text": "资源管理",
-          "link": "/nuxt/资源管理"
-        },
-        {
-          "text": "SEO与元数据",
-          "link": "/nuxt/SEO与元数据"
         }
       ]
     }
@@ -314,6 +287,45 @@ export default {
         {
           "text": "tsconfig",
           "link": "/TypeScript/tsconfig"
+        }
+      ]
+    }
+  ],
+  "/nuxt/": [
+    {
+      "text": "nuxt",
+      "items": [
+        {
+          "text": "布局",
+          "link": "/nuxt/布局"
+        },
+        {
+          "text": "服务器",
+          "link": "/nuxt/服务器"
+        },
+        {
+          "text": "基础",
+          "link": "/nuxt/基础"
+        },
+        {
+          "text": "路由",
+          "link": "/nuxt/路由"
+        },
+        {
+          "text": "视图",
+          "link": "/nuxt/视图"
+        },
+        {
+          "text": "数据请求",
+          "link": "/nuxt/数据请求"
+        },
+        {
+          "text": "资源管理",
+          "link": "/nuxt/资源管理"
+        },
+        {
+          "text": "SEO与元数据",
+          "link": "/nuxt/SEO与元数据"
         }
       ]
     }

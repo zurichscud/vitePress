@@ -1,18 +1,19 @@
 <script setup></script>
 
-<template>
-  <div class="button-group">
-    <button class="btn">取消</button>
-    <button class="btn">重置</button>
-    <button class="btn primary">确定</button>
-  </div>
-</template>
+<template></template>
 
 <style scoped>
-.button-group {
+.container {
   display: flex;
+  width: 400px;
 }
-.primary {
-  order: -1;
+.left {
+  width: 100px;
+}
+.middle {
+  flex: 1;
+}
+.right {
+  width: 100px;
 }
 </style>
