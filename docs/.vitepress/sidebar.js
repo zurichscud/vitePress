@@ -59,6 +59,10 @@ export default {
             {
               "text": "阴影",
               "link": "/CSS/4-盒模型/8-阴影"
+            },
+            {
+              "text": "溢出",
+              "link": "/CSS/4-盒模型/9-溢出"
             }
           ]
         },
@@ -99,12 +103,16 @@ export default {
           "collapsed": false,
           "items": [
             {
-              "text": "标准流",
-              "link": "/CSS/5-布局/标准流"
+              "text": "定位",
+              "link": "/CSS/5-布局/3-定位"
             },
             {
-              "text": "定位",
-              "link": "/CSS/5-布局/定位"
+              "text": "子绝父相",
+              "link": "/CSS/5-布局/4-子绝父相"
+            },
+            {
+              "text": "标准流",
+              "link": "/CSS/5-布局/标准流"
             },
             {
               "text": "模式切换",
@@ -161,41 +169,21 @@ export default {
       ]
     }
   ],
-  "/nuxt/": [
+  "/HTML/": [
     {
-      "text": "nuxt",
+      "text": "HTML",
       "items": [
         {
-          "text": "布局",
-          "link": "/nuxt/布局"
+          "text": "表格",
+          "link": "/HTML/表格"
         },
         {
-          "text": "服务器",
-          "link": "/nuxt/服务器"
+          "text": "调试工具",
+          "link": "/HTML/调试工具"
         },
         {
-          "text": "基础",
-          "link": "/nuxt/基础"
-        },
-        {
-          "text": "路由",
-          "link": "/nuxt/路由"
-        },
-        {
-          "text": "视图",
-          "link": "/nuxt/视图"
-        },
-        {
-          "text": "数据请求",
-          "link": "/nuxt/数据请求"
-        },
-        {
-          "text": "资源管理",
-          "link": "/nuxt/资源管理"
-        },
-        {
-          "text": "SEO与元数据",
-          "link": "/nuxt/SEO与元数据"
+          "text": "img",
+          "link": "/HTML/img"
         }
       ]
     }
@@ -322,21 +310,41 @@ export default {
       ]
     }
   ],
-  "/HTML/": [
+  "/nuxt/": [
     {
-      "text": "HTML",
+      "text": "nuxt",
       "items": [
         {
-          "text": "表格",
-          "link": "/HTML/表格"
+          "text": "布局",
+          "link": "/nuxt/布局"
         },
         {
-          "text": "调试工具",
-          "link": "/HTML/调试工具"
+          "text": "服务器",
+          "link": "/nuxt/服务器"
         },
         {
-          "text": "img",
-          "link": "/HTML/img"
+          "text": "基础",
+          "link": "/nuxt/基础"
+        },
+        {
+          "text": "路由",
+          "link": "/nuxt/路由"
+        },
+        {
+          "text": "视图",
+          "link": "/nuxt/视图"
+        },
+        {
+          "text": "数据请求",
+          "link": "/nuxt/数据请求"
+        },
+        {
+          "text": "资源管理",
+          "link": "/nuxt/资源管理"
+        },
+        {
+          "text": "SEO与元数据",
+          "link": "/nuxt/SEO与元数据"
         }
       ]
     }
@@ -364,21 +372,6 @@ export default {
       ]
     }
   ],
-  "/百科/": [
-    {
-      "text": "百科",
-      "items": [
-        {
-          "text": "CMS",
-          "link": "/百科/CMS"
-        },
-        {
-          "text": "favicons",
-          "link": "/百科/favicons"
-        }
-      ]
-    }
-  ],
   "/前端工程化/": [
     {
       "text": "前端工程化",
@@ -398,6 +391,21 @@ export default {
         {
           "text": "prettier",
           "link": "/前端工程化/prettier"
+        }
+      ]
+    }
+  ],
+  "/百科/": [
+    {
+      "text": "百科",
+      "items": [
+        {
+          "text": "CMS",
+          "link": "/百科/CMS"
+        },
+        {
+          "text": "favicons",
+          "link": "/百科/favicons"
         }
       ]
     }
