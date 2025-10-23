@@ -198,6 +198,7 @@ div.vp-table > table td {
   text-align: left;
   max-width: 250px;
   white-space: pre-wrap;
+  /* white-space: nowrap; */
 }
 
 /* 表头顶部去线 */
