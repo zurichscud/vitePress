@@ -124,6 +124,17 @@ export default {
           ]
         },
         {
+          "text": "案例",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "网页排版",
+              "link": "/CSS/7-案例/网页排版"
+            }
+          ]
+        },
+        {
           "text": "css分类",
           "link": "/CSS/1-css分类"
         },
@@ -150,21 +161,41 @@ export default {
       ]
     }
   ],
-  "/HTML/": [
+  "/nuxt/": [
     {
-      "text": "HTML",
+      "text": "nuxt",
       "items": [
         {
-          "text": "表格",
-          "link": "/HTML/表格"
+          "text": "布局",
+          "link": "/nuxt/布局"
         },
         {
-          "text": "调试工具",
-          "link": "/HTML/调试工具"
+          "text": "服务器",
+          "link": "/nuxt/服务器"
         },
         {
-          "text": "img",
-          "link": "/HTML/img"
+          "text": "基础",
+          "link": "/nuxt/基础"
+        },
+        {
+          "text": "路由",
+          "link": "/nuxt/路由"
+        },
+        {
+          "text": "视图",
+          "link": "/nuxt/视图"
+        },
+        {
+          "text": "数据请求",
+          "link": "/nuxt/数据请求"
+        },
+        {
+          "text": "资源管理",
+          "link": "/nuxt/资源管理"
+        },
+        {
+          "text": "SEO与元数据",
+          "link": "/nuxt/SEO与元数据"
         }
       ]
     }
@@ -291,41 +322,21 @@ export default {
       ]
     }
   ],
-  "/nuxt/": [
+  "/HTML/": [
     {
-      "text": "nuxt",
+      "text": "HTML",
       "items": [
         {
-          "text": "布局",
-          "link": "/nuxt/布局"
+          "text": "表格",
+          "link": "/HTML/表格"
         },
         {
-          "text": "服务器",
-          "link": "/nuxt/服务器"
+          "text": "调试工具",
+          "link": "/HTML/调试工具"
         },
         {
-          "text": "基础",
-          "link": "/nuxt/基础"
-        },
-        {
-          "text": "路由",
-          "link": "/nuxt/路由"
-        },
-        {
-          "text": "视图",
-          "link": "/nuxt/视图"
-        },
-        {
-          "text": "数据请求",
-          "link": "/nuxt/数据请求"
-        },
-        {
-          "text": "资源管理",
-          "link": "/nuxt/资源管理"
-        },
-        {
-          "text": "SEO与元数据",
-          "link": "/nuxt/SEO与元数据"
+          "text": "img",
+          "link": "/HTML/img"
         }
       ]
     }
@@ -353,6 +364,21 @@ export default {
       ]
     }
   ],
+  "/百科/": [
+    {
+      "text": "百科",
+      "items": [
+        {
+          "text": "CMS",
+          "link": "/百科/CMS"
+        },
+        {
+          "text": "favicons",
+          "link": "/百科/favicons"
+        }
+      ]
+    }
+  ],
   "/前端工程化/": [
     {
       "text": "前端工程化",
@@ -372,21 +398,6 @@ export default {
         {
           "text": "prettier",
           "link": "/前端工程化/prettier"
-        }
-      ]
-    }
-  ],
-  "/百科/": [
-    {
-      "text": "百科",
-      "items": [
-        {
-          "text": "CMS",
-          "link": "/百科/CMS"
-        },
-        {
-          "text": "favicons",
-          "link": "/百科/favicons"
         }
       ]
     }
@@ -454,6 +465,10 @@ export default {
             {
               "text": "上传时序问题",
               "link": "/JavaScript/上传与下载/9-上传时序问题"
+            },
+            {
+              "text": "上传进度",
+              "link": "/JavaScript/上传与下载/10-上传进度"
             }
           ]
         },

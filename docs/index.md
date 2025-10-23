@@ -24,13 +24,13 @@ features:
     details: 4篇文档
     link: /前端工程化/@antfueslint-config
   - title: CSS
-    details: 27篇文档
+    details: 28篇文档
     link: /CSS/1-css分类
   - title: HTML
     details: 3篇文档
     link: /HTML/img
   - title: JavaScript
-    details: 17篇文档
+    details: 18篇文档
     link: /JavaScript/DOM/window
   - title: nuxt
     details: 8篇文档
