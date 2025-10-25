@@ -717,6 +717,26 @@ export default {
             {
               "text": "嵌套路由",
               "link": "/vue/vue-router/4-嵌套路由"
+            },
+            {
+              "text": "命名路由",
+              "link": "/vue/vue-router/5-命名路由"
+            },
+            {
+              "text": "编程式导航",
+              "link": "/vue/vue-router/6-编程式导航"
+            },
+            {
+              "text": "重定向和别名",
+              "link": "/vue/vue-router/7-重定向和别名"
+            },
+            {
+              "text": "路由组件传参",
+              "link": "/vue/vue-router/8-路由组件传参"
+            },
+            {
+              "text": "历史模式",
+              "link": "/vue/vue-router/9-历史模式"
             }
           ]
         },

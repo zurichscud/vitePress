@@ -45,6 +45,6 @@ features:
     details: 23篇文档
     link: /vitepress/markdown语法/frontmatter
   - title: vue
-    details: 20篇文档
+    details: 25篇文档
     link: /vue/pinia/action
 ---
