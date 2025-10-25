@@ -182,6 +182,10 @@ export default {
           "link": "/HTML/调试工具"
         },
         {
+          "text": "链接",
+          "link": "/HTML/链接"
+        },
+        {
           "text": "img",
           "link": "/HTML/img"
         }
@@ -310,6 +314,29 @@ export default {
       ]
     }
   ],
+  "/package/": [
+    {
+      "text": "package",
+      "items": [
+        {
+          "text": "antfu-utils",
+          "link": "/package/antfu-utils"
+        },
+        {
+          "text": "file-saver",
+          "link": "/package/file-saver"
+        },
+        {
+          "text": "unplugin-auto-import",
+          "link": "/package/unplugin-auto-import"
+        },
+        {
+          "text": "unplugin-vue-components",
+          "link": "/package/unplugin-vue-components"
+        }
+      ]
+    }
+  ],
   "/nuxt/": [
     {
       "text": "nuxt",
@@ -345,29 +372,6 @@ export default {
         {
           "text": "SEO与元数据",
           "link": "/nuxt/SEO与元数据"
-        }
-      ]
-    }
-  ],
-  "/package/": [
-    {
-      "text": "package",
-      "items": [
-        {
-          "text": "antfu-utils",
-          "link": "/package/antfu-utils"
-        },
-        {
-          "text": "file-saver",
-          "link": "/package/file-saver"
-        },
-        {
-          "text": "unplugin-auto-import",
-          "link": "/package/unplugin-auto-import"
-        },
-        {
-          "text": "unplugin-vue-components",
-          "link": "/package/unplugin-vue-components"
         }
       ]
     }
@@ -690,6 +694,29 @@ export default {
             {
               "text": "store",
               "link": "/vue/pinia/store"
+            }
+          ]
+        },
+        {
+          "text": "vue-router",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "基本概念",
+              "link": "/vue/vue-router/1-基本概念"
+            },
+            {
+              "text": "动态路由匹配",
+              "link": "/vue/vue-router/2-动态路由匹配"
+            },
+            {
+              "text": "路由匹配算法",
+              "link": "/vue/vue-router/3-路由匹配算法"
+            },
+            {
+              "text": "嵌套路由",
+              "link": "/vue/vue-router/4-嵌套路由"
             }
           ]
         },

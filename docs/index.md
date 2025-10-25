@@ -27,7 +27,7 @@ features:
     details: 30篇文档
     link: /CSS/1-css分类
   - title: HTML
-    details: 3篇文档
+    details: 4篇文档
     link: /HTML/img
   - title: JavaScript
     details: 18篇文档
@@ -45,6 +45,6 @@ features:
     details: 23篇文档
     link: /vitepress/markdown语法/frontmatter
   - title: vue
-    details: 16篇文档
+    details: 20篇文档
     link: /vue/pinia/action
 ---
