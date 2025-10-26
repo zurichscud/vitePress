@@ -314,29 +314,6 @@ export default {
       ]
     }
   ],
-  "/package/": [
-    {
-      "text": "package",
-      "items": [
-        {
-          "text": "antfu-utils",
-          "link": "/package/antfu-utils"
-        },
-        {
-          "text": "file-saver",
-          "link": "/package/file-saver"
-        },
-        {
-          "text": "unplugin-auto-import",
-          "link": "/package/unplugin-auto-import"
-        },
-        {
-          "text": "unplugin-vue-components",
-          "link": "/package/unplugin-vue-components"
-        }
-      ]
-    }
-  ],
   "/nuxt/": [
     {
       "text": "nuxt",
@@ -410,6 +387,29 @@ export default {
         {
           "text": "favicons",
           "link": "/百科/favicons"
+        }
+      ]
+    }
+  ],
+  "/package/": [
+    {
+      "text": "package",
+      "items": [
+        {
+          "text": "antfu-utils",
+          "link": "/package/antfu-utils"
+        },
+        {
+          "text": "file-saver",
+          "link": "/package/file-saver"
+        },
+        {
+          "text": "unplugin-auto-import",
+          "link": "/package/unplugin-auto-import"
+        },
+        {
+          "text": "unplugin-vue-components",
+          "link": "/package/unplugin-vue-components"
         }
       ]
     }
@@ -703,6 +703,17 @@ export default {
           "collapsed": false,
           "items": [
             {
+              "text": "TS",
+              "collapsible": true,
+              "collapsed": false,
+              "items": [
+                {
+                  "text": "Route",
+                  "link": "/vue/vue-router/TS/Route"
+                }
+              ]
+            },
+            {
               "text": "基本概念",
               "link": "/vue/vue-router/1-基本概念"
             },
@@ -737,6 +748,22 @@ export default {
             {
               "text": "历史模式",
               "link": "/vue/vue-router/9-历史模式"
+            },
+            {
+              "text": "导航守卫",
+              "link": "/vue/vue-router/10-导航守卫"
+            },
+            {
+              "text": "路由元数据",
+              "link": "/vue/vue-router/11-路由元数据"
+            },
+            {
+              "text": "RouterView插槽",
+              "link": "/vue/vue-router/12-RouterView插槽"
+            },
+            {
+              "text": "动态路由",
+              "link": "/vue/vue-router/13-动态路由"
             }
           ]
         },
