@@ -1,5 +1,28 @@
 // 自动生成，请勿修改
 export default {
+  "/HTML/": [
+    {
+      "text": "HTML",
+      "items": [
+        {
+          "text": "表格",
+          "link": "/HTML/表格"
+        },
+        {
+          "text": "调试工具",
+          "link": "/HTML/调试工具"
+        },
+        {
+          "text": "链接",
+          "link": "/HTML/链接"
+        },
+        {
+          "text": "img",
+          "link": "/HTML/img"
+        }
+      ]
+    }
+  ],
   "/CSS/": [
     {
       "text": "CSS",
@@ -169,29 +192,6 @@ export default {
       ]
     }
   ],
-  "/HTML/": [
-    {
-      "text": "HTML",
-      "items": [
-        {
-          "text": "表格",
-          "link": "/HTML/表格"
-        },
-        {
-          "text": "调试工具",
-          "link": "/HTML/调试工具"
-        },
-        {
-          "text": "链接",
-          "link": "/HTML/链接"
-        },
-        {
-          "text": "img",
-          "link": "/HTML/img"
-        }
-      ]
-    }
-  ],
   "/TypeScript/": [
     {
       "text": "TypeScript",
@@ -314,6 +314,45 @@ export default {
       ]
     }
   ],
+  "/nuxt/": [
+    {
+      "text": "nuxt",
+      "items": [
+        {
+          "text": "布局",
+          "link": "/nuxt/布局"
+        },
+        {
+          "text": "服务器",
+          "link": "/nuxt/服务器"
+        },
+        {
+          "text": "基础",
+          "link": "/nuxt/基础"
+        },
+        {
+          "text": "路由",
+          "link": "/nuxt/路由"
+        },
+        {
+          "text": "视图",
+          "link": "/nuxt/视图"
+        },
+        {
+          "text": "数据请求",
+          "link": "/nuxt/数据请求"
+        },
+        {
+          "text": "资源管理",
+          "link": "/nuxt/资源管理"
+        },
+        {
+          "text": "SEO与元数据",
+          "link": "/nuxt/SEO与元数据"
+        }
+      ]
+    }
+  ],
   "/package/": [
     {
       "text": "package",
@@ -371,45 +410,6 @@ export default {
         {
           "text": "favicons",
           "link": "/百科/favicons"
-        }
-      ]
-    }
-  ],
-  "/nuxt/": [
-    {
-      "text": "nuxt",
-      "items": [
-        {
-          "text": "布局",
-          "link": "/nuxt/布局"
-        },
-        {
-          "text": "服务器",
-          "link": "/nuxt/服务器"
-        },
-        {
-          "text": "基础",
-          "link": "/nuxt/基础"
-        },
-        {
-          "text": "路由",
-          "link": "/nuxt/路由"
-        },
-        {
-          "text": "视图",
-          "link": "/nuxt/视图"
-        },
-        {
-          "text": "数据请求",
-          "link": "/nuxt/数据请求"
-        },
-        {
-          "text": "资源管理",
-          "link": "/nuxt/资源管理"
-        },
-        {
-          "text": "SEO与元数据",
-          "link": "/nuxt/SEO与元数据"
         }
       ]
     }
@@ -515,198 +515,6 @@ export default {
             {
               "text": "window",
               "link": "/JavaScript/DOM/window"
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "/vue/": [
-    {
-      "text": "vue",
-      "items": [
-        {
-          "text": "pinia",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "插件",
-              "link": "/vue/pinia/插件"
-            },
-            {
-              "text": "持久化",
-              "link": "/vue/pinia/持久化"
-            },
-            {
-              "text": "action",
-              "link": "/vue/pinia/action"
-            },
-            {
-              "text": "getter",
-              "link": "/vue/pinia/getter"
-            },
-            {
-              "text": "state",
-              "link": "/vue/pinia/state"
-            },
-            {
-              "text": "store",
-              "link": "/vue/pinia/store"
-            }
-          ]
-        },
-        {
-          "text": "vue-router",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "参考",
-              "collapsible": true,
-              "collapsed": false,
-              "items": [
-                {
-                  "text": "Route",
-                  "link": "/vue/vue-router/参考/Route"
-                },
-                {
-                  "text": "RouteLocationNormalizedLoadedGeneric",
-                  "link": "/vue/vue-router/参考/RouteLocationNormalizedLoadedGeneric"
-                },
-                {
-                  "text": "Router",
-                  "link": "/vue/vue-router/参考/Router"
-                },
-                {
-                  "text": "useRoute",
-                  "link": "/vue/vue-router/参考/useRoute"
-                },
-                {
-                  "text": "useRouter",
-                  "link": "/vue/vue-router/参考/useRouter"
-                }
-              ]
-            },
-            {
-              "text": "基本概念",
-              "link": "/vue/vue-router/1-基本概念"
-            },
-            {
-              "text": "动态路由匹配",
-              "link": "/vue/vue-router/2-动态路由匹配"
-            },
-            {
-              "text": "路由匹配算法",
-              "link": "/vue/vue-router/3-路由匹配算法"
-            },
-            {
-              "text": "嵌套路由",
-              "link": "/vue/vue-router/4-嵌套路由"
-            },
-            {
-              "text": "命名路由",
-              "link": "/vue/vue-router/5-命名路由"
-            },
-            {
-              "text": "编程式导航",
-              "link": "/vue/vue-router/6-编程式导航"
-            },
-            {
-              "text": "重定向和别名",
-              "link": "/vue/vue-router/7-重定向和别名"
-            },
-            {
-              "text": "路由组件传参",
-              "link": "/vue/vue-router/8-路由组件传参"
-            },
-            {
-              "text": "历史模式",
-              "link": "/vue/vue-router/9-历史模式"
-            },
-            {
-              "text": "导航守卫",
-              "link": "/vue/vue-router/10-导航守卫"
-            },
-            {
-              "text": "路由元数据",
-              "link": "/vue/vue-router/11-路由元数据"
-            },
-            {
-              "text": "RouterView插槽",
-              "link": "/vue/vue-router/12-RouterView插槽"
-            },
-            {
-              "text": "动态路由",
-              "link": "/vue/vue-router/13-动态路由"
-            }
-          ]
-        },
-        {
-          "text": "vue2",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "全局属性",
-              "link": "/vue/vue2/全局属性"
-            }
-          ]
-        },
-        {
-          "text": "vue3",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "基础",
-              "collapsible": true,
-              "collapsed": false,
-              "items": [
-                {
-                  "text": "生命周期",
-                  "link": "/vue/vue3/基础/生命周期"
-                },
-                {
-                  "text": "属性绑定",
-                  "link": "/vue/vue3/基础/属性绑定"
-                },
-                {
-                  "text": "computed",
-                  "link": "/vue/vue3/基础/computed"
-                },
-                {
-                  "text": "watch",
-                  "link": "/vue/vue3/基础/watch"
-                },
-                {
-                  "text": "watchEffect",
-                  "link": "/vue/vue3/基础/watchEffect"
-                }
-              ]
-            },
-            {
-              "text": "深入组件",
-              "collapsible": true,
-              "collapsed": false,
-              "items": [
-                {
-                  "text": "注册",
-                  "link": "/vue/vue3/深入组件/注册"
-                },
-                {
-                  "text": "Props",
-                  "link": "/vue/vue3/深入组件/Props"
-                }
-              ]
-            },
-            {
-              "text": "全局属性",
-              "link": "/vue/vue3/全局属性"
-            },
-            {
-              "text": "TS与组合式API",
-              "link": "/vue/vue3/TS与组合式API"
             }
           ]
         }
@@ -848,6 +656,210 @@ export default {
             {
               "text": "markdown中使用Vue",
               "link": "/vitepress/markdown语法/markdown中使用Vue"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "/vue/": [
+    {
+      "text": "vue",
+      "items": [
+        {
+          "text": "pinia",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "插件",
+              "link": "/vue/pinia/插件"
+            },
+            {
+              "text": "持久化",
+              "link": "/vue/pinia/持久化"
+            },
+            {
+              "text": "action",
+              "link": "/vue/pinia/action"
+            },
+            {
+              "text": "getter",
+              "link": "/vue/pinia/getter"
+            },
+            {
+              "text": "state",
+              "link": "/vue/pinia/state"
+            },
+            {
+              "text": "store",
+              "link": "/vue/pinia/store"
+            }
+          ]
+        },
+        {
+          "text": "vue-router",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "参考",
+              "collapsible": true,
+              "collapsed": false,
+              "items": [
+                {
+                  "text": "RouteLocation",
+                  "link": "/vue/vue-router/参考/RouteLocation"
+                },
+                {
+                  "text": "RouteLocationNormalizedLoadedGeneric",
+                  "link": "/vue/vue-router/参考/RouteLocationNormalizedLoadedGeneric"
+                },
+                {
+                  "text": "RouteLocationRaw",
+                  "link": "/vue/vue-router/参考/RouteLocationRaw"
+                },
+                {
+                  "text": "RouteMeta",
+                  "link": "/vue/vue-router/参考/RouteMeta"
+                },
+                {
+                  "text": "Router",
+                  "link": "/vue/vue-router/参考/Router"
+                },
+                {
+                  "text": "RouterRecordRaw",
+                  "link": "/vue/vue-router/参考/RouterRecordRaw"
+                },
+                {
+                  "text": "useRoute",
+                  "link": "/vue/vue-router/参考/useRoute"
+                },
+                {
+                  "text": "useRouter",
+                  "link": "/vue/vue-router/参考/useRouter"
+                }
+              ]
+            },
+            {
+              "text": "基本概念",
+              "link": "/vue/vue-router/1-基本概念"
+            },
+            {
+              "text": "动态路由匹配",
+              "link": "/vue/vue-router/2-动态路由匹配"
+            },
+            {
+              "text": "路由匹配算法",
+              "link": "/vue/vue-router/3-路由匹配算法"
+            },
+            {
+              "text": "嵌套路由",
+              "link": "/vue/vue-router/4-嵌套路由"
+            },
+            {
+              "text": "命名路由",
+              "link": "/vue/vue-router/5-命名路由"
+            },
+            {
+              "text": "编程式导航",
+              "link": "/vue/vue-router/6-编程式导航"
+            },
+            {
+              "text": "重定向和别名",
+              "link": "/vue/vue-router/7-重定向和别名"
+            },
+            {
+              "text": "路由组件传参",
+              "link": "/vue/vue-router/8-路由组件传参"
+            },
+            {
+              "text": "历史模式",
+              "link": "/vue/vue-router/9-历史模式"
+            },
+            {
+              "text": "导航守卫",
+              "link": "/vue/vue-router/10-导航守卫"
+            },
+            {
+              "text": "路由元数据",
+              "link": "/vue/vue-router/11-路由元数据"
+            },
+            {
+              "text": "RouterView插槽",
+              "link": "/vue/vue-router/12-RouterView插槽"
+            },
+            {
+              "text": "动态路由",
+              "link": "/vue/vue-router/13-动态路由"
+            }
+          ]
+        },
+        {
+          "text": "vue2",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "全局属性",
+              "link": "/vue/vue2/全局属性"
+            }
+          ]
+        },
+        {
+          "text": "vue3",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "基础",
+              "collapsible": true,
+              "collapsed": false,
+              "items": [
+                {
+                  "text": "生命周期",
+                  "link": "/vue/vue3/基础/生命周期"
+                },
+                {
+                  "text": "属性绑定",
+                  "link": "/vue/vue3/基础/属性绑定"
+                },
+                {
+                  "text": "computed",
+                  "link": "/vue/vue3/基础/computed"
+                },
+                {
+                  "text": "watch",
+                  "link": "/vue/vue3/基础/watch"
+                },
+                {
+                  "text": "watchEffect",
+                  "link": "/vue/vue3/基础/watchEffect"
+                }
+              ]
+            },
+            {
+              "text": "深入组件",
+              "collapsible": true,
+              "collapsed": false,
+              "items": [
+                {
+                  "text": "注册",
+                  "link": "/vue/vue3/深入组件/注册"
+                },
+                {
+                  "text": "Props",
+                  "link": "/vue/vue3/深入组件/Props"
+                }
+              ]
+            },
+            {
+              "text": "全局属性",
+              "link": "/vue/vue3/全局属性"
+            },
+            {
+              "text": "TS与组合式API",
+              "link": "/vue/vue3/TS与组合式API"
             }
           ]
         }

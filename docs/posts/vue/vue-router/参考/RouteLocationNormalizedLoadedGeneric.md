@@ -20,17 +20,17 @@
 
 ## Properties
 
-| 属性名               | 类型                     | 说明                                                       |
-| -------------------- | ------------------------ | ---------------------------------------------------------- |
-| **`fullPath`**       | `string`                 | 完整路径，包含 query 和 hash，例如 `/case/edit?id=1#form`  |
-| **`hash`**           | `string`                 | URL 的 hash 部分（以 `#` 开头）                            |
-| **`matched`**        | `RouteLocationMatched[]` | 当前路由匹配到的所有路由记录（每个记录都包含已加载的组件） |
-| **`meta`**           | `RouteMeta`              | 合并后的 meta 信息，来自所有匹配路由记录                   |
-| **`name`**           | `RouteRecordNameGeneric` | 路由名称（如果定义了 `name`）                              |
-| **`params`**         | `RouteParamsGeneric`     | 动态路由参数对象，例如 `/user/:id` → `{ id: '123' }`       |
-| **`path`**           | `string`                 | 路径部分（不含 query 和 hash），例如 `/case/edit`          |
-| **`query`**          | `LocationQuery`          | URL 查询参数，例如 `?a=1&b=2` → `{ a: '1', b: '2' }`       |
-| **`redirectedFrom`** | `RouteLocationGeneric    | undefined`                                                 |
+| 属性名               | 类型                                   | 说明                                                       |
+| -------------------- | -------------------------------------- | ---------------------------------------------------------- |
+| **`fullPath`**       | `string`                               | 完整路径，包含 query 和 hash，例如 `/case/edit?id=1#form`  |
+| **`hash`**           | `string`                               | URL 的 hash 部分（以 `#` 开头）                            |
+| **`matched`**        | `RouteLocationMatched[]`               | 当前路由匹配到的所有路由记录（每个记录都包含已加载的组件） |
+| **`meta`**           | `RouteMeta`                            | 合并后的 meta 信息，来自所有匹配路由记录                   |
+| **`name`**           | `RouteRecordNameGeneric`               | 路由名称（如果定义了 `name`）                              |
+| **`params`**         | `RouteParamsGeneric`                   | 动态路由参数对象，例如 `/user/:id` → `{ id: '123' }`       |
+| **`path`**           | `string`                               | 路径部分（不含 query 和 hash），例如 `/case/edit`          |
+| **`query`**          | `LocationQuery`                        | URL 查询参数，例如 `?a=1&b=2` → `{ a: '1', b: '2' }`       |
+| **`redirectedFrom`** | `RouteLocationGeneric    \| undefined` |                                                            |
 
 ```ts
 /case/edit/123?tab=info#top

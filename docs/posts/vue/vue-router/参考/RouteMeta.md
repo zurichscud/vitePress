@@ -1,6 +1,6 @@
-# TS
+# RouteMeta
 
-## RouteMeta
+路由元数据信息
 
 ```ts
 // 这段可以直接添加到你的任何 `.ts` 文件中，例如 `router.ts`
