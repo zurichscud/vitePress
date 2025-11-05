@@ -1,5 +1,28 @@
 // 自动生成，请勿修改
 export default {
+  "/HTML/": [
+    {
+      "text": "HTML",
+      "items": [
+        {
+          "text": "表格",
+          "link": "/HTML/表格"
+        },
+        {
+          "text": "调试工具",
+          "link": "/HTML/调试工具"
+        },
+        {
+          "text": "链接",
+          "link": "/HTML/链接"
+        },
+        {
+          "text": "img",
+          "link": "/HTML/img"
+        }
+      ]
+    }
+  ],
   "/CSS/": [
     {
       "text": "CSS",
@@ -188,25 +211,25 @@ export default {
       ]
     }
   ],
-  "/HTML/": [
+  "/package/": [
     {
-      "text": "HTML",
+      "text": "package",
       "items": [
         {
-          "text": "表格",
-          "link": "/HTML/表格"
+          "text": "antfu-utils",
+          "link": "/package/antfu-utils"
         },
         {
-          "text": "调试工具",
-          "link": "/HTML/调试工具"
+          "text": "file-saver",
+          "link": "/package/file-saver"
         },
         {
-          "text": "链接",
-          "link": "/HTML/链接"
+          "text": "unplugin-auto-import",
+          "link": "/package/unplugin-auto-import"
         },
         {
-          "text": "img",
-          "link": "/HTML/img"
+          "text": "unplugin-vue-components",
+          "link": "/package/unplugin-vue-components"
         }
       ]
     }
@@ -246,29 +269,6 @@ export default {
         {
           "text": "SEO与元数据",
           "link": "/nuxt/SEO与元数据"
-        }
-      ]
-    }
-  ],
-  "/package/": [
-    {
-      "text": "package",
-      "items": [
-        {
-          "text": "antfu-utils",
-          "link": "/package/antfu-utils"
-        },
-        {
-          "text": "file-saver",
-          "link": "/package/file-saver"
-        },
-        {
-          "text": "unplugin-auto-import",
-          "link": "/package/unplugin-auto-import"
-        },
-        {
-          "text": "unplugin-vue-components",
-          "link": "/package/unplugin-vue-components"
         }
       ]
     }
