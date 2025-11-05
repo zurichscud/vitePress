@@ -2,7 +2,7 @@
 
 **判断一个元素是否存在于数组或字符串中**的方法
 
-## TS
+## 语法
 
 ```ts
 includes(searchElement: T, fromIndex?: number): boolean;
@@ -16,7 +16,7 @@ includes(searchElement: T, fromIndex?: number): boolean;
 
   需要查找的值。
 
-- [`fromIndex` 可选](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/includes#fromindex)
+- `fromIndex` <Badge text="可选"/>
 
   **正值索引**：如果 `fromIndex` 是正数，那么搜索会从数组的这个索引位置开始。
 

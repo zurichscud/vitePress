@@ -1,28 +1,5 @@
 // 自动生成，请勿修改
 export default {
-  "/HTML/": [
-    {
-      "text": "HTML",
-      "items": [
-        {
-          "text": "表格",
-          "link": "/HTML/表格"
-        },
-        {
-          "text": "调试工具",
-          "link": "/HTML/调试工具"
-        },
-        {
-          "text": "链接",
-          "link": "/HTML/链接"
-        },
-        {
-          "text": "img",
-          "link": "/HTML/img"
-        }
-      ]
-    }
-  ],
   "/CSS/": [
     {
       "text": "CSS",
@@ -211,6 +188,52 @@ export default {
       ]
     }
   ],
+  "/HTML/": [
+    {
+      "text": "HTML",
+      "items": [
+        {
+          "text": "表格",
+          "link": "/HTML/表格"
+        },
+        {
+          "text": "调试工具",
+          "link": "/HTML/调试工具"
+        },
+        {
+          "text": "链接",
+          "link": "/HTML/链接"
+        },
+        {
+          "text": "img",
+          "link": "/HTML/img"
+        }
+      ]
+    }
+  ],
+  "/package/": [
+    {
+      "text": "package",
+      "items": [
+        {
+          "text": "antfu-utils",
+          "link": "/package/antfu-utils"
+        },
+        {
+          "text": "file-saver",
+          "link": "/package/file-saver"
+        },
+        {
+          "text": "unplugin-auto-import",
+          "link": "/package/unplugin-auto-import"
+        },
+        {
+          "text": "unplugin-vue-components",
+          "link": "/package/unplugin-vue-components"
+        }
+      ]
+    }
+  ],
   "/TypeScript/": [
     {
       "text": "TypeScript",
@@ -372,29 +395,6 @@ export default {
       ]
     }
   ],
-  "/package/": [
-    {
-      "text": "package",
-      "items": [
-        {
-          "text": "antfu-utils",
-          "link": "/package/antfu-utils"
-        },
-        {
-          "text": "file-saver",
-          "link": "/package/file-saver"
-        },
-        {
-          "text": "unplugin-auto-import",
-          "link": "/package/unplugin-auto-import"
-        },
-        {
-          "text": "unplugin-vue-components",
-          "link": "/package/unplugin-vue-components"
-        }
-      ]
-    }
-  ],
   "/前端工程化/": [
     {
       "text": "前端工程化",
@@ -521,8 +521,24 @@ export default {
           "collapsed": false,
           "items": [
             {
+              "text": "every",
+              "link": "/JavaScript/数组/every"
+            },
+            {
+              "text": "filter",
+              "link": "/JavaScript/数组/filter"
+            },
+            {
+              "text": "forEach",
+              "link": "/JavaScript/数组/forEach"
+            },
+            {
               "text": "includes",
               "link": "/JavaScript/数组/includes"
+            },
+            {
+              "text": "map",
+              "link": "/JavaScript/数组/map"
             },
             {
               "text": "some",
