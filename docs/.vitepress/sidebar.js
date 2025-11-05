@@ -1,5 +1,28 @@
 // 自动生成，请勿修改
 export default {
+  "/HTML/": [
+    {
+      "text": "HTML",
+      "items": [
+        {
+          "text": "表格",
+          "link": "/HTML/表格"
+        },
+        {
+          "text": "调试工具",
+          "link": "/HTML/调试工具"
+        },
+        {
+          "text": "链接",
+          "link": "/HTML/链接"
+        },
+        {
+          "text": "img",
+          "link": "/HTML/img"
+        }
+      ]
+    }
+  ],
   "/CSS/": [
     {
       "text": "CSS",
@@ -310,52 +333,6 @@ export default {
       ]
     }
   ],
-  "/HTML/": [
-    {
-      "text": "HTML",
-      "items": [
-        {
-          "text": "表格",
-          "link": "/HTML/表格"
-        },
-        {
-          "text": "调试工具",
-          "link": "/HTML/调试工具"
-        },
-        {
-          "text": "链接",
-          "link": "/HTML/链接"
-        },
-        {
-          "text": "img",
-          "link": "/HTML/img"
-        }
-      ]
-    }
-  ],
-  "/package/": [
-    {
-      "text": "package",
-      "items": [
-        {
-          "text": "antfu-utils",
-          "link": "/package/antfu-utils"
-        },
-        {
-          "text": "file-saver",
-          "link": "/package/file-saver"
-        },
-        {
-          "text": "unplugin-auto-import",
-          "link": "/package/unplugin-auto-import"
-        },
-        {
-          "text": "unplugin-vue-components",
-          "link": "/package/unplugin-vue-components"
-        }
-      ]
-    }
-  ],
   "/nuxt/": [
     {
       "text": "nuxt",
@@ -395,17 +372,25 @@ export default {
       ]
     }
   ],
-  "/百科/": [
+  "/package/": [
     {
-      "text": "百科",
+      "text": "package",
       "items": [
         {
-          "text": "CMS",
-          "link": "/百科/CMS"
+          "text": "antfu-utils",
+          "link": "/package/antfu-utils"
         },
         {
-          "text": "favicons",
-          "link": "/百科/favicons"
+          "text": "file-saver",
+          "link": "/package/file-saver"
+        },
+        {
+          "text": "unplugin-auto-import",
+          "link": "/package/unplugin-auto-import"
+        },
+        {
+          "text": "unplugin-vue-components",
+          "link": "/package/unplugin-vue-components"
         }
       ]
     }
@@ -429,6 +414,21 @@ export default {
         {
           "text": "prettier",
           "link": "/前端工程化/prettier"
+        }
+      ]
+    }
+  ],
+  "/百科/": [
+    {
+      "text": "百科",
+      "items": [
+        {
+          "text": "CMS",
+          "link": "/百科/CMS"
+        },
+        {
+          "text": "favicons",
+          "link": "/百科/favicons"
         }
       ]
     }
@@ -512,6 +512,21 @@ export default {
             {
               "text": "ProgressEvent",
               "link": "/JavaScript/上传与下载/13-ProgressEvent"
+            }
+          ]
+        },
+        {
+          "text": "数组",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "includes",
+              "link": "/JavaScript/数组/includes"
+            },
+            {
+              "text": "some",
+              "link": "/JavaScript/数组/some"
             }
           ]
         },
