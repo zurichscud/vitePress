@@ -87,7 +87,8 @@ function generateHomepageFeatures() {
             const fileCount = countMarkdownFiles(categoryPath);
 
             if (firstFile) {
-                const link = `/${category}/${firstFile.replace('.md', '')}`;
+                // 确保链接使用正斜杠（在 Windows 上 path.join 会返回反斜杠）
+                const link = `/${category}/${firstFile.replace('.md', '')}`.replace(/\\/g, '/');
 
                 features.push({
                     title: category,
@@ -126,14 +127,20 @@ function updateHomepage() {
         ).join('\n');
 
         // 替换features部分 - 使用更精确的正则表达式
-        const featuresRegex = /features:\s*\n(?:(?:  - .*\n?)*(?:    .*\n?)*)+/;
+        // 匹配从 features: 开始到文档结束的 --- 之前的所有内容
+        const featuresRegex = /features:[\s\S]*?(?=\n---)/;
         const newFeaturesSection = `features:\n${featuresYaml}\n`;
 
         if (featuresRegex.test(content)) {
             content = content.replace(featuresRegex, newFeaturesSection);
         } else {
             // 如果没有features部分，在文档末尾添加
-            content = content.replace(/---\s*$/, `\n${newFeaturesSection}---`);
+            const closingRegex = /\n---\s*$/;
+            if (closingRegex.test(content)) {
+                content = content.replace(closingRegex, `\n${newFeaturesSection}\n---`);
+            } else {
+                content += `\n${newFeaturesSection}\n---`;
+            }
         }
 
         // 写回文件

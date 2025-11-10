@@ -30,7 +30,7 @@ features:
     details: 4篇文档
     link: /HTML/img
   - title: JavaScript
-    details: 34篇文档
+    details: 35篇文档
     link: /JavaScript/DOM/window
   - title: nuxt
     details: 8篇文档
@@ -47,5 +47,5 @@ features:
   - title: vue
     details: 37篇文档
     link: /vue/pinia/action
- 
+
 ---

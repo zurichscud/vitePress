@@ -1,6 +1,6 @@
 # with
 
-
+用于**创建数组的一个修改副本**。它不会改变原数组，而是返回一个新的数组。
 
 ## Grammar
 
@@ -12,13 +12,14 @@ arrayInstance.with(index, value)
 
 ## Params
 
-- index
+- index <Badge text="支持负数" />
 
 要修改的数组索引（从 0 开始）
 
 - value
 
-  要分配给指定索引的任何值。
+
+要分配给指定索引的任何值。
 
 ## Return
 
