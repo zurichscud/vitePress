@@ -1,4 +1,4 @@
-# some
+# some    <Badge text="无副作用" />
 
 `Array.prototype.some()` 方法用于测试数组中是否至少有一个元素满足提供的条件函数。只要有一个元素使得该条件函数返回 `true`，就会立即返回 `true`；否则，返回 `false`。它不会修改原数组。
 

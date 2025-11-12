@@ -135,3 +135,20 @@ Array.from(arrayLike, mapFn, thisArg)
   ```
 
   
+
+## ArrayCallbackFn
+
+```ts
+type ArrayCallback<R=void> = <T>(element: T, index: number, array: T[]) => R
+```
+
+| 参数 | 含义                           | 类型         |
+| ---- | ------------------------------ | ------------ |
+| `T`  | 数组元素类型，`T` 由上下文推断 | 泛型         |
+| `R`  | 回调返回值类型（默认 `void`）  | 泛型，可指定 |
+
+该函数被调用时将传入以下参数：
+
+- `element`数组中当前正在处理的元素。
+- `index`正在处理的元素在数组中的索引。
+- `array`调用实例方法的数组本身。

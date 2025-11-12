@@ -1,4 +1,4 @@
-# splice
+# splice   <Badge text="副作用" />
 
 提取元素，替换元素。存在副作用
 
@@ -52,6 +52,8 @@ console.log(arr)     // [1, 4, 5]
 ------
 
 #### 2. 插入元素
+
+deleteCount设置为0，并指定item即可插入元素
 
 ```ts
 const arr = [1, 4, 5]

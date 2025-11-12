@@ -63,7 +63,7 @@ console.log({ numCallbackRuns });
 
 ## Return
 
-**无返回值**：与 `map()` 等方法不同，`forEach()` 总是返回 `undefined`，不能进行链式调用。
+**无返回值**
 
 ## Use
 

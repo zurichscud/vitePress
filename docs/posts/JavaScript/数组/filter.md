@@ -1,4 +1,4 @@
-# filter
+# filter    <Badge text="无副作用" />
 
 符合条件的元素将被从数组中过滤出来
 

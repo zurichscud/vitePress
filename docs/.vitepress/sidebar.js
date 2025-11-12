@@ -211,6 +211,29 @@ export default {
       ]
     }
   ],
+  "/package/": [
+    {
+      "text": "package",
+      "items": [
+        {
+          "text": "antfu-utils",
+          "link": "/package/antfu-utils"
+        },
+        {
+          "text": "file-saver",
+          "link": "/package/file-saver"
+        },
+        {
+          "text": "unplugin-auto-import",
+          "link": "/package/unplugin-auto-import"
+        },
+        {
+          "text": "unplugin-vue-components",
+          "link": "/package/unplugin-vue-components"
+        }
+      ]
+    }
+  ],
   "/nuxt/": [
     {
       "text": "nuxt",
@@ -246,29 +269,6 @@ export default {
         {
           "text": "SEO与元数据",
           "link": "/nuxt/SEO与元数据"
-        }
-      ]
-    }
-  ],
-  "/package/": [
-    {
-      "text": "package",
-      "items": [
-        {
-          "text": "antfu-utils",
-          "link": "/package/antfu-utils"
-        },
-        {
-          "text": "file-saver",
-          "link": "/package/file-saver"
-        },
-        {
-          "text": "unplugin-auto-import",
-          "link": "/package/unplugin-auto-import"
-        },
-        {
-          "text": "unplugin-vue-components",
-          "link": "/package/unplugin-vue-components"
         }
       ]
     }
@@ -457,6 +457,21 @@ export default {
           ]
         },
         {
+          "text": "迭代",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "for...in",
+              "link": "/JavaScript/迭代/for...in"
+            },
+            {
+              "text": "for...of",
+              "link": "/JavaScript/迭代/for...of"
+            }
+          ]
+        },
+        {
           "text": "上传与下载",
           "collapsible": true,
           "collapsed": false,
@@ -521,8 +536,16 @@ export default {
           "collapsed": false,
           "items": [
             {
+              "text": "查找",
+              "link": "/JavaScript/数组/查找"
+            },
+            {
               "text": "解构与展开",
               "link": "/JavaScript/数组/解构与展开"
+            },
+            {
+              "text": "清空数组",
+              "link": "/JavaScript/数组/清空数组"
             },
             {
               "text": "Array",
@@ -533,12 +556,24 @@ export default {
               "link": "/JavaScript/数组/at"
             },
             {
+              "text": "concat",
+              "link": "/JavaScript/数组/concat"
+            },
+            {
               "text": "every",
               "link": "/JavaScript/数组/every"
             },
             {
               "text": "filter",
               "link": "/JavaScript/数组/filter"
+            },
+            {
+              "text": "find",
+              "link": "/JavaScript/数组/find"
+            },
+            {
+              "text": "findIndex",
+              "link": "/JavaScript/数组/findIndex"
             },
             {
               "text": "forEach",

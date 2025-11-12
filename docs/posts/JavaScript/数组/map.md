@@ -1,4 +1,4 @@
-# map
+# map    <Badge text="无副作用" />
 
 `Array.prototype.map()` 方法是 JavaScript 数组的一个常用方法，它用于通过提供的回调函数将原数组的每个元素映射为一个新数组。
 

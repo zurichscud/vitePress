@@ -1,4 +1,4 @@
-# indexOf
+# indexOf    <Badge text="无副作用" />
 
 **`indexOf()`** 方法返回数组中第一次出现给定元素的下标，如果不存在则返回 -1。
 
@@ -35,4 +35,17 @@ array.indexOf(9, 2); // 2
 array.indexOf(2, -1); // -1
 array.indexOf(2, -3); // 0
 ```
+
+## lastIndexOf
+
+`indexOf`的反向查找
+
+```ts
+const arr = [2, 5, 9, 2]
+
+console.log(arr.indexOf(2))       // 0，从前往后第一个 2
+console.log(arr.lastIndexOf(2))   // 3，从后往前第一个 2
+```
+
+
 
