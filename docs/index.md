@@ -30,7 +30,7 @@ features:
     details: 4篇文档
     link: /HTML/img
   - title: JavaScript
-    details: 43篇文档
+    details: 44篇文档
     link: /JavaScript/DOM/window
   - title: nuxt
     details: 8篇文档
