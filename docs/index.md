@@ -24,7 +24,7 @@ features:
     details: 4篇文档
     link: /前端工程化/@antfueslint-config
   - title: CSS
-    details: 33篇文档
+    details: 34篇文档
     link: /CSS/1-css分类
   - title: HTML
     details: 4篇文档
@@ -36,7 +36,7 @@ features:
     details: 8篇文档
     link: /nuxt/SEO与元数据
   - title: package
-    details: 5篇文档
+    details: 7篇文档
     link: /package/antfu-utils
   - title: TypeScript
     details: 20篇文档
