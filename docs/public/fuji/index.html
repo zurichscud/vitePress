@@ -1,0 +1,1787 @@
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>富士滤镜实验室 - Fuji Film Simulation Lab</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/canvas/2.11.2/canvas.min.js"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;700&family=Noto+Sans:wght@300;400;600&family=JetBrains+Mono:wght@400;500&display=swap");
+
+      body {
+        font-family: "Noto Sans SC", sans-serif;
+        background: #0f0f0f;
+        color: #e5e5e5;
+        overflow-x: hidden;
+      }
+
+      body.en {
+        font-family: "Noto Sans", sans-serif;
+      }
+
+      .pixel-font {
+        font-family: "JetBrains Mono", monospace;
+      }
+
+      .filter-card {
+        transition: all 0.3s ease;
+        border: 2px solid transparent;
+      }
+
+      .filter-card:hover {
+        border-color: #dc2626;
+        transform: translateY(-4px);
+        box-shadow: 0 10px 25px rgba(220, 38, 38, 0.2);
+      }
+
+      .filter-card.active {
+        border-color: #dc2626;
+        background: rgba(220, 38, 38, 0.1);
+      }
+
+      .slider-container {
+        position: relative;
+      }
+
+      .slider {
+        -webkit-appearance: none;
+        width: 100%;
+        height: 6px;
+        border-radius: 3px;
+        background: #374151;
+        outline: none;
+      }
+
+      .slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: #dc2626;
+        cursor: pointer;
+        border: 2px solid #fff;
+      }
+
+      .slider::-moz-range-thumb {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: #dc2626;
+        cursor: pointer;
+        border: 2px solid #fff;
+      }
+
+      .image-container {
+        position: relative;
+        overflow: hidden;
+        border-radius: 8px;
+      }
+
+      .image-container img {
+        transition: all 0.3s ease;
+      }
+
+      .tab-button {
+        transition: all 0.3s ease;
+        border-bottom: 3px solid transparent;
+      }
+
+      .tab-button.active {
+        border-bottom-color: #dc2626;
+        color: #dc2626;
+      }
+
+      .pixel-border {
+        border: 2px solid #c0c0c0;
+        position: relative;
+      }
+
+      .pixel-border::before {
+        content: "";
+        position: absolute;
+        top: -4px;
+        left: -4px;
+        right: -4px;
+        bottom: -4px;
+        border: 2px solid #1a1a1a;
+        z-index: -1;
+      }
+
+      .lang-toggle {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 30px;
+      }
+
+      .lang-toggle input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+      }
+
+      .lang-slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #374151;
+        transition: 0.4s;
+        border-radius: 30px;
+      }
+
+      .lang-slider:before {
+        position: absolute;
+        content: "";
+        height: 22px;
+        width: 22px;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        transition: 0.4s;
+        border-radius: 50%;
+      }
+
+      input:checked + .lang-slider {
+        background-color: #dc2626;
+      }
+
+      input:checked + .lang-slider:before {
+        transform: translateX(30px);
+      }
+
+      /* 移动端优化 */
+      @media (max-width: 768px) {
+        .header-content {
+          flex-direction: column;
+          gap: 1rem;
+        }
+
+        .tab-navigation {
+          flex-wrap: wrap;
+          gap: 0.5rem;
+        }
+
+        .tab-button {
+          padding: 0.5rem 1rem;
+          font-size: 0.875rem;
+        }
+
+        .filter-grid {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 1rem;
+        }
+
+        .filter-card {
+          padding: 1rem;
+        }
+
+        .filter-card .w-24 {
+          width: 4rem;
+          height: 4rem;
+        }
+
+        .comparison-layout {
+          grid-template-columns: 1fr;
+          gap: 2rem;
+        }
+
+        .adjustment-layout {
+          grid-template-columns: 1fr;
+          gap: 2rem;
+        }
+
+        .canvas-container {
+          order: -1;
+        }
+
+        .slider-container {
+          margin-bottom: 1rem;
+        }
+
+        .filter-selector {
+          grid-template-columns: repeat(3, 1fr);
+        }
+
+        .filter-selector button {
+          padding: 0.5rem;
+          font-size: 0.75rem;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .filter-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .filter-selector {
+          grid-template-columns: repeat(2, 1fr);
+        }
+
+        .header-title {
+          font-size: 1.5rem;
+        }
+
+        .tab-button {
+          padding: 0.375rem 0.75rem;
+          font-size: 0.75rem;
+        }
+      }
+
+      /* 触摸优化 */
+      @media (hover: none) {
+        .filter-card:hover {
+          transform: none;
+          box-shadow: none;
+        }
+
+        .filter-card:active {
+          transform: translateY(-2px);
+          box-shadow: 0 5px 15px rgba(220, 38, 38, 0.2);
+        }
+      }
+
+      /* 防止缩放 */
+      @viewport {
+        width: device-width;
+        initial-scale: 1;
+        maximum-scale: 1;
+        user-scalable: no;
+      }
+    </style>
+    <style>
+      *,
+      ::before,
+      ::after {
+        --tw-border-spacing-x: 0;
+        --tw-border-spacing-y: 0;
+        --tw-translate-x: 0;
+        --tw-translate-y: 0;
+        --tw-rotate: 0;
+        --tw-skew-x: 0;
+        --tw-skew-y: 0;
+        --tw-scale-x: 1;
+        --tw-scale-y: 1;
+        --tw-pan-x: ;
+        --tw-pan-y: ;
+        --tw-pinch-zoom: ;
+        --tw-scroll-snap-strictness: proximity;
+        --tw-gradient-from-position: ;
+        --tw-gradient-via-position: ;
+        --tw-gradient-to-position: ;
+        --tw-ordinal: ;
+        --tw-slashed-zero: ;
+        --tw-numeric-figure: ;
+        --tw-numeric-spacing: ;
+        --tw-numeric-fraction: ;
+        --tw-ring-inset: ;
+        --tw-ring-offset-width: 0px;
+        --tw-ring-offset-color: #fff;
+        --tw-ring-color: rgb(59 130 246 / 0.5);
+        --tw-ring-offset-shadow: 0 0 #0000;
+        --tw-ring-shadow: 0 0 #0000;
+        --tw-shadow: 0 0 #0000;
+        --tw-shadow-colored: 0 0 #0000;
+        --tw-blur: ;
+        --tw-brightness: ;
+        --tw-contrast: ;
+        --tw-grayscale: ;
+        --tw-hue-rotate: ;
+        --tw-invert: ;
+        --tw-saturate: ;
+        --tw-sepia: ;
+        --tw-drop-shadow: ;
+        --tw-backdrop-blur: ;
+        --tw-backdrop-brightness: ;
+        --tw-backdrop-contrast: ;
+        --tw-backdrop-grayscale: ;
+        --tw-backdrop-hue-rotate: ;
+        --tw-backdrop-invert: ;
+        --tw-backdrop-opacity: ;
+        --tw-backdrop-saturate: ;
+        --tw-backdrop-sepia: ;
+        --tw-contain-size: ;
+        --tw-contain-layout: ;
+        --tw-contain-paint: ;
+        --tw-contain-style: ;
+      }
+      ::backdrop {
+        --tw-border-spacing-x: 0;
+        --tw-border-spacing-y: 0;
+        --tw-translate-x: 0;
+        --tw-translate-y: 0;
+        --tw-rotate: 0;
+        --tw-skew-x: 0;
+        --tw-skew-y: 0;
+        --tw-scale-x: 1;
+        --tw-scale-y: 1;
+        --tw-pan-x: ;
+        --tw-pan-y: ;
+        --tw-pinch-zoom: ;
+        --tw-scroll-snap-strictness: proximity;
+        --tw-gradient-from-position: ;
+        --tw-gradient-via-position: ;
+        --tw-gradient-to-position: ;
+        --tw-ordinal: ;
+        --tw-slashed-zero: ;
+        --tw-numeric-figure: ;
+        --tw-numeric-spacing: ;
+        --tw-numeric-fraction: ;
+        --tw-ring-inset: ;
+        --tw-ring-offset-width: 0px;
+        --tw-ring-offset-color: #fff;
+        --tw-ring-color: rgb(59 130 246 / 0.5);
+        --tw-ring-offset-shadow: 0 0 #0000;
+        --tw-ring-shadow: 0 0 #0000;
+        --tw-shadow: 0 0 #0000;
+        --tw-shadow-colored: 0 0 #0000;
+        --tw-blur: ;
+        --tw-brightness: ;
+        --tw-contrast: ;
+        --tw-grayscale: ;
+        --tw-hue-rotate: ;
+        --tw-invert: ;
+        --tw-saturate: ;
+        --tw-sepia: ;
+        --tw-drop-shadow: ;
+        --tw-backdrop-blur: ;
+        --tw-backdrop-brightness: ;
+        --tw-backdrop-contrast: ;
+        --tw-backdrop-grayscale: ;
+        --tw-backdrop-hue-rotate: ;
+        --tw-backdrop-invert: ;
+        --tw-backdrop-opacity: ;
+        --tw-backdrop-saturate: ;
+        --tw-backdrop-sepia: ;
+        --tw-contain-size: ;
+        --tw-contain-layout: ;
+        --tw-contain-paint: ;
+        --tw-contain-style: ;
+      } /* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */
+      *,
+      ::after,
+      ::before {
+        box-sizing: border-box;
+        border-width: 0;
+        border-style: solid;
+        border-color: #e5e7eb;
+      }
+      ::after,
+      ::before {
+        --tw-content: "";
+      }
+      :host,
+      html {
+        line-height: 1.5;
+        -webkit-text-size-adjust: 100%;
+        -moz-tab-size: 4;
+        tab-size: 4;
+        font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+          "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-feature-settings: normal;
+        font-variation-settings: normal;
+        -webkit-tap-highlight-color: transparent;
+      }
+      body {
+        margin: 0;
+        line-height: inherit;
+      }
+      hr {
+        height: 0;
+        color: inherit;
+        border-top-width: 1px;
+      }
+      abbr:where([title]) {
+        -webkit-text-decoration: underline dotted;
+        text-decoration: underline dotted;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-size: inherit;
+        font-weight: inherit;
+      }
+      a {
+        color: inherit;
+        text-decoration: inherit;
+      }
+      b,
+      strong {
+        font-weight: bolder;
+      }
+      code,
+      kbd,
+      pre,
+      samp {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+          "Liberation Mono", "Courier New", monospace;
+        font-feature-settings: normal;
+        font-variation-settings: normal;
+        font-size: 1em;
+      }
+      small {
+        font-size: 80%;
+      }
+      sub,
+      sup {
+        font-size: 75%;
+        line-height: 0;
+        position: relative;
+        vertical-align: baseline;
+      }
+      sub {
+        bottom: -0.25em;
+      }
+      sup {
+        top: -0.5em;
+      }
+      table {
+        text-indent: 0;
+        border-color: inherit;
+        border-collapse: collapse;
+      }
+      button,
+      input,
+      optgroup,
+      select,
+      textarea {
+        font-family: inherit;
+        font-feature-settings: inherit;
+        font-variation-settings: inherit;
+        font-size: 100%;
+        font-weight: inherit;
+        line-height: inherit;
+        letter-spacing: inherit;
+        color: inherit;
+        margin: 0;
+        padding: 0;
+      }
+      button,
+      select {
+        text-transform: none;
+      }
+      button,
+      input:where([type="button"]),
+      input:where([type="reset"]),
+      input:where([type="submit"]) {
+        -webkit-appearance: button;
+        background-color: transparent;
+        background-image: none;
+      }
+      :-moz-focusring {
+        outline: auto;
+      }
+      :-moz-ui-invalid {
+        box-shadow: none;
+      }
+      progress {
+        vertical-align: baseline;
+      }
+      ::-webkit-inner-spin-button,
+      ::-webkit-outer-spin-button {
+        height: auto;
+      }
+      [type="search"] {
+        -webkit-appearance: textfield;
+        outline-offset: -2px;
+      }
+      ::-webkit-search-decoration {
+        -webkit-appearance: none;
+      }
+      ::-webkit-file-upload-button {
+        -webkit-appearance: button;
+        font: inherit;
+      }
+      summary {
+        display: list-item;
+      }
+      blockquote,
+      dd,
+      dl,
+      figure,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      hr,
+      p,
+      pre {
+        margin: 0;
+      }
+      fieldset {
+        margin: 0;
+        padding: 0;
+      }
+      legend {
+        padding: 0;
+      }
+      menu,
+      ol,
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      dialog {
+        padding: 0;
+      }
+      textarea {
+        resize: vertical;
+      }
+      input::placeholder,
+      textarea::placeholder {
+        opacity: 1;
+        color: #9ca3af;
+      }
+      [role="button"],
+      button {
+        cursor: pointer;
+      }
+      :disabled {
+        cursor: default;
+      }
+      audio,
+      canvas,
+      embed,
+      iframe,
+      img,
+      object,
+      svg,
+      video {
+        display: block;
+        vertical-align: middle;
+      }
+      img,
+      video {
+        max-width: 100%;
+        height: auto;
+      }
+      [hidden]:where(:not([hidden="until-found"])) {
+        display: none;
+      }
+      .mx-auto {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .mx-2 {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+      }
+      .mb-2 {
+        margin-bottom: 0.5rem;
+      }
+      .mb-4 {
+        margin-bottom: 1rem;
+      }
+      .mb-6 {
+        margin-bottom: 1.5rem;
+      }
+      .mt-1 {
+        margin-top: 0.25rem;
+      }
+      .mt-12 {
+        margin-top: 3rem;
+      }
+      .mt-4 {
+        margin-top: 1rem;
+      }
+      .mb-1 {
+        margin-bottom: 0.25rem;
+      }
+      .mb-3 {
+        margin-bottom: 0.75rem;
+      }
+      .block {
+        display: block;
+      }
+      .flex {
+        display: flex;
+      }
+      .grid {
+        display: grid;
+      }
+      .hidden {
+        display: none;
+      }
+      .h-12 {
+        height: 3rem;
+      }
+      .h-2 {
+        height: 0.5rem;
+      }
+      .h-auto {
+        height: auto;
+      }
+      .h-24 {
+        height: 6rem;
+      }
+      .h-full {
+        height: 100%;
+      }
+      .min-h-screen {
+        min-height: 100vh;
+      }
+      .w-12 {
+        width: 3rem;
+      }
+      .w-full {
+        width: 100%;
+      }
+      .w-24 {
+        width: 6rem;
+      }
+      .min-w-0 {
+        min-width: 0px;
+      }
+      .max-w-7xl {
+        max-width: 80rem;
+      }
+      .flex-shrink-0 {
+        flex-shrink: 0;
+      }
+      .cursor-pointer {
+        cursor: pointer;
+      }
+      .grid-cols-1 {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+      }
+      .grid-cols-2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+      .grid-cols-3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+      .flex-col {
+        flex-direction: column;
+      }
+      .items-end {
+        align-items: flex-end;
+      }
+      .items-center {
+        align-items: center;
+      }
+      .justify-center {
+        justify-content: center;
+      }
+      .justify-between {
+        justify-content: space-between;
+      }
+      .gap-2 {
+        gap: 0.5rem;
+      }
+      .gap-4 {
+        gap: 1rem;
+      }
+      .gap-6 {
+        gap: 1.5rem;
+      }
+      .space-x-2 > :not([hidden]) ~ :not([hidden]) {
+        --tw-space-x-reverse: 0;
+        margin-right: calc(0.5rem * var(--tw-space-x-reverse));
+        margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
+      }
+      .space-x-4 > :not([hidden]) ~ :not([hidden]) {
+        --tw-space-x-reverse: 0;
+        margin-right: calc(1rem * var(--tw-space-x-reverse));
+        margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+      }
+      .space-y-2 > :not([hidden]) ~ :not([hidden]) {
+        --tw-space-y-reverse: 0;
+        margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+        margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+      }
+      .space-y-4 > :not([hidden]) ~ :not([hidden]) {
+        --tw-space-y-reverse: 0;
+        margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+        margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+      }
+      .overflow-hidden {
+        overflow: hidden;
+      }
+      .truncate {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .rounded-full {
+        border-radius: 9999px;
+      }
+      .rounded-lg {
+        border-radius: 0.5rem;
+      }
+      .border-b-2 {
+        border-bottom-width: 2px;
+      }
+      .border-t-2 {
+        border-top-width: 2px;
+      }
+      .border-gray-800 {
+        --tw-border-opacity: 1;
+        border-color: rgb(31 41 55 / var(--tw-border-opacity, 1));
+      }
+      .bg-black {
+        --tw-bg-opacity: 1;
+        background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+      }
+      .bg-gray-700 {
+        --tw-bg-opacity: 1;
+        background-color: rgb(55 65 81 / var(--tw-bg-opacity, 1));
+      }
+      .bg-gray-900 {
+        --tw-bg-opacity: 1;
+        background-color: rgb(17 24 39 / var(--tw-bg-opacity, 1));
+      }
+      .bg-red-600 {
+        --tw-bg-opacity: 1;
+        background-color: rgb(220 38 38 / var(--tw-bg-opacity, 1));
+      }
+      .bg-gray-800 {
+        --tw-bg-opacity: 1;
+        background-color: rgb(31 41 55 / var(--tw-bg-opacity, 1));
+      }
+      .bg-gradient-to-br {
+        background-image: linear-gradient(
+          to bottom right,
+          var(--tw-gradient-stops)
+        );
+      }
+      .from-red-600 {
+        --tw-gradient-from: #dc2626 var(--tw-gradient-from-position);
+        --tw-gradient-to: rgb(220 38 38 / 0) var(--tw-gradient-to-position);
+        --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+      }
+      .to-red-800 {
+        --tw-gradient-to: #991b1b var(--tw-gradient-to-position);
+      }
+      .object-cover {
+        object-fit: cover;
+      }
+      .p-4 {
+        padding: 1rem;
+      }
+      .px-3 {
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+      }
+      .px-4 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+      .py-2 {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+      }
+      .py-4 {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+      }
+      .py-6 {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+      }
+      .text-center {
+        text-align: center;
+      }
+      .text-2xl {
+        font-size: 1.5rem;
+        line-height: 2rem;
+      }
+      .text-lg {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+      }
+      .text-sm {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+      }
+      .text-xl {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+      }
+      .text-xs {
+        font-size: 0.75rem;
+        line-height: 1rem;
+      }
+      .font-bold {
+        font-weight: 700;
+      }
+      .font-medium {
+        font-weight: 500;
+      }
+      .font-semibold {
+        font-weight: 600;
+      }
+      .text-gray-300 {
+        --tw-text-opacity: 1;
+        color: rgb(209 213 219 / var(--tw-text-opacity, 1));
+      }
+      .text-gray-400 {
+        --tw-text-opacity: 1;
+        color: rgb(156 163 175 / var(--tw-text-opacity, 1));
+      }
+      .text-red-400 {
+        --tw-text-opacity: 1;
+        color: rgb(248 113 113 / var(--tw-text-opacity, 1));
+      }
+      .text-white {
+        --tw-text-opacity: 1;
+        color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+      }
+      .text-gray-500 {
+        --tw-text-opacity: 1;
+        color: rgb(107 114 128 / var(--tw-text-opacity, 1));
+      }
+      .transition-colors {
+        transition-property: color, background-color, border-color, fill, stroke,
+          -webkit-text-decoration-color;
+        transition-property: color, background-color, border-color,
+          text-decoration-color, fill, stroke;
+        transition-property: color, background-color, border-color,
+          text-decoration-color, fill, stroke, -webkit-text-decoration-color;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-duration: 150ms;
+      }
+      .hover\:bg-red-700:hover {
+        --tw-bg-opacity: 1;
+        background-color: rgb(185 28 28 / var(--tw-bg-opacity, 1));
+      }
+      .hover\:bg-gray-700:hover {
+        --tw-bg-opacity: 1;
+        background-color: rgb(55 65 81 / var(--tw-bg-opacity, 1));
+      }
+      @media (min-width: 768px) {
+        .md\:mb-6 {
+          margin-bottom: 1.5rem;
+        }
+        .md\:mb-8 {
+          margin-bottom: 2rem;
+        }
+        .md\:mt-16 {
+          margin-top: 4rem;
+        }
+        .md\:mb-3 {
+          margin-bottom: 0.75rem;
+        }
+        .md\:mb-4 {
+          margin-bottom: 1rem;
+        }
+        .md\:grid-cols-2 {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .md\:grid-cols-4 {
+          grid-template-columns: repeat(4, minmax(0, 1fr));
+        }
+        .md\:flex-row {
+          flex-direction: row;
+        }
+        .md\:items-center {
+          align-items: center;
+        }
+        .md\:justify-end {
+          justify-content: flex-end;
+        }
+        .md\:gap-6 {
+          gap: 1.5rem;
+        }
+        .md\:gap-8 {
+          gap: 2rem;
+        }
+        .md\:space-x-4 > :not([hidden]) ~ :not([hidden]) {
+          --tw-space-x-reverse: 0;
+          margin-right: calc(1rem * var(--tw-space-x-reverse));
+          margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+        }
+        .md\:space-x-6 > :not([hidden]) ~ :not([hidden]) {
+          --tw-space-x-reverse: 0;
+          margin-right: calc(1.5rem * var(--tw-space-x-reverse));
+          margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
+        }
+        .md\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
+          --tw-space-y-reverse: 0;
+          margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
+          margin-bottom: calc(0px * var(--tw-space-y-reverse));
+        }
+        .md\:space-y-6 > :not([hidden]) ~ :not([hidden]) {
+          --tw-space-y-reverse: 0;
+          margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+          margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
+        }
+        .md\:p-6 {
+          padding: 1.5rem;
+        }
+        .md\:px-4 {
+          padding-left: 1rem;
+          padding-right: 1rem;
+        }
+        .md\:px-6 {
+          padding-left: 1.5rem;
+          padding-right: 1.5rem;
+        }
+        .md\:py-2 {
+          padding-top: 0.5rem;
+          padding-bottom: 0.5rem;
+        }
+        .md\:py-8 {
+          padding-top: 2rem;
+          padding-bottom: 2rem;
+        }
+        .md\:text-2xl {
+          font-size: 1.5rem;
+          line-height: 2rem;
+        }
+        .md\:text-3xl {
+          font-size: 1.875rem;
+          line-height: 2.25rem;
+        }
+        .md\:text-base {
+          font-size: 1rem;
+          line-height: 1.5rem;
+        }
+        .md\:text-sm {
+          font-size: 0.875rem;
+          line-height: 1.25rem;
+        }
+        .md\:text-xl {
+          font-size: 1.25rem;
+          line-height: 1.75rem;
+        }
+      }
+      @media (min-width: 1024px) {
+        .lg\:grid-cols-2 {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .lg\:grid-cols-4 {
+          grid-template-columns: repeat(4, minmax(0, 1fr));
+        }
+      }
+    </style>
+  </head>
+  <body class="min-h-screen">
+    <!-- Header -->
+    <header class="bg-black border-b-2 border-gray-800 px-4 py-4">
+      <div class="max-w-7xl mx-auto">
+        <div class="header-content flex items-center justify-between">
+          <div class="flex items-center space-x-4">
+            <div
+              class="w-12 h-12 bg-gradient-to-br from-red-600 to-red-800 rounded-lg flex items-center justify-center flex-shrink-0"
+            >
+              <span class="text-white font-bold text-xl">F</span>
+            </div>
+            <div class="min-w-0">
+              <h1
+                class="header-title text-xl md:text-2xl font-bold text-white truncate"
+                data-zh="富士滤镜实验室"
+                data-en="Fuji Film Simulation Lab"
+              >
+                富士滤镜实验室
+              </h1>
+              <p
+                class="text-gray-400 text-sm pixel-font"
+                data-zh="FUJIFILM SIMULATION LAB"
+                data-en="FUJIFILM SIMULATION LAB"
+              >
+                FUJIFILM SIMULATION LAB
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex flex-col md:flex-row items-end md:items-center space-y-2 md:space-y-0 md:space-x-4"
+          >
+            <div class="flex items-center space-x-2">
+              <span
+                class="text-xs md:text-sm text-gray-400"
+                data-zh="中文"
+                data-en="中文"
+                >中文</span
+              >
+              <label class="lang-toggle">
+                <input
+                  type="checkbox"
+                  id="lang-toggle"
+                  onchange="toggleLanguage()"
+                />
+                <span class="lang-slider"></span>
+              </label>
+              <span
+                class="text-xs md:text-sm text-gray-400"
+                data-zh="EN"
+                data-en="EN"
+                >EN</span
+              >
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-navigation flex justify-center md:justify-end mt-4 space-x-2 md:space-x-6"
+        >
+          <button
+            class="tab-button active px-3 py-2 md:px-4 md:py-2 text-sm font-medium"
+            onclick="switchTab('store')"
+            data-zh="滤镜商店"
+            data-en="Filter Store"
+          >
+            滤镜商店
+          </button>
+          <button
+            class="tab-button px-3 py-2 md:px-4 md:py-2 text-sm font-medium"
+            onclick="switchTab('compare')"
+            data-zh="滤镜对比"
+            data-en="Filter Compare"
+          >
+            滤镜对比
+          </button>
+          <button
+            class="tab-button px-3 py-2 md:px-4 md:py-2 text-sm font-medium"
+            onclick="switchTab('adjust')"
+            data-zh="样片微调"
+            data-en="Fine Tune"
+          >
+            样片微调
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 py-6 md:px-6 md:py-8">
+      <!-- Filter Store Tab -->
+      <div id="store-tab" class="tab-content">
+        <div class="mb-6 md:mb-8">
+          <h2
+            class="text-2xl md:text-3xl font-bold mb-4"
+            data-zh="富士滤镜商店"
+            data-en="Fuji Filter Store"
+          >
+            富士滤镜商店
+          </h2>
+          <p
+            class="text-gray-400 text-sm md:text-base"
+            data-zh="探索富士胶片模拟的丰富世界，每个滤镜都有其独特的色彩科学和美学特征。"
+            data-en="Explore the rich world of Fujifilm simulations, each with unique color science and aesthetic characteristics."
+          >
+            探索富士胶片模拟的丰富世界，每个滤镜都有其独特的色彩科学和美学特征。
+          </p>
+        </div>
+
+        <div
+          class="filter-grid grid md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6"
+          id="filter-grid"
+        >
+          <div
+            class="filter-card bg-gray-900 rounded-lg p-4 md:p-6 cursor-pointer"
+          >
+            <div class="flex flex-col items-center text-center">
+              <div
+                class="w-24 h-24 mb-3 md:mb-4 bg-gray-800 rounded-lg flex items-center justify-center overflow-hidden"
+              >
+                <img
+                  src="provia_canister.png"
+                  alt="PROVIA"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+              <h3 class="text-lg font-semibold text-white mb-1">PROVIA</h3>
+              <p class="text-sm text-gray-400 mb-2 md:mb-3">标准模式</p>
+              <div class="text-xs text-gray-500">
+                <span>对比度: 50%</span>
+                <span class="mx-2">|</span>
+                <span>饱和度: 50%</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="filter-card bg-gray-900 rounded-lg p-4 md:p-6 cursor-pointer"
+          >
+            <div class="flex flex-col items-center text-center">
+              <div
+                class="w-24 h-24 mb-3 md:mb-4 bg-gray-800 rounded-lg flex items-center justify-center overflow-hidden"
+              >
+                <img
+                  src="velvia_canister.png"
+                  alt="VELVIA"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+              <h3 class="text-lg font-semibold text-white mb-1">VELVIA</h3>
+              <p class="text-sm text-gray-400 mb-2 md:mb-3">鲜艳模式</p>
+              <div class="text-xs text-gray-500">
+                <span>对比度: 85%</span>
+                <span class="mx-2">|</span>
+                <span>饱和度: 95%</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="filter-card bg-gray-900 rounded-lg p-4 md:p-6 cursor-pointer"
+          >
+            <div class="flex flex-col items-center text-center">
+              <div
+                class="w-24 h-24 mb-3 md:mb-4 bg-gray-800 rounded-lg flex items-center justify-center overflow-hidden"
+              >
+                <img
+                  src="astia_canister.png"
+                  alt="ASTIA"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+              <h3 class="text-lg font-semibold text-white mb-1">ASTIA</h3>
+              <p class="text-sm text-gray-400 mb-2 md:mb-3">柔和模式</p>
+              <div class="text-xs text-gray-500">
+                <span>对比度: 40%</span>
+                <span class="mx-2">|</span>
+                <span>饱和度: 70%</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="filter-card bg-gray-900 rounded-lg p-4 md:p-6 cursor-pointer"
+          >
+            <div class="flex flex-col items-center text-center">
+              <div
+                class="w-24 h-24 mb-3 md:mb-4 bg-gray-800 rounded-lg flex items-center justify-center overflow-hidden"
+              >
+                <img
+                  src="classic_chrome_canister.png"
+                  alt="CLASSIC CHROME"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+              <h3 class="text-lg font-semibold text-white mb-1">
+                CLASSIC CHROME
+              </h3>
+              <p class="text-sm text-gray-400 mb-2 md:mb-3">经典正片</p>
+              <div class="text-xs text-gray-500">
+                <span>对比度: 75%</span>
+                <span class="mx-2">|</span>
+                <span>饱和度: 30%</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="filter-card bg-gray-900 rounded-lg p-4 md:p-6 cursor-pointer"
+          >
+            <div class="flex flex-col items-center text-center">
+              <div
+                class="w-24 h-24 mb-3 md:mb-4 bg-gray-800 rounded-lg flex items-center justify-center overflow-hidden"
+              >
+                <img
+                  src="classic_negative_canister.png"
+                  alt="CLASSIC Neg."
+                  class="w-full h-full object-cover"
+                />
+              </div>
+              <h3 class="text-lg font-semibold text-white mb-1">
+                CLASSIC Neg.
+              </h3>
+              <p class="text-sm text-gray-400 mb-2 md:mb-3">经典负片</p>
+              <div class="text-xs text-gray-500">
+                <span>对比度: 80%</span>
+                <span class="mx-2">|</span>
+                <span>饱和度: 85%</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="filter-card bg-gray-900 rounded-lg p-4 md:p-6 cursor-pointer"
+          >
+            <div class="flex flex-col items-center text-center">
+              <div
+                class="w-24 h-24 mb-3 md:mb-4 bg-gray-800 rounded-lg flex items-center justify-center overflow-hidden"
+              >
+                <img
+                  src="pro_neg_hi_canister.png"
+                  alt="PRO Neg. Hi"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+              <h3 class="text-lg font-semibold text-white mb-1">PRO Neg. Hi</h3>
+              <p class="text-sm text-gray-400 mb-2 md:mb-3">专业负片Hi</p>
+              <div class="text-xs text-gray-500">
+                <span>对比度: 65%</span>
+                <span class="mx-2">|</span>
+                <span>饱和度: 55%</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="filter-card bg-gray-900 rounded-lg p-4 md:p-6 cursor-pointer"
+          >
+            <div class="flex flex-col items-center text-center">
+              <div
+                class="w-24 h-24 mb-3 md:mb-4 bg-gray-800 rounded-lg flex items-center justify-center overflow-hidden"
+              >
+                <img
+                  src="pro_neg_std_canister.png"
+                  alt="PRO Neg. Std"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+              <h3 class="text-lg font-semibold text-white mb-1">
+                PRO Neg. Std
+              </h3>
+              <p class="text-sm text-gray-400 mb-2 md:mb-3">专业负片Std</p>
+              <div class="text-xs text-gray-500">
+                <span>对比度: 35%</span>
+                <span class="mx-2">|</span>
+                <span>饱和度: 45%</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="filter-card bg-gray-900 rounded-lg p-4 md:p-6 cursor-pointer"
+          >
+            <div class="flex flex-col items-center text-center">
+              <div
+                class="w-24 h-24 mb-3 md:mb-4 bg-gray-800 rounded-lg flex items-center justify-center overflow-hidden"
+              >
+                <img
+                  src="eterna_canister.png"
+                  alt="ETERNA"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+              <h3 class="text-lg font-semibold text-white mb-1">ETERNA</h3>
+              <p class="text-sm text-gray-400 mb-2 md:mb-3">电影模式</p>
+              <div class="text-xs text-gray-500">
+                <span>对比度: 30%</span>
+                <span class="mx-2">|</span>
+                <span>饱和度: 25%</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="filter-card bg-gray-900 rounded-lg p-4 md:p-6 cursor-pointer"
+          >
+            <div class="flex flex-col items-center text-center">
+              <div
+                class="w-24 h-24 mb-3 md:mb-4 bg-gray-800 rounded-lg flex items-center justify-center overflow-hidden"
+              >
+                <img
+                  src="nostalgic_negative_canister.png"
+                  alt="NOSTALGIC Neg."
+                  class="w-full h-full object-cover"
+                />
+              </div>
+              <h3 class="text-lg font-semibold text-white mb-1">
+                NOSTALGIC Neg.
+              </h3>
+              <p class="text-sm text-gray-400 mb-2 md:mb-3">怀旧负片</p>
+              <div class="text-xs text-gray-500">
+                <span>对比度: 60%</span>
+                <span class="mx-2">|</span>
+                <span>饱和度: 75%</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="filter-card bg-gray-900 rounded-lg p-4 md:p-6 cursor-pointer"
+          >
+            <div class="flex flex-col items-center text-center">
+              <div
+                class="w-24 h-24 mb-3 md:mb-4 bg-gray-800 rounded-lg flex items-center justify-center overflow-hidden"
+              >
+                <img
+                  src="reala_ace_canister.png"
+                  alt="REALA ACE"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+              <h3 class="text-lg font-semibold text-white mb-1">REALA ACE</h3>
+              <p class="text-sm text-gray-400 mb-2 md:mb-3">真实王牌</p>
+              <div class="text-xs text-gray-500">
+                <span>对比度: 55%</span>
+                <span class="mx-2">|</span>
+                <span>饱和度: 60%</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="filter-card bg-gray-900 rounded-lg p-4 md:p-6 cursor-pointer"
+          >
+            <div class="flex flex-col items-center text-center">
+              <div
+                class="w-24 h-24 mb-3 md:mb-4 bg-gray-800 rounded-lg flex items-center justify-center overflow-hidden"
+              >
+                <img
+                  src="acros_canister.png"
+                  alt="ACROS"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+              <h3 class="text-lg font-semibold text-white mb-1">ACROS</h3>
+              <p class="text-sm text-gray-400 mb-2 md:mb-3">黑白模式</p>
+              <div class="text-xs text-gray-500">
+                <span>对比度: 70%</span>
+                <span class="mx-2">|</span>
+                <span>饱和度: 0%</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="filter-card bg-gray-900 rounded-lg p-4 md:p-6 cursor-pointer"
+          >
+            <div class="flex flex-col items-center text-center">
+              <div
+                class="w-24 h-24 mb-3 md:mb-4 bg-gray-800 rounded-lg flex items-center justify-center overflow-hidden"
+              >
+                <img
+                  src="monochrome_canister.png"
+                  alt="MONOCHROME"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+              <h3 class="text-lg font-semibold text-white mb-1">MONOCHROME</h3>
+              <p class="text-sm text-gray-400 mb-2 md:mb-3">单色模式</p>
+              <div class="text-xs text-gray-500">
+                <span>对比度: 50%</span>
+                <span class="mx-2">|</span>
+                <span>饱和度: 0%</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="filter-card bg-gray-900 rounded-lg p-4 md:p-6 cursor-pointer"
+          >
+            <div class="flex flex-col items-center text-center">
+              <div
+                class="w-24 h-24 mb-3 md:mb-4 bg-gray-800 rounded-lg flex items-center justify-center overflow-hidden"
+              >
+                <img
+                  src="sepia_canister.png"
+                  alt="SEPIA"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+              <h3 class="text-lg font-semibold text-white mb-1">SEPIA</h3>
+              <p class="text-sm text-gray-400 mb-2 md:mb-3">棕褐色</p>
+              <div class="text-xs text-gray-500">
+                <span>对比度: 45%</span>
+                <span class="mx-2">|</span>
+                <span>饱和度: 20%</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="filter-card bg-gray-900 rounded-lg p-4 md:p-6 cursor-pointer"
+          >
+            <div class="flex flex-col items-center text-center">
+              <div
+                class="w-24 h-24 mb-3 md:mb-4 bg-gray-800 rounded-lg flex items-center justify-center overflow-hidden"
+              >
+                <img
+                  src="eterna_canister.png"
+                  alt="ETERNA BLEACH"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+              <h3 class="text-lg font-semibold text-white mb-1">
+                ETERNA BLEACH
+              </h3>
+              <p class="text-sm text-gray-400 mb-2 md:mb-3">漂白效果</p>
+              <div class="text-xs text-gray-500">
+                <span>对比度: 90%</span>
+                <span class="mx-2">|</span>
+                <span>饱和度: 15%</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="filter-card bg-gray-900 rounded-lg p-4 md:p-6 cursor-pointer"
+          >
+            <div class="flex flex-col items-center text-center">
+              <div
+                class="w-24 h-24 mb-3 md:mb-4 bg-gray-800 rounded-lg flex items-center justify-center overflow-hidden"
+              >
+                <img
+                  src="acros_canister.png"
+                  alt="ACROS+Ye"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+              <h3 class="text-lg font-semibold text-white mb-1">ACROS+Ye</h3>
+              <p class="text-sm text-gray-400 mb-2 md:mb-3">ACROS+黄滤镜</p>
+              <div class="text-xs text-gray-500">
+                <span>对比度: 75%</span>
+                <span class="mx-2">|</span>
+                <span>饱和度: 0%</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="filter-card bg-gray-900 rounded-lg p-4 md:p-6 cursor-pointer"
+          >
+            <div class="flex flex-col items-center text-center">
+              <div
+                class="w-24 h-24 mb-3 md:mb-4 bg-gray-800 rounded-lg flex items-center justify-center overflow-hidden"
+              >
+                <img
+                  src="acros_canister.png"
+                  alt="ACROS+R"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+              <h3 class="text-lg font-semibold text-white mb-1">ACROS+R</h3>
+              <p class="text-sm text-gray-400 mb-2 md:mb-3">ACROS+红滤镜</p>
+              <div class="text-xs text-gray-500">
+                <span>对比度: 85%</span>
+                <span class="mx-2">|</span>
+                <span>饱和度: 0%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Filter Comparison Tab -->
+      <div id="compare-tab" class="tab-content hidden">
+        <div class="mb-6 md:mb-8">
+          <h2
+            class="text-2xl md:text-3xl font-bold mb-4"
+            data-zh="滤镜对比实验室"
+            data-en="Filter Comparison Lab"
+          >
+            滤镜对比实验室
+          </h2>
+          <p
+            class="text-gray-400 text-sm md:text-base"
+            data-zh="选择不同滤镜，实时对比同一场景下的色彩表现差异。"
+            data-en="Select different filters to compare color performance differences in real-time."
+          >
+            选择不同滤镜，实时对比同一场景下的色彩表现差异。
+          </p>
+        </div>
+
+        <div
+          class="comparison-layout grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8"
+        >
+          <div>
+            <div class="mb-4">
+              <h3
+                class="text-lg md:text-xl font-semibold mb-2"
+                data-zh="选择滤镜"
+                data-en="Select Filter"
+              >
+                选择滤镜
+              </h3>
+              <div
+                class="filter-selector grid md:grid-cols-4 lg:grid-cols-2 gap-2"
+                id="filter-selector"
+              >
+                <button
+                  class="px-3 py-2 text-sm rounded-lg transition-colors bg-red-600 text-white"
+                >
+                  PROVIA</button
+                ><button
+                  class="px-3 py-2 text-sm rounded-lg transition-colors bg-gray-800 text-gray-300 hover:bg-gray-700"
+                >
+                  VELVIA</button
+                ><button
+                  class="px-3 py-2 text-sm rounded-lg transition-colors bg-gray-800 text-gray-300 hover:bg-gray-700"
+                >
+                  ASTIA</button
+                ><button
+                  class="px-3 py-2 text-sm rounded-lg transition-colors bg-gray-800 text-gray-300 hover:bg-gray-700"
+                >
+                  CLASSIC CHROME</button
+                ><button
+                  class="px-3 py-2 text-sm rounded-lg transition-colors bg-gray-800 text-gray-300 hover:bg-gray-700"
+                >
+                  CLASSIC Neg.</button
+                ><button
+                  class="px-3 py-2 text-sm rounded-lg transition-colors bg-gray-800 text-gray-300 hover:bg-gray-700"
+                >
+                  PRO Neg. Hi</button
+                ><button
+                  class="px-3 py-2 text-sm rounded-lg transition-colors bg-gray-800 text-gray-300 hover:bg-gray-700"
+                >
+                  PRO Neg. Std</button
+                ><button
+                  class="px-3 py-2 text-sm rounded-lg transition-colors bg-gray-800 text-gray-300 hover:bg-gray-700"
+                >
+                  ETERNA</button
+                ><button
+                  class="px-3 py-2 text-sm rounded-lg transition-colors bg-gray-800 text-gray-300 hover:bg-gray-700"
+                >
+                  NOSTALGIC Neg.</button
+                ><button
+                  class="px-3 py-2 text-sm rounded-lg transition-colors bg-gray-800 text-gray-300 hover:bg-gray-700"
+                >
+                  REALA ACE</button
+                ><button
+                  class="px-3 py-2 text-sm rounded-lg transition-colors bg-gray-800 text-gray-300 hover:bg-gray-700"
+                >
+                  ACROS</button
+                ><button
+                  class="px-3 py-2 text-sm rounded-lg transition-colors bg-gray-800 text-gray-300 hover:bg-gray-700"
+                >
+                  MONOCHROME</button
+                ><button
+                  class="px-3 py-2 text-sm rounded-lg transition-colors bg-gray-800 text-gray-300 hover:bg-gray-700"
+                >
+                  SEPIA</button
+                ><button
+                  class="px-3 py-2 text-sm rounded-lg transition-colors bg-gray-800 text-gray-300 hover:bg-gray-700"
+                >
+                  ETERNA BLEACH</button
+                ><button
+                  class="px-3 py-2 text-sm rounded-lg transition-colors bg-gray-800 text-gray-300 hover:bg-gray-700"
+                >
+                  ACROS+Ye</button
+                ><button
+                  class="px-3 py-2 text-sm rounded-lg transition-colors bg-gray-800 text-gray-300 hover:bg-gray-700"
+                >
+                  ACROS+R
+                </button>
+              </div>
+            </div>
+            <div class="image-container pixel-border">
+              <img
+                id="comparison-image"
+                src="provia_tokyo.png"
+                alt="PROVIA滤镜样张"
+                class="w-full h-auto"
+              />
+            </div>
+          </div>
+          <div>
+            <h3
+              class="text-lg md:text-xl font-semibold mb-4"
+              data-zh="技术参数"
+              data-en="Technical Specs"
+            >
+              技术参数
+            </h3>
+            <div class="space-y-4" id="filter-specs">
+              <div class="bg-gray-900 p-4 rounded-lg">
+                <h4
+                  class="font-semibold text-red-400 mb-2"
+                  data-zh="色彩特性"
+                  data-en="Color Characteristics"
+                >
+                  色彩特性
+                </h4>
+                <p
+                  class="text-sm text-gray-300"
+                  id="color-characteristics"
+                  data-zh="选择滤镜查看详细参数"
+                  data-en="Select a filter to view detailed parameters"
+                >
+                  选择滤镜查看详细参数
+                </p>
+              </div>
+              <div class="bg-gray-900 p-4 rounded-lg">
+                <h4
+                  class="font-semibold text-red-400 mb-2"
+                  data-zh="对比度"
+                  data-en="Contrast"
+                >
+                  对比度
+                </h4>
+                <div class="w-full bg-gray-700 rounded-full h-2">
+                  <div
+                    id="contrast-bar"
+                    class="bg-red-600 h-2 rounded-full"
+                    style="width: 50%"
+                  ></div>
+                </div>
+              </div>
+              <div class="bg-gray-900 p-4 rounded-lg">
+                <h4
+                  class="font-semibold text-red-400 mb-2"
+                  data-zh="饱和度"
+                  data-en="Saturation"
+                >
+                  饱和度
+                </h4>
+                <div class="w-full bg-gray-700 rounded-full h-2">
+                  <div
+                    id="saturation-bar"
+                    class="bg-red-600 h-2 rounded-full"
+                    style="width: 50%"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fine Adjustment Tab -->
+      <div id="adjust-tab" class="tab-content hidden">
+        <div class="mb-6 md:mb-8">
+          <h2
+            class="text-2xl md:text-3xl font-bold mb-4"
+            data-zh="样片微调工作室"
+            data-en="Fine Adjustment Studio"
+          >
+            样片微调工作室
+          </h2>
+          <p
+            class="text-gray-400 text-sm md:text-base"
+            data-zh="精确调整高光、阴影、饱和度和颗粒感，创造属于你的独特风格。"
+            data-en="Precisely adjust highlights, shadows, saturation, and grain to create your unique style."
+          >
+            精确调整高光、阴影、饱和度和颗粒感，创造属于你的独特风格。
+          </p>
+        </div>
+
+        <div
+          class="adjustment-layout grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8"
+        >
+          <div class="canvas-container">
+            <div class="image-container pixel-border mb-4">
+              <canvas
+                id="adjustment-canvas"
+                width="800"
+                height="450"
+                class="w-full h-auto"
+                style="width: 100%; height: auto"
+              ></canvas>
+            </div>
+            <div class="text-center">
+              <button
+                onclick="resetAdjustments()"
+                class="bg-red-600 hover:bg-red-700 px-4 py-2 md:px-6 md:py-2 rounded-lg font-medium transition-colors text-sm md:text-base"
+                data-zh="重置参数"
+                data-en="Reset Parameters"
+              >
+                重置参数
+              </button>
+            </div>
+          </div>
+          <div>
+            <h3
+              class="text-lg md:text-xl font-semibold mb-4 md:mb-6"
+              data-zh="调整参数"
+              data-en="Adjustment Parameters"
+            >
+              调整参数
+            </h3>
+            <div class="space-y-4 md:space-y-6">
+              <div>
+                <label
+                  class="block text-sm font-medium mb-2"
+                  data-zh="高光色调"
+                  data-en="Highlight Tone"
+                  >高光色调</label
+                >
+                <div class="slider-container">
+                  <input
+                    type="range"
+                    id="highlights-slider"
+                    class="slider"
+                    min="-100"
+                    max="100"
+                    value="0"
+                  />
+                  <div class="flex justify-between text-xs text-gray-400 mt-1">
+                    <span>-100</span>
+                    <span id="highlights-value">0</span>
+                    <span>+100</span>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <label
+                  class="block text-sm font-medium mb-2"
+                  data-zh="阴影色调"
+                  data-en="Shadow Tone"
+                  >阴影色调</label
+                >
+                <div class="slider-container">
+                  <input
+                    type="range"
+                    id="shadows-slider"
+                    class="slider"
+                    min="-100"
+                    max="100"
+                    value="0"
+                  />
+                  <div class="flex justify-between text-xs text-gray-400 mt-1">
+                    <span>-100</span>
+                    <span id="shadows-value">0</span>
+                    <span>+100</span>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <label
+                  class="block text-sm font-medium mb-2"
+                  data-zh="饱和度"
+                  data-en="Saturation"
+                  >饱和度</label
+                >
+                <div class="slider-container">
+                  <input
+                    type="range"
+                    id="saturation-slider"
+                    class="slider"
+                    min="-100"
+                    max="100"
+                    value="0"
+                  />
+                  <div class="flex justify-between text-xs text-gray-400 mt-1">
+                    <span>-100</span>
+                    <span id="saturation-value">0</span>
+                    <span>+100</span>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <label
+                  class="block text-sm font-medium mb-2"
+                  data-zh="颗粒感"
+                  data-en="Grain"
+                  >颗粒感</label
+                >
+                <div class="slider-container">
+                  <input
+                    type="range"
+                    id="grain-slider"
+                    class="slider"
+                    min="0"
+                    max="100"
+                    value="0"
+                  />
+                  <div class="flex justify-between text-xs text-gray-400 mt-1">
+                    <span>0</span>
+                    <span id="grain-value">0</span>
+                    <span>100</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer
+      class="bg-black border-t-2 border-gray-800 mt-12 md:mt-16 px-4 py-6 md:px-6 md:py-8"
+    >
+      <div class="max-w-7xl mx-auto text-center">
+        <p
+          class="text-gray-400 pixel-font text-sm"
+          data-zh="© 2024 Fuji Film Simulation Lab. Crafted with passion for photography."
+          data-en="© 2024 Fuji Film Simulation Lab. Crafted with passion for photography."
+        >
+          © 2024 Fuji Film Simulation Lab. Crafted with passion for photography.
+        </p>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
