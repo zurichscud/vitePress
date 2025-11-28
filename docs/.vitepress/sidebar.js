@@ -65,8 +65,8 @@ export default {
               "link": "/CSS/4-盒模型/9-溢出"
             },
             {
-              "text": "object-fit",
-              "link": "/CSS/4-盒模型/object-fit"
+              "text": "可替换元素",
+              "link": "/CSS/4-盒模型/可替换元素"
             }
           ]
         },
@@ -213,6 +213,17 @@ export default {
       "text": "HTML",
       "items": [
         {
+          "text": "可替换元素",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "可替换元素",
+              "link": "/HTML/可替换元素/可替换元素"
+            }
+          ]
+        },
+        {
           "text": "表格",
           "link": "/HTML/表格"
         },
@@ -353,6 +364,45 @@ export default {
       ]
     }
   ],
+  "/nuxt/": [
+    {
+      "text": "nuxt",
+      "items": [
+        {
+          "text": "布局",
+          "link": "/nuxt/布局"
+        },
+        {
+          "text": "服务器",
+          "link": "/nuxt/服务器"
+        },
+        {
+          "text": "基础",
+          "link": "/nuxt/基础"
+        },
+        {
+          "text": "路由",
+          "link": "/nuxt/路由"
+        },
+        {
+          "text": "视图",
+          "link": "/nuxt/视图"
+        },
+        {
+          "text": "数据请求",
+          "link": "/nuxt/数据请求"
+        },
+        {
+          "text": "资源管理",
+          "link": "/nuxt/资源管理"
+        },
+        {
+          "text": "SEO与元数据",
+          "link": "/nuxt/SEO与元数据"
+        }
+      ]
+    }
+  ],
   "/package/": [
     {
       "text": "package",
@@ -391,45 +441,6 @@ export default {
         {
           "text": "unplugin-vue-components",
           "link": "/package/unplugin-vue-components"
-        }
-      ]
-    }
-  ],
-  "/nuxt/": [
-    {
-      "text": "nuxt",
-      "items": [
-        {
-          "text": "布局",
-          "link": "/nuxt/布局"
-        },
-        {
-          "text": "服务器",
-          "link": "/nuxt/服务器"
-        },
-        {
-          "text": "基础",
-          "link": "/nuxt/基础"
-        },
-        {
-          "text": "路由",
-          "link": "/nuxt/路由"
-        },
-        {
-          "text": "视图",
-          "link": "/nuxt/视图"
-        },
-        {
-          "text": "数据请求",
-          "link": "/nuxt/数据请求"
-        },
-        {
-          "text": "资源管理",
-          "link": "/nuxt/资源管理"
-        },
-        {
-          "text": "SEO与元数据",
-          "link": "/nuxt/SEO与元数据"
         }
       ]
     }
@@ -993,8 +1004,16 @@ export default {
               "collapsed": false,
               "items": [
                 {
+                  "text": "创建应用",
+                  "link": "/vue/vue3/基础/1.创建应用"
+                },
+                {
                   "text": "生命周期",
                   "link": "/vue/vue3/基础/生命周期"
+                },
+                {
+                  "text": "事件处理",
+                  "link": "/vue/vue3/基础/事件处理"
                 },
                 {
                   "text": "属性绑定",
@@ -1011,6 +1030,17 @@ export default {
                 {
                   "text": "watchEffect",
                   "link": "/vue/vue3/基础/watchEffect"
+                }
+              ]
+            },
+            {
+              "text": "内置组件",
+              "collapsible": true,
+              "collapsed": false,
+              "items": [
+                {
+                  "text": "Teleport",
+                  "link": "/vue/vue3/内置组件/Teleport"
                 }
               ]
             },
@@ -1036,6 +1066,24 @@ export default {
             {
               "text": "TS与组合式API",
               "link": "/vue/vue3/TS与组合式API"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "/组件库/": [
+    {
+      "text": "组件库",
+      "items": [
+        {
+          "text": "TDesign",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "Popup",
+              "link": "/组件库/TDesign/Popup"
             }
           ]
         }

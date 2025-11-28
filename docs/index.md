@@ -23,11 +23,14 @@ features:
   - title: 前端工程化
     details: 4篇文档
     link: /前端工程化/@antfueslint-config
+  - title: 组件库
+    details: 1篇文档
+    link: /组件库/TDesign/Popup
   - title: CSS
     details: 38篇文档
     link: /CSS/1-css分类
   - title: HTML
-    details: 4篇文档
+    details: 5篇文档
     link: /HTML/img
   - title: JavaScript
     details: 44篇文档
@@ -45,7 +48,7 @@ features:
     details: 23篇文档
     link: /vitepress/markdown语法/frontmatter
   - title: vue
-    details: 37篇文档
+    details: 40篇文档
     link: /vue/pinia/action
 
 ---
