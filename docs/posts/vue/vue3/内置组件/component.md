@@ -1,0 +1,21 @@
+## component（动态组件）
+
+有些场景会需要在两个组件间来回切换，比如 Tab 界面：
+
+上面的例子是通过 Vue 的 `<component>` 元素和特殊的 `is` attribute 实现的：
+
+template
+
+```vue
+<!-- currentTab 改变时组件也改变 -->
+<component :is="tabs[currentTab]"></component>
+```
+
+在上面的例子中，被传给 `:is` 的值可以是以下几种：
+
+- 被注册的组件名
+- 导入的组件对象
+
+你也可以使用 `is` attribute 来创建一般的 HTML 元素。
+
+当使用 `<component :is="...">` 来在多个组件间作切换时，被切换掉的组件会被卸载。我们可以通过 [`` 组件](https://cn.vuejs.org/guide/built-ins/keep-alive.html)强制被切换掉的组件仍然保持“存活”的状态。

@@ -1008,6 +1008,10 @@ export default {
                   "link": "/vue/vue3/基础/1.创建应用"
                 },
                 {
+                  "text": "模板引用",
+                  "link": "/vue/vue3/基础/模板引用"
+                },
+                {
                   "text": "生命周期",
                   "link": "/vue/vue3/基础/生命周期"
                 },
@@ -1018,6 +1022,10 @@ export default {
                 {
                   "text": "属性绑定",
                   "link": "/vue/vue3/基础/属性绑定"
+                },
+                {
+                  "text": "class与style绑定",
+                  "link": "/vue/vue3/基础/class与style绑定"
                 },
                 {
                   "text": "computed",
@@ -1039,6 +1047,10 @@ export default {
               "collapsed": false,
               "items": [
                 {
+                  "text": "component",
+                  "link": "/vue/vue3/内置组件/component"
+                },
+                {
                   "text": "Teleport",
                   "link": "/vue/vue3/内置组件/Teleport"
                 }
@@ -1050,8 +1062,20 @@ export default {
               "collapsed": false,
               "items": [
                 {
+                  "text": "生命周期",
+                  "link": "/vue/vue3/深入组件/生命周期"
+                },
+                {
+                  "text": "异步组件",
+                  "link": "/vue/vue3/深入组件/异步组件"
+                },
+                {
                   "text": "注册",
                   "link": "/vue/vue3/深入组件/注册"
+                },
+                {
+                  "text": "组件基础",
+                  "link": "/vue/vue3/深入组件/组件基础"
                 },
                 {
                   "text": "Props",
