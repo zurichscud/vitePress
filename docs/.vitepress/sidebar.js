@@ -1106,8 +1106,16 @@ export default {
           "collapsed": false,
           "items": [
             {
+              "text": "Form",
+              "link": "/组件库/TDesign/Form"
+            },
+            {
               "text": "Popup",
               "link": "/组件库/TDesign/Popup"
+            },
+            {
+              "text": "Table",
+              "link": "/组件库/TDesign/Table"
             }
           ]
         }
