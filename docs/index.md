@@ -24,8 +24,8 @@ features:
     details: 4篇文档
     link: /前端工程化/@antfueslint-config
   - title: 组件库
-    details: 3篇文档
-    link: /组件库/TDesign/Form
+    details: 11篇文档
+    link: /组件库/TDesign/Card
   - title: CSS
     details: 38篇文档
     link: /CSS/1-css分类
