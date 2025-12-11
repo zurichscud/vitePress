@@ -242,45 +242,6 @@ export default {
       ]
     }
   ],
-  "/nuxt/": [
-    {
-      "text": "nuxt",
-      "items": [
-        {
-          "text": "布局",
-          "link": "/nuxt/布局"
-        },
-        {
-          "text": "服务器",
-          "link": "/nuxt/服务器"
-        },
-        {
-          "text": "基础",
-          "link": "/nuxt/基础"
-        },
-        {
-          "text": "路由",
-          "link": "/nuxt/路由"
-        },
-        {
-          "text": "视图",
-          "link": "/nuxt/视图"
-        },
-        {
-          "text": "数据请求",
-          "link": "/nuxt/数据请求"
-        },
-        {
-          "text": "资源管理",
-          "link": "/nuxt/资源管理"
-        },
-        {
-          "text": "SEO与元数据",
-          "link": "/nuxt/SEO与元数据"
-        }
-      ]
-    }
-  ],
   "/TypeScript/": [
     {
       "text": "TypeScript",
@@ -403,40 +364,41 @@ export default {
       ]
     }
   ],
-  "/前端工程化/": [
+  "/nuxt/": [
     {
-      "text": "前端工程化",
+      "text": "nuxt",
       "items": [
         {
-          "text": "@antfueslint-config",
-          "link": "/前端工程化/@antfueslint-config"
+          "text": "布局",
+          "link": "/nuxt/布局"
         },
         {
-          "text": "biome",
-          "link": "/前端工程化/biome"
+          "text": "服务器",
+          "link": "/nuxt/服务器"
         },
         {
-          "text": "eslint",
-          "link": "/前端工程化/eslint"
+          "text": "基础",
+          "link": "/nuxt/基础"
         },
         {
-          "text": "prettier",
-          "link": "/前端工程化/prettier"
-        }
-      ]
-    }
-  ],
-  "/百科/": [
-    {
-      "text": "百科",
-      "items": [
-        {
-          "text": "CMS",
-          "link": "/百科/CMS"
+          "text": "路由",
+          "link": "/nuxt/路由"
         },
         {
-          "text": "favicons",
-          "link": "/百科/favicons"
+          "text": "视图",
+          "link": "/nuxt/视图"
+        },
+        {
+          "text": "数据请求",
+          "link": "/nuxt/数据请求"
+        },
+        {
+          "text": "资源管理",
+          "link": "/nuxt/资源管理"
+        },
+        {
+          "text": "SEO与元数据",
+          "link": "/nuxt/SEO与元数据"
         }
       ]
     }
@@ -479,6 +441,44 @@ export default {
         {
           "text": "unplugin-vue-components",
           "link": "/package/unplugin-vue-components"
+        }
+      ]
+    }
+  ],
+  "/前端工程化/": [
+    {
+      "text": "前端工程化",
+      "items": [
+        {
+          "text": "@antfueslint-config",
+          "link": "/前端工程化/@antfueslint-config"
+        },
+        {
+          "text": "biome",
+          "link": "/前端工程化/biome"
+        },
+        {
+          "text": "eslint",
+          "link": "/前端工程化/eslint"
+        },
+        {
+          "text": "prettier",
+          "link": "/前端工程化/prettier"
+        }
+      ]
+    }
+  ],
+  "/百科/": [
+    {
+      "text": "百科",
+      "items": [
+        {
+          "text": "CMS",
+          "link": "/百科/CMS"
+        },
+        {
+          "text": "favicons",
+          "link": "/百科/favicons"
         }
       ]
     }
@@ -1062,12 +1062,32 @@ export default {
               "collapsed": false,
               "items": [
                 {
-                  "text": "生命周期",
-                  "link": "/vue/vue3/深入组件/生命周期"
+                  "text": "Props",
+                  "link": "/vue/vue3/深入组件/1.Props"
+                },
+                {
+                  "text": "v-model",
+                  "link": "/vue/vue3/深入组件/2.v-model"
+                },
+                {
+                  "text": "透传Attributes",
+                  "link": "/vue/vue3/深入组件/3.透传Attributes"
+                },
+                {
+                  "text": "插槽",
+                  "link": "/vue/vue3/深入组件/4.插槽"
+                },
+                {
+                  "text": "依赖注入",
+                  "link": "/vue/vue3/深入组件/5.依赖注入"
                 },
                 {
                   "text": "异步组件",
-                  "link": "/vue/vue3/深入组件/异步组件"
+                  "link": "/vue/vue3/深入组件/6.异步组件"
+                },
+                {
+                  "text": "生命周期",
+                  "link": "/vue/vue3/深入组件/生命周期"
                 },
                 {
                   "text": "注册",
@@ -1076,10 +1096,6 @@ export default {
                 {
                   "text": "组件基础",
                   "link": "/vue/vue3/深入组件/组件基础"
-                },
-                {
-                  "text": "Props",
-                  "link": "/vue/vue3/深入组件/Props"
                 }
               ]
             },
