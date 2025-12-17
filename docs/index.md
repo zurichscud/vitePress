@@ -24,7 +24,7 @@ features:
     details: 4篇文档
     link: /前端工程化/@antfueslint-config
   - title: 组件库
-    details: 11篇文档
+    details: 12篇文档
     link: /组件库/TDesign/Card
   - title: CSS
     details: 38篇文档
@@ -33,7 +33,7 @@ features:
     details: 5篇文档
     link: /HTML/img
   - title: JavaScript
-    details: 44篇文档
+    details: 45篇文档
     link: /JavaScript/DOM/window
   - title: nuxt
     details: 8篇文档
@@ -50,5 +50,8 @@ features:
   - title: vue
     details: 53篇文档
     link: /vue/pinia/action
+  - title: xstate
+    details: 14篇文档
+    link: /xstate/10.Persistence
 
 ---

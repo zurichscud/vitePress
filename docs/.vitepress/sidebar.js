@@ -1,39 +1,5 @@
 // 自动生成，请勿修改
 export default {
-  "/HTML/": [
-    {
-      "text": "HTML",
-      "items": [
-        {
-          "text": "可替换元素",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "可替换元素",
-              "link": "/HTML/可替换元素/可替换元素"
-            }
-          ]
-        },
-        {
-          "text": "表格",
-          "link": "/HTML/表格"
-        },
-        {
-          "text": "调试工具",
-          "link": "/HTML/调试工具"
-        },
-        {
-          "text": "链接",
-          "link": "/HTML/链接"
-        },
-        {
-          "text": "img",
-          "link": "/HTML/img"
-        }
-      ]
-    }
-  ],
   "/CSS/": [
     {
       "text": "CSS",
@@ -242,6 +208,40 @@ export default {
       ]
     }
   ],
+  "/HTML/": [
+    {
+      "text": "HTML",
+      "items": [
+        {
+          "text": "可替换元素",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "可替换元素",
+              "link": "/HTML/可替换元素/可替换元素"
+            }
+          ]
+        },
+        {
+          "text": "表格",
+          "link": "/HTML/表格"
+        },
+        {
+          "text": "调试工具",
+          "link": "/HTML/调试工具"
+        },
+        {
+          "text": "链接",
+          "link": "/HTML/链接"
+        },
+        {
+          "text": "img",
+          "link": "/HTML/img"
+        }
+      ]
+    }
+  ],
   "/nuxt/": [
     {
       "text": "nuxt",
@@ -277,6 +277,48 @@ export default {
         {
           "text": "SEO与元数据",
           "link": "/nuxt/SEO与元数据"
+        }
+      ]
+    }
+  ],
+  "/package/": [
+    {
+      "text": "package",
+      "items": [
+        {
+          "text": "echarts",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "图表容器",
+              "link": "/package/echarts/图表容器"
+            },
+            {
+              "text": "series",
+              "link": "/package/echarts/series"
+            },
+            {
+              "text": "xAxis",
+              "link": "/package/echarts/xAxis"
+            }
+          ]
+        },
+        {
+          "text": "antfu-utils",
+          "link": "/package/antfu-utils"
+        },
+        {
+          "text": "file-saver",
+          "link": "/package/file-saver"
+        },
+        {
+          "text": "unplugin-auto-import",
+          "link": "/package/unplugin-auto-import"
+        },
+        {
+          "text": "unplugin-vue-components",
+          "link": "/package/unplugin-vue-components"
         }
       ]
     }
@@ -403,44 +445,72 @@ export default {
       ]
     }
   ],
-  "/package/": [
+  "/xstate/": [
     {
-      "text": "package",
+      "text": "xstate",
       "items": [
         {
-          "text": "echarts",
+          "text": "Actor",
           "collapsible": true,
           "collapsed": false,
           "items": [
             {
-              "text": "图表容器",
-              "link": "/package/echarts/图表容器"
+              "text": "概述",
+              "link": "/xstate/Actor/概述"
             },
             {
-              "text": "series",
-              "link": "/package/echarts/series"
-            },
-            {
-              "text": "xAxis",
-              "link": "/package/echarts/xAxis"
+              "text": "Invoked",
+              "link": "/xstate/Actor/Invoked"
             }
           ]
         },
         {
-          "text": "antfu-utils",
-          "link": "/package/antfu-utils"
+          "text": "State machines",
+          "link": "/xstate/2.State machines"
         },
         {
-          "text": "file-saver",
-          "link": "/package/file-saver"
+          "text": "Setup",
+          "link": "/xstate/3.Setup"
         },
         {
-          "text": "unplugin-auto-import",
-          "link": "/package/unplugin-auto-import"
+          "text": "Context",
+          "link": "/xstate/4.Context"
         },
         {
-          "text": "unplugin-vue-components",
-          "link": "/package/unplugin-vue-components"
+          "text": "State",
+          "link": "/xstate/4.State"
+        },
+        {
+          "text": "Input",
+          "link": "/xstate/5.Input"
+        },
+        {
+          "text": "Output",
+          "link": "/xstate/6.Output"
+        },
+        {
+          "text": "Event",
+          "link": "/xstate/7.Event"
+        },
+        {
+          "text": "Actions",
+          "link": "/xstate/8.Actions"
+        },
+        {
+          "text": "Guards",
+          "link": "/xstate/9.Guards"
+        },
+        {
+          "text": "Persistence",
+          "link": "/xstate/10.Persistence"
+        },
+        {
+          "text": "@xstatevue",
+          "link": "/xstate/@xstatevue"
+        },
+        {
+          "text": "example",
+          "link": "/xstate/example"
         }
       ]
     }
@@ -577,6 +647,17 @@ export default {
             {
               "text": "ProgressEvent",
               "link": "/JavaScript/上传与下载/13-ProgressEvent"
+            }
+          ]
+        },
+        {
+          "text": "数字",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "数字分隔符",
+              "link": "/JavaScript/数字/数字分隔符"
             }
           ]
         },
@@ -1172,6 +1253,10 @@ export default {
             {
               "text": "Table",
               "link": "/组件库/TDesign/Table"
+            },
+            {
+              "text": "Tabs",
+              "link": "/组件库/TDesign/Tabs"
             },
             {
               "text": "Tree",
