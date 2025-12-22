@@ -1,39 +1,5 @@
 // 自动生成，请勿修改
 export default {
-  "/HTML/": [
-    {
-      "text": "HTML",
-      "items": [
-        {
-          "text": "可替换元素",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "可替换元素",
-              "link": "/HTML/可替换元素/可替换元素"
-            }
-          ]
-        },
-        {
-          "text": "表格",
-          "link": "/HTML/表格"
-        },
-        {
-          "text": "调试工具",
-          "link": "/HTML/调试工具"
-        },
-        {
-          "text": "链接",
-          "link": "/HTML/链接"
-        },
-        {
-          "text": "img",
-          "link": "/HTML/img"
-        }
-      ]
-    }
-  ],
   "/CSS/": [
     {
       "text": "CSS",
@@ -242,6 +208,40 @@ export default {
       ]
     }
   ],
+  "/HTML/": [
+    {
+      "text": "HTML",
+      "items": [
+        {
+          "text": "可替换元素",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "可替换元素",
+              "link": "/HTML/可替换元素/可替换元素"
+            }
+          ]
+        },
+        {
+          "text": "表格",
+          "link": "/HTML/表格"
+        },
+        {
+          "text": "调试工具",
+          "link": "/HTML/调试工具"
+        },
+        {
+          "text": "链接",
+          "link": "/HTML/链接"
+        },
+        {
+          "text": "img",
+          "link": "/HTML/img"
+        }
+      ]
+    }
+  ],
   "/TypeScript/": [
     {
       "text": "TypeScript",
@@ -445,6 +445,29 @@ export default {
       ]
     }
   ],
+  "/前端工程化/": [
+    {
+      "text": "前端工程化",
+      "items": [
+        {
+          "text": "@antfueslint-config",
+          "link": "/前端工程化/@antfueslint-config"
+        },
+        {
+          "text": "biome",
+          "link": "/前端工程化/biome"
+        },
+        {
+          "text": "eslint",
+          "link": "/前端工程化/eslint"
+        },
+        {
+          "text": "prettier",
+          "link": "/前端工程化/prettier"
+        }
+      ]
+    }
+  ],
   "/xstate/": [
     {
       "text": "xstate",
@@ -500,16 +523,12 @@ export default {
           "link": "/xstate/4.State"
         },
         {
-          "text": "Input",
-          "link": "/xstate/5.Input"
-        },
-        {
           "text": "Output",
           "link": "/xstate/6.Output"
         },
         {
-          "text": "Event",
-          "link": "/xstate/7.Event"
+          "text": "Transitions",
+          "link": "/xstate/7.Transitions"
         },
         {
           "text": "Actions",
@@ -534,29 +553,6 @@ export default {
         {
           "text": "example",
           "link": "/xstate/example"
-        }
-      ]
-    }
-  ],
-  "/前端工程化/": [
-    {
-      "text": "前端工程化",
-      "items": [
-        {
-          "text": "@antfueslint-config",
-          "link": "/前端工程化/@antfueslint-config"
-        },
-        {
-          "text": "biome",
-          "link": "/前端工程化/biome"
-        },
-        {
-          "text": "eslint",
-          "link": "/前端工程化/eslint"
-        },
-        {
-          "text": "prettier",
-          "link": "/前端工程化/prettier"
         }
       ]
     }
