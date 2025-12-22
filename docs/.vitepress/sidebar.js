@@ -364,6 +364,45 @@ export default {
       ]
     }
   ],
+  "/nuxt/": [
+    {
+      "text": "nuxt",
+      "items": [
+        {
+          "text": "布局",
+          "link": "/nuxt/布局"
+        },
+        {
+          "text": "服务器",
+          "link": "/nuxt/服务器"
+        },
+        {
+          "text": "基础",
+          "link": "/nuxt/基础"
+        },
+        {
+          "text": "路由",
+          "link": "/nuxt/路由"
+        },
+        {
+          "text": "视图",
+          "link": "/nuxt/视图"
+        },
+        {
+          "text": "数据请求",
+          "link": "/nuxt/数据请求"
+        },
+        {
+          "text": "资源管理",
+          "link": "/nuxt/资源管理"
+        },
+        {
+          "text": "SEO与元数据",
+          "link": "/nuxt/SEO与元数据"
+        }
+      ]
+    }
+  ],
   "/package/": [
     {
       "text": "package",
@@ -402,45 +441,6 @@ export default {
         {
           "text": "unplugin-vue-components",
           "link": "/package/unplugin-vue-components"
-        }
-      ]
-    }
-  ],
-  "/nuxt/": [
-    {
-      "text": "nuxt",
-      "items": [
-        {
-          "text": "布局",
-          "link": "/nuxt/布局"
-        },
-        {
-          "text": "服务器",
-          "link": "/nuxt/服务器"
-        },
-        {
-          "text": "基础",
-          "link": "/nuxt/基础"
-        },
-        {
-          "text": "路由",
-          "link": "/nuxt/路由"
-        },
-        {
-          "text": "视图",
-          "link": "/nuxt/视图"
-        },
-        {
-          "text": "数据请求",
-          "link": "/nuxt/数据请求"
-        },
-        {
-          "text": "资源管理",
-          "link": "/nuxt/资源管理"
-        },
-        {
-          "text": "SEO与元数据",
-          "link": "/nuxt/SEO与元数据"
         }
       ]
     }
