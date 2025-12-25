@@ -1,70 +1,5 @@
 // 自动生成，请勿修改
 export default {
-  "/HTML/": [
-    {
-      "text": "HTML",
-      "items": [
-        {
-          "text": "表单",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "button",
-              "link": "/HTML/表单/button"
-            },
-            {
-              "text": "check",
-              "link": "/HTML/表单/check"
-            },
-            {
-              "text": "input",
-              "link": "/HTML/表单/input"
-            },
-            {
-              "text": "label",
-              "link": "/HTML/表单/label"
-            },
-            {
-              "text": "select",
-              "link": "/HTML/表单/select"
-            }
-          ]
-        },
-        {
-          "text": "可替换元素",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "可替换元素",
-              "link": "/HTML/可替换元素/可替换元素"
-            }
-          ]
-        },
-        {
-          "text": "表格",
-          "link": "/HTML/表格"
-        },
-        {
-          "text": "布尔属性",
-          "link": "/HTML/布尔属性"
-        },
-        {
-          "text": "调试工具",
-          "link": "/HTML/调试工具"
-        },
-        {
-          "text": "链接",
-          "link": "/HTML/链接"
-        },
-        {
-          "text": "img",
-          "link": "/HTML/img"
-        }
-      ]
-    }
-  ],
   "/CSS/": [
     {
       "text": "CSS",
@@ -277,6 +212,71 @@ export default {
       ]
     }
   ],
+  "/HTML/": [
+    {
+      "text": "HTML",
+      "items": [
+        {
+          "text": "表单",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "button",
+              "link": "/HTML/表单/button"
+            },
+            {
+              "text": "check",
+              "link": "/HTML/表单/check"
+            },
+            {
+              "text": "input",
+              "link": "/HTML/表单/input"
+            },
+            {
+              "text": "label",
+              "link": "/HTML/表单/label"
+            },
+            {
+              "text": "select",
+              "link": "/HTML/表单/select"
+            }
+          ]
+        },
+        {
+          "text": "可替换元素",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "可替换元素",
+              "link": "/HTML/可替换元素/可替换元素"
+            }
+          ]
+        },
+        {
+          "text": "表格",
+          "link": "/HTML/表格"
+        },
+        {
+          "text": "布尔属性",
+          "link": "/HTML/布尔属性"
+        },
+        {
+          "text": "调试工具",
+          "link": "/HTML/调试工具"
+        },
+        {
+          "text": "链接",
+          "link": "/HTML/链接"
+        },
+        {
+          "text": "img",
+          "link": "/HTML/img"
+        }
+      ]
+    }
+  ],
   "/TypeScript/": [
     {
       "text": "TypeScript",
@@ -399,6 +399,45 @@ export default {
       ]
     }
   ],
+  "/nuxt/": [
+    {
+      "text": "nuxt",
+      "items": [
+        {
+          "text": "布局",
+          "link": "/nuxt/布局"
+        },
+        {
+          "text": "服务器",
+          "link": "/nuxt/服务器"
+        },
+        {
+          "text": "基础",
+          "link": "/nuxt/基础"
+        },
+        {
+          "text": "路由",
+          "link": "/nuxt/路由"
+        },
+        {
+          "text": "视图",
+          "link": "/nuxt/视图"
+        },
+        {
+          "text": "数据请求",
+          "link": "/nuxt/数据请求"
+        },
+        {
+          "text": "资源管理",
+          "link": "/nuxt/资源管理"
+        },
+        {
+          "text": "SEO与元数据",
+          "link": "/nuxt/SEO与元数据"
+        }
+      ]
+    }
+  ],
   "/package/": [
     {
       "text": "package",
@@ -441,41 +480,25 @@ export default {
       ]
     }
   ],
-  "/nuxt/": [
+  "/前端工程化/": [
     {
-      "text": "nuxt",
+      "text": "前端工程化",
       "items": [
         {
-          "text": "布局",
-          "link": "/nuxt/布局"
+          "text": "@antfueslint-config",
+          "link": "/前端工程化/@antfueslint-config"
         },
         {
-          "text": "服务器",
-          "link": "/nuxt/服务器"
+          "text": "biome",
+          "link": "/前端工程化/biome"
         },
         {
-          "text": "基础",
-          "link": "/nuxt/基础"
+          "text": "eslint",
+          "link": "/前端工程化/eslint"
         },
         {
-          "text": "路由",
-          "link": "/nuxt/路由"
-        },
-        {
-          "text": "视图",
-          "link": "/nuxt/视图"
-        },
-        {
-          "text": "数据请求",
-          "link": "/nuxt/数据请求"
-        },
-        {
-          "text": "资源管理",
-          "link": "/nuxt/资源管理"
-        },
-        {
-          "text": "SEO与元数据",
-          "link": "/nuxt/SEO与元数据"
+          "text": "prettier",
+          "link": "/前端工程化/prettier"
         }
       ]
     }
@@ -531,8 +554,12 @@ export default {
           "link": "/xstate/4.Context"
         },
         {
-          "text": "State（Snapshot）",
-          "link": "/xstate/4.State（Snapshot）"
+          "text": "Snapshot",
+          "link": "/xstate/4.Snapshot"
+        },
+        {
+          "text": "States",
+          "link": "/xstate/4.States"
         },
         {
           "text": "Output",
@@ -565,29 +592,6 @@ export default {
         {
           "text": "example",
           "link": "/xstate/example"
-        }
-      ]
-    }
-  ],
-  "/前端工程化/": [
-    {
-      "text": "前端工程化",
-      "items": [
-        {
-          "text": "@antfueslint-config",
-          "link": "/前端工程化/@antfueslint-config"
-        },
-        {
-          "text": "biome",
-          "link": "/前端工程化/biome"
-        },
-        {
-          "text": "eslint",
-          "link": "/前端工程化/eslint"
-        },
-        {
-          "text": "prettier",
-          "link": "/前端工程化/prettier"
         }
       ]
     }
