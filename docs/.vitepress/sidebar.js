@@ -212,41 +212,67 @@ export default {
       ]
     }
   ],
-  "/nuxt/": [
+  "/HTML/": [
     {
-      "text": "nuxt",
+      "text": "HTML",
       "items": [
         {
-          "text": "布局",
-          "link": "/nuxt/布局"
+          "text": "表单",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "button",
+              "link": "/HTML/表单/button"
+            },
+            {
+              "text": "check",
+              "link": "/HTML/表单/check"
+            },
+            {
+              "text": "input",
+              "link": "/HTML/表单/input"
+            },
+            {
+              "text": "label",
+              "link": "/HTML/表单/label"
+            },
+            {
+              "text": "select",
+              "link": "/HTML/表单/select"
+            }
+          ]
         },
         {
-          "text": "服务器",
-          "link": "/nuxt/服务器"
+          "text": "可替换元素",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "可替换元素",
+              "link": "/HTML/可替换元素/可替换元素"
+            }
+          ]
         },
         {
-          "text": "基础",
-          "link": "/nuxt/基础"
+          "text": "表格",
+          "link": "/HTML/表格"
         },
         {
-          "text": "路由",
-          "link": "/nuxt/路由"
+          "text": "布尔属性",
+          "link": "/HTML/布尔属性"
         },
         {
-          "text": "视图",
-          "link": "/nuxt/视图"
+          "text": "调试工具",
+          "link": "/HTML/调试工具"
         },
         {
-          "text": "数据请求",
-          "link": "/nuxt/数据请求"
+          "text": "链接",
+          "link": "/HTML/链接"
         },
         {
-          "text": "资源管理",
-          "link": "/nuxt/资源管理"
-        },
-        {
-          "text": "SEO与元数据",
-          "link": "/nuxt/SEO与元数据"
+          "text": "img",
+          "link": "/HTML/img"
         }
       ]
     }
@@ -373,71 +399,6 @@ export default {
       ]
     }
   ],
-  "/HTML/": [
-    {
-      "text": "HTML",
-      "items": [
-        {
-          "text": "表单",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "button",
-              "link": "/HTML/表单/button"
-            },
-            {
-              "text": "check",
-              "link": "/HTML/表单/check"
-            },
-            {
-              "text": "input",
-              "link": "/HTML/表单/input"
-            },
-            {
-              "text": "label",
-              "link": "/HTML/表单/label"
-            },
-            {
-              "text": "select",
-              "link": "/HTML/表单/select"
-            }
-          ]
-        },
-        {
-          "text": "可替换元素",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "可替换元素",
-              "link": "/HTML/可替换元素/可替换元素"
-            }
-          ]
-        },
-        {
-          "text": "表格",
-          "link": "/HTML/表格"
-        },
-        {
-          "text": "布尔属性",
-          "link": "/HTML/布尔属性"
-        },
-        {
-          "text": "调试工具",
-          "link": "/HTML/调试工具"
-        },
-        {
-          "text": "链接",
-          "link": "/HTML/链接"
-        },
-        {
-          "text": "img",
-          "link": "/HTML/img"
-        }
-      ]
-    }
-  ],
   "/package/": [
     {
       "text": "package",
@@ -476,6 +437,45 @@ export default {
         {
           "text": "unplugin-vue-components",
           "link": "/package/unplugin-vue-components"
+        }
+      ]
+    }
+  ],
+  "/nuxt/": [
+    {
+      "text": "nuxt",
+      "items": [
+        {
+          "text": "布局",
+          "link": "/nuxt/布局"
+        },
+        {
+          "text": "服务器",
+          "link": "/nuxt/服务器"
+        },
+        {
+          "text": "基础",
+          "link": "/nuxt/基础"
+        },
+        {
+          "text": "路由",
+          "link": "/nuxt/路由"
+        },
+        {
+          "text": "视图",
+          "link": "/nuxt/视图"
+        },
+        {
+          "text": "数据请求",
+          "link": "/nuxt/数据请求"
+        },
+        {
+          "text": "资源管理",
+          "link": "/nuxt/资源管理"
+        },
+        {
+          "text": "SEO与元数据",
+          "link": "/nuxt/SEO与元数据"
         }
       ]
     }
@@ -748,6 +748,147 @@ export default {
             {
               "text": "window",
               "link": "/JavaScript/DOM/window"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "/vitepress/": [
+    {
+      "text": "vitepress",
+      "items": [
+        {
+          "text": "插件",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "vitepress-plugin-group-icons",
+              "link": "/vitepress/插件/1-vitepress-plugin-group-icons"
+            },
+            {
+              "text": "demo",
+              "link": "/vitepress/插件/2-demo"
+            }
+          ]
+        },
+        {
+          "text": "基础",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "快速开始",
+              "link": "/vitepress/基础/快速开始"
+            },
+            {
+              "text": "路由",
+              "link": "/vitepress/基础/路由"
+            },
+            {
+              "text": "资源处理",
+              "link": "/vitepress/基础/资源处理"
+            }
+          ]
+        },
+        {
+          "text": "默认主题",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "编辑链接",
+              "link": "/vitepress/默认主题/编辑链接"
+            },
+            {
+              "text": "布局",
+              "link": "/vitepress/默认主题/布局"
+            },
+            {
+              "text": "侧边栏",
+              "link": "/vitepress/默认主题/侧边栏"
+            },
+            {
+              "text": "导航栏",
+              "link": "/vitepress/默认主题/导航栏"
+            },
+            {
+              "text": "上下页链接",
+              "link": "/vitepress/默认主题/上下页链接"
+            },
+            {
+              "text": "页脚",
+              "link": "/vitepress/默认主题/页脚"
+            },
+            {
+              "text": "最后更新时间",
+              "link": "/vitepress/默认主题/最后更新时间"
+            }
+          ]
+        },
+        {
+          "text": "内置组件",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "Badge",
+              "link": "/vitepress/内置组件/Badge"
+            },
+            {
+              "text": "ClientOnly",
+              "link": "/vitepress/内置组件/ClientOnly"
+            },
+            {
+              "text": "Content",
+              "link": "/vitepress/内置组件/Content"
+            }
+          ]
+        },
+        {
+          "text": "自定义",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "自定义主题",
+              "link": "/vitepress/自定义/1-自定义主题"
+            },
+            {
+              "text": "扩展默认主题",
+              "link": "/vitepress/自定义/2-扩展默认主题"
+            },
+            {
+              "text": "构建时数据加载",
+              "link": "/vitepress/自定义/3-构建时数据加载"
+            }
+          ]
+        },
+        {
+          "text": "markdown语法",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "运行时API",
+              "link": "/vitepress/markdown语法/运行时API"
+            },
+            {
+              "text": "frontmatter",
+              "link": "/vitepress/markdown语法/frontmatter"
+            },
+            {
+              "text": "markdown基础",
+              "link": "/vitepress/markdown语法/markdown基础"
+            },
+            {
+              "text": "markdown扩展",
+              "link": "/vitepress/markdown语法/markdown扩展"
+            },
+            {
+              "text": "markdown中使用Vue",
+              "link": "/vitepress/markdown语法/markdown中使用Vue"
             }
           ]
         }
@@ -1029,147 +1170,6 @@ export default {
       ]
     }
   ],
-  "/vitepress/": [
-    {
-      "text": "vitepress",
-      "items": [
-        {
-          "text": "插件",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "vitepress-plugin-group-icons",
-              "link": "/vitepress/插件/1-vitepress-plugin-group-icons"
-            },
-            {
-              "text": "demo",
-              "link": "/vitepress/插件/2-demo"
-            }
-          ]
-        },
-        {
-          "text": "基础",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "快速开始",
-              "link": "/vitepress/基础/快速开始"
-            },
-            {
-              "text": "路由",
-              "link": "/vitepress/基础/路由"
-            },
-            {
-              "text": "资源处理",
-              "link": "/vitepress/基础/资源处理"
-            }
-          ]
-        },
-        {
-          "text": "默认主题",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "编辑链接",
-              "link": "/vitepress/默认主题/编辑链接"
-            },
-            {
-              "text": "布局",
-              "link": "/vitepress/默认主题/布局"
-            },
-            {
-              "text": "侧边栏",
-              "link": "/vitepress/默认主题/侧边栏"
-            },
-            {
-              "text": "导航栏",
-              "link": "/vitepress/默认主题/导航栏"
-            },
-            {
-              "text": "上下页链接",
-              "link": "/vitepress/默认主题/上下页链接"
-            },
-            {
-              "text": "页脚",
-              "link": "/vitepress/默认主题/页脚"
-            },
-            {
-              "text": "最后更新时间",
-              "link": "/vitepress/默认主题/最后更新时间"
-            }
-          ]
-        },
-        {
-          "text": "内置组件",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "Badge",
-              "link": "/vitepress/内置组件/Badge"
-            },
-            {
-              "text": "ClientOnly",
-              "link": "/vitepress/内置组件/ClientOnly"
-            },
-            {
-              "text": "Content",
-              "link": "/vitepress/内置组件/Content"
-            }
-          ]
-        },
-        {
-          "text": "自定义",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "自定义主题",
-              "link": "/vitepress/自定义/1-自定义主题"
-            },
-            {
-              "text": "扩展默认主题",
-              "link": "/vitepress/自定义/2-扩展默认主题"
-            },
-            {
-              "text": "构建时数据加载",
-              "link": "/vitepress/自定义/3-构建时数据加载"
-            }
-          ]
-        },
-        {
-          "text": "markdown语法",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "运行时API",
-              "link": "/vitepress/markdown语法/运行时API"
-            },
-            {
-              "text": "frontmatter",
-              "link": "/vitepress/markdown语法/frontmatter"
-            },
-            {
-              "text": "markdown基础",
-              "link": "/vitepress/markdown语法/markdown基础"
-            },
-            {
-              "text": "markdown扩展",
-              "link": "/vitepress/markdown语法/markdown扩展"
-            },
-            {
-              "text": "markdown中使用Vue",
-              "link": "/vitepress/markdown语法/markdown中使用Vue"
-            }
-          ]
-        }
-      ]
-    }
-  ],
   "/xstate/": [
     {
       "text": "xstate",
@@ -1215,8 +1215,12 @@ export default {
               "link": "/xstate/Actor/3.Spawned actor"
             },
             {
-              "text": "概述",
-              "link": "/xstate/Actor/概述"
+              "text": "Snapshot",
+              "link": "/xstate/Actor/4.Snapshot"
+            },
+            {
+              "text": "Persistence",
+              "link": "/xstate/Actor/5.Persistence"
             }
           ]
         },
@@ -1238,10 +1242,6 @@ export default {
               "link": "/xstate/State machines/3.Context"
             },
             {
-              "text": "Snapshot",
-              "link": "/xstate/State machines/4.Snapshot"
-            },
-            {
               "text": "States",
               "link": "/xstate/State machines/5.States"
             },
@@ -1260,10 +1260,6 @@ export default {
             {
               "text": "Guards",
               "link": "/xstate/State machines/9.Guards"
-            },
-            {
-              "text": "Persistence",
-              "link": "/xstate/State machines/10.Persistence"
             }
           ]
         }
