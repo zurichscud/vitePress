@@ -52,6 +52,6 @@ features:
     link: /vue/pinia/action
   - title: xstate
     details: 18篇文档
-    link: /xstate/@xstatevue
+    link: /xstate/Actor/1.Actor Model
 
 ---
