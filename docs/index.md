@@ -52,6 +52,6 @@ features:
     link: /vue/pinia/action
   - title: xstate
     details: 18篇文档
-    link: /xstate/10.Persistence
+    link: /xstate/@xstatevue
 
 ---

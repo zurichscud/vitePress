@@ -1,5 +1,70 @@
 // 自动生成，请勿修改
 export default {
+  "/HTML/": [
+    {
+      "text": "HTML",
+      "items": [
+        {
+          "text": "表单",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "button",
+              "link": "/HTML/表单/button"
+            },
+            {
+              "text": "check",
+              "link": "/HTML/表单/check"
+            },
+            {
+              "text": "input",
+              "link": "/HTML/表单/input"
+            },
+            {
+              "text": "label",
+              "link": "/HTML/表单/label"
+            },
+            {
+              "text": "select",
+              "link": "/HTML/表单/select"
+            }
+          ]
+        },
+        {
+          "text": "可替换元素",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "可替换元素",
+              "link": "/HTML/可替换元素/可替换元素"
+            }
+          ]
+        },
+        {
+          "text": "表格",
+          "link": "/HTML/表格"
+        },
+        {
+          "text": "布尔属性",
+          "link": "/HTML/布尔属性"
+        },
+        {
+          "text": "调试工具",
+          "link": "/HTML/调试工具"
+        },
+        {
+          "text": "链接",
+          "link": "/HTML/链接"
+        },
+        {
+          "text": "img",
+          "link": "/HTML/img"
+        }
+      ]
+    }
+  ],
   "/CSS/": [
     {
       "text": "CSS",
@@ -212,67 +277,206 @@ export default {
       ]
     }
   ],
-  "/HTML/": [
+  "/package/": [
     {
-      "text": "HTML",
+      "text": "package",
       "items": [
         {
-          "text": "表单",
+          "text": "echarts",
           "collapsible": true,
           "collapsed": false,
           "items": [
             {
-              "text": "button",
-              "link": "/HTML/表单/button"
+              "text": "图表容器",
+              "link": "/package/echarts/图表容器"
             },
             {
-              "text": "check",
-              "link": "/HTML/表单/check"
+              "text": "series",
+              "link": "/package/echarts/series"
             },
             {
-              "text": "input",
-              "link": "/HTML/表单/input"
-            },
-            {
-              "text": "label",
-              "link": "/HTML/表单/label"
-            },
-            {
-              "text": "select",
-              "link": "/HTML/表单/select"
+              "text": "xAxis",
+              "link": "/package/echarts/xAxis"
             }
           ]
         },
         {
-          "text": "可替换元素",
+          "text": "antfu-utils",
+          "link": "/package/antfu-utils"
+        },
+        {
+          "text": "file-saver",
+          "link": "/package/file-saver"
+        },
+        {
+          "text": "unplugin-auto-import",
+          "link": "/package/unplugin-auto-import"
+        },
+        {
+          "text": "unplugin-vue-components",
+          "link": "/package/unplugin-vue-components"
+        }
+      ]
+    }
+  ],
+  "/nuxt/": [
+    {
+      "text": "nuxt",
+      "items": [
+        {
+          "text": "布局",
+          "link": "/nuxt/布局"
+        },
+        {
+          "text": "服务器",
+          "link": "/nuxt/服务器"
+        },
+        {
+          "text": "基础",
+          "link": "/nuxt/基础"
+        },
+        {
+          "text": "路由",
+          "link": "/nuxt/路由"
+        },
+        {
+          "text": "视图",
+          "link": "/nuxt/视图"
+        },
+        {
+          "text": "数据请求",
+          "link": "/nuxt/数据请求"
+        },
+        {
+          "text": "资源管理",
+          "link": "/nuxt/资源管理"
+        },
+        {
+          "text": "SEO与元数据",
+          "link": "/nuxt/SEO与元数据"
+        }
+      ]
+    }
+  ],
+  "/前端工程化/": [
+    {
+      "text": "前端工程化",
+      "items": [
+        {
+          "text": "@antfueslint-config",
+          "link": "/前端工程化/@antfueslint-config"
+        },
+        {
+          "text": "biome",
+          "link": "/前端工程化/biome"
+        },
+        {
+          "text": "eslint",
+          "link": "/前端工程化/eslint"
+        },
+        {
+          "text": "prettier",
+          "link": "/前端工程化/prettier"
+        }
+      ]
+    }
+  ],
+  "/xstate/": [
+    {
+      "text": "xstate",
+      "items": [
+        {
+          "text": "迁移指南",
           "collapsible": true,
           "collapsed": false,
           "items": [
             {
-              "text": "可替换元素",
-              "link": "/HTML/可替换元素/可替换元素"
+              "text": "迁移指南",
+              "link": "/xstate/迁移指南/迁移指南"
             }
           ]
         },
         {
-          "text": "表格",
-          "link": "/HTML/表格"
+          "text": "Actor",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "Actor Model",
+              "link": "/xstate/Actor/1.Actor Model"
+            },
+            {
+              "text": "Invoked actor",
+              "link": "/xstate/Actor/2.Invoked actor"
+            },
+            {
+              "text": "Spawned actor",
+              "link": "/xstate/Actor/3.Spawned actor"
+            },
+            {
+              "text": "概述",
+              "link": "/xstate/Actor/概述"
+            }
+          ]
         },
         {
-          "text": "布尔属性",
-          "link": "/HTML/布尔属性"
+          "text": "State machines",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "State machines",
+              "link": "/xstate/State machines/1.State machines"
+            },
+            {
+              "text": "Setup",
+              "link": "/xstate/State machines/2.Setup"
+            },
+            {
+              "text": "Context",
+              "link": "/xstate/State machines/3.Context"
+            },
+            {
+              "text": "Snapshot",
+              "link": "/xstate/State machines/4.Snapshot"
+            },
+            {
+              "text": "States",
+              "link": "/xstate/State machines/5.States"
+            },
+            {
+              "text": "Output",
+              "link": "/xstate/State machines/6.Output"
+            },
+            {
+              "text": "Transitions",
+              "link": "/xstate/State machines/7.Transitions"
+            },
+            {
+              "text": "Actions",
+              "link": "/xstate/State machines/8.Actions"
+            },
+            {
+              "text": "Guards",
+              "link": "/xstate/State machines/9.Guards"
+            },
+            {
+              "text": "Persistence",
+              "link": "/xstate/State machines/10.Persistence"
+            }
+          ]
         },
         {
-          "text": "调试工具",
-          "link": "/HTML/调试工具"
+          "text": "@xstatevue",
+          "link": "/xstate/@xstatevue"
         },
         {
-          "text": "链接",
-          "link": "/HTML/链接"
+          "text": "CheatSheet",
+          "link": "/xstate/CheatSheet"
         },
         {
-          "text": "img",
-          "link": "/HTML/img"
+          "text": "example",
+          "link": "/xstate/example"
         }
       ]
     }
@@ -395,203 +599,6 @@ export default {
         {
           "text": "tsconfig",
           "link": "/TypeScript/tsconfig"
-        }
-      ]
-    }
-  ],
-  "/nuxt/": [
-    {
-      "text": "nuxt",
-      "items": [
-        {
-          "text": "布局",
-          "link": "/nuxt/布局"
-        },
-        {
-          "text": "服务器",
-          "link": "/nuxt/服务器"
-        },
-        {
-          "text": "基础",
-          "link": "/nuxt/基础"
-        },
-        {
-          "text": "路由",
-          "link": "/nuxt/路由"
-        },
-        {
-          "text": "视图",
-          "link": "/nuxt/视图"
-        },
-        {
-          "text": "数据请求",
-          "link": "/nuxt/数据请求"
-        },
-        {
-          "text": "资源管理",
-          "link": "/nuxt/资源管理"
-        },
-        {
-          "text": "SEO与元数据",
-          "link": "/nuxt/SEO与元数据"
-        }
-      ]
-    }
-  ],
-  "/package/": [
-    {
-      "text": "package",
-      "items": [
-        {
-          "text": "echarts",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "图表容器",
-              "link": "/package/echarts/图表容器"
-            },
-            {
-              "text": "series",
-              "link": "/package/echarts/series"
-            },
-            {
-              "text": "xAxis",
-              "link": "/package/echarts/xAxis"
-            }
-          ]
-        },
-        {
-          "text": "antfu-utils",
-          "link": "/package/antfu-utils"
-        },
-        {
-          "text": "file-saver",
-          "link": "/package/file-saver"
-        },
-        {
-          "text": "unplugin-auto-import",
-          "link": "/package/unplugin-auto-import"
-        },
-        {
-          "text": "unplugin-vue-components",
-          "link": "/package/unplugin-vue-components"
-        }
-      ]
-    }
-  ],
-  "/前端工程化/": [
-    {
-      "text": "前端工程化",
-      "items": [
-        {
-          "text": "@antfueslint-config",
-          "link": "/前端工程化/@antfueslint-config"
-        },
-        {
-          "text": "biome",
-          "link": "/前端工程化/biome"
-        },
-        {
-          "text": "eslint",
-          "link": "/前端工程化/eslint"
-        },
-        {
-          "text": "prettier",
-          "link": "/前端工程化/prettier"
-        }
-      ]
-    }
-  ],
-  "/xstate/": [
-    {
-      "text": "xstate",
-      "items": [
-        {
-          "text": "迁移指南",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "迁移指南",
-              "link": "/xstate/迁移指南/迁移指南"
-            }
-          ]
-        },
-        {
-          "text": "Actor",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "Actor Model",
-              "link": "/xstate/Actor/1.Actor Model"
-            },
-            {
-              "text": "Invoked actor",
-              "link": "/xstate/Actor/2.Invoked actor"
-            },
-            {
-              "text": "Spawned actor",
-              "link": "/xstate/Actor/3.Spawned actor"
-            },
-            {
-              "text": "概述",
-              "link": "/xstate/Actor/概述"
-            }
-          ]
-        },
-        {
-          "text": "State machines",
-          "link": "/xstate/2.State machines"
-        },
-        {
-          "text": "Setup",
-          "link": "/xstate/3.Setup"
-        },
-        {
-          "text": "Context",
-          "link": "/xstate/4.Context"
-        },
-        {
-          "text": "Snapshot",
-          "link": "/xstate/4.Snapshot"
-        },
-        {
-          "text": "States",
-          "link": "/xstate/4.States"
-        },
-        {
-          "text": "Output",
-          "link": "/xstate/6.Output"
-        },
-        {
-          "text": "Transitions",
-          "link": "/xstate/7.Transitions"
-        },
-        {
-          "text": "Actions",
-          "link": "/xstate/8.Actions"
-        },
-        {
-          "text": "Guards",
-          "link": "/xstate/9.Guards"
-        },
-        {
-          "text": "Persistence",
-          "link": "/xstate/10.Persistence"
-        },
-        {
-          "text": "@xstatevue",
-          "link": "/xstate/@xstatevue"
-        },
-        {
-          "text": "CheatSheet",
-          "link": "/xstate/CheatSheet"
-        },
-        {
-          "text": "example",
-          "link": "/xstate/example"
         }
       ]
     }
