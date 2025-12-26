@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      button {
+        cursor: pointer;
+        border: none;
+        outline: none;
+        /* 以下可以根据需要自定义 */
+        border-radius: 5px;
+        height: 30px;
+        width: 80px;
+        background: #010e1c;
+        color: #fff;
+      }
+      button:hover {
+        background: #1b2b3c;
+      }
+      button:disabled {
+        background: #ccd4da;
+        cursor: not-allowed;
+      }
+      .input {
+        outline: none;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        /* 让文字在输入框内存在间隙 */
+        padding: 0 10px;
+        height: 30px;
+        width: 200px;
+      }
+      .input:focus {
+        border: 1px solid #010e1c;
+      }
+      .input:disabled {
+        background: #e8ecee;
+        cursor: not-allowed;
+      }
+      .input::placeholder {
+        color: #9ca3af;
+      }
+      textarea.input {
+        height: 100px;
+        /* 禁用拖拽改变高度 */
+        resize: none;
+      }
+    </style>
+  </head>
+  <body>
+    <input class="input" type="text" placeholder="请输入内容" />
+    <textarea class="input" placeholder="请输入内容">123</textarea>
+    <!-- <button>发送</button> -->
+  </body>
+</html>

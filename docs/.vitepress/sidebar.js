@@ -182,6 +182,29 @@ export default {
           ]
         },
         {
+          "text": "默认样式设计",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "表格样式",
+              "link": "/CSS/默认样式设计/4-表格样式"
+            },
+            {
+              "text": "按钮样式",
+              "link": "/CSS/默认样式设计/按钮样式"
+            },
+            {
+              "text": "表单样式",
+              "link": "/CSS/默认样式设计/表单样式"
+            },
+            {
+              "text": "样式初始化",
+              "link": "/CSS/默认样式设计/样式初始化"
+            }
+          ]
+        },
+        {
           "text": "css分类",
           "link": "/CSS/1-css分类"
         },
@@ -190,24 +213,8 @@ export default {
           "link": "/CSS/2-选择器"
         },
         {
-          "text": "表格样式",
-          "link": "/CSS/4-表格样式"
-        },
-        {
-          "text": "按钮样式",
-          "link": "/CSS/按钮样式"
-        },
-        {
-          "text": "表单样式",
-          "link": "/CSS/表单样式"
-        },
-        {
           "text": "透明度",
           "link": "/CSS/透明度"
-        },
-        {
-          "text": "样式初始化",
-          "link": "/CSS/样式初始化"
         },
         {
           "text": "CSS特性",
@@ -374,6 +381,29 @@ export default {
       ]
     }
   ],
+  "/前端工程化/": [
+    {
+      "text": "前端工程化",
+      "items": [
+        {
+          "text": "@antfueslint-config",
+          "link": "/前端工程化/@antfueslint-config"
+        },
+        {
+          "text": "biome",
+          "link": "/前端工程化/biome"
+        },
+        {
+          "text": "eslint",
+          "link": "/前端工程化/eslint"
+        },
+        {
+          "text": "prettier",
+          "link": "/前端工程化/prettier"
+        }
+      ]
+    }
+  ],
   "/TypeScript/": [
     {
       "text": "TypeScript",
@@ -496,29 +526,6 @@ export default {
       ]
     }
   ],
-  "/前端工程化/": [
-    {
-      "text": "前端工程化",
-      "items": [
-        {
-          "text": "@antfueslint-config",
-          "link": "/前端工程化/@antfueslint-config"
-        },
-        {
-          "text": "biome",
-          "link": "/前端工程化/biome"
-        },
-        {
-          "text": "eslint",
-          "link": "/前端工程化/eslint"
-        },
-        {
-          "text": "prettier",
-          "link": "/前端工程化/prettier"
-        }
-      ]
-    }
-  ],
   "/百科/": [
     {
       "text": "百科",
@@ -530,242 +537,6 @@ export default {
         {
           "text": "favicons",
           "link": "/百科/favicons"
-        }
-      ]
-    }
-  ],
-  "/JavaScript/": [
-    {
-      "text": "JavaScript",
-      "items": [
-        {
-          "text": "包管理",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "npm",
-              "link": "/JavaScript/包管理/npm"
-            },
-            {
-              "text": "pnpm",
-              "link": "/JavaScript/包管理/pnpm"
-            },
-            {
-              "text": "yarn",
-              "link": "/JavaScript/包管理/yarn"
-            }
-          ]
-        },
-        {
-          "text": "迭代",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "for...in",
-              "link": "/JavaScript/迭代/for...in"
-            },
-            {
-              "text": "for...of",
-              "link": "/JavaScript/迭代/for...of"
-            }
-          ]
-        },
-        {
-          "text": "上传与下载",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "Blob",
-              "link": "/JavaScript/上传与下载/1-Blob"
-            },
-            {
-              "text": "File",
-              "link": "/JavaScript/上传与下载/2-File"
-            },
-            {
-              "text": "FileReader",
-              "link": "/JavaScript/上传与下载/3-FileReader"
-            },
-            {
-              "text": "FormData",
-              "link": "/JavaScript/上传与下载/4-FormData"
-            },
-            {
-              "text": "URL",
-              "link": "/JavaScript/上传与下载/5-URL"
-            },
-            {
-              "text": "上传",
-              "link": "/JavaScript/上传与下载/6-上传"
-            },
-            {
-              "text": "下载",
-              "link": "/JavaScript/上传与下载/7-下载"
-            },
-            {
-              "text": "预览",
-              "link": "/JavaScript/上传与下载/8-预览"
-            },
-            {
-              "text": "上传时序问题",
-              "link": "/JavaScript/上传与下载/9-上传时序问题"
-            },
-            {
-              "text": "上传进度",
-              "link": "/JavaScript/上传与下载/10-上传进度"
-            },
-            {
-              "text": "XMLHttpRequest",
-              "link": "/JavaScript/上传与下载/11-XMLHttpRequest"
-            },
-            {
-              "text": "XMLHttpRequestUpload",
-              "link": "/JavaScript/上传与下载/12-XMLHttpRequestUpload"
-            },
-            {
-              "text": "ProgressEvent",
-              "link": "/JavaScript/上传与下载/13-ProgressEvent"
-            }
-          ]
-        },
-        {
-          "text": "数字",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "数字分隔符",
-              "link": "/JavaScript/数字/数字分隔符"
-            }
-          ]
-        },
-        {
-          "text": "数组",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "查找",
-              "link": "/JavaScript/数组/查找"
-            },
-            {
-              "text": "解构与展开",
-              "link": "/JavaScript/数组/解构与展开"
-            },
-            {
-              "text": "清空数组",
-              "link": "/JavaScript/数组/清空数组"
-            },
-            {
-              "text": "Array",
-              "link": "/JavaScript/数组/Array"
-            },
-            {
-              "text": "at",
-              "link": "/JavaScript/数组/at"
-            },
-            {
-              "text": "concat",
-              "link": "/JavaScript/数组/concat"
-            },
-            {
-              "text": "copyWithin",
-              "link": "/JavaScript/数组/copyWithin"
-            },
-            {
-              "text": "every",
-              "link": "/JavaScript/数组/every"
-            },
-            {
-              "text": "filter",
-              "link": "/JavaScript/数组/filter"
-            },
-            {
-              "text": "find",
-              "link": "/JavaScript/数组/find"
-            },
-            {
-              "text": "findIndex",
-              "link": "/JavaScript/数组/findIndex"
-            },
-            {
-              "text": "forEach",
-              "link": "/JavaScript/数组/forEach"
-            },
-            {
-              "text": "includes",
-              "link": "/JavaScript/数组/includes"
-            },
-            {
-              "text": "indexOf",
-              "link": "/JavaScript/数组/indexOf"
-            },
-            {
-              "text": "join",
-              "link": "/JavaScript/数组/join"
-            },
-            {
-              "text": "map",
-              "link": "/JavaScript/数组/map"
-            },
-            {
-              "text": "slice",
-              "link": "/JavaScript/数组/slice"
-            },
-            {
-              "text": "some",
-              "link": "/JavaScript/数组/some"
-            },
-            {
-              "text": "sort",
-              "link": "/JavaScript/数组/sort"
-            },
-            {
-              "text": "splice",
-              "link": "/JavaScript/数组/splice"
-            },
-            {
-              "text": "with",
-              "link": "/JavaScript/数组/with"
-            }
-          ]
-        },
-        {
-          "text": "原生JS",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "Array",
-              "link": "/JavaScript/原生JS/Array"
-            },
-            {
-              "text": "import",
-              "link": "/JavaScript/原生JS/import"
-            },
-            {
-              "text": "Math",
-              "link": "/JavaScript/原生JS/Math"
-            },
-            {
-              "text": "Object",
-              "link": "/JavaScript/原生JS/Object"
-            }
-          ]
-        },
-        {
-          "text": "DOM",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "window",
-              "link": "/JavaScript/DOM/window"
-            }
-          ]
         }
       ]
     }
@@ -1276,6 +1047,242 @@ export default {
             {
               "text": "Guards",
               "link": "/xstate/State machines/9.Guards"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "/JavaScript/": [
+    {
+      "text": "JavaScript",
+      "items": [
+        {
+          "text": "包管理",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "npm",
+              "link": "/JavaScript/包管理/npm"
+            },
+            {
+              "text": "pnpm",
+              "link": "/JavaScript/包管理/pnpm"
+            },
+            {
+              "text": "yarn",
+              "link": "/JavaScript/包管理/yarn"
+            }
+          ]
+        },
+        {
+          "text": "迭代",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "for...in",
+              "link": "/JavaScript/迭代/for...in"
+            },
+            {
+              "text": "for...of",
+              "link": "/JavaScript/迭代/for...of"
+            }
+          ]
+        },
+        {
+          "text": "上传与下载",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "Blob",
+              "link": "/JavaScript/上传与下载/1-Blob"
+            },
+            {
+              "text": "File",
+              "link": "/JavaScript/上传与下载/2-File"
+            },
+            {
+              "text": "FileReader",
+              "link": "/JavaScript/上传与下载/3-FileReader"
+            },
+            {
+              "text": "FormData",
+              "link": "/JavaScript/上传与下载/4-FormData"
+            },
+            {
+              "text": "URL",
+              "link": "/JavaScript/上传与下载/5-URL"
+            },
+            {
+              "text": "上传",
+              "link": "/JavaScript/上传与下载/6-上传"
+            },
+            {
+              "text": "下载",
+              "link": "/JavaScript/上传与下载/7-下载"
+            },
+            {
+              "text": "预览",
+              "link": "/JavaScript/上传与下载/8-预览"
+            },
+            {
+              "text": "上传时序问题",
+              "link": "/JavaScript/上传与下载/9-上传时序问题"
+            },
+            {
+              "text": "上传进度",
+              "link": "/JavaScript/上传与下载/10-上传进度"
+            },
+            {
+              "text": "XMLHttpRequest",
+              "link": "/JavaScript/上传与下载/11-XMLHttpRequest"
+            },
+            {
+              "text": "XMLHttpRequestUpload",
+              "link": "/JavaScript/上传与下载/12-XMLHttpRequestUpload"
+            },
+            {
+              "text": "ProgressEvent",
+              "link": "/JavaScript/上传与下载/13-ProgressEvent"
+            }
+          ]
+        },
+        {
+          "text": "数字",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "数字分隔符",
+              "link": "/JavaScript/数字/数字分隔符"
+            }
+          ]
+        },
+        {
+          "text": "数组",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "查找",
+              "link": "/JavaScript/数组/查找"
+            },
+            {
+              "text": "解构与展开",
+              "link": "/JavaScript/数组/解构与展开"
+            },
+            {
+              "text": "清空数组",
+              "link": "/JavaScript/数组/清空数组"
+            },
+            {
+              "text": "Array",
+              "link": "/JavaScript/数组/Array"
+            },
+            {
+              "text": "at",
+              "link": "/JavaScript/数组/at"
+            },
+            {
+              "text": "concat",
+              "link": "/JavaScript/数组/concat"
+            },
+            {
+              "text": "copyWithin",
+              "link": "/JavaScript/数组/copyWithin"
+            },
+            {
+              "text": "every",
+              "link": "/JavaScript/数组/every"
+            },
+            {
+              "text": "filter",
+              "link": "/JavaScript/数组/filter"
+            },
+            {
+              "text": "find",
+              "link": "/JavaScript/数组/find"
+            },
+            {
+              "text": "findIndex",
+              "link": "/JavaScript/数组/findIndex"
+            },
+            {
+              "text": "forEach",
+              "link": "/JavaScript/数组/forEach"
+            },
+            {
+              "text": "includes",
+              "link": "/JavaScript/数组/includes"
+            },
+            {
+              "text": "indexOf",
+              "link": "/JavaScript/数组/indexOf"
+            },
+            {
+              "text": "join",
+              "link": "/JavaScript/数组/join"
+            },
+            {
+              "text": "map",
+              "link": "/JavaScript/数组/map"
+            },
+            {
+              "text": "slice",
+              "link": "/JavaScript/数组/slice"
+            },
+            {
+              "text": "some",
+              "link": "/JavaScript/数组/some"
+            },
+            {
+              "text": "sort",
+              "link": "/JavaScript/数组/sort"
+            },
+            {
+              "text": "splice",
+              "link": "/JavaScript/数组/splice"
+            },
+            {
+              "text": "with",
+              "link": "/JavaScript/数组/with"
+            }
+          ]
+        },
+        {
+          "text": "原生JS",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "Array",
+              "link": "/JavaScript/原生JS/Array"
+            },
+            {
+              "text": "import",
+              "link": "/JavaScript/原生JS/import"
+            },
+            {
+              "text": "Math",
+              "link": "/JavaScript/原生JS/Math"
+            },
+            {
+              "text": "Object",
+              "link": "/JavaScript/原生JS/Object"
+            }
+          ]
+        },
+        {
+          "text": "DOM",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "window",
+              "link": "/JavaScript/DOM/window"
             }
           ]
         }
