@@ -27,10 +27,10 @@ features:
     details: 12篇文档
     link: /组件库/TDesign/Card
   - title: CSS
-    details: 45篇文档
+    details: 44篇文档
     link: /CSS/CSS特性
   - title: HTML
-    details: 13篇文档
+    details: 14篇文档
     link: /HTML/img
   - title: JavaScript
     details: 45篇文档
@@ -48,7 +48,7 @@ features:
     details: 23篇文档
     link: /vitepress/markdown语法/frontmatter
   - title: vue
-    details: 53篇文档
+    details: 60篇文档
     link: /vue/pinia/action
   - title: xstate
     details: 16篇文档
