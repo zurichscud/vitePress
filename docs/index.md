@@ -21,7 +21,7 @@ features:
     details: 2篇文档
     link: /百科/CMS
   - title: 前端工程化
-    details: 4篇文档
+    details: 5篇文档
     link: /前端工程化/@antfueslint-config
   - title: 组件库
     details: 12篇文档
@@ -33,8 +33,8 @@ features:
     details: 14篇文档
     link: /HTML/img
   - title: JavaScript
-    details: 45篇文档
-    link: /JavaScript/DOM/window
+    details: 50篇文档
+    link: /JavaScript/DOM/Console
   - title: nuxt
     details: 8篇文档
     link: /nuxt/SEO与元数据
@@ -48,7 +48,7 @@ features:
     details: 23篇文档
     link: /vitepress/markdown语法/frontmatter
   - title: vue
-    details: 60篇文档
+    details: 61篇文档
     link: /vue/pinia/action
   - title: xstate
     details: 16篇文档

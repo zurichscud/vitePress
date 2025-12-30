@@ -552,6 +552,10 @@ export default {
         {
           "text": "prettier",
           "link": "/前端工程化/prettier"
+        },
+        {
+          "text": "vscode",
+          "link": "/前端工程化/vscode"
         }
       ]
     }
@@ -799,8 +803,176 @@ export default {
           "collapsed": false,
           "items": [
             {
+              "text": "获取DOM",
+              "link": "/JavaScript/DOM/获取DOM"
+            },
+            {
+              "text": "Console",
+              "link": "/JavaScript/DOM/Console"
+            }
+          ]
+        },
+        {
+          "text": "WebAPI",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "BOM",
+              "link": "/JavaScript/WebAPI/BOM"
+            },
+            {
+              "text": "history",
+              "link": "/JavaScript/WebAPI/history"
+            },
+            {
+              "text": "location",
+              "link": "/JavaScript/WebAPI/location"
+            },
+            {
               "text": "window",
-              "link": "/JavaScript/DOM/window"
+              "link": "/JavaScript/WebAPI/window"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "/vitepress/": [
+    {
+      "text": "vitepress",
+      "items": [
+        {
+          "text": "插件",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "vitepress-plugin-group-icons",
+              "link": "/vitepress/插件/1-vitepress-plugin-group-icons"
+            },
+            {
+              "text": "demo",
+              "link": "/vitepress/插件/2-demo"
+            }
+          ]
+        },
+        {
+          "text": "基础",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "快速开始",
+              "link": "/vitepress/基础/快速开始"
+            },
+            {
+              "text": "路由",
+              "link": "/vitepress/基础/路由"
+            },
+            {
+              "text": "资源处理",
+              "link": "/vitepress/基础/资源处理"
+            }
+          ]
+        },
+        {
+          "text": "默认主题",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "编辑链接",
+              "link": "/vitepress/默认主题/编辑链接"
+            },
+            {
+              "text": "布局",
+              "link": "/vitepress/默认主题/布局"
+            },
+            {
+              "text": "侧边栏",
+              "link": "/vitepress/默认主题/侧边栏"
+            },
+            {
+              "text": "导航栏",
+              "link": "/vitepress/默认主题/导航栏"
+            },
+            {
+              "text": "上下页链接",
+              "link": "/vitepress/默认主题/上下页链接"
+            },
+            {
+              "text": "页脚",
+              "link": "/vitepress/默认主题/页脚"
+            },
+            {
+              "text": "最后更新时间",
+              "link": "/vitepress/默认主题/最后更新时间"
+            }
+          ]
+        },
+        {
+          "text": "内置组件",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "Badge",
+              "link": "/vitepress/内置组件/Badge"
+            },
+            {
+              "text": "ClientOnly",
+              "link": "/vitepress/内置组件/ClientOnly"
+            },
+            {
+              "text": "Content",
+              "link": "/vitepress/内置组件/Content"
+            }
+          ]
+        },
+        {
+          "text": "自定义",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "自定义主题",
+              "link": "/vitepress/自定义/1-自定义主题"
+            },
+            {
+              "text": "扩展默认主题",
+              "link": "/vitepress/自定义/2-扩展默认主题"
+            },
+            {
+              "text": "构建时数据加载",
+              "link": "/vitepress/自定义/3-构建时数据加载"
+            }
+          ]
+        },
+        {
+          "text": "markdown语法",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "运行时API",
+              "link": "/vitepress/markdown语法/运行时API"
+            },
+            {
+              "text": "frontmatter",
+              "link": "/vitepress/markdown语法/frontmatter"
+            },
+            {
+              "text": "markdown基础",
+              "link": "/vitepress/markdown语法/markdown基础"
+            },
+            {
+              "text": "markdown扩展",
+              "link": "/vitepress/markdown语法/markdown扩展"
+            },
+            {
+              "text": "markdown中使用Vue",
+              "link": "/vitepress/markdown语法/markdown中使用Vue"
             }
           ]
         }
@@ -1092,6 +1264,17 @@ export default {
               ]
             },
             {
+              "text": "业务",
+              "collapsible": true,
+              "collapsed": false,
+              "items": [
+                {
+                  "text": "权限",
+                  "link": "/vue/vue3/业务/权限"
+                }
+              ]
+            },
+            {
               "text": "指令",
               "collapsible": true,
               "collapsed": false,
@@ -1217,147 +1400,6 @@ export default {
             {
               "text": "Guards",
               "link": "/xstate/State machines/9.Guards"
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "/vitepress/": [
-    {
-      "text": "vitepress",
-      "items": [
-        {
-          "text": "插件",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "vitepress-plugin-group-icons",
-              "link": "/vitepress/插件/1-vitepress-plugin-group-icons"
-            },
-            {
-              "text": "demo",
-              "link": "/vitepress/插件/2-demo"
-            }
-          ]
-        },
-        {
-          "text": "基础",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "快速开始",
-              "link": "/vitepress/基础/快速开始"
-            },
-            {
-              "text": "路由",
-              "link": "/vitepress/基础/路由"
-            },
-            {
-              "text": "资源处理",
-              "link": "/vitepress/基础/资源处理"
-            }
-          ]
-        },
-        {
-          "text": "默认主题",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "编辑链接",
-              "link": "/vitepress/默认主题/编辑链接"
-            },
-            {
-              "text": "布局",
-              "link": "/vitepress/默认主题/布局"
-            },
-            {
-              "text": "侧边栏",
-              "link": "/vitepress/默认主题/侧边栏"
-            },
-            {
-              "text": "导航栏",
-              "link": "/vitepress/默认主题/导航栏"
-            },
-            {
-              "text": "上下页链接",
-              "link": "/vitepress/默认主题/上下页链接"
-            },
-            {
-              "text": "页脚",
-              "link": "/vitepress/默认主题/页脚"
-            },
-            {
-              "text": "最后更新时间",
-              "link": "/vitepress/默认主题/最后更新时间"
-            }
-          ]
-        },
-        {
-          "text": "内置组件",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "Badge",
-              "link": "/vitepress/内置组件/Badge"
-            },
-            {
-              "text": "ClientOnly",
-              "link": "/vitepress/内置组件/ClientOnly"
-            },
-            {
-              "text": "Content",
-              "link": "/vitepress/内置组件/Content"
-            }
-          ]
-        },
-        {
-          "text": "自定义",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "自定义主题",
-              "link": "/vitepress/自定义/1-自定义主题"
-            },
-            {
-              "text": "扩展默认主题",
-              "link": "/vitepress/自定义/2-扩展默认主题"
-            },
-            {
-              "text": "构建时数据加载",
-              "link": "/vitepress/自定义/3-构建时数据加载"
-            }
-          ]
-        },
-        {
-          "text": "markdown语法",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "运行时API",
-              "link": "/vitepress/markdown语法/运行时API"
-            },
-            {
-              "text": "frontmatter",
-              "link": "/vitepress/markdown语法/frontmatter"
-            },
-            {
-              "text": "markdown基础",
-              "link": "/vitepress/markdown语法/markdown基础"
-            },
-            {
-              "text": "markdown扩展",
-              "link": "/vitepress/markdown语法/markdown扩展"
-            },
-            {
-              "text": "markdown中使用Vue",
-              "link": "/vitepress/markdown语法/markdown中使用Vue"
             }
           ]
         }
