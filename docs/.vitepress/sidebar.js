@@ -803,8 +803,16 @@ export default {
           "collapsed": false,
           "items": [
             {
+              "text": "操作DOM表单",
+              "link": "/JavaScript/DOM/操作DOM表单"
+            },
+            {
               "text": "获取DOM",
               "link": "/JavaScript/DOM/获取DOM"
+            },
+            {
+              "text": "监听DOM事件",
+              "link": "/JavaScript/DOM/监听DOM事件"
             },
             {
               "text": "Console",
