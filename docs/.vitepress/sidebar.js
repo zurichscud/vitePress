@@ -330,6 +330,87 @@ export default {
       ]
     }
   ],
+  "/nuxt/": [
+    {
+      "text": "nuxt",
+      "items": [
+        {
+          "text": "布局",
+          "link": "/nuxt/布局"
+        },
+        {
+          "text": "服务器",
+          "link": "/nuxt/服务器"
+        },
+        {
+          "text": "基础",
+          "link": "/nuxt/基础"
+        },
+        {
+          "text": "路由",
+          "link": "/nuxt/路由"
+        },
+        {
+          "text": "视图",
+          "link": "/nuxt/视图"
+        },
+        {
+          "text": "数据请求",
+          "link": "/nuxt/数据请求"
+        },
+        {
+          "text": "资源管理",
+          "link": "/nuxt/资源管理"
+        },
+        {
+          "text": "SEO与元数据",
+          "link": "/nuxt/SEO与元数据"
+        }
+      ]
+    }
+  ],
+  "/package/": [
+    {
+      "text": "package",
+      "items": [
+        {
+          "text": "echarts",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "图表容器",
+              "link": "/package/echarts/图表容器"
+            },
+            {
+              "text": "series",
+              "link": "/package/echarts/series"
+            },
+            {
+              "text": "xAxis",
+              "link": "/package/echarts/xAxis"
+            }
+          ]
+        },
+        {
+          "text": "antfu-utils",
+          "link": "/package/antfu-utils"
+        },
+        {
+          "text": "file-saver",
+          "link": "/package/file-saver"
+        },
+        {
+          "text": "unplugin-auto-import",
+          "link": "/package/unplugin-auto-import"
+        },
+        {
+          "text": "unplugin-vue-components",
+          "link": "/package/unplugin-vue-components"
+        }
+      ]
+    }
+  ],
   "/TypeScript/": [
     {
       "text": "TypeScript",
@@ -448,87 +529,6 @@ export default {
         {
           "text": "tsconfig",
           "link": "/TypeScript/tsconfig"
-        }
-      ]
-    }
-  ],
-  "/nuxt/": [
-    {
-      "text": "nuxt",
-      "items": [
-        {
-          "text": "布局",
-          "link": "/nuxt/布局"
-        },
-        {
-          "text": "服务器",
-          "link": "/nuxt/服务器"
-        },
-        {
-          "text": "基础",
-          "link": "/nuxt/基础"
-        },
-        {
-          "text": "路由",
-          "link": "/nuxt/路由"
-        },
-        {
-          "text": "视图",
-          "link": "/nuxt/视图"
-        },
-        {
-          "text": "数据请求",
-          "link": "/nuxt/数据请求"
-        },
-        {
-          "text": "资源管理",
-          "link": "/nuxt/资源管理"
-        },
-        {
-          "text": "SEO与元数据",
-          "link": "/nuxt/SEO与元数据"
-        }
-      ]
-    }
-  ],
-  "/package/": [
-    {
-      "text": "package",
-      "items": [
-        {
-          "text": "echarts",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "图表容器",
-              "link": "/package/echarts/图表容器"
-            },
-            {
-              "text": "series",
-              "link": "/package/echarts/series"
-            },
-            {
-              "text": "xAxis",
-              "link": "/package/echarts/xAxis"
-            }
-          ]
-        },
-        {
-          "text": "antfu-utils",
-          "link": "/package/antfu-utils"
-        },
-        {
-          "text": "file-saver",
-          "link": "/package/file-saver"
-        },
-        {
-          "text": "unplugin-auto-import",
-          "link": "/package/unplugin-auto-import"
-        },
-        {
-          "text": "unplugin-vue-components",
-          "link": "/package/unplugin-vue-components"
         }
       ]
     }
@@ -803,63 +803,6 @@ export default {
           "collapsed": false,
           "items": [
             {
-              "text": "Event",
-              "collapsible": true,
-              "collapsed": false,
-              "items": [
-                {
-                  "text": "UIEvent",
-                  "collapsible": true,
-                  "collapsed": false,
-                  "items": [
-                    {
-                      "text": "FocusEvent",
-                      "link": "/JavaScript/DOM/Event/UIEvent/FocusEvent"
-                    },
-                    {
-                      "text": "MouseEvent",
-                      "link": "/JavaScript/DOM/Event/UIEvent/MouseEvent"
-                    },
-                    {
-                      "text": "SubmitEvent",
-                      "link": "/JavaScript/DOM/Event/UIEvent/SubmitEvent"
-                    },
-                    {
-                      "text": "UIEvent",
-                      "link": "/JavaScript/DOM/Event/UIEvent/UIEvent"
-                    }
-                  ]
-                },
-                {
-                  "text": "Event",
-                  "link": "/JavaScript/DOM/Event/Event"
-                },
-                {
-                  "text": "EventTarget",
-                  "link": "/JavaScript/DOM/Event/EventTarget"
-                },
-                {
-                  "text": "KeyboardEvent",
-                  "link": "/JavaScript/DOM/Event/KeyboardEvent"
-                }
-              ]
-            },
-            {
-              "text": "EventTarget",
-              "collapsible": true,
-              "collapsed": false,
-              "items": [
-                {
-                  "text": "继承图",
-                  "link": "/JavaScript/DOM/EventTarget/继承图"
-                },
-                {
-                  "text": "HTMLElement",
-                  "link": "/JavaScript/DOM/EventTarget/HTMLElement"
-                }
-              ]
-            },
-            {
               "text": "操作DOM表单",
               "link": "/JavaScript/DOM/操作DOM表单"
             },
@@ -874,14 +817,6 @@ export default {
             {
               "text": "Console",
               "link": "/JavaScript/DOM/Console"
-            },
-            {
-              "text": "DOM属性",
-              "link": "/JavaScript/DOM/DOM属性"
-            },
-            {
-              "text": "DOM样式",
-              "link": "/JavaScript/DOM/DOM样式"
             }
           ]
         },
@@ -1381,6 +1316,86 @@ export default {
             {
               "text": "TS与组合式API",
               "link": "/vue/vue3/TS与组合式API"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "/WebAPI/": [
+    {
+      "text": "WebAPI",
+      "items": [
+        {
+          "text": "Event",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "UIEvent",
+              "collapsible": true,
+              "collapsed": false,
+              "items": [
+                {
+                  "text": "FocusEvent",
+                  "link": "/WebAPI/Event/UIEvent/FocusEvent"
+                },
+                {
+                  "text": "InputEvent",
+                  "link": "/WebAPI/Event/UIEvent/InputEvent"
+                },
+                {
+                  "text": "MouseEvent",
+                  "link": "/WebAPI/Event/UIEvent/MouseEvent"
+                },
+                {
+                  "text": "SubmitEvent",
+                  "link": "/WebAPI/Event/UIEvent/SubmitEvent"
+                },
+                {
+                  "text": "UIEvent",
+                  "link": "/WebAPI/Event/UIEvent/UIEvent"
+                }
+              ]
+            },
+            {
+              "text": "Event",
+              "link": "/WebAPI/Event/Event"
+            },
+            {
+              "text": "KeyboardEvent",
+              "link": "/WebAPI/Event/KeyboardEvent"
+            }
+          ]
+        },
+        {
+          "text": "EventTarget",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "继承图",
+              "link": "/WebAPI/EventTarget/继承图"
+            },
+            {
+              "text": "Document",
+              "link": "/WebAPI/EventTarget/Document"
+            },
+            {
+              "text": "Element",
+              "link": "/WebAPI/EventTarget/Element"
+            },
+            {
+              "text": "EventTarget",
+              "link": "/WebAPI/EventTarget/EventTarget"
+            },
+            {
+              "text": "HTMLElement",
+              "link": "/WebAPI/EventTarget/HTMLElement"
+            },
+            {
+              "text": "Node",
+              "link": "/WebAPI/EventTarget/Node"
             }
           ]
         }

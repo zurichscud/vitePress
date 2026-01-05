@@ -1,0 +1,98 @@
+# Document
+
+`Document` **表示整个文档**，它是 **DOM 树的根节点**。页面中**只有一个 Document 实例**
+
+
+
+## Class
+
+```ts
+EventTarget
+  └── Node
+      └── Document
+
+```
+
+DOM 树包含了像`body`、`table` 这样的元素，以及大量[其他元素](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Reference/Elements)。
+
+它向文档本身提供了全局操作功能，能解决如何获取页面的 URL，如何在文档中创建一个新的元素这样的问题。
+
+## Constructor
+
+在 **解析 HTML 文档** 的过程中，浏览器创建了 **唯一的 `Document` 实例**，并把它挂到 `window` 上
+
+## Properties
+
+| 属性              | 说明              |
+| ----------------- | ----------------- |
+| `documentElement` | `<html>` 元素     |
+| `head`            | `<head>`          |
+| `body`            | `<body>`          |
+| `doctype`         | `<!DOCTYPE html>` |
+| `title`           | 页面标题          |
+
+
+
+| 属性         | 说明                          |
+| ------------ | ----------------------------- |
+| `childNodes` | 所有子节点（含注释、doctype） |
+| `children`   | 元素子节点                    |
+| `firstChild` | 第一个子节点                  |
+
+
+
+| 属性              | 说明                               |
+| ----------------- | ---------------------------------- |
+| `visibilityState` | `visible` / `hidden`               |
+| `hidden`          | 是否被隐藏                         |
+| `readyState`      | `loading / interactive / complete` |
+
+### documentElement
+
+获取文档的根元素
+
+```ts
+console.log(document.documentElement) // <html>...</html>
+```
+
+
+
+
+
+## Methods
+
+
+
+### createElement
+
+```ts
+const div = document.createElement('div')
+div.className = 'box'
+div.textContent = 'hello'
+```
+
+
+
+### querySelector
+
+```ts
+const el = document.querySelector('.box')
+```
+
+- 支持 **任意 CSS 选择器**
+- 返回 **第一个匹配元素或 `null`**
+- 实际项目最常用
+
+
+
+### querySeletctorAll
+
+```ts
+const els = document.querySelectorAll('.item')
+```
+
+- 支持 **任意 CSS 选择器**
+- 返回 **NodeList（静态）**,表示所有满足的元素
+
+- 可直接使用 `forEach`
+

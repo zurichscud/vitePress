@@ -50,13 +50,6 @@ dom.onclick=null
 参见EventType>removeEventListener
 
 
-![image-20260104215940533](./assets/image-20260104215940533.png)
-
-
-
-
-
-
 
 
 

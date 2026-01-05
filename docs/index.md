@@ -33,7 +33,7 @@ features:
     details: 14篇文档
     link: /HTML/img
   - title: JavaScript
-    details: 63篇文档
+    details: 52篇文档
     link: /JavaScript/DOM/Console
   - title: nuxt
     details: 8篇文档
@@ -50,6 +50,9 @@ features:
   - title: vue
     details: 61篇文档
     link: /vue/pinia/action
+  - title: WebAPI
+    details: 13篇文档
+    link: /WebAPI/Event/Event
   - title: xstate
     details: 16篇文档
     link: /xstate/Actor/1.Actor Model
