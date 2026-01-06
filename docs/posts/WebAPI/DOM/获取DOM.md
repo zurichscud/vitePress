@@ -1,21 +1,5 @@
 # DOM操作
 
- **Document Object Model**
-
-DOM相关的操作都在`window.document`上
-
-## DOM树
-
-```html
-    <div class="box">
-      what is <strong>dom</strong>?
-    </div>
-```
-
-TextNode文本节点`what is`、`?`
-
-ElementNode元素节点：`<strong>dom</strong>`
-
 
 
 ## 获取DOM
@@ -46,9 +30,3 @@ const item = container.querySelector('.item')
 ## DOM 关系获取（兄弟 / 父子）
 
 
-
-## DOM属性
-
-![image-20251230220610773](./assets/image-20251230220610773.png)
-
-- 属性可以重新赋值

@@ -1,5 +1,254 @@
 // 自动生成，请勿修改
 export default {
+  "/HTML/": [
+    {
+      "text": "HTML",
+      "items": [
+        {
+          "text": "表单",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "button",
+              "link": "/HTML/表单/button"
+            },
+            {
+              "text": "check",
+              "link": "/HTML/表单/check"
+            },
+            {
+              "text": "form",
+              "link": "/HTML/表单/form"
+            },
+            {
+              "text": "input",
+              "link": "/HTML/表单/input"
+            },
+            {
+              "text": "label",
+              "link": "/HTML/表单/label"
+            },
+            {
+              "text": "select",
+              "link": "/HTML/表单/select"
+            },
+            {
+              "text": "textarea",
+              "link": "/HTML/表单/textarea"
+            }
+          ]
+        },
+        {
+          "text": "可替换元素",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "可替换元素",
+              "link": "/HTML/可替换元素/可替换元素"
+            }
+          ]
+        },
+        {
+          "text": "属性",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "标准属性",
+              "link": "/HTML/属性/1-标准属性"
+            },
+            {
+              "text": "自定义属性",
+              "link": "/HTML/属性/2-自定义属性"
+            },
+            {
+              "text": "contenteditable",
+              "link": "/HTML/属性/4-contenteditable"
+            }
+          ]
+        },
+        {
+          "text": "表格",
+          "link": "/HTML/表格"
+        },
+        {
+          "text": "调试工具",
+          "link": "/HTML/调试工具"
+        },
+        {
+          "text": "链接",
+          "link": "/HTML/链接"
+        },
+        {
+          "text": "img",
+          "link": "/HTML/img"
+        }
+      ]
+    }
+  ],
+  "/TypeScript/": [
+    {
+      "text": "TypeScript",
+      "items": [
+        {
+          "text": "泛型",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "泛型",
+              "link": "/TypeScript/泛型/泛型"
+            },
+            {
+              "text": "泛型工具",
+              "link": "/TypeScript/泛型/泛型工具"
+            },
+            {
+              "text": "条件类型",
+              "link": "/TypeScript/泛型/条件类型"
+            },
+            {
+              "text": "映射类型",
+              "link": "/TypeScript/泛型/映射类型"
+            }
+          ]
+        },
+        {
+          "text": "基本数据类型",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "对象类型",
+              "link": "/TypeScript/基本数据类型/对象类型"
+            },
+            {
+              "text": "函数类型",
+              "link": "/TypeScript/基本数据类型/函数类型"
+            },
+            {
+              "text": "枚举类型",
+              "link": "/TypeScript/基本数据类型/枚举类型"
+            },
+            {
+              "text": "原始类型",
+              "link": "/TypeScript/基本数据类型/原始类型"
+            },
+            {
+              "text": "组合类型",
+              "link": "/TypeScript/基本数据类型/组合类型"
+            }
+          ]
+        },
+        {
+          "text": "接口",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "索引访问类型",
+              "link": "/TypeScript/接口/索引访问类型"
+            },
+            {
+              "text": "索引签名",
+              "link": "/TypeScript/接口/索引签名"
+            }
+          ]
+        },
+        {
+          "text": "类型运算",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "类型体操",
+              "link": "/TypeScript/类型运算/类型体操"
+            },
+            {
+              "text": "类型运算符",
+              "link": "/TypeScript/类型运算/类型运算符"
+            },
+            {
+              "text": "协变与逆变",
+              "link": "/TypeScript/类型运算/协变与逆变"
+            },
+            {
+              "text": "infer关键字",
+              "link": "/TypeScript/类型运算/infer关键字"
+            }
+          ]
+        },
+        {
+          "text": "特殊数据类型",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "特殊类型",
+              "link": "/TypeScript/特殊数据类型/特殊类型"
+            }
+          ]
+        },
+        {
+          "text": "断言",
+          "link": "/TypeScript/断言"
+        },
+        {
+          "text": "类型守卫",
+          "link": "/TypeScript/类型守卫"
+        },
+        {
+          "text": "声明文件",
+          "link": "/TypeScript/声明文件"
+        },
+        {
+          "text": "tsconfig",
+          "link": "/TypeScript/tsconfig"
+        }
+      ]
+    }
+  ],
+  "/nuxt/": [
+    {
+      "text": "nuxt",
+      "items": [
+        {
+          "text": "布局",
+          "link": "/nuxt/布局"
+        },
+        {
+          "text": "服务器",
+          "link": "/nuxt/服务器"
+        },
+        {
+          "text": "基础",
+          "link": "/nuxt/基础"
+        },
+        {
+          "text": "路由",
+          "link": "/nuxt/路由"
+        },
+        {
+          "text": "视图",
+          "link": "/nuxt/视图"
+        },
+        {
+          "text": "数据请求",
+          "link": "/nuxt/数据请求"
+        },
+        {
+          "text": "资源管理",
+          "link": "/nuxt/资源管理"
+        },
+        {
+          "text": "SEO与元数据",
+          "link": "/nuxt/SEO与元数据"
+        }
+      ]
+    }
+  ],
   "/CSS/": [
     {
       "text": "CSS",
@@ -246,129 +495,6 @@ export default {
       ]
     }
   ],
-  "/HTML/": [
-    {
-      "text": "HTML",
-      "items": [
-        {
-          "text": "表单",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "button",
-              "link": "/HTML/表单/button"
-            },
-            {
-              "text": "check",
-              "link": "/HTML/表单/check"
-            },
-            {
-              "text": "form",
-              "link": "/HTML/表单/form"
-            },
-            {
-              "text": "input",
-              "link": "/HTML/表单/input"
-            },
-            {
-              "text": "label",
-              "link": "/HTML/表单/label"
-            },
-            {
-              "text": "select",
-              "link": "/HTML/表单/select"
-            },
-            {
-              "text": "textarea",
-              "link": "/HTML/表单/textarea"
-            }
-          ]
-        },
-        {
-          "text": "可替换元素",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "可替换元素",
-              "link": "/HTML/可替换元素/可替换元素"
-            }
-          ]
-        },
-        {
-          "text": "属性",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "布尔属性",
-              "link": "/HTML/属性/1-布尔属性"
-            },
-            {
-              "text": "contenteditable",
-              "link": "/HTML/属性/4-contenteditable"
-            }
-          ]
-        },
-        {
-          "text": "表格",
-          "link": "/HTML/表格"
-        },
-        {
-          "text": "调试工具",
-          "link": "/HTML/调试工具"
-        },
-        {
-          "text": "链接",
-          "link": "/HTML/链接"
-        },
-        {
-          "text": "img",
-          "link": "/HTML/img"
-        }
-      ]
-    }
-  ],
-  "/nuxt/": [
-    {
-      "text": "nuxt",
-      "items": [
-        {
-          "text": "布局",
-          "link": "/nuxt/布局"
-        },
-        {
-          "text": "服务器",
-          "link": "/nuxt/服务器"
-        },
-        {
-          "text": "基础",
-          "link": "/nuxt/基础"
-        },
-        {
-          "text": "路由",
-          "link": "/nuxt/路由"
-        },
-        {
-          "text": "视图",
-          "link": "/nuxt/视图"
-        },
-        {
-          "text": "数据请求",
-          "link": "/nuxt/数据请求"
-        },
-        {
-          "text": "资源管理",
-          "link": "/nuxt/资源管理"
-        },
-        {
-          "text": "SEO与元数据",
-          "link": "/nuxt/SEO与元数据"
-        }
-      ]
-    }
-  ],
   "/package/": [
     {
       "text": "package",
@@ -407,128 +533,6 @@ export default {
         {
           "text": "unplugin-vue-components",
           "link": "/package/unplugin-vue-components"
-        }
-      ]
-    }
-  ],
-  "/TypeScript/": [
-    {
-      "text": "TypeScript",
-      "items": [
-        {
-          "text": "泛型",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "泛型",
-              "link": "/TypeScript/泛型/泛型"
-            },
-            {
-              "text": "泛型工具",
-              "link": "/TypeScript/泛型/泛型工具"
-            },
-            {
-              "text": "条件类型",
-              "link": "/TypeScript/泛型/条件类型"
-            },
-            {
-              "text": "映射类型",
-              "link": "/TypeScript/泛型/映射类型"
-            }
-          ]
-        },
-        {
-          "text": "基本数据类型",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "对象类型",
-              "link": "/TypeScript/基本数据类型/对象类型"
-            },
-            {
-              "text": "函数类型",
-              "link": "/TypeScript/基本数据类型/函数类型"
-            },
-            {
-              "text": "枚举类型",
-              "link": "/TypeScript/基本数据类型/枚举类型"
-            },
-            {
-              "text": "原始类型",
-              "link": "/TypeScript/基本数据类型/原始类型"
-            },
-            {
-              "text": "组合类型",
-              "link": "/TypeScript/基本数据类型/组合类型"
-            }
-          ]
-        },
-        {
-          "text": "接口",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "索引访问类型",
-              "link": "/TypeScript/接口/索引访问类型"
-            },
-            {
-              "text": "索引签名",
-              "link": "/TypeScript/接口/索引签名"
-            }
-          ]
-        },
-        {
-          "text": "类型运算",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "类型体操",
-              "link": "/TypeScript/类型运算/类型体操"
-            },
-            {
-              "text": "类型运算符",
-              "link": "/TypeScript/类型运算/类型运算符"
-            },
-            {
-              "text": "协变与逆变",
-              "link": "/TypeScript/类型运算/协变与逆变"
-            },
-            {
-              "text": "infer关键字",
-              "link": "/TypeScript/类型运算/infer关键字"
-            }
-          ]
-        },
-        {
-          "text": "特殊数据类型",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "特殊类型",
-              "link": "/TypeScript/特殊数据类型/特殊类型"
-            }
-          ]
-        },
-        {
-          "text": "断言",
-          "link": "/TypeScript/断言"
-        },
-        {
-          "text": "类型守卫",
-          "link": "/TypeScript/类型守卫"
-        },
-        {
-          "text": "声明文件",
-          "link": "/TypeScript/声明文件"
-        },
-        {
-          "text": "tsconfig",
-          "link": "/TypeScript/tsconfig"
         }
       ]
     }
@@ -798,29 +802,6 @@ export default {
           ]
         },
         {
-          "text": "DOM",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "操作DOM表单",
-              "link": "/JavaScript/DOM/操作DOM表单"
-            },
-            {
-              "text": "获取DOM",
-              "link": "/JavaScript/DOM/获取DOM"
-            },
-            {
-              "text": "监听DOM事件",
-              "link": "/JavaScript/DOM/监听DOM事件"
-            },
-            {
-              "text": "Console",
-              "link": "/JavaScript/DOM/Console"
-            }
-          ]
-        },
-        {
           "text": "WebAPI",
           "collapsible": true,
           "collapsed": false,
@@ -840,6 +821,113 @@ export default {
             {
               "text": "window",
               "link": "/JavaScript/WebAPI/window"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "/WebAPI/": [
+    {
+      "text": "WebAPI",
+      "items": [
+        {
+          "text": "DOM",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "操作DOM表单",
+              "link": "/WebAPI/DOM/操作DOM表单"
+            },
+            {
+              "text": "获取DOM",
+              "link": "/WebAPI/DOM/获取DOM"
+            },
+            {
+              "text": "监听DOM事件",
+              "link": "/WebAPI/DOM/监听DOM事件"
+            },
+            {
+              "text": "Console",
+              "link": "/WebAPI/DOM/Console"
+            },
+            {
+              "text": "DOM树",
+              "link": "/WebAPI/DOM/DOM树"
+            }
+          ]
+        },
+        {
+          "text": "Event",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "UIEvent",
+              "collapsible": true,
+              "collapsed": false,
+              "items": [
+                {
+                  "text": "FocusEvent",
+                  "link": "/WebAPI/Event/UIEvent/FocusEvent"
+                },
+                {
+                  "text": "InputEvent",
+                  "link": "/WebAPI/Event/UIEvent/InputEvent"
+                },
+                {
+                  "text": "MouseEvent",
+                  "link": "/WebAPI/Event/UIEvent/MouseEvent"
+                },
+                {
+                  "text": "SubmitEvent",
+                  "link": "/WebAPI/Event/UIEvent/SubmitEvent"
+                },
+                {
+                  "text": "UIEvent",
+                  "link": "/WebAPI/Event/UIEvent/UIEvent"
+                }
+              ]
+            },
+            {
+              "text": "Event",
+              "link": "/WebAPI/Event/Event"
+            },
+            {
+              "text": "KeyboardEvent",
+              "link": "/WebAPI/Event/KeyboardEvent"
+            }
+          ]
+        },
+        {
+          "text": "EventTarget",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "继承图",
+              "link": "/WebAPI/EventTarget/继承图"
+            },
+            {
+              "text": "Document",
+              "link": "/WebAPI/EventTarget/Document"
+            },
+            {
+              "text": "Element",
+              "link": "/WebAPI/EventTarget/Element"
+            },
+            {
+              "text": "EventTarget",
+              "link": "/WebAPI/EventTarget/EventTarget"
+            },
+            {
+              "text": "HTMLElement",
+              "link": "/WebAPI/EventTarget/HTMLElement"
+            },
+            {
+              "text": "Node",
+              "link": "/WebAPI/EventTarget/Node"
             }
           ]
         }
@@ -1316,86 +1404,6 @@ export default {
             {
               "text": "TS与组合式API",
               "link": "/vue/vue3/TS与组合式API"
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "/WebAPI/": [
-    {
-      "text": "WebAPI",
-      "items": [
-        {
-          "text": "Event",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "UIEvent",
-              "collapsible": true,
-              "collapsed": false,
-              "items": [
-                {
-                  "text": "FocusEvent",
-                  "link": "/WebAPI/Event/UIEvent/FocusEvent"
-                },
-                {
-                  "text": "InputEvent",
-                  "link": "/WebAPI/Event/UIEvent/InputEvent"
-                },
-                {
-                  "text": "MouseEvent",
-                  "link": "/WebAPI/Event/UIEvent/MouseEvent"
-                },
-                {
-                  "text": "SubmitEvent",
-                  "link": "/WebAPI/Event/UIEvent/SubmitEvent"
-                },
-                {
-                  "text": "UIEvent",
-                  "link": "/WebAPI/Event/UIEvent/UIEvent"
-                }
-              ]
-            },
-            {
-              "text": "Event",
-              "link": "/WebAPI/Event/Event"
-            },
-            {
-              "text": "KeyboardEvent",
-              "link": "/WebAPI/Event/KeyboardEvent"
-            }
-          ]
-        },
-        {
-          "text": "EventTarget",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "继承图",
-              "link": "/WebAPI/EventTarget/继承图"
-            },
-            {
-              "text": "Document",
-              "link": "/WebAPI/EventTarget/Document"
-            },
-            {
-              "text": "Element",
-              "link": "/WebAPI/EventTarget/Element"
-            },
-            {
-              "text": "EventTarget",
-              "link": "/WebAPI/EventTarget/EventTarget"
-            },
-            {
-              "text": "HTMLElement",
-              "link": "/WebAPI/EventTarget/HTMLElement"
-            },
-            {
-              "text": "Node",
-              "link": "/WebAPI/EventTarget/Node"
             }
           ]
         }

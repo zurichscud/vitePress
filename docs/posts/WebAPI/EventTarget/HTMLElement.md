@@ -105,6 +105,28 @@ el.classList.replace('active', 'inactive')
 
 ```
 
+### dataset
+
+只读属性 **`dataset`** 提供了对元素上[自定义数据属性](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Reference/Global_attributes/data-*)（`data-*`）读/写访问。它暴露了一个字符串映射（[`DOMStringMap`](https://developer.mozilla.org/zh-CN/docs/Web/API/DOMStringMap)），其中包含每个 `data-*` 属性条目。
+
+`dataset` 属性本身不能直接写入（无法修改引用值）。但是 `dataset` 的单个属性可以被修改
+
+自定义 data 属性的属性名与没有 `data-` 前缀的 HTML 属性相同，并且在移除单个破折号（`-`）后，获得属性的“驼峰”命名。
+
+```html
+<div id="box" data-id="123" data-user-name="zhangsan"></div>
+```
+
+
+
+```ts
+const el = document.getElementById('box')
+
+el.dataset.id            // "123"
+el.dataset.userName      // "zhangsan"
+el.dataset.userName='666'//'666'
+```
+
 
 
 ## Methods

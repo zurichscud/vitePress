@@ -30,11 +30,11 @@ features:
     details: 44篇文档
     link: /CSS/CSS特性
   - title: HTML
-    details: 14篇文档
+    details: 15篇文档
     link: /HTML/img
   - title: JavaScript
-    details: 52篇文档
-    link: /JavaScript/DOM/Console
+    details: 48篇文档
+    link: /JavaScript/WebAPI/BOM
   - title: nuxt
     details: 8篇文档
     link: /nuxt/SEO与元数据
@@ -51,8 +51,8 @@ features:
     details: 61篇文档
     link: /vue/pinia/action
   - title: WebAPI
-    details: 13篇文档
-    link: /WebAPI/Event/Event
+    details: 18篇文档
+    link: /WebAPI/DOM/Console
   - title: xstate
     details: 16篇文档
     link: /xstate/Actor/1.Actor Model
