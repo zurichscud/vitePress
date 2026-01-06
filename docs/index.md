@@ -51,7 +51,7 @@ features:
     details: 61篇文档
     link: /vue/pinia/action
   - title: WebAPI
-    details: 18篇文档
+    details: 19篇文档
     link: /WebAPI/DOM/Console
   - title: xstate
     details: 16篇文档
