@@ -119,7 +119,76 @@ console.log(target.previousElementSibling.innerText);//橘子，本质上还是H
 
 ```
 
+### client*
 
+元素可视区域尺寸。
+
+该属性包括内边距（padding），但不包括边框（border）、外边距（margin）和滚动条
+
+![img](https://developer.mozilla.org/zh-CN/docs/Web/API/Element/clientWidth/dimensions-client.png)
+
+```ts
+element.clientWidth
+element.clientHeight
+element.clientLeft  
+element.clientTop    
+```
+
+| 属性    | 是否包含 |
+| ------- | -------- |
+| padding | √        |
+| border  | ×        |
+| margin  | ×        |
+| scroll  | ×        |
+
+
+
+### offset*
+
+元素布局占用尺寸
+
+| 属性    | 是否包含 |
+| ------- | -------- |
+| padding | √        |
+| border  | √        |
+| margin  | ×        |
+| scroll  | √        |
+
+![Image:Dimensions-offset.png](https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLElement/offsetWidth/dimensions-offset.png)
+
+
+
+```ts
+element.offsetWidth
+element.offsetHeight
+element.offsetLeft   
+element.offsetTop
+```
+
+
+
+### scroll*
+
+包括由于溢出而在屏幕上不可见的内容
+```ts
+element.scrollWidth
+element.scrollHeight
+element.scrollTop
+element.scrollLeft
+```
+
+| 属性    | 是否包含 |
+| ------- | -------- |
+| padding | √        |
+| border  | ×        |
+| margin  | ×        |
+| scroll  | ×        |
+
+![image-20260108093742532](./assets/image-20260108093742532.png)
+
+
+
+![image-20260108094943909](./assets/image-20260108094943909.png)
 
 ## Methods
 
@@ -132,3 +201,53 @@ const el = document.querySelector('.box')
 el.remove()
 ```
 
+
+
+### scroll
+
+用于在给定的元素中滚动到某个特定坐标
+
+```ts
+scroll(scrollLeft, scrollRight)
+scroll(options)
+```
+
+- [`scrollLeft`](https://developer.mozilla.org/zh-CN/docs/Web/API/Element/scroll#x-coord)
+
+  你想要显示在左上角的元素沿水平轴的像素。
+
+- [`scrollRight`](https://developer.mozilla.org/zh-CN/docs/Web/API/Element/scroll#y-coord)
+
+  你想要显示在左上角的元素沿垂直轴的像素。
+
+- [`options`](https://developer.mozilla.org/zh-CN/docs/Web/API/Element/scroll#options)
+
+  包含以下参数的对象：[`top`](https://developer.mozilla.org/zh-CN/docs/Web/API/Element/scroll#top)指定沿 Y 轴滚动窗口或元素的像素数。[`left`](https://developer.mozilla.org/zh-CN/docs/Web/API/Element/scroll#left)指定沿 X 轴滚动窗口或元素的像素数。[`behavior`](https://developer.mozilla.org/zh-CN/docs/Web/API/Element/scroll#behavior)`smooth` 表示平滑滚动并产生过渡效果，`auto` 或缺省值会直接跳转到目标位置，没有过渡效果。
+
+### getBoundingClientRect
+
+- bounding：边界
+
+- client：可视/客户端区域
+
+- rect：矩形
+
+- Return：DOMRect，其提供了元素的大小及其相对于[视口](https://developer.mozilla.org/zh-CN/docs/Glossary/Viewport)的位置。
+
+DOMRect包含整个元素的最小矩形（包括 `padding` 和 `border-width`）。
+
+```ts
+interface DOMRect{
+  top: number
+  right: number
+  bottom: number
+  left: number
+  width: number //盒模型宽，和 box-sizing: border-box时的width相同
+  height: number//盒模型高，和 box-sizing: border-box时的height相同
+  x: number
+  y: number
+}
+
+```
+
+![img](https://developer.mozilla.org/zh-CN/docs/Web/API/Element/getBoundingClientRect/element-box-diagram.png)
