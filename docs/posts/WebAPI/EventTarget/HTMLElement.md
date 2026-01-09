@@ -2,6 +2,25 @@
 
 `HTMLElement` 是所有 HTML 元素对应 JS 对象的基类接口
 
+
+
+## Event
+
+### change
+
+- 类型：Event
+
+当用户更改 input、textarea、select元素的值时，`change` 事件在这些元素上触发。和 [`input`](https://developer.mozilla.org/zh-CN/docs/Web/API/Element/input_event) 事件不同的是，并不是每次元素的 `value` 改变时都会触发 `change` 事件。
+
+基于表单元素的类型和用户对元素的操作的不同，`change` 事件触发的时机也不同：
+
+- 当 `<input type="checkbox">` 元素被选中或取消选中时（通过点击或使用键盘）；
+- 当 `<input type="radio">` 元素被选中时（但不是取消选中时）；
+- 当用户显式提交改变时（例如：通过鼠标点击了 select的一个下拉选项，通过Input type=date，通过input type=file）
+- 当标签的值被修改并且失去焦点后，但未提交时（例如：对textarea、 `text`、`search`、`url`、`tel`、`email` 或 `password` 类型的、input元素进行编辑后）。
+
+HTML 标准列出了[应该触发 `change` 事件的 类型](https://html.spec.whatwg.org/multipage/forms.html#concept-input-apply)。
+
 ## Properties
 
 | 属性 / 方法                  | 说明           |

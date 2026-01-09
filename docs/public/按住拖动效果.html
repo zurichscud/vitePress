@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            position: relative;
+            left: 100px;
+            top: 100px;
+            border: 1px solid #000;
+            width: 100px;
+        }
+
+        .bar {
+            height: 50px;
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="bar"></div>
+        <div class="note">
+            <h2>标题</h2>
+            <p>内容</p>
+        </div>
+    </div>
+    <script>
+        const container = document.querySelector('.container');
+        const bar = document.querySelector('.bar');
+        const note = document.querySelector('.note');
+        const vh = document.documentElement.clientHeight;
+
+        const vw = document.documentElement.clientWidth;
+        console.log('[ vh ]-43', vh)
+        console.log('[ vw ]-44', vw)
+
+        const containerH = container.offsetHeight;
+        const containerW = container.offsetWidth;
+        const maxLeft = vw - containerW;
+        const maxTop = vh - containerH;
+
+        let startX = 0
+        let startY = 0
+        let barLeft = 0
+        let barTop = 0
+
+        const handleBarMove = (e) => {
+            const { clientX, clientY } = e;
+            let moveX = clientX - startX
+            let moveY = clientY - startY
+            let newLeft = barLeft + moveX
+            let newTop = barTop + moveY
+            if (newLeft < 0) {
+                newLeft = 0;
+            }
+            if (newLeft > maxLeft) {
+                newLeft = maxLeft;
+            }
+            if (newTop < 0) {
+                newTop = 0;
+            }
+            if (newTop > maxTop) {
+                newTop = maxTop;
+            }
+            container.style.left = newLeft + 'px'
+            container.style.top = newTop + 'px'
+
+        }
+        bar.addEventListener('mousedown', (e) => {
+            startX = e.clientX
+            startY = e.clientY
+            const rect = container.getBoundingClientRect();
+            barLeft = rect.left
+            barTop = rect.top
+            window.addEventListener('mousemove', handleBarMove)
+
+        })
+        //松开不再监听
+        window.addEventListener('mouseup', () => {
+            window.removeEventListener('mousemove', handleBarMove)
+
+        })
+
+    </script>
+</body>
+
+</html>

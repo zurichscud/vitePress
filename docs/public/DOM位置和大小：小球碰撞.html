@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .ball {
+            width: 100px;
+            position: absolute;
+            left: 200px;
+            top: 100px;
+            height: 100px;
+            background-color: red;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="ball"></div>
+    <script>
+        const ball = document.querySelector('.ball');
+
+        const vh = document.documentElement.clientHeight;
+        const vw = document.documentElement.clientWidth;
+
+        let maxLeft = vw - ball.offsetWidth;
+        let maxTop = vh - ball.offsetHeight;
+        let stepX = 5
+        let stepY = 10
+
+        function getRandomColor() {
+            return `rgb(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255})`;
+        }
+        setInterval(() => {
+            const ballRect = ball.getBoundingClientRect();
+            let newLeft = ballRect.left + stepX;
+            let newTop = ballRect.top + stepY;
+
+            if (newLeft >= maxLeft) {
+                stepX = -stepX;
+                ball.style.backgroundColor = getRandomColor();
+            }
+            if (newTop >= maxTop) {
+                stepY = -stepY;
+                ball.style.backgroundColor = getRandomColor();
+            }
+            if (newLeft <= 0) {
+                stepX = -stepX;
+                ball.style.backgroundColor = getRandomColor();
+            }
+            if (newTop <= 0) {
+                stepY = -stepY;
+                ball.style.backgroundColor = getRandomColor();
+            }
+
+            ball.style.left = newLeft + 'px';
+            ball.style.top = newTop + 'px';
+
+        }, 20);
+
+    </script>
+</body>
+
+</html>

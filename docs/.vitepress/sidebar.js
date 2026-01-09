@@ -841,6 +841,10 @@ export default {
               "link": "/WebAPI/DOM/操作DOM表单"
             },
             {
+              "text": "函数防抖",
+              "link": "/WebAPI/DOM/函数防抖"
+            },
+            {
               "text": "获取DOM",
               "link": "/WebAPI/DOM/获取DOM"
             },
@@ -932,6 +936,10 @@ export default {
             {
               "text": "Node",
               "link": "/WebAPI/EventTarget/Node"
+            },
+            {
+              "text": "Window",
+              "link": "/WebAPI/EventTarget/Window"
             }
           ]
         }

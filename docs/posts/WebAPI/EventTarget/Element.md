@@ -141,7 +141,15 @@ element.clientTop
 | margin  | ×        |
 | scroll  | ×        |
 
+::: warning clientHeight的特例
 
+- 如果该元素是`html`元素且该元素的[节点文档](https://dom.spec.whatwg.org/#concept-node-document)不在[怪异模式](https://dom.spec.whatwg.org/#concept-document-quirks)中
+
+- 或者如果该元素是`body`元素且该元素的[节点文档](https://dom.spec.whatwg.org/#concept-node-document)*在*[怪异模式](https://dom.spec.whatwg.org/#concept-document-quirks)中
+
+以上两种情况下将返回[视口](https://www.w3.org/TR/2016/WD-cssom-view-1-20160317/#viewport)高度，不包括渲染的滚动条的大小
+
+:::
 
 ### offset*
 
@@ -237,16 +245,19 @@ scroll(options)
 DOMRect包含整个元素的最小矩形（包括 `padding` 和 `border-width`）。
 
 ```ts
-interface DOMRect{
-  top: number
-  right: number
-  bottom: number
-  left: number
-  width: number //盒模型宽，和 box-sizing: border-box时的width相同
-  height: number//盒模型高，和 box-sizing: border-box时的height相同
-  x: number
-  y: number
+interface DOMRect {
+  readonly top: number
+  readonly right: number
+  readonly bottom: number
+  readonly left: number
+
+  readonly width: number//盒模型宽，和 box-sizing: border-box时的width相同
+  readonly height: number//盒模型高，和 box-sizing: border-box时的height相同
+
+  readonly x: number
+  readonly y: number
 }
+
 
 ```
 

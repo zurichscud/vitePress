@@ -21,6 +21,18 @@ DOM 树包含了像`body`、`table` 这样的元素，以及大量[其他元素]
 
 在 **解析 HTML 文档** 的过程中，浏览器创建了 **唯一的 `Document` 实例**，并把它挂到 `window` 上
 
+
+
+## Event
+
+### scroll
+
+类型：`Event`
+
+当文档视图滚动后，**`scroll`** 事件就会触发。
+
+
+
 ## Properties
 
 | 属性              | 说明              |
@@ -49,7 +61,9 @@ DOM 树包含了像`body`、`table` 这样的元素，以及大量[其他元素]
 
 ### documentElement
 
-获取文档的根元素
+文档的根元素，即html元素
+
+
 
 ```ts
 console.log(document.documentElement) // <html>...</html>

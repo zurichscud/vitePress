@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="box">
+        hello
+    </div>
+
+    <script>
+        const box = document.querySelector('.box');
+        box.addEventListener('click', (e) => {
+            console.log(e);
+        });
+        box.addEventListener('mouseenter', (e) => {
+            console.log(e);
+        });
+        window.addEventListener('resize', (e) => {
+            console.log(e);
+        });
+    </script>
+</body>
+
+</html>
