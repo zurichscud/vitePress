@@ -10,6 +10,30 @@ EventTarget
         └── Element
 ```
 
+## Event
+
+| 事件类型      | 说明                         |
+| ------------- | ---------------------------- |
+| `dblclick`    | 鼠标双击                     |
+| `mousedown`   | 鼠标按下                     |
+| `mouseup`     | 鼠标抬起                     |
+| `mousemove`   | 鼠标移动时触发               |
+| `mouseover`   | 鼠标进入元素时触发（会冒泡） |
+| `mouseout`    | 鼠标离开元素时触发（会冒泡） |
+| `mouseenter`  | 鼠标进入元素时触发（不冒泡） |
+| `mouseleave`  | 鼠标离开元素时触发（不冒泡） |
+| `contextmenu` | 右键点击触发菜单             |
+
+### click
+
+- 类型：`MouseEvent`
+
+在一个元素上被按下和放开时，`click` 事件就会被触发。
+
+如果在一个元素上按下按钮，而将指针移到元素外再释放按钮，则在包含这两个元素的最具体的父级元素上触发事件。
+
+`click` 事件会在 [`mousedown`](https://developer.mozilla.org/zh-CN/docs/Web/API/Element/mousedown_event) 和 [`mouseup`](https://developer.mozilla.org/zh-CN/docs/Web/API/Element/mouseup_event) 事件依次触发后触发。
+
 
 
 ## Properties

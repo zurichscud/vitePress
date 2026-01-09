@@ -150,6 +150,12 @@ el.dataset.userName='666'//'666'
 
 ## Methods
 
+
+
+### click
+
+**`HTMLElement.click()`** 方法模拟鼠标单击元素。当在某个元素上调用时，会触发元素的 [`click`](https://developer.mozilla.org/zh-CN/docs/Web/API/Element/click_event) 事件（除非该元素设置了 [`disabled`](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Reference/Attributes/disabled) 属性）。
+
 ### getAttribute
 
 **`getAttribute()`** 返回元素上一个指定的属性值。如果指定的属性不存在，则返回 `null` 或 `""` （空字符串）
