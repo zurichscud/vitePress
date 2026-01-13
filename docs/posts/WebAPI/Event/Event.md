@@ -39,7 +39,19 @@ element.addEventListener('click', (event: Event) => {
 
 
 
+### bubbles
 
+- 类型：Boolean
+
+事件是否允许冒泡
+
+
+
+### cancelable
+
+- 类型：Boolean
+
+该事件是否可取消默认行为。
 
 ## Methods
 
@@ -78,16 +90,4 @@ Event
  └─ CustomEvent
 ```
 
-
-
-
-
-## 常见触发场景（补充理解）
-
-- `input / textarea`
-  - **失去焦点** 且值发生变化时触发
-- `select`
-  - 选项发生变化立即触发
-- `checkbox / radio`
-  - 选中状态变化时触发
 

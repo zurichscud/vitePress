@@ -456,6 +456,129 @@ export default {
       ]
     }
   ],
+  "/WebAPI/": [
+    {
+      "text": "WebAPI",
+      "items": [
+        {
+          "text": "DOM",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "操作DOM表单",
+              "link": "/WebAPI/DOM/操作DOM表单"
+            },
+            {
+              "text": "函数防抖",
+              "link": "/WebAPI/DOM/函数防抖"
+            },
+            {
+              "text": "获取DOM",
+              "link": "/WebAPI/DOM/获取DOM"
+            },
+            {
+              "text": "监听DOM事件",
+              "link": "/WebAPI/DOM/监听DOM事件"
+            },
+            {
+              "text": "事件默认行为",
+              "link": "/WebAPI/DOM/事件默认行为"
+            },
+            {
+              "text": "Console",
+              "link": "/WebAPI/DOM/Console"
+            },
+            {
+              "text": "DOM树",
+              "link": "/WebAPI/DOM/DOM树"
+            }
+          ]
+        },
+        {
+          "text": "Event",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "UIEvent",
+              "collapsible": true,
+              "collapsed": false,
+              "items": [
+                {
+                  "text": "FocusEvent",
+                  "link": "/WebAPI/Event/UIEvent/FocusEvent"
+                },
+                {
+                  "text": "InputEvent",
+                  "link": "/WebAPI/Event/UIEvent/InputEvent"
+                },
+                {
+                  "text": "MouseEvent",
+                  "link": "/WebAPI/Event/UIEvent/MouseEvent"
+                },
+                {
+                  "text": "SubmitEvent",
+                  "link": "/WebAPI/Event/UIEvent/SubmitEvent"
+                },
+                {
+                  "text": "UIEvent",
+                  "link": "/WebAPI/Event/UIEvent/UIEvent"
+                }
+              ]
+            },
+            {
+              "text": "Event",
+              "link": "/WebAPI/Event/Event"
+            },
+            {
+              "text": "KeyboardEvent",
+              "link": "/WebAPI/Event/KeyboardEvent"
+            }
+          ]
+        },
+        {
+          "text": "EventTarget",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "EventTarget",
+              "link": "/WebAPI/EventTarget/1.EventTarget"
+            },
+            {
+              "text": "Node",
+              "link": "/WebAPI/EventTarget/2.Node"
+            },
+            {
+              "text": "Window",
+              "link": "/WebAPI/EventTarget/3.Window"
+            },
+            {
+              "text": "Element",
+              "link": "/WebAPI/EventTarget/4.Element"
+            },
+            {
+              "text": "Document",
+              "link": "/WebAPI/EventTarget/5.Document"
+            },
+            {
+              "text": "HTMLElement",
+              "link": "/WebAPI/EventTarget/6.HTMLElement"
+            }
+          ]
+        },
+        {
+          "text": "History",
+          "link": "/WebAPI/History"
+        },
+        {
+          "text": "Location",
+          "link": "/WebAPI/Location"
+        }
+      ]
+    }
+  ],
   "/nuxt/": [
     {
       "text": "nuxt",
@@ -809,137 +932,6 @@ export default {
             {
               "text": "BOM",
               "link": "/JavaScript/WebAPI/BOM"
-            },
-            {
-              "text": "history",
-              "link": "/JavaScript/WebAPI/history"
-            },
-            {
-              "text": "location",
-              "link": "/JavaScript/WebAPI/location"
-            },
-            {
-              "text": "window",
-              "link": "/JavaScript/WebAPI/window"
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "/WebAPI/": [
-    {
-      "text": "WebAPI",
-      "items": [
-        {
-          "text": "DOM",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "操作DOM表单",
-              "link": "/WebAPI/DOM/操作DOM表单"
-            },
-            {
-              "text": "函数防抖",
-              "link": "/WebAPI/DOM/函数防抖"
-            },
-            {
-              "text": "获取DOM",
-              "link": "/WebAPI/DOM/获取DOM"
-            },
-            {
-              "text": "监听DOM事件",
-              "link": "/WebAPI/DOM/监听DOM事件"
-            },
-            {
-              "text": "事件默认行为",
-              "link": "/WebAPI/DOM/事件默认行为"
-            },
-            {
-              "text": "Console",
-              "link": "/WebAPI/DOM/Console"
-            },
-            {
-              "text": "DOM树",
-              "link": "/WebAPI/DOM/DOM树"
-            }
-          ]
-        },
-        {
-          "text": "Event",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "UIEvent",
-              "collapsible": true,
-              "collapsed": false,
-              "items": [
-                {
-                  "text": "FocusEvent",
-                  "link": "/WebAPI/Event/UIEvent/FocusEvent"
-                },
-                {
-                  "text": "InputEvent",
-                  "link": "/WebAPI/Event/UIEvent/InputEvent"
-                },
-                {
-                  "text": "MouseEvent",
-                  "link": "/WebAPI/Event/UIEvent/MouseEvent"
-                },
-                {
-                  "text": "SubmitEvent",
-                  "link": "/WebAPI/Event/UIEvent/SubmitEvent"
-                },
-                {
-                  "text": "UIEvent",
-                  "link": "/WebAPI/Event/UIEvent/UIEvent"
-                }
-              ]
-            },
-            {
-              "text": "Event",
-              "link": "/WebAPI/Event/Event"
-            },
-            {
-              "text": "KeyboardEvent",
-              "link": "/WebAPI/Event/KeyboardEvent"
-            }
-          ]
-        },
-        {
-          "text": "EventTarget",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "继承图",
-              "link": "/WebAPI/EventTarget/继承图"
-            },
-            {
-              "text": "Document",
-              "link": "/WebAPI/EventTarget/Document"
-            },
-            {
-              "text": "Element",
-              "link": "/WebAPI/EventTarget/Element"
-            },
-            {
-              "text": "EventTarget",
-              "link": "/WebAPI/EventTarget/EventTarget"
-            },
-            {
-              "text": "HTMLElement",
-              "link": "/WebAPI/EventTarget/HTMLElement"
-            },
-            {
-              "text": "Node",
-              "link": "/WebAPI/EventTarget/Node"
-            },
-            {
-              "text": "Window",
-              "link": "/WebAPI/EventTarget/Window"
             }
           ]
         }

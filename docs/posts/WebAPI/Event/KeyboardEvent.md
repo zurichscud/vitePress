@@ -19,3 +19,19 @@
 | `metaKey`     | 布尔值，是否按下 Meta 键（Mac 上是 Command）          |
 | `repeat`      | 布尔值，按键是否被持续按下触发重复事件                |
 | `isComposing` | 布尔值，是否在输入法组合状态（中文输入时常用）        |
+
+
+
+### keyCode
+
+已弃用。建议使用`Keyboard.code`
+
+```ts
+eventTarget.addEventListener("keydown", (event) => {
+  if (event.isComposing || event.keyCode === 229) {
+    return;
+  }
+  // do something
+});
+```
+

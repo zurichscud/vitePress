@@ -73,5 +73,7 @@ console.log({ numCallbackRuns });
 
 - 适用于简单的副作用操作，如打印日志、修改外部变量等。
 
+- callbackFn不能是异步函数，如果需要异步操作，请使用`for`
+
 ## Example
 
