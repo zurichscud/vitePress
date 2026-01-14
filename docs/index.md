@@ -30,11 +30,11 @@ features:
     details: 44篇文档
     link: /CSS/CSS特性
   - title: HTML
-    details: 15篇文档
+    details: 16篇文档
     link: /HTML/img
   - title: JavaScript
-    details: 45篇文档
-    link: /JavaScript/WebAPI/BOM
+    details: 48篇文档
+    link: /JavaScript/RegExp
   - title: nuxt
     details: 8篇文档
     link: /nuxt/SEO与元数据
