@@ -51,6 +51,10 @@ export default {
             {
               "text": "white-space",
               "link": "/CSS/3-文本/white-space"
+            },
+            {
+              "text": "word-break",
+              "link": "/CSS/3-文本/word-break"
             }
           ]
         },
@@ -121,6 +125,10 @@ export default {
             {
               "text": "模式切换",
               "link": "/CSS/5-定位/模式切换"
+            },
+            {
+              "text": "z-index",
+              "link": "/CSS/5-定位/z-index"
             }
           ]
         },
@@ -196,6 +204,10 @@ export default {
           "collapsed": false,
           "items": [
             {
+              "text": "变换",
+              "link": "/CSS/8-动画/变换"
+            },
+            {
               "text": "过渡",
               "link": "/CSS/8-动画/过渡"
             }
@@ -255,8 +267,16 @@ export default {
           "link": "/CSS/透明度"
         },
         {
+          "text": "颜色",
+          "link": "/CSS/颜色"
+        },
+        {
           "text": "CSS特性",
           "link": "/CSS/CSS特性"
+        },
+        {
+          "text": "cursor",
+          "link": "/CSS/cursor"
         },
         {
           "text": "table-layout",
