@@ -47,6 +47,10 @@ export default {
             {
               "text": "字体",
               "link": "/CSS/3-文本/3-字体"
+            },
+            {
+              "text": "white-space",
+              "link": "/CSS/3-文本/white-space"
             }
           ]
         },
@@ -58,10 +62,6 @@ export default {
             {
               "text": "边框",
               "link": "/CSS/4-盒模型/1-边框"
-            },
-            {
-              "text": "圆角",
-              "link": "/CSS/4-盒模型/2-圆角"
             },
             {
               "text": "内边距",
@@ -236,12 +236,31 @@ export default {
           ]
         },
         {
+          "text": "视觉",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "阴影",
+              "link": "/CSS/视觉/阴影"
+            },
+            {
+              "text": "圆角",
+              "link": "/CSS/视觉/圆角"
+            }
+          ]
+        },
+        {
           "text": "透明度",
           "link": "/CSS/透明度"
         },
         {
           "text": "CSS特性",
           "link": "/CSS/CSS特性"
+        },
+        {
+          "text": "table-layout",
+          "link": "/CSS/table-layout"
         }
       ]
     }
@@ -561,6 +580,17 @@ export default {
           ]
         },
         {
+          "text": "字符串",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "replace",
+              "link": "/JavaScript/字符串/replace"
+            }
+          ]
+        },
+        {
           "text": "WebAPI",
           "collapsible": true,
           "collapsed": false,
@@ -582,6 +612,128 @@ export default {
         {
           "text": "RegExp",
           "link": "/JavaScript/RegExp"
+        }
+      ]
+    }
+  ],
+  "/TypeScript/": [
+    {
+      "text": "TypeScript",
+      "items": [
+        {
+          "text": "泛型",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "泛型",
+              "link": "/TypeScript/泛型/泛型"
+            },
+            {
+              "text": "泛型工具",
+              "link": "/TypeScript/泛型/泛型工具"
+            },
+            {
+              "text": "条件类型",
+              "link": "/TypeScript/泛型/条件类型"
+            },
+            {
+              "text": "映射类型",
+              "link": "/TypeScript/泛型/映射类型"
+            }
+          ]
+        },
+        {
+          "text": "基本数据类型",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "对象类型",
+              "link": "/TypeScript/基本数据类型/对象类型"
+            },
+            {
+              "text": "函数类型",
+              "link": "/TypeScript/基本数据类型/函数类型"
+            },
+            {
+              "text": "枚举类型",
+              "link": "/TypeScript/基本数据类型/枚举类型"
+            },
+            {
+              "text": "原始类型",
+              "link": "/TypeScript/基本数据类型/原始类型"
+            },
+            {
+              "text": "组合类型",
+              "link": "/TypeScript/基本数据类型/组合类型"
+            }
+          ]
+        },
+        {
+          "text": "接口",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "索引访问类型",
+              "link": "/TypeScript/接口/索引访问类型"
+            },
+            {
+              "text": "索引签名",
+              "link": "/TypeScript/接口/索引签名"
+            }
+          ]
+        },
+        {
+          "text": "类型运算",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "类型体操",
+              "link": "/TypeScript/类型运算/类型体操"
+            },
+            {
+              "text": "类型运算符",
+              "link": "/TypeScript/类型运算/类型运算符"
+            },
+            {
+              "text": "协变与逆变",
+              "link": "/TypeScript/类型运算/协变与逆变"
+            },
+            {
+              "text": "infer关键字",
+              "link": "/TypeScript/类型运算/infer关键字"
+            }
+          ]
+        },
+        {
+          "text": "特殊数据类型",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "特殊类型",
+              "link": "/TypeScript/特殊数据类型/特殊类型"
+            }
+          ]
+        },
+        {
+          "text": "断言",
+          "link": "/TypeScript/断言"
+        },
+        {
+          "text": "类型守卫",
+          "link": "/TypeScript/类型守卫"
+        },
+        {
+          "text": "声明文件",
+          "link": "/TypeScript/声明文件"
+        },
+        {
+          "text": "tsconfig",
+          "link": "/TypeScript/tsconfig"
         }
       ]
     }
@@ -786,128 +938,6 @@ export default {
         {
           "text": "unplugin-vue-components",
           "link": "/package/unplugin-vue-components"
-        }
-      ]
-    }
-  ],
-  "/TypeScript/": [
-    {
-      "text": "TypeScript",
-      "items": [
-        {
-          "text": "泛型",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "泛型",
-              "link": "/TypeScript/泛型/泛型"
-            },
-            {
-              "text": "泛型工具",
-              "link": "/TypeScript/泛型/泛型工具"
-            },
-            {
-              "text": "条件类型",
-              "link": "/TypeScript/泛型/条件类型"
-            },
-            {
-              "text": "映射类型",
-              "link": "/TypeScript/泛型/映射类型"
-            }
-          ]
-        },
-        {
-          "text": "基本数据类型",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "对象类型",
-              "link": "/TypeScript/基本数据类型/对象类型"
-            },
-            {
-              "text": "函数类型",
-              "link": "/TypeScript/基本数据类型/函数类型"
-            },
-            {
-              "text": "枚举类型",
-              "link": "/TypeScript/基本数据类型/枚举类型"
-            },
-            {
-              "text": "原始类型",
-              "link": "/TypeScript/基本数据类型/原始类型"
-            },
-            {
-              "text": "组合类型",
-              "link": "/TypeScript/基本数据类型/组合类型"
-            }
-          ]
-        },
-        {
-          "text": "接口",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "索引访问类型",
-              "link": "/TypeScript/接口/索引访问类型"
-            },
-            {
-              "text": "索引签名",
-              "link": "/TypeScript/接口/索引签名"
-            }
-          ]
-        },
-        {
-          "text": "类型运算",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "类型体操",
-              "link": "/TypeScript/类型运算/类型体操"
-            },
-            {
-              "text": "类型运算符",
-              "link": "/TypeScript/类型运算/类型运算符"
-            },
-            {
-              "text": "协变与逆变",
-              "link": "/TypeScript/类型运算/协变与逆变"
-            },
-            {
-              "text": "infer关键字",
-              "link": "/TypeScript/类型运算/infer关键字"
-            }
-          ]
-        },
-        {
-          "text": "特殊数据类型",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "特殊类型",
-              "link": "/TypeScript/特殊数据类型/特殊类型"
-            }
-          ]
-        },
-        {
-          "text": "断言",
-          "link": "/TypeScript/断言"
-        },
-        {
-          "text": "类型守卫",
-          "link": "/TypeScript/类型守卫"
-        },
-        {
-          "text": "声明文件",
-          "link": "/TypeScript/声明文件"
-        },
-        {
-          "text": "tsconfig",
-          "link": "/TypeScript/tsconfig"
         }
       ]
     }
