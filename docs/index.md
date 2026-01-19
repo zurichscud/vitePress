@@ -27,7 +27,7 @@ features:
     details: 12篇文档
     link: /组件库/TDesign/Card
   - title: CSS
-    details: 52篇文档
+    details: 53篇文档
     link: /CSS/CSS特性
   - title: HTML
     details: 16篇文档
