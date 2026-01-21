@@ -58,8 +58,8 @@ svg {
 ### stroke-dasharray
 
 ```css
-stroke-dasharray: 5px;
-stroke-dasharray: 5px 10px;
+stroke-dasharray: 5;
+stroke-dasharray: 5 10;
 ```
 
 第一个数是实线长度，第二个数是间隔长度

@@ -214,6 +214,10 @@ export default {
             {
               "text": "过渡",
               "link": "/CSS/8-变换/过渡"
+            },
+            {
+              "text": "clip-path",
+              "link": "/CSS/8-变换/clip-path"
             }
           ]
         },
