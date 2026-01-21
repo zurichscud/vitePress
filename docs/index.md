@@ -27,11 +27,11 @@ features:
     details: 12篇文档
     link: /组件库/TDesign/Card
   - title: CSS
-    details: 53篇文档
+    details: 57篇文档
     link: /CSS/CSS特性
   - title: HTML
-    details: 16篇文档
-    link: /HTML/img
+    details: 18篇文档
+    link: /HTML/SVG
   - title: JavaScript
     details: 49篇文档
     link: /JavaScript/RegExp
