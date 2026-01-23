@@ -27,8 +27,8 @@ features:
     details: 12篇文档
     link: /组件库/TDesign/Card
   - title: CSS
-    details: 58篇文档
-    link: /CSS/CSS特性
+    details: 60篇文档
+    link: /CSS/CSS变量
   - title: HTML
     details: 18篇文档
     link: /HTML/SVG
@@ -51,8 +51,8 @@ features:
     details: 61篇文档
     link: /vue/pinia/action
   - title: WebAPI
-    details: 22篇文档
-    link: /WebAPI/History
+    details: 23篇文档
+    link: /WebAPI/CSSStyleDeclaration
   - title: xstate
     details: 16篇文档
     link: /xstate/Actor/1.Actor Model

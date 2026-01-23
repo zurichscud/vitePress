@@ -26,6 +26,10 @@ export default {
               "link": "/CSS/1-基础/4-伪类与伪元素"
             },
             {
+              "text": "CSS特性",
+              "link": "/CSS/1-基础/CSS特性"
+            },
+            {
               "text": "Emmt",
               "link": "/CSS/1-基础/Emmt"
             }
@@ -276,6 +280,10 @@ export default {
           "collapsed": false,
           "items": [
             {
+              "text": "滤镜",
+              "link": "/CSS/视觉/滤镜"
+            },
+            {
               "text": "阴影",
               "link": "/CSS/视觉/阴影"
             },
@@ -313,8 +321,8 @@ export default {
           "link": "/CSS/颜色"
         },
         {
-          "text": "CSS特性",
-          "link": "/CSS/CSS特性"
+          "text": "CSS变量",
+          "link": "/CSS/CSS变量"
         },
         {
           "text": "table-layout",
@@ -915,6 +923,10 @@ export default {
               "link": "/WebAPI/EventTarget/6.HTMLElement"
             }
           ]
+        },
+        {
+          "text": "CSSStyleDeclaration",
+          "link": "/WebAPI/CSSStyleDeclaration"
         },
         {
           "text": "History",
