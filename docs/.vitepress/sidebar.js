@@ -242,6 +242,10 @@ export default {
           "collapsed": false,
           "items": [
             {
+              "text": "动画时间线",
+              "link": "/CSS/动画/动画时间线"
+            },
+            {
               "text": "逐帧动画",
               "link": "/CSS/动画/逐帧动画"
             },
@@ -279,6 +283,10 @@ export default {
           "collapsible": true,
           "collapsed": false,
           "items": [
+            {
+              "text": "背景滤镜",
+              "link": "/CSS/视觉/背景滤镜"
+            },
             {
               "text": "滤镜",
               "link": "/CSS/视觉/滤镜"
