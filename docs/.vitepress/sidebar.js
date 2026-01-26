@@ -306,6 +306,25 @@ export default {
           ]
         },
         {
+          "text": "CSS框架",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "BEM",
+              "link": "/CSS/CSS框架/BEM"
+            },
+            {
+              "text": "Less",
+              "link": "/CSS/CSS框架/Less"
+            },
+            {
+              "text": "SCSS",
+              "link": "/CSS/CSS框架/SCSS"
+            }
+          ]
+        },
+        {
           "text": "SVG",
           "collapsible": true,
           "collapsed": false,
@@ -327,6 +346,10 @@ export default {
         {
           "text": "颜色",
           "link": "/CSS/颜色"
+        },
+        {
+          "text": "calc",
+          "link": "/CSS/calc"
         },
         {
           "text": "CSS变量",
