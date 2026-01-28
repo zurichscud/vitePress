@@ -193,6 +193,19 @@ xAxis: { min: -1 } // 最后一个类目
 
 用法同`min`
 
+## minInterval
+
+最小间隔，例如y轴的值只可能是整数：
+
+```ts
+yAxis: {
+  type: 'value',
+  minInterval: 1
+}
+```
+
+
+
 ## Example
 
 ```ts

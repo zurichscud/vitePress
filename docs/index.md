@@ -39,7 +39,7 @@ features:
     details: 8篇文档
     link: /nuxt/SEO与元数据
   - title: package
-    details: 7篇文档
+    details: 8篇文档
     link: /package/antfu-utils
   - title: TypeScript
     details: 20篇文档
