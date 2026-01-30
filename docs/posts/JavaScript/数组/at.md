@@ -12,7 +12,7 @@ at(index)
 
 ## Params
 
-- index <Badge text="支持负数" />
+- index 
 
 要返回的数组元素的索引（从零开始）
 
@@ -26,7 +26,7 @@ index允许正数和负数。负整数从数组中的最后一个元素开始倒
 
 修改返回值**不会影响原数组**，因为它们是值拷贝。
 
-```
+```ts
 const arr = [1, 2, 3];
 let item = arr.at(1); // 2
 item = 10;
@@ -37,10 +37,11 @@ console.log(arr); // [1, 2, 3] ✅ 原数组不变
 
 修改返回的元素**会影响原数组**，因为它们指向同一个引用。
 
-```
+```ts
 const arr = [{ a: 1 }, { b: 2 }];
 const item = arr.at(1);
 
 item.b = 99;
 console.log(arr); // [{ a: 1 }, { b: 99 }] ❗ 原数组被修改
 ```
+

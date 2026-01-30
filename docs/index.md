@@ -33,8 +33,8 @@ features:
     details: 18篇文档
     link: /HTML/SVG
   - title: JavaScript
-    details: 49篇文档
-    link: /JavaScript/RegExp
+    details: 52篇文档
+    link: /JavaScript/Promise
   - title: nuxt
     details: 8篇文档
     link: /nuxt/SEO与元数据

@@ -17,17 +17,16 @@ new Array(element0, element1, ..., elementN)
 
   
 
-- 传入一个数字参数：创建指定长度的“稀疏数组”
+- 传入一个数字参数：创建指定长度的稀疏数组，
 
   ```ts
   const arr = new Array(3)
-  console.log(arr)      // [ <3 empty items> ]
+  console.log(arr)      // [ 空属性*3 ]
   console.log(arr.length) // 3
-  
   ```
-
   
-
+  
+  
 - 传入多个参数：创建并初始化数组
 
   ```ts
@@ -134,7 +133,15 @@ Array.from(arrayLike, mapFn, thisArg)
   // → [2, 4, 6]
   ```
 
-  
+
+- 创建非稀疏数组
+
+```ts
+const arr=Array.from({ length: 3 })
+console.log(arr)//[undefined,undefined,undefined]
+```
+
+
 
 ## ArrayCallbackFn
 
