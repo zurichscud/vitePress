@@ -402,6 +402,25 @@ export default {
           ]
         },
         {
+          "text": "超链接",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "唤起应用",
+              "link": "/HTML/超链接/唤起应用"
+            },
+            {
+              "text": "链接",
+              "link": "/HTML/超链接/链接"
+            },
+            {
+              "text": "锚点",
+              "link": "/HTML/超链接/锚点"
+            }
+          ]
+        },
+        {
           "text": "可替换元素",
           "collapsible": true,
           "collapsed": false,
@@ -409,6 +428,21 @@ export default {
             {
               "text": "可替换元素",
               "link": "/HTML/可替换元素/可替换元素"
+            }
+          ]
+        },
+        {
+          "text": "列表",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "列表",
+              "link": "/HTML/列表/列表"
+            },
+            {
+              "text": "列表样式",
+              "link": "/HTML/列表/列表样式"
             }
           ]
         },
@@ -432,6 +466,21 @@ export default {
           ]
         },
         {
+          "text": "元数据",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "标准元数据名称",
+              "link": "/HTML/元数据/标准元数据名称"
+            },
+            {
+              "text": "meta标签",
+              "link": "/HTML/元数据/meta标签"
+            }
+          ]
+        },
+        {
           "text": "表格",
           "link": "/HTML/表格"
         },
@@ -444,12 +493,28 @@ export default {
           "link": "/HTML/调试工具"
         },
         {
-          "text": "链接",
-          "link": "/HTML/链接"
-        },
-        {
           "text": "浏览器渲染流程",
           "link": "/HTML/浏览器渲染流程"
+        },
+        {
+          "text": "路径",
+          "link": "/HTML/路径"
+        },
+        {
+          "text": "全局属性",
+          "link": "/HTML/全局属性"
+        },
+        {
+          "text": "图片格式",
+          "link": "/HTML/图片格式"
+        },
+        {
+          "text": "HTML字符实体",
+          "link": "/HTML/HTML字符实体"
+        },
+        {
+          "text": "iframe",
+          "link": "/HTML/iframe"
         },
         {
           "text": "img",
@@ -733,6 +798,128 @@ export default {
       ]
     }
   ],
+  "/TypeScript/": [
+    {
+      "text": "TypeScript",
+      "items": [
+        {
+          "text": "泛型",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "泛型",
+              "link": "/TypeScript/泛型/泛型"
+            },
+            {
+              "text": "泛型工具",
+              "link": "/TypeScript/泛型/泛型工具"
+            },
+            {
+              "text": "条件类型",
+              "link": "/TypeScript/泛型/条件类型"
+            },
+            {
+              "text": "映射类型",
+              "link": "/TypeScript/泛型/映射类型"
+            }
+          ]
+        },
+        {
+          "text": "基本数据类型",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "对象类型",
+              "link": "/TypeScript/基本数据类型/对象类型"
+            },
+            {
+              "text": "函数类型",
+              "link": "/TypeScript/基本数据类型/函数类型"
+            },
+            {
+              "text": "枚举类型",
+              "link": "/TypeScript/基本数据类型/枚举类型"
+            },
+            {
+              "text": "原始类型",
+              "link": "/TypeScript/基本数据类型/原始类型"
+            },
+            {
+              "text": "组合类型",
+              "link": "/TypeScript/基本数据类型/组合类型"
+            }
+          ]
+        },
+        {
+          "text": "接口",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "索引访问类型",
+              "link": "/TypeScript/接口/索引访问类型"
+            },
+            {
+              "text": "索引签名",
+              "link": "/TypeScript/接口/索引签名"
+            }
+          ]
+        },
+        {
+          "text": "类型运算",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "类型体操",
+              "link": "/TypeScript/类型运算/类型体操"
+            },
+            {
+              "text": "类型运算符",
+              "link": "/TypeScript/类型运算/类型运算符"
+            },
+            {
+              "text": "协变与逆变",
+              "link": "/TypeScript/类型运算/协变与逆变"
+            },
+            {
+              "text": "infer关键字",
+              "link": "/TypeScript/类型运算/infer关键字"
+            }
+          ]
+        },
+        {
+          "text": "特殊数据类型",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "特殊类型",
+              "link": "/TypeScript/特殊数据类型/特殊类型"
+            }
+          ]
+        },
+        {
+          "text": "断言",
+          "link": "/TypeScript/断言"
+        },
+        {
+          "text": "类型守卫",
+          "link": "/TypeScript/类型守卫"
+        },
+        {
+          "text": "声明文件",
+          "link": "/TypeScript/声明文件"
+        },
+        {
+          "text": "tsconfig",
+          "link": "/TypeScript/tsconfig"
+        }
+      ]
+    }
+  ],
   "/WebAPI/": [
     {
       "text": "WebAPI",
@@ -945,128 +1132,6 @@ export default {
       ]
     }
   ],
-  "/TypeScript/": [
-    {
-      "text": "TypeScript",
-      "items": [
-        {
-          "text": "泛型",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "泛型",
-              "link": "/TypeScript/泛型/泛型"
-            },
-            {
-              "text": "泛型工具",
-              "link": "/TypeScript/泛型/泛型工具"
-            },
-            {
-              "text": "条件类型",
-              "link": "/TypeScript/泛型/条件类型"
-            },
-            {
-              "text": "映射类型",
-              "link": "/TypeScript/泛型/映射类型"
-            }
-          ]
-        },
-        {
-          "text": "基本数据类型",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "对象类型",
-              "link": "/TypeScript/基本数据类型/对象类型"
-            },
-            {
-              "text": "函数类型",
-              "link": "/TypeScript/基本数据类型/函数类型"
-            },
-            {
-              "text": "枚举类型",
-              "link": "/TypeScript/基本数据类型/枚举类型"
-            },
-            {
-              "text": "原始类型",
-              "link": "/TypeScript/基本数据类型/原始类型"
-            },
-            {
-              "text": "组合类型",
-              "link": "/TypeScript/基本数据类型/组合类型"
-            }
-          ]
-        },
-        {
-          "text": "接口",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "索引访问类型",
-              "link": "/TypeScript/接口/索引访问类型"
-            },
-            {
-              "text": "索引签名",
-              "link": "/TypeScript/接口/索引签名"
-            }
-          ]
-        },
-        {
-          "text": "类型运算",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "类型体操",
-              "link": "/TypeScript/类型运算/类型体操"
-            },
-            {
-              "text": "类型运算符",
-              "link": "/TypeScript/类型运算/类型运算符"
-            },
-            {
-              "text": "协变与逆变",
-              "link": "/TypeScript/类型运算/协变与逆变"
-            },
-            {
-              "text": "infer关键字",
-              "link": "/TypeScript/类型运算/infer关键字"
-            }
-          ]
-        },
-        {
-          "text": "特殊数据类型",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "特殊类型",
-              "link": "/TypeScript/特殊数据类型/特殊类型"
-            }
-          ]
-        },
-        {
-          "text": "断言",
-          "link": "/TypeScript/断言"
-        },
-        {
-          "text": "类型守卫",
-          "link": "/TypeScript/类型守卫"
-        },
-        {
-          "text": "声明文件",
-          "link": "/TypeScript/声明文件"
-        },
-        {
-          "text": "tsconfig",
-          "link": "/TypeScript/tsconfig"
-        }
-      ]
-    }
-  ],
   "/前端工程化/": [
     {
       "text": "前端工程化",
@@ -1105,6 +1170,147 @@ export default {
         {
           "text": "favicons",
           "link": "/百科/favicons"
+        }
+      ]
+    }
+  ],
+  "/vitepress/": [
+    {
+      "text": "vitepress",
+      "items": [
+        {
+          "text": "插件",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "vitepress-plugin-group-icons",
+              "link": "/vitepress/插件/1-vitepress-plugin-group-icons"
+            },
+            {
+              "text": "demo",
+              "link": "/vitepress/插件/2-demo"
+            }
+          ]
+        },
+        {
+          "text": "基础",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "快速开始",
+              "link": "/vitepress/基础/快速开始"
+            },
+            {
+              "text": "路由",
+              "link": "/vitepress/基础/路由"
+            },
+            {
+              "text": "资源处理",
+              "link": "/vitepress/基础/资源处理"
+            }
+          ]
+        },
+        {
+          "text": "默认主题",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "编辑链接",
+              "link": "/vitepress/默认主题/编辑链接"
+            },
+            {
+              "text": "布局",
+              "link": "/vitepress/默认主题/布局"
+            },
+            {
+              "text": "侧边栏",
+              "link": "/vitepress/默认主题/侧边栏"
+            },
+            {
+              "text": "导航栏",
+              "link": "/vitepress/默认主题/导航栏"
+            },
+            {
+              "text": "上下页链接",
+              "link": "/vitepress/默认主题/上下页链接"
+            },
+            {
+              "text": "页脚",
+              "link": "/vitepress/默认主题/页脚"
+            },
+            {
+              "text": "最后更新时间",
+              "link": "/vitepress/默认主题/最后更新时间"
+            }
+          ]
+        },
+        {
+          "text": "内置组件",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "Badge",
+              "link": "/vitepress/内置组件/Badge"
+            },
+            {
+              "text": "ClientOnly",
+              "link": "/vitepress/内置组件/ClientOnly"
+            },
+            {
+              "text": "Content",
+              "link": "/vitepress/内置组件/Content"
+            }
+          ]
+        },
+        {
+          "text": "自定义",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "自定义主题",
+              "link": "/vitepress/自定义/1-自定义主题"
+            },
+            {
+              "text": "扩展默认主题",
+              "link": "/vitepress/自定义/2-扩展默认主题"
+            },
+            {
+              "text": "构建时数据加载",
+              "link": "/vitepress/自定义/3-构建时数据加载"
+            }
+          ]
+        },
+        {
+          "text": "markdown语法",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "运行时API",
+              "link": "/vitepress/markdown语法/运行时API"
+            },
+            {
+              "text": "frontmatter",
+              "link": "/vitepress/markdown语法/frontmatter"
+            },
+            {
+              "text": "markdown基础",
+              "link": "/vitepress/markdown语法/markdown基础"
+            },
+            {
+              "text": "markdown扩展",
+              "link": "/vitepress/markdown语法/markdown扩展"
+            },
+            {
+              "text": "markdown中使用Vue",
+              "link": "/vitepress/markdown语法/markdown中使用Vue"
+            }
+          ]
         }
       ]
     }
@@ -1438,147 +1644,6 @@ export default {
             {
               "text": "TS与组合式API",
               "link": "/vue/vue3/TS与组合式API"
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "/vitepress/": [
-    {
-      "text": "vitepress",
-      "items": [
-        {
-          "text": "插件",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "vitepress-plugin-group-icons",
-              "link": "/vitepress/插件/1-vitepress-plugin-group-icons"
-            },
-            {
-              "text": "demo",
-              "link": "/vitepress/插件/2-demo"
-            }
-          ]
-        },
-        {
-          "text": "基础",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "快速开始",
-              "link": "/vitepress/基础/快速开始"
-            },
-            {
-              "text": "路由",
-              "link": "/vitepress/基础/路由"
-            },
-            {
-              "text": "资源处理",
-              "link": "/vitepress/基础/资源处理"
-            }
-          ]
-        },
-        {
-          "text": "默认主题",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "编辑链接",
-              "link": "/vitepress/默认主题/编辑链接"
-            },
-            {
-              "text": "布局",
-              "link": "/vitepress/默认主题/布局"
-            },
-            {
-              "text": "侧边栏",
-              "link": "/vitepress/默认主题/侧边栏"
-            },
-            {
-              "text": "导航栏",
-              "link": "/vitepress/默认主题/导航栏"
-            },
-            {
-              "text": "上下页链接",
-              "link": "/vitepress/默认主题/上下页链接"
-            },
-            {
-              "text": "页脚",
-              "link": "/vitepress/默认主题/页脚"
-            },
-            {
-              "text": "最后更新时间",
-              "link": "/vitepress/默认主题/最后更新时间"
-            }
-          ]
-        },
-        {
-          "text": "内置组件",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "Badge",
-              "link": "/vitepress/内置组件/Badge"
-            },
-            {
-              "text": "ClientOnly",
-              "link": "/vitepress/内置组件/ClientOnly"
-            },
-            {
-              "text": "Content",
-              "link": "/vitepress/内置组件/Content"
-            }
-          ]
-        },
-        {
-          "text": "自定义",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "自定义主题",
-              "link": "/vitepress/自定义/1-自定义主题"
-            },
-            {
-              "text": "扩展默认主题",
-              "link": "/vitepress/自定义/2-扩展默认主题"
-            },
-            {
-              "text": "构建时数据加载",
-              "link": "/vitepress/自定义/3-构建时数据加载"
-            }
-          ]
-        },
-        {
-          "text": "markdown语法",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "运行时API",
-              "link": "/vitepress/markdown语法/运行时API"
-            },
-            {
-              "text": "frontmatter",
-              "link": "/vitepress/markdown语法/frontmatter"
-            },
-            {
-              "text": "markdown基础",
-              "link": "/vitepress/markdown语法/markdown基础"
-            },
-            {
-              "text": "markdown扩展",
-              "link": "/vitepress/markdown语法/markdown扩展"
-            },
-            {
-              "text": "markdown中使用Vue",
-              "link": "/vitepress/markdown语法/markdown中使用Vue"
             }
           ]
         }
