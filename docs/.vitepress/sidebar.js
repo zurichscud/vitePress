@@ -513,12 +513,138 @@ export default {
           "link": "/HTML/图片格式"
         },
         {
+          "text": "HTML元素间的关系",
+          "link": "/HTML/HTML元素间的关系"
+        },
+        {
           "text": "HTML字符实体",
           "link": "/HTML/HTML字符实体"
         },
         {
           "text": "SVG",
           "link": "/HTML/SVG"
+        }
+      ]
+    }
+  ],
+  "/TypeScript/": [
+    {
+      "text": "TypeScript",
+      "items": [
+        {
+          "text": "泛型",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "泛型",
+              "link": "/TypeScript/泛型/泛型"
+            },
+            {
+              "text": "泛型工具",
+              "link": "/TypeScript/泛型/泛型工具"
+            },
+            {
+              "text": "条件类型",
+              "link": "/TypeScript/泛型/条件类型"
+            },
+            {
+              "text": "映射类型",
+              "link": "/TypeScript/泛型/映射类型"
+            }
+          ]
+        },
+        {
+          "text": "基本数据类型",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "对象类型",
+              "link": "/TypeScript/基本数据类型/对象类型"
+            },
+            {
+              "text": "函数类型",
+              "link": "/TypeScript/基本数据类型/函数类型"
+            },
+            {
+              "text": "枚举类型",
+              "link": "/TypeScript/基本数据类型/枚举类型"
+            },
+            {
+              "text": "原始类型",
+              "link": "/TypeScript/基本数据类型/原始类型"
+            },
+            {
+              "text": "组合类型",
+              "link": "/TypeScript/基本数据类型/组合类型"
+            }
+          ]
+        },
+        {
+          "text": "接口",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "索引访问类型",
+              "link": "/TypeScript/接口/索引访问类型"
+            },
+            {
+              "text": "索引签名",
+              "link": "/TypeScript/接口/索引签名"
+            }
+          ]
+        },
+        {
+          "text": "类型运算",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "类型体操",
+              "link": "/TypeScript/类型运算/类型体操"
+            },
+            {
+              "text": "类型运算符",
+              "link": "/TypeScript/类型运算/类型运算符"
+            },
+            {
+              "text": "协变与逆变",
+              "link": "/TypeScript/类型运算/协变与逆变"
+            },
+            {
+              "text": "infer关键字",
+              "link": "/TypeScript/类型运算/infer关键字"
+            }
+          ]
+        },
+        {
+          "text": "特殊数据类型",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "特殊类型",
+              "link": "/TypeScript/特殊数据类型/特殊类型"
+            }
+          ]
+        },
+        {
+          "text": "断言",
+          "link": "/TypeScript/断言"
+        },
+        {
+          "text": "类型守卫",
+          "link": "/TypeScript/类型守卫"
+        },
+        {
+          "text": "声明文件",
+          "link": "/TypeScript/声明文件"
+        },
+        {
+          "text": "tsconfig",
+          "link": "/TypeScript/tsconfig"
         }
       ]
     }
@@ -794,124 +920,87 @@ export default {
       ]
     }
   ],
-  "/TypeScript/": [
+  "/nuxt/": [
     {
-      "text": "TypeScript",
+      "text": "nuxt",
       "items": [
         {
-          "text": "泛型",
+          "text": "布局",
+          "link": "/nuxt/布局"
+        },
+        {
+          "text": "服务器",
+          "link": "/nuxt/服务器"
+        },
+        {
+          "text": "基础",
+          "link": "/nuxt/基础"
+        },
+        {
+          "text": "路由",
+          "link": "/nuxt/路由"
+        },
+        {
+          "text": "视图",
+          "link": "/nuxt/视图"
+        },
+        {
+          "text": "数据请求",
+          "link": "/nuxt/数据请求"
+        },
+        {
+          "text": "资源管理",
+          "link": "/nuxt/资源管理"
+        },
+        {
+          "text": "SEO与元数据",
+          "link": "/nuxt/SEO与元数据"
+        }
+      ]
+    }
+  ],
+  "/package/": [
+    {
+      "text": "package",
+      "items": [
+        {
+          "text": "echarts",
           "collapsible": true,
           "collapsed": false,
           "items": [
             {
-              "text": "泛型",
-              "link": "/TypeScript/泛型/泛型"
+              "text": "图表容器",
+              "link": "/package/echarts/图表容器"
             },
             {
-              "text": "泛型工具",
-              "link": "/TypeScript/泛型/泛型工具"
+              "text": "legend",
+              "link": "/package/echarts/legend"
             },
             {
-              "text": "条件类型",
-              "link": "/TypeScript/泛型/条件类型"
+              "text": "series",
+              "link": "/package/echarts/series"
             },
             {
-              "text": "映射类型",
-              "link": "/TypeScript/泛型/映射类型"
+              "text": "xAxis",
+              "link": "/package/echarts/xAxis"
             }
           ]
         },
         {
-          "text": "基本数据类型",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "对象类型",
-              "link": "/TypeScript/基本数据类型/对象类型"
-            },
-            {
-              "text": "函数类型",
-              "link": "/TypeScript/基本数据类型/函数类型"
-            },
-            {
-              "text": "枚举类型",
-              "link": "/TypeScript/基本数据类型/枚举类型"
-            },
-            {
-              "text": "原始类型",
-              "link": "/TypeScript/基本数据类型/原始类型"
-            },
-            {
-              "text": "组合类型",
-              "link": "/TypeScript/基本数据类型/组合类型"
-            }
-          ]
+          "text": "antfu-utils",
+          "link": "/package/antfu-utils"
         },
         {
-          "text": "接口",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "索引访问类型",
-              "link": "/TypeScript/接口/索引访问类型"
-            },
-            {
-              "text": "索引签名",
-              "link": "/TypeScript/接口/索引签名"
-            }
-          ]
+          "text": "file-saver",
+          "link": "/package/file-saver"
         },
         {
-          "text": "类型运算",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "类型体操",
-              "link": "/TypeScript/类型运算/类型体操"
-            },
-            {
-              "text": "类型运算符",
-              "link": "/TypeScript/类型运算/类型运算符"
-            },
-            {
-              "text": "协变与逆变",
-              "link": "/TypeScript/类型运算/协变与逆变"
-            },
-            {
-              "text": "infer关键字",
-              "link": "/TypeScript/类型运算/infer关键字"
-            }
-          ]
+          "text": "unplugin-auto-import",
+          "link": "/package/unplugin-auto-import"
         },
         {
-          "text": "特殊数据类型",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "特殊类型",
-              "link": "/TypeScript/特殊数据类型/特殊类型"
-            }
-          ]
-        },
-        {
-          "text": "断言",
-          "link": "/TypeScript/断言"
-        },
-        {
-          "text": "类型守卫",
-          "link": "/TypeScript/类型守卫"
-        },
-        {
-          "text": "声明文件",
-          "link": "/TypeScript/声明文件"
-        },
-        {
-          "text": "tsconfig",
-          "link": "/TypeScript/tsconfig"
+          "text": "unplugin-vue-components",
+          "link": "/package/unplugin-vue-components"
         }
       ]
     }
@@ -1039,91 +1128,6 @@ export default {
         {
           "text": "Location",
           "link": "/WebAPI/Location"
-        }
-      ]
-    }
-  ],
-  "/nuxt/": [
-    {
-      "text": "nuxt",
-      "items": [
-        {
-          "text": "布局",
-          "link": "/nuxt/布局"
-        },
-        {
-          "text": "服务器",
-          "link": "/nuxt/服务器"
-        },
-        {
-          "text": "基础",
-          "link": "/nuxt/基础"
-        },
-        {
-          "text": "路由",
-          "link": "/nuxt/路由"
-        },
-        {
-          "text": "视图",
-          "link": "/nuxt/视图"
-        },
-        {
-          "text": "数据请求",
-          "link": "/nuxt/数据请求"
-        },
-        {
-          "text": "资源管理",
-          "link": "/nuxt/资源管理"
-        },
-        {
-          "text": "SEO与元数据",
-          "link": "/nuxt/SEO与元数据"
-        }
-      ]
-    }
-  ],
-  "/package/": [
-    {
-      "text": "package",
-      "items": [
-        {
-          "text": "echarts",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "图表容器",
-              "link": "/package/echarts/图表容器"
-            },
-            {
-              "text": "legend",
-              "link": "/package/echarts/legend"
-            },
-            {
-              "text": "series",
-              "link": "/package/echarts/series"
-            },
-            {
-              "text": "xAxis",
-              "link": "/package/echarts/xAxis"
-            }
-          ]
-        },
-        {
-          "text": "antfu-utils",
-          "link": "/package/antfu-utils"
-        },
-        {
-          "text": "file-saver",
-          "link": "/package/file-saver"
-        },
-        {
-          "text": "unplugin-auto-import",
-          "link": "/package/unplugin-auto-import"
-        },
-        {
-          "text": "unplugin-vue-components",
-          "link": "/package/unplugin-vue-components"
         }
       ]
     }
@@ -1305,6 +1309,98 @@ export default {
             {
               "text": "markdown中使用Vue",
               "link": "/vitepress/markdown语法/markdown中使用Vue"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "/xstate/": [
+    {
+      "text": "xstate",
+      "items": [
+        {
+          "text": "工具",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "@xstatevue",
+              "link": "/xstate/工具/@xstatevue"
+            },
+            {
+              "text": "迁移指南",
+              "link": "/xstate/工具/迁移指南"
+            },
+            {
+              "text": "example",
+              "link": "/xstate/工具/example"
+            }
+          ]
+        },
+        {
+          "text": "Actor",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "Actor Model",
+              "link": "/xstate/Actor/1.Actor Model"
+            },
+            {
+              "text": "Invoked actor",
+              "link": "/xstate/Actor/2.Invoked actor"
+            },
+            {
+              "text": "Spawned actor",
+              "link": "/xstate/Actor/3.Spawned actor"
+            },
+            {
+              "text": "Snapshot",
+              "link": "/xstate/Actor/4.Snapshot"
+            },
+            {
+              "text": "Persistence",
+              "link": "/xstate/Actor/5.Persistence"
+            }
+          ]
+        },
+        {
+          "text": "State machines",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "State machines",
+              "link": "/xstate/State machines/1.State machines"
+            },
+            {
+              "text": "Setup",
+              "link": "/xstate/State machines/2.Setup"
+            },
+            {
+              "text": "Context",
+              "link": "/xstate/State machines/3.Context"
+            },
+            {
+              "text": "States",
+              "link": "/xstate/State machines/5.States"
+            },
+            {
+              "text": "Output",
+              "link": "/xstate/State machines/6.Output"
+            },
+            {
+              "text": "Transitions",
+              "link": "/xstate/State machines/7.Transitions"
+            },
+            {
+              "text": "Actions",
+              "link": "/xstate/State machines/8.Actions"
+            },
+            {
+              "text": "Guards",
+              "link": "/xstate/State machines/9.Guards"
             }
           ]
         }
@@ -1640,98 +1736,6 @@ export default {
             {
               "text": "TS与组合式API",
               "link": "/vue/vue3/TS与组合式API"
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "/xstate/": [
-    {
-      "text": "xstate",
-      "items": [
-        {
-          "text": "工具",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "@xstatevue",
-              "link": "/xstate/工具/@xstatevue"
-            },
-            {
-              "text": "迁移指南",
-              "link": "/xstate/工具/迁移指南"
-            },
-            {
-              "text": "example",
-              "link": "/xstate/工具/example"
-            }
-          ]
-        },
-        {
-          "text": "Actor",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "Actor Model",
-              "link": "/xstate/Actor/1.Actor Model"
-            },
-            {
-              "text": "Invoked actor",
-              "link": "/xstate/Actor/2.Invoked actor"
-            },
-            {
-              "text": "Spawned actor",
-              "link": "/xstate/Actor/3.Spawned actor"
-            },
-            {
-              "text": "Snapshot",
-              "link": "/xstate/Actor/4.Snapshot"
-            },
-            {
-              "text": "Persistence",
-              "link": "/xstate/Actor/5.Persistence"
-            }
-          ]
-        },
-        {
-          "text": "State machines",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "State machines",
-              "link": "/xstate/State machines/1.State machines"
-            },
-            {
-              "text": "Setup",
-              "link": "/xstate/State machines/2.Setup"
-            },
-            {
-              "text": "Context",
-              "link": "/xstate/State machines/3.Context"
-            },
-            {
-              "text": "States",
-              "link": "/xstate/State machines/5.States"
-            },
-            {
-              "text": "Output",
-              "link": "/xstate/State machines/6.Output"
-            },
-            {
-              "text": "Transitions",
-              "link": "/xstate/State machines/7.Transitions"
-            },
-            {
-              "text": "Actions",
-              "link": "/xstate/State machines/8.Actions"
-            },
-            {
-              "text": "Guards",
-              "link": "/xstate/State machines/9.Guards"
             }
           ]
         }
