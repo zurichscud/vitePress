@@ -30,7 +30,7 @@ features:
     details: 66篇文档
     link: /CSS/CSS变量
   - title: HTML
-    details: 29篇文档
+    details: 28篇文档
     link: /HTML/HTML字符实体
   - title: JavaScript
     details: 52篇文档

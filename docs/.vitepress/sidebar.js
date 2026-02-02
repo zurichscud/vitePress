@@ -428,6 +428,14 @@ export default {
             {
               "text": "可替换元素",
               "link": "/HTML/可替换元素/可替换元素"
+            },
+            {
+              "text": "iframe",
+              "link": "/HTML/可替换元素/iframe"
+            },
+            {
+              "text": "img",
+              "link": "/HTML/可替换元素/img"
             }
           ]
         },
@@ -452,16 +460,20 @@ export default {
           "collapsed": false,
           "items": [
             {
-              "text": "标准属性",
-              "link": "/HTML/属性/1-标准属性"
+              "text": "布尔属性",
+              "link": "/HTML/属性/1-布尔属性"
             },
             {
               "text": "自定义属性",
               "link": "/HTML/属性/2-自定义属性"
             },
             {
-              "text": "contenteditable",
-              "link": "/HTML/属性/4-contenteditable"
+              "text": "表现型属性",
+              "link": "/HTML/属性/表现型属性"
+            },
+            {
+              "text": "全局属性",
+              "link": "/HTML/属性/全局属性"
             }
           ]
         },
@@ -485,10 +497,6 @@ export default {
           "link": "/HTML/表格"
         },
         {
-          "text": "表现型属性",
-          "link": "/HTML/表现型属性"
-        },
-        {
           "text": "调试工具",
           "link": "/HTML/调试工具"
         },
@@ -501,24 +509,12 @@ export default {
           "link": "/HTML/路径"
         },
         {
-          "text": "全局属性",
-          "link": "/HTML/全局属性"
-        },
-        {
           "text": "图片格式",
           "link": "/HTML/图片格式"
         },
         {
           "text": "HTML字符实体",
           "link": "/HTML/HTML字符实体"
-        },
-        {
-          "text": "iframe",
-          "link": "/HTML/iframe"
-        },
-        {
-          "text": "img",
-          "link": "/HTML/img"
         },
         {
           "text": "SVG",
