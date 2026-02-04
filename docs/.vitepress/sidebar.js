@@ -1100,8 +1100,27 @@ export default {
           "collapsed": false,
           "items": [
             {
+              "text": "Event",
+              "collapsible": true,
+              "collapsed": false,
+              "items": [
+                {
+                  "text": "updateAxisPointer",
+                  "link": "/package/echarts/Event/updateAxisPointer"
+                }
+              ]
+            },
+            {
               "text": "图表容器",
               "link": "/package/echarts/图表容器"
+            },
+            {
+              "text": "增量更新",
+              "link": "/package/echarts/增量更新"
+            },
+            {
+              "text": "dataset",
+              "link": "/package/echarts/dataset"
             },
             {
               "text": "legend",
