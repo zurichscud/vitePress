@@ -17,9 +17,4 @@ node-linker=hoisted
 
 ## 命令
 
-- 查看pkg所有的版本
-
-```sh
-pnpm view <pkg> versions
-```
-
+pnpm与npm命令不完全相同

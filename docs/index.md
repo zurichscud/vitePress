@@ -33,14 +33,14 @@ features:
     details: 29篇文档
     link: /HTML/HTML元素间的关系
   - title: JavaScript
-    details: 52篇文档
+    details: 49篇文档
     link: /JavaScript/Promise
   - title: Linux
     details: 1篇文档
     link: /Linux/curl
   - title: Node
-    details: 1篇文档
-    link: /Node/package/版本号
+    details: 6篇文档
+    link: /Node/创建Node项目
   - title: nuxt
     details: 8篇文档
     link: /nuxt/SEO与元数据
@@ -48,7 +48,7 @@ features:
     details: 13篇文档
     link: /package/antfu-utils
   - title: TypeScript
-    details: 20篇文档
+    details: 21篇文档
     link: /TypeScript/tsconfig
   - title: vitepress
     details: 23篇文档

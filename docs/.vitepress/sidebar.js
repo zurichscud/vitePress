@@ -366,29 +366,186 @@ export default {
       ]
     }
   ],
-  "/JavaScript/": [
+  "/HTML/": [
     {
-      "text": "JavaScript",
+      "text": "HTML",
       "items": [
         {
-          "text": "包管理",
+          "text": "表单",
           "collapsible": true,
           "collapsed": false,
           "items": [
             {
-              "text": "npm",
-              "link": "/JavaScript/包管理/npm"
+              "text": "button",
+              "link": "/HTML/表单/button"
             },
             {
-              "text": "pnpm",
-              "link": "/JavaScript/包管理/pnpm"
+              "text": "check",
+              "link": "/HTML/表单/check"
             },
             {
-              "text": "yarn",
-              "link": "/JavaScript/包管理/yarn"
+              "text": "form",
+              "link": "/HTML/表单/form"
+            },
+            {
+              "text": "input",
+              "link": "/HTML/表单/input"
+            },
+            {
+              "text": "label",
+              "link": "/HTML/表单/label"
+            },
+            {
+              "text": "select",
+              "link": "/HTML/表单/select"
+            },
+            {
+              "text": "textarea",
+              "link": "/HTML/表单/textarea"
             }
           ]
         },
+        {
+          "text": "超链接",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "唤起应用",
+              "link": "/HTML/超链接/唤起应用"
+            },
+            {
+              "text": "链接",
+              "link": "/HTML/超链接/链接"
+            },
+            {
+              "text": "锚点",
+              "link": "/HTML/超链接/锚点"
+            }
+          ]
+        },
+        {
+          "text": "可替换元素",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "可替换元素",
+              "link": "/HTML/可替换元素/可替换元素"
+            },
+            {
+              "text": "iframe",
+              "link": "/HTML/可替换元素/iframe"
+            },
+            {
+              "text": "img",
+              "link": "/HTML/可替换元素/img"
+            }
+          ]
+        },
+        {
+          "text": "列表",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "列表",
+              "link": "/HTML/列表/列表"
+            },
+            {
+              "text": "列表样式",
+              "link": "/HTML/列表/列表样式"
+            }
+          ]
+        },
+        {
+          "text": "属性",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "布尔属性",
+              "link": "/HTML/属性/1-布尔属性"
+            },
+            {
+              "text": "自定义属性",
+              "link": "/HTML/属性/2-自定义属性"
+            },
+            {
+              "text": "表现型属性",
+              "link": "/HTML/属性/表现型属性"
+            },
+            {
+              "text": "全局属性",
+              "link": "/HTML/属性/全局属性"
+            }
+          ]
+        },
+        {
+          "text": "元数据",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "标准元数据名称",
+              "link": "/HTML/元数据/标准元数据名称"
+            },
+            {
+              "text": "meta标签",
+              "link": "/HTML/元数据/meta标签"
+            }
+          ]
+        },
+        {
+          "text": "表格",
+          "link": "/HTML/表格"
+        },
+        {
+          "text": "调试工具",
+          "link": "/HTML/调试工具"
+        },
+        {
+          "text": "浏览器渲染流程",
+          "link": "/HTML/浏览器渲染流程"
+        },
+        {
+          "text": "路径",
+          "link": "/HTML/路径"
+        },
+        {
+          "text": "图片格式",
+          "link": "/HTML/图片格式"
+        },
+        {
+          "text": "HTML元素间的关系",
+          "link": "/HTML/HTML元素间的关系"
+        },
+        {
+          "text": "HTML字符实体",
+          "link": "/HTML/HTML字符实体"
+        },
+        {
+          "text": "SVG",
+          "link": "/HTML/SVG"
+        }
+      ]
+    }
+  ],
+  "/Linux/": [
+    {
+      "text": "Linux",
+      "items": [
+        {
+          "text": "curl",
+          "link": "/Linux/curl"
+        }
+      ]
+    }
+  ],
+  "/JavaScript/": [
+    {
+      "text": "JavaScript",
+      "items": [
         {
           "text": "迭代",
           "collapsible": true,
@@ -637,178 +794,47 @@ export default {
       ]
     }
   ],
-  "/HTML/": [
+  "/Node/": [
     {
-      "text": "HTML",
+      "text": "Node",
       "items": [
         {
-          "text": "表单",
+          "text": "包管理",
           "collapsible": true,
           "collapsed": false,
           "items": [
             {
-              "text": "button",
-              "link": "/HTML/表单/button"
+              "text": "npm",
+              "link": "/Node/包管理/npm"
             },
             {
-              "text": "check",
-              "link": "/HTML/表单/check"
+              "text": "pnpm",
+              "link": "/Node/包管理/pnpm"
             },
             {
-              "text": "form",
-              "link": "/HTML/表单/form"
-            },
-            {
-              "text": "input",
-              "link": "/HTML/表单/input"
-            },
-            {
-              "text": "label",
-              "link": "/HTML/表单/label"
-            },
-            {
-              "text": "select",
-              "link": "/HTML/表单/select"
-            },
-            {
-              "text": "textarea",
-              "link": "/HTML/表单/textarea"
+              "text": "yarn",
+              "link": "/Node/包管理/yarn"
             }
           ]
         },
         {
-          "text": "超链接",
+          "text": "package",
           "collapsible": true,
           "collapsed": false,
           "items": [
             {
-              "text": "唤起应用",
-              "link": "/HTML/超链接/唤起应用"
+              "text": "版本号",
+              "link": "/Node/package/版本号"
             },
             {
-              "text": "链接",
-              "link": "/HTML/超链接/链接"
-            },
-            {
-              "text": "锚点",
-              "link": "/HTML/超链接/锚点"
+              "text": "配置项",
+              "link": "/Node/package/配置项"
             }
           ]
         },
         {
-          "text": "可替换元素",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "可替换元素",
-              "link": "/HTML/可替换元素/可替换元素"
-            },
-            {
-              "text": "iframe",
-              "link": "/HTML/可替换元素/iframe"
-            },
-            {
-              "text": "img",
-              "link": "/HTML/可替换元素/img"
-            }
-          ]
-        },
-        {
-          "text": "列表",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "列表",
-              "link": "/HTML/列表/列表"
-            },
-            {
-              "text": "列表样式",
-              "link": "/HTML/列表/列表样式"
-            }
-          ]
-        },
-        {
-          "text": "属性",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "布尔属性",
-              "link": "/HTML/属性/1-布尔属性"
-            },
-            {
-              "text": "自定义属性",
-              "link": "/HTML/属性/2-自定义属性"
-            },
-            {
-              "text": "表现型属性",
-              "link": "/HTML/属性/表现型属性"
-            },
-            {
-              "text": "全局属性",
-              "link": "/HTML/属性/全局属性"
-            }
-          ]
-        },
-        {
-          "text": "元数据",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "标准元数据名称",
-              "link": "/HTML/元数据/标准元数据名称"
-            },
-            {
-              "text": "meta标签",
-              "link": "/HTML/元数据/meta标签"
-            }
-          ]
-        },
-        {
-          "text": "表格",
-          "link": "/HTML/表格"
-        },
-        {
-          "text": "调试工具",
-          "link": "/HTML/调试工具"
-        },
-        {
-          "text": "浏览器渲染流程",
-          "link": "/HTML/浏览器渲染流程"
-        },
-        {
-          "text": "路径",
-          "link": "/HTML/路径"
-        },
-        {
-          "text": "图片格式",
-          "link": "/HTML/图片格式"
-        },
-        {
-          "text": "HTML元素间的关系",
-          "link": "/HTML/HTML元素间的关系"
-        },
-        {
-          "text": "HTML字符实体",
-          "link": "/HTML/HTML字符实体"
-        },
-        {
-          "text": "SVG",
-          "link": "/HTML/SVG"
-        }
-      ]
-    }
-  ],
-  "/Linux/": [
-    {
-      "text": "Linux",
-      "items": [
-        {
-          "text": "curl",
-          "link": "/Linux/curl"
+          "text": "创建Node项目",
+          "link": "/Node/创建Node项目"
         }
       ]
     }
@@ -915,6 +941,10 @@ export default {
               "link": "/TypeScript/特殊数据类型/特殊类型"
             }
           ]
+        },
+        {
+          "text": "创建TS项目",
+          "link": "/TypeScript/创建TS项目"
         },
         {
           "text": "断言",
@@ -1212,24 +1242,6 @@ export default {
         {
           "text": "favicons",
           "link": "/百科/favicons"
-        }
-      ]
-    }
-  ],
-  "/Node/": [
-    {
-      "text": "Node",
-      "items": [
-        {
-          "text": "package",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "版本号",
-              "link": "/Node/package/版本号"
-            }
-          ]
         }
       ]
     }

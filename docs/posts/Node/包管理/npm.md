@@ -16,7 +16,7 @@ cache=/path/to/npm-cache
 
 - **优先级**：项目目录 `.npmrc` > 用户目录 `~/.npmrc` > 全局配置 `/etc/npmrc`。
 
-:::警告
+::: warning
 
 `.npmrc` **不是 npm 私有**的，它的**网络、证书、认证**配置可能**间接污染 Yarn / pnpm**，在多管理器仓库里，**务必给每个工具显式提供自己的配置文件**，避免“幽灵配置”。
 
@@ -24,9 +24,46 @@ cache=/path/to/npm-cache
 
 ## 命令
 
-- 查看pkg所有的版本
+### 查看pkg所有的版本
 
 ```sh
 npm view <pkg> versions
+```
+
+```sh
+[
+  '1.0.0',
+  '2.0.0',
+  '2.7.16',
+  '3.0.0',
+  '3.4.21'
+]
+
+```
+
+### 查看pkg的最新版本
+
+```sh
+npm view <pkg> version
+```
+
+```ts
+3.5.27
+```
+
+### 查看镜像地址
+
+```sh
+npm config get registry
+```
+
+```sh
+https://registry.npmmirror.com
+```
+
+### 设置镜像地址
+
+```sh
+npm config set registry https://registry.npmmirror.com/
 ```
 
