@@ -35,11 +35,17 @@ features:
   - title: JavaScript
     details: 52篇文档
     link: /JavaScript/Promise
+  - title: Linux
+    details: 1篇文档
+    link: /Linux/curl
+  - title: Node
+    details: 1篇文档
+    link: /Node/package/版本号
   - title: nuxt
     details: 8篇文档
     link: /nuxt/SEO与元数据
   - title: package
-    details: 11篇文档
+    details: 13篇文档
     link: /package/antfu-utils
   - title: TypeScript
     details: 20篇文档
