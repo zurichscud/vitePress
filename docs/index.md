@@ -18,7 +18,7 @@ hero:
 
 features:
   - title: 百科
-    details: 2篇文档
+    details: 4篇文档
     link: /百科/CMS
   - title: 前端工程化
     details: 5篇文档
@@ -39,13 +39,13 @@ features:
     details: 1篇文档
     link: /Linux/curl
   - title: Node
-    details: 6篇文档
-    link: /Node/创建Node项目
+    details: 19篇文档
+    link: /Node/EventEmitter
   - title: nuxt
     details: 8篇文档
     link: /nuxt/SEO与元数据
   - title: package
-    details: 13篇文档
+    details: 14篇文档
     link: /package/antfu-utils
   - title: TypeScript
     details: 21篇文档

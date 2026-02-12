@@ -808,12 +808,31 @@ export default {
               "link": "/Node/包管理/npm"
             },
             {
+              "text": "nvm",
+              "link": "/Node/包管理/nvm"
+            },
+            {
               "text": "pnpm",
               "link": "/Node/包管理/pnpm"
             },
             {
               "text": "yarn",
               "link": "/Node/包管理/yarn"
+            }
+          ]
+        },
+        {
+          "text": "全局API",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "全局变量",
+              "link": "/Node/全局API/全局变量"
+            },
+            {
+              "text": "process",
+              "link": "/Node/全局API/process"
             }
           ]
         },
@@ -835,6 +854,46 @@ export default {
         {
           "text": "创建Node项目",
           "link": "/Node/创建Node项目"
+        },
+        {
+          "text": "环境配置",
+          "link": "/Node/环境配置"
+        },
+        {
+          "text": "脚手架",
+          "link": "/Node/脚手架"
+        },
+        {
+          "text": "child_process",
+          "link": "/Node/child_process"
+        },
+        {
+          "text": "crypto",
+          "link": "/Node/crypto"
+        },
+        {
+          "text": "EventEmitter",
+          "link": "/Node/EventEmitter"
+        },
+        {
+          "text": "fs",
+          "link": "/Node/fs"
+        },
+        {
+          "text": "os",
+          "link": "/Node/os"
+        },
+        {
+          "text": "path",
+          "link": "/Node/path"
+        },
+        {
+          "text": "SSR渲染",
+          "link": "/Node/SSR渲染"
+        },
+        {
+          "text": "util",
+          "link": "/Node/util"
         }
       ]
     }
@@ -1182,6 +1241,10 @@ export default {
           "link": "/package/antfu-utils"
         },
         {
+          "text": "cross-env",
+          "link": "/package/cross-env"
+        },
+        {
           "text": "file-saver",
           "link": "/package/file-saver"
         },
@@ -1236,12 +1299,20 @@ export default {
       "text": "百科",
       "items": [
         {
+          "text": "路径",
+          "link": "/百科/路径"
+        },
+        {
           "text": "CMS",
           "link": "/百科/CMS"
         },
         {
           "text": "favicons",
           "link": "/百科/favicons"
+        },
+        {
+          "text": "OSS",
+          "link": "/百科/OSS"
         }
       ]
     }

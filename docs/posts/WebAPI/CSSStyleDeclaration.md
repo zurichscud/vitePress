@@ -12,6 +12,10 @@ CSSStyleDeclaration对象可以通过`getComputedStyle`获取，将 `CSSStyleDec
 
  **按“CSS 属性名”取值**
 
+获取CSS属性值
+
+虽然可以直接获取CSS属性值，但是对于CSS变量，我们只能使用`getPropertyValue`获取
+
 ```ts
 const el = document.querySelector('.box')
 const style = getComputedStyle(el)
@@ -25,11 +29,15 @@ style.getPropertyValue('--main-color') // #409eff
 
 ### setProperty
 
+修改CSS属性。
+
+虽然可以直接修改CSS属性值，但是对于CSS变量，JS 属性名不能带 `--`，你只能使用`setProperty`操作
+
 ```ts
 style.setProperty(propertyName, value, priority);
 ```
 
-- *`propertyName`* 是一个 [`DOMString`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String) ，代表被更改的 CSS 属性。
+- *`propertyName`* 是一个 string ，代表被更改的 CSS 属性。
 
 
 

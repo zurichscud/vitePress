@@ -67,3 +67,9 @@ https://registry.npmmirror.com
 npm config set registry https://registry.npmmirror.com/
 ```
 
+### 指定镜像地址安装包
+
+```sh
+npm i sequelize --registry=https://registry.npmmirror.com
+```
+

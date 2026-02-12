@@ -12,13 +12,13 @@ electron_mirror "https://registry.npmmirror.com/-/binary/electron/"
 electron_builder_binaries_mirror "https://registry.npmmirror.com/-/binary/electron-builder-binaries/"
 ```
 
-.yarnrc仅支持yarn v1
+`.yarnrc`仅支持yarn v1
 
 
 
 ### yarn.yml
 
-**Yarn v2+ **使用 `.yarnrc.yml`（YAML 格式）：
+**Yarn v2+**  使用 `.yarnrc.yml`（YAML 格式）：
 
 ```yaml
 npmRegistryServer: "https://registry.npmmirror.com"
@@ -59,6 +59,18 @@ yarn config set registry https://registry.npmmirror.com
 ## 命令
 
 yarn命令与npm命令不完全相同
+
+### 安装全部依赖
+
+```sh
+yarn
+```
+
+等价于
+
+```sh
+yarn install
+```
 
 
 
