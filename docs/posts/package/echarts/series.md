@@ -57,9 +57,11 @@ label: {
 
 在一个系列中，可能一个横坐标对应的取值是“空”的，将其设为 0 有时并不能满足我们的期望--空数据不应被其左右的数据连接。
 
-在 ECharts 中，我们使用字符串 `'-'` 表示空数据，这对其他系列的数据也是适用的。
+在 ECharts 中，空数据可以使用如下表示：
 
-使用`undefined`和`null`也可以表示
+- 字符串 `'-'` 
+
+- `undefined`和`null`
 
 ```ts
 option = {
@@ -74,5 +76,32 @@ option = {
     }
   ]
 };
+```
+
+
+
+## markLine
+
+标注线
+
+- 平均值
+
+```js
+markLine: {
+  data: [{ type: 'average' as const, name: '平均值' }],
+},
+```
+
+## markPoint
+
+标记点
+
+```js
+markPoint: {
+  data: [
+    { type: 'max', name: 'Max' },
+    { type: 'min', name: 'Min' },
+  ],
+},
 ```
 
