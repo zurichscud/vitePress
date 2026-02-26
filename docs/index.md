@@ -18,7 +18,7 @@ hero:
 
 features:
   - title: 百科
-    details: 8篇文档
+    details: 10篇文档
     link: /百科/CMS
   - title: 前端工程化
     details: 5篇文档
@@ -42,7 +42,7 @@ features:
     details: 1篇文档
     link: /Linux/curl
   - title: Node
-    details: 26篇文档
+    details: 33篇文档
     link: /Node/Buffer
   - title: nuxt
     details: 8篇文档
