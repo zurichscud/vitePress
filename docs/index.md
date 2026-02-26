@@ -18,11 +18,14 @@ hero:
 
 features:
   - title: 百科
-    details: 5篇文档
+    details: 8篇文档
     link: /百科/CMS
   - title: 前端工程化
     details: 5篇文档
     link: /前端工程化/@antfueslint-config
+  - title: 性能优化
+    details: 1篇文档
+    link: /性能优化/gzip压缩
   - title: 组件库
     details: 12篇文档
     link: /组件库/TDesign/Card
@@ -39,8 +42,8 @@ features:
     details: 1篇文档
     link: /Linux/curl
   - title: Node
-    details: 20篇文档
-    link: /Node/EventEmitter
+    details: 26篇文档
+    link: /Node/Buffer
   - title: nuxt
     details: 8篇文档
     link: /nuxt/SEO与元数据
@@ -57,7 +60,7 @@ features:
     details: 61篇文档
     link: /vue/pinia/action
   - title: WebAPI
-    details: 23篇文档
+    details: 24篇文档
     link: /WebAPI/CSSStyleDeclaration
   - title: xstate
     details: 16篇文档
