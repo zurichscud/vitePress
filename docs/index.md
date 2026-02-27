@@ -42,7 +42,7 @@ features:
     details: 1篇文档
     link: /Linux/curl
   - title: Node
-    details: 33篇文档
+    details: 35篇文档
     link: /Node/Buffer
   - title: nuxt
     details: 8篇文档

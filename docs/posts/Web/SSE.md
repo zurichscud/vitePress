@@ -2,11 +2,11 @@
 
 Server-Sent Events（SSE）是一种在客户端和服务器之间实现单向事件流的机制，允许服务器主动向客户端发送事件数据。
 
-在 SSE 中，可以使用自定义事件（Custom Events）来发送具有特定类型的事件数据。
+在 SSE 中，可以使用自定义事件来发送具有特定类型的事件数据。
 
 ## SSE优势
 
-- **自动重连**：浏览器原生支持断线重连。
+- **自动重连**：浏览器原生支持自动重连。
 - **轻量**：比 WebSocket 简单得多，不需要复杂的握手过程。
 - **兼容性好**：在现代浏览器中原生支持。
 - **更适合 AI 场景**：现在的 **ChatGPT/LLM 逐字生成回答**，几乎全是靠 SSE 实现的。
@@ -50,30 +50,7 @@ retry: 5000\n\n
 
 
 
-## 实例
 
-服务器通过发送特殊的HTTP响应头，告知客户端它会使用SSE推送数据。
-
-```js
-app.get('/sse',(req,res)=>{
-    res.setHeader('Content-Type', 'text/event-stream')
-    res.status(200)
-    setInterval(() => {
-        res.write('event: test\n')
-        res.write('data: ' + new Date().getTime() + '\n\n')
-    }, 1000)
-})
-
-```
-
-
-
-```js
-const sse = new EventSource('http://localhost:3000/sse')
-sse.addEventListener('test', (event) => {
-    console.log(event.data)
-})
-```
 
 ## SSE中断
 
@@ -133,3 +110,29 @@ eventSource.addEventListener('close', (e) => {
 ### 客户端重试机制
 
 当客户端检测到连接中断或错误时，浏览器会自动根据服务器发送的 **`retry`** 字段（如果有）来进行重试。默认情况下，客户端会每 3 秒重新尝试连接。
+
+
+## 实现
+
+服务器通过发送特殊的HTTP响应头，告知客户端它会使用SSE推送数据。
+
+```js
+app.get('/sse',(req,res)=>{
+    res.setHeader('Content-Type', 'text/event-stream')
+    res.status(200)
+    setInterval(() => {
+        res.write('event: test\n')
+        res.write('data: ' + new Date().getTime() + '\n\n')
+    }, 1000)
+})
+
+```
+
+
+
+```js
+const sse = new EventSource('http://localhost:3000/sse')
+sse.addEventListener('test', (event) => {
+    console.log(event.data)
+})
+```
