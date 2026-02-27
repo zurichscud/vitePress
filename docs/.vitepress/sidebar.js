@@ -531,6 +531,17 @@ export default {
       ]
     }
   ],
+  "/Linux/": [
+    {
+      "text": "Linux",
+      "items": [
+        {
+          "text": "curl",
+          "link": "/Linux/curl"
+        }
+      ]
+    }
+  ],
   "/JavaScript/": [
     {
       "text": "JavaScript",
@@ -783,17 +794,6 @@ export default {
       ]
     }
   ],
-  "/Linux/": [
-    {
-      "text": "Linux",
-      "items": [
-        {
-          "text": "curl",
-          "link": "/Linux/curl"
-        }
-      ]
-    }
-  ],
   "/Node/": [
     {
       "text": "Node",
@@ -982,45 +982,6 @@ export default {
       ]
     }
   ],
-  "/nuxt/": [
-    {
-      "text": "nuxt",
-      "items": [
-        {
-          "text": "布局",
-          "link": "/nuxt/布局"
-        },
-        {
-          "text": "服务器",
-          "link": "/nuxt/服务器"
-        },
-        {
-          "text": "基础",
-          "link": "/nuxt/基础"
-        },
-        {
-          "text": "路由",
-          "link": "/nuxt/路由"
-        },
-        {
-          "text": "视图",
-          "link": "/nuxt/视图"
-        },
-        {
-          "text": "数据请求",
-          "link": "/nuxt/数据请求"
-        },
-        {
-          "text": "资源管理",
-          "link": "/nuxt/资源管理"
-        },
-        {
-          "text": "SEO与元数据",
-          "link": "/nuxt/SEO与元数据"
-        }
-      ]
-    }
-  ],
   "/TypeScript/": [
     {
       "text": "TypeScript",
@@ -1147,83 +1108,63 @@ export default {
       ]
     }
   ],
-  "/package/": [
+  "/Web/": [
     {
-      "text": "package",
+      "text": "Web",
       "items": [
         {
-          "text": "echarts",
+          "text": "安全",
           "collapsible": true,
           "collapsed": false,
           "items": [
             {
-              "text": "Event",
-              "collapsible": true,
-              "collapsed": false,
-              "items": [
-                {
-                  "text": "updateAxisPointer",
-                  "link": "/package/echarts/Event/updateAxisPointer"
-                }
-              ]
+              "text": "对称加密",
+              "link": "/Web/安全/对称加密"
             },
             {
-              "text": "图表容器",
-              "link": "/package/echarts/图表容器"
+              "text": "非对称加密",
+              "link": "/Web/安全/非对称加密"
             },
             {
-              "text": "增量更新",
-              "link": "/package/echarts/增量更新"
-            },
-            {
-              "text": "dataset",
-              "link": "/package/echarts/dataset"
-            },
-            {
-              "text": "legend",
-              "link": "/package/echarts/legend"
-            },
-            {
-              "text": "series",
-              "link": "/package/echarts/series"
-            },
-            {
-              "text": "xAxis",
-              "link": "/package/echarts/xAxis"
+              "text": "哈希函数",
+              "link": "/Web/安全/哈希函数"
             }
           ]
         },
         {
-          "text": "antfu-utils",
-          "link": "/package/antfu-utils"
+          "text": "请求与响应",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "防盗链",
+              "link": "/Web/请求与响应/防盗链"
+            },
+            {
+              "text": "预检",
+              "link": "/Web/请求与响应/预检"
+            },
+            {
+              "text": "自定义响应头",
+              "link": "/Web/请求与响应/自定义响应头"
+            },
+            {
+              "text": "Cache-Control",
+              "link": "/Web/请求与响应/Cache-Control"
+            },
+            {
+              "text": "CORS",
+              "link": "/Web/请求与响应/CORS"
+            }
+          ]
         },
         {
-          "text": "cross-env",
-          "link": "/package/cross-env"
+          "text": "favicons",
+          "link": "/Web/favicons"
         },
         {
-          "text": "file-saver",
-          "link": "/package/file-saver"
-        },
-        {
-          "text": "nodemon",
-          "link": "/package/nodemon"
-        },
-        {
-          "text": "sequelize",
-          "link": "/package/sequelize"
-        },
-        {
-          "text": "tsx",
-          "link": "/package/tsx"
-        },
-        {
-          "text": "unplugin-auto-import",
-          "link": "/package/unplugin-auto-import"
-        },
-        {
-          "text": "unplugin-vue-components",
-          "link": "/package/unplugin-vue-components"
+          "text": "SSE",
+          "link": "/Web/SSE"
         }
       ]
     }
@@ -1359,6 +1300,126 @@ export default {
       ]
     }
   ],
+  "/nuxt/": [
+    {
+      "text": "nuxt",
+      "items": [
+        {
+          "text": "布局",
+          "link": "/nuxt/布局"
+        },
+        {
+          "text": "服务器",
+          "link": "/nuxt/服务器"
+        },
+        {
+          "text": "基础",
+          "link": "/nuxt/基础"
+        },
+        {
+          "text": "路由",
+          "link": "/nuxt/路由"
+        },
+        {
+          "text": "视图",
+          "link": "/nuxt/视图"
+        },
+        {
+          "text": "数据请求",
+          "link": "/nuxt/数据请求"
+        },
+        {
+          "text": "资源管理",
+          "link": "/nuxt/资源管理"
+        },
+        {
+          "text": "SEO与元数据",
+          "link": "/nuxt/SEO与元数据"
+        }
+      ]
+    }
+  ],
+  "/package/": [
+    {
+      "text": "package",
+      "items": [
+        {
+          "text": "echarts",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "Event",
+              "collapsible": true,
+              "collapsed": false,
+              "items": [
+                {
+                  "text": "updateAxisPointer",
+                  "link": "/package/echarts/Event/updateAxisPointer"
+                }
+              ]
+            },
+            {
+              "text": "图表容器",
+              "link": "/package/echarts/图表容器"
+            },
+            {
+              "text": "增量更新",
+              "link": "/package/echarts/增量更新"
+            },
+            {
+              "text": "dataset",
+              "link": "/package/echarts/dataset"
+            },
+            {
+              "text": "legend",
+              "link": "/package/echarts/legend"
+            },
+            {
+              "text": "series",
+              "link": "/package/echarts/series"
+            },
+            {
+              "text": "xAxis",
+              "link": "/package/echarts/xAxis"
+            }
+          ]
+        },
+        {
+          "text": "antfu-utils",
+          "link": "/package/antfu-utils"
+        },
+        {
+          "text": "cross-env",
+          "link": "/package/cross-env"
+        },
+        {
+          "text": "file-saver",
+          "link": "/package/file-saver"
+        },
+        {
+          "text": "nodemon",
+          "link": "/package/nodemon"
+        },
+        {
+          "text": "sequelize",
+          "link": "/package/sequelize"
+        },
+        {
+          "text": "tsx",
+          "link": "/package/tsx"
+        },
+        {
+          "text": "unplugin-auto-import",
+          "link": "/package/unplugin-auto-import"
+        },
+        {
+          "text": "unplugin-vue-components",
+          "link": "/package/unplugin-vue-components"
+        }
+      ]
+    }
+  ],
   "/前端工程化/": [
     {
       "text": "前端工程化",
@@ -1402,60 +1463,20 @@ export default {
       "text": "百科",
       "items": [
         {
-          "text": "对称加密",
-          "link": "/百科/对称加密"
-        },
-        {
-          "text": "防盗链",
-          "link": "/百科/防盗链"
-        },
-        {
-          "text": "非对称加密",
-          "link": "/百科/非对称加密"
-        },
-        {
-          "text": "哈希函数",
-          "link": "/百科/哈希函数"
-        },
-        {
           "text": "路径",
           "link": "/百科/路径"
-        },
-        {
-          "text": "预检",
-          "link": "/百科/预检"
-        },
-        {
-          "text": "自定义响应头",
-          "link": "/百科/自定义响应头"
         },
         {
           "text": "bin",
           "link": "/百科/bin"
         },
         {
-          "text": "Cache-Control",
-          "link": "/百科/Cache-Control"
-        },
-        {
           "text": "CMS",
           "link": "/百科/CMS"
         },
         {
-          "text": "CORS",
-          "link": "/百科/CORS"
-        },
-        {
-          "text": "favicons",
-          "link": "/百科/favicons"
-        },
-        {
           "text": "OSS",
           "link": "/百科/OSS"
-        },
-        {
-          "text": "SSE",
-          "link": "/百科/SSE"
         }
       ]
     }

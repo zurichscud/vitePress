@@ -1,16 +1,16 @@
 # CORS
 
+跨域资源共享（Cross-Origin Resource Sharing，CORS）是一种机制，用于在浏览器中实现跨域请求访问资源的权限控制。当一个网页通过 XMLHttpRequest 或 Fetch API 发起跨域请求时，浏览器会根据同源策略（Same-Origin Policy）进行限制。
+
 ## 同源策略
 
 **同源策略**是浏览器的一种安全机制，用来限制不同来源（origin）的网页之间互相访问数据。
 
 两个 URL **协议 + 域名 + 端口** 三者完全相同，才算同源。
 
-
-
 `http://localhost:3001`存在如下网页：
 
-```js [index.html]
+```html [index.html]
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -91,7 +91,7 @@ axios.get('/api', {
 })
 ```
 
-```js\
+```js
 OPTIONS /api
 Access-Control-Request-Method: GET
 Access-Control-Request-Headers: authorization, x-token
@@ -116,13 +116,19 @@ const app = express();
 app.use(express.json());
 app.use((req,res,next)=>{
   res.set('Access-Control-Allow-Origin', '*');
+  res.set('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
+  res.set('Access-Control-Allow-Headers', 'Content-Type, Authorization');
   next()
 })
 
 app.get('/get', (req, res) => {
   console.log('get request');
-  
   res.send('GET');
+});
+
+app.delete('/delete', (req, res) => {
+  console.log('delete request');
+  res.send('DELETE');
 });
 
 app.listen(3000, () => {
