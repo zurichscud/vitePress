@@ -19,7 +19,7 @@ hero:
 features:
   - title: 百科
     details: 4篇文档
-    link: /百科/bin
+    link: /百科/CMS
   - title: 前端工程化
     details: 5篇文档
     link: /前端工程化/@antfueslint-config
@@ -31,7 +31,7 @@ features:
     link: /组件库/TDesign/Card
   - title: CSS
     details: 67篇文档
-    link: /CSS/calc
+    link: /CSS/CSS变量
   - title: HTML
     details: 29篇文档
     link: /HTML/HTML元素间的关系
@@ -42,13 +42,13 @@ features:
     details: 1篇文档
     link: /Linux/curl
   - title: Node
-    details: 37篇文档
+    details: 41篇文档
     link: /Node/Buffer
   - title: nuxt
     details: 8篇文档
     link: /nuxt/SEO与元数据
   - title: package
-    details: 15篇文档
+    details: 16篇文档
     link: /package/antfu-utils
   - title: TypeScript
     details: 21篇文档
@@ -60,8 +60,8 @@ features:
     details: 61篇文档
     link: /vue/pinia/action
   - title: Web
-    details: 10篇文档
-    link: /Web/favicons
+    details: 13篇文档
+    link: /Web/HTTP2
   - title: WebAPI
     details: 24篇文档
     link: /WebAPI/CSSStyleDeclaration
