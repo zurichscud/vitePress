@@ -1,6 +1,6 @@
 # tsx
 
-原生node环境暂时不支持直接运行TS文件。为解决这个痛点，我们可以使用`tsx`让`node.js`可以直接运行ts文件。
+与`ts-node`功能相似，运行时不会产生JS文件。
 
 ## 安装
 
@@ -12,7 +12,15 @@ npm i tsx -g
 
 ## 使用
 
+- 基本使用
+
 ```sh
 tsx demo.ts
+```
+
+- 热更新
+
+```ts
+tsx watch demo.ts
 ```
 

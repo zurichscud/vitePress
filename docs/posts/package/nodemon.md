@@ -22,3 +22,10 @@ nodemon index.js
 node index.js
 ```
 
+nodemon支持运行TS文件而不需要编译成JS，但是他是依赖于`ts-node`，因此你需要先安装`ts-node`
+
+```sh
+nodemon index.ts
+```
+
+建议使用tsx运行ts，而不是nodemon

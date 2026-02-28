@@ -1,4 +1,4 @@
-# 控制反转API
+# inversify
 
 ## 安装与配置
 
@@ -13,8 +13,8 @@ npm i inversify reflect-metadata
 ```json [tsconfig.json]
 {
   "compilerOptions": {
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
+    "experimentalDecorators": true,//开启装饰器
+    "emitDecoratorMetadata": true//开启元数据发射
   }
 }
 ```
@@ -70,13 +70,29 @@ export class Car {
 }
 ```
 
-- `@injectable()`：给类打上“可注入”标记。告诉容器，这个类是允许被容器实例化的。
+- `@injectable()`：给类打上“可注入”标记。这个类可以由容器进行实例化，并且它的元数据需要被记录。
 - `@inject("Engine")`：将 `Engine` 类型的依赖注入到 `Car` 类中。这里 `@inject` 装饰器的参数 `"Engine"` 是在容器中用来标识依赖的标识符。
 
+::: tip 为什么需要`@injectable() `
 
+`container.bind(Car).toSelf()`已经进行了依赖注册与绑定，为什么还需要`@injectable() `？
+
+装饰器和类型是TS所独有，运行时会编译成JS。因此TS中的类型信息将会丢失：
+
+```js
+class Car {
+  constructor(engine) {
+    this.engine = engine;
+  }
+}
+// 这里的 engine 是什么类型？JS 引擎完全不知道。
+```
+
+为了保存类型信息，我们需要使用`@injectable() `装饰器保存元数据，这也是为什么需要开启`experimentalDecorators`和`emitDecoratorMetadata`
+
+:::
 
 ## 依赖注册与绑定
-
 
 ### bind
 
@@ -122,6 +138,8 @@ container.bind(Weapon).to(Gun)
 
 ### to
 
+绑定标识符和实现类
+
 ```js
 container.bind(接口标识符).to(具体实现类)
 ```
@@ -134,7 +152,7 @@ container.bind("Engine").to(GasEngine);
 
 ### toSelf
 
-标识符和实现类相同
+如果标识符和实现类相同，也可以直接使用toSelf自绑定
 
 ```js
 container.bind(Car).toSelf()
@@ -145,6 +163,12 @@ container.bind(Car).toSelf()
 ```js
 container.bind(Car).to(Car)
 ```
+
+::: tip
+
+这也是推荐使用class作为标识符的原因
+
+:::
 
 ## 创建实例
 
@@ -158,7 +182,19 @@ container.get(Key)
 
 - Key：ServiceIdentifier，在IOC容器中注册的标识符
 
+---
+
+- 使用了class注册了依赖，你也需要使用class获取
+
 ```js
-// 从容器获取 Car 实例并启动
-const myCar = container.get<Car>(Car);
+container.bind(Car).to(Car);
+const car = container.get<Car>(Car);
 ```
+
+- 使用了string注册了依赖，你也需要使用string获取
+
+```ts
+container.bind('Car').to(Car);
+const car = container.get<Car>("Car");
+```
+
