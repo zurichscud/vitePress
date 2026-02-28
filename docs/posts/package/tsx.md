@@ -20,7 +20,7 @@ tsx demo.ts
 
 - 热更新
 
-```ts
+```sh
 tsx watch demo.ts
 ```
 
