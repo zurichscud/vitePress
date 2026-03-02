@@ -42,7 +42,7 @@ features:
     details: 1篇文档
     link: /Linux/curl
   - title: Node
-    details: 41篇文档
+    details: 40篇文档
     link: /Node/Buffer
   - title: nuxt
     details: 8篇文档
@@ -60,7 +60,7 @@ features:
     details: 61篇文档
     link: /vue/pinia/action
   - title: Web
-    details: 13篇文档
+    details: 17篇文档
     link: /Web/HTTP2
   - title: WebAPI
     details: 24篇文档

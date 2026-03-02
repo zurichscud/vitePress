@@ -2,11 +2,23 @@
 
 跨域资源共享（Cross-Origin Resource Sharing，CORS）是一种机制，用于在浏览器中实现跨域请求访问资源的权限控制。当一个网页通过 XMLHttpRequest 或 Fetch API 发起跨域请求时，浏览器会根据同源策略（Same-Origin Policy）进行限制。
 
+
+
+
+
 ## 同源策略
 
 **同源策略**是浏览器的一种安全机制，用来限制不同来源（origin）的网页之间互相访问数据。
 
 两个 URL **协议 + 域名 + 端口** 三者完全相同，才算同源。
+
+```js
+www.example.com   api.example.com //域名不同，因此跨域
+```
+
+
+
+
 
 `http://localhost:3001`存在如下网页：
 
