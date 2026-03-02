@@ -794,225 +794,6 @@ export default {
       ]
     }
   ],
-  "/TypeScript/": [
-    {
-      "text": "TypeScript",
-      "items": [
-        {
-          "text": "泛型",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "泛型",
-              "link": "/TypeScript/泛型/泛型"
-            },
-            {
-              "text": "泛型工具",
-              "link": "/TypeScript/泛型/泛型工具"
-            },
-            {
-              "text": "条件类型",
-              "link": "/TypeScript/泛型/条件类型"
-            },
-            {
-              "text": "映射类型",
-              "link": "/TypeScript/泛型/映射类型"
-            }
-          ]
-        },
-        {
-          "text": "基本数据类型",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "对象类型",
-              "link": "/TypeScript/基本数据类型/对象类型"
-            },
-            {
-              "text": "函数类型",
-              "link": "/TypeScript/基本数据类型/函数类型"
-            },
-            {
-              "text": "枚举类型",
-              "link": "/TypeScript/基本数据类型/枚举类型"
-            },
-            {
-              "text": "原始类型",
-              "link": "/TypeScript/基本数据类型/原始类型"
-            },
-            {
-              "text": "组合类型",
-              "link": "/TypeScript/基本数据类型/组合类型"
-            }
-          ]
-        },
-        {
-          "text": "接口",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "索引访问类型",
-              "link": "/TypeScript/接口/索引访问类型"
-            },
-            {
-              "text": "索引签名",
-              "link": "/TypeScript/接口/索引签名"
-            }
-          ]
-        },
-        {
-          "text": "类型运算",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "类型体操",
-              "link": "/TypeScript/类型运算/类型体操"
-            },
-            {
-              "text": "类型运算符",
-              "link": "/TypeScript/类型运算/类型运算符"
-            },
-            {
-              "text": "协变与逆变",
-              "link": "/TypeScript/类型运算/协变与逆变"
-            },
-            {
-              "text": "infer关键字",
-              "link": "/TypeScript/类型运算/infer关键字"
-            }
-          ]
-        },
-        {
-          "text": "特殊数据类型",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "特殊类型",
-              "link": "/TypeScript/特殊数据类型/特殊类型"
-            }
-          ]
-        },
-        {
-          "text": "创建TS项目",
-          "link": "/TypeScript/创建TS项目"
-        },
-        {
-          "text": "断言",
-          "link": "/TypeScript/断言"
-        },
-        {
-          "text": "类型守卫",
-          "link": "/TypeScript/类型守卫"
-        },
-        {
-          "text": "声明文件",
-          "link": "/TypeScript/声明文件"
-        },
-        {
-          "text": "tsconfig",
-          "link": "/TypeScript/tsconfig"
-        }
-      ]
-    }
-  ],
-  "/Web/": [
-    {
-      "text": "Web",
-      "items": [
-        {
-          "text": "安全",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "对称加密",
-              "link": "/Web/安全/对称加密"
-            },
-            {
-              "text": "非对称加密",
-              "link": "/Web/安全/非对称加密"
-            },
-            {
-              "text": "哈希函数",
-              "link": "/Web/安全/哈希函数"
-            },
-            {
-              "text": "Cookie",
-              "link": "/Web/安全/Cookie"
-            },
-            {
-              "text": "HTTPS",
-              "link": "/Web/安全/HTTPS"
-            },
-            {
-              "text": "JWT",
-              "link": "/Web/安全/JWT"
-            },
-            {
-              "text": "Session",
-              "link": "/Web/安全/Session"
-            }
-          ]
-        },
-        {
-          "text": "请求与响应",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "防盗链",
-              "link": "/Web/请求与响应/防盗链"
-            },
-            {
-              "text": "预检",
-              "link": "/Web/请求与响应/预检"
-            },
-            {
-              "text": "自定义响应头",
-              "link": "/Web/请求与响应/自定义响应头"
-            },
-            {
-              "text": "Cache-Control",
-              "link": "/Web/请求与响应/Cache-Control"
-            },
-            {
-              "text": "CORS",
-              "link": "/Web/请求与响应/CORS"
-            }
-          ]
-        },
-        {
-          "text": "短链接",
-          "link": "/Web/短链接"
-        },
-        {
-          "text": "域名",
-          "link": "/Web/域名"
-        },
-        {
-          "text": "favicons",
-          "link": "/Web/favicons"
-        },
-        {
-          "text": "HTTP2",
-          "link": "/Web/HTTP2"
-        },
-        {
-          "text": "SSE",
-          "link": "/Web/SSE"
-        },
-        {
-          "text": "SSO",
-          "link": "/Web/SSO"
-        }
-      ]
-    }
-  ],
   "/Node/": [
     {
       "text": "Node",
@@ -1243,6 +1024,349 @@ export default {
       ]
     }
   ],
+  "/nuxt/": [
+    {
+      "text": "nuxt",
+      "items": [
+        {
+          "text": "布局",
+          "link": "/nuxt/布局"
+        },
+        {
+          "text": "服务器",
+          "link": "/nuxt/服务器"
+        },
+        {
+          "text": "基础",
+          "link": "/nuxt/基础"
+        },
+        {
+          "text": "路由",
+          "link": "/nuxt/路由"
+        },
+        {
+          "text": "视图",
+          "link": "/nuxt/视图"
+        },
+        {
+          "text": "数据请求",
+          "link": "/nuxt/数据请求"
+        },
+        {
+          "text": "资源管理",
+          "link": "/nuxt/资源管理"
+        },
+        {
+          "text": "SEO与元数据",
+          "link": "/nuxt/SEO与元数据"
+        }
+      ]
+    }
+  ],
+  "/package/": [
+    {
+      "text": "package",
+      "items": [
+        {
+          "text": "echarts",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "Event",
+              "collapsible": true,
+              "collapsed": false,
+              "items": [
+                {
+                  "text": "updateAxisPointer",
+                  "link": "/package/echarts/Event/updateAxisPointer"
+                }
+              ]
+            },
+            {
+              "text": "图表容器",
+              "link": "/package/echarts/图表容器"
+            },
+            {
+              "text": "增量更新",
+              "link": "/package/echarts/增量更新"
+            },
+            {
+              "text": "dataset",
+              "link": "/package/echarts/dataset"
+            },
+            {
+              "text": "legend",
+              "link": "/package/echarts/legend"
+            },
+            {
+              "text": "series",
+              "link": "/package/echarts/series"
+            },
+            {
+              "text": "xAxis",
+              "link": "/package/echarts/xAxis"
+            }
+          ]
+        },
+        {
+          "text": "antfu-utils",
+          "link": "/package/antfu-utils"
+        },
+        {
+          "text": "cross-env",
+          "link": "/package/cross-env"
+        },
+        {
+          "text": "file-saver",
+          "link": "/package/file-saver"
+        },
+        {
+          "text": "nodemon",
+          "link": "/package/nodemon"
+        },
+        {
+          "text": "sequelize",
+          "link": "/package/sequelize"
+        },
+        {
+          "text": "ts-node",
+          "link": "/package/ts-node"
+        },
+        {
+          "text": "tsx",
+          "link": "/package/tsx"
+        },
+        {
+          "text": "unplugin-auto-import",
+          "link": "/package/unplugin-auto-import"
+        },
+        {
+          "text": "unplugin-vue-components",
+          "link": "/package/unplugin-vue-components"
+        }
+      ]
+    }
+  ],
+  "/TypeScript/": [
+    {
+      "text": "TypeScript",
+      "items": [
+        {
+          "text": "泛型",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "泛型",
+              "link": "/TypeScript/泛型/泛型"
+            },
+            {
+              "text": "泛型工具",
+              "link": "/TypeScript/泛型/泛型工具"
+            },
+            {
+              "text": "条件类型",
+              "link": "/TypeScript/泛型/条件类型"
+            },
+            {
+              "text": "映射类型",
+              "link": "/TypeScript/泛型/映射类型"
+            }
+          ]
+        },
+        {
+          "text": "基本数据类型",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "对象类型",
+              "link": "/TypeScript/基本数据类型/对象类型"
+            },
+            {
+              "text": "函数类型",
+              "link": "/TypeScript/基本数据类型/函数类型"
+            },
+            {
+              "text": "枚举类型",
+              "link": "/TypeScript/基本数据类型/枚举类型"
+            },
+            {
+              "text": "原始类型",
+              "link": "/TypeScript/基本数据类型/原始类型"
+            },
+            {
+              "text": "组合类型",
+              "link": "/TypeScript/基本数据类型/组合类型"
+            }
+          ]
+        },
+        {
+          "text": "接口",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "索引访问类型",
+              "link": "/TypeScript/接口/索引访问类型"
+            },
+            {
+              "text": "索引签名",
+              "link": "/TypeScript/接口/索引签名"
+            }
+          ]
+        },
+        {
+          "text": "类型运算",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "类型体操",
+              "link": "/TypeScript/类型运算/类型体操"
+            },
+            {
+              "text": "类型运算符",
+              "link": "/TypeScript/类型运算/类型运算符"
+            },
+            {
+              "text": "协变与逆变",
+              "link": "/TypeScript/类型运算/协变与逆变"
+            },
+            {
+              "text": "infer关键字",
+              "link": "/TypeScript/类型运算/infer关键字"
+            }
+          ]
+        },
+        {
+          "text": "特殊数据类型",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "特殊类型",
+              "link": "/TypeScript/特殊数据类型/特殊类型"
+            }
+          ]
+        },
+        {
+          "text": "创建TS项目",
+          "link": "/TypeScript/创建TS项目"
+        },
+        {
+          "text": "断言",
+          "link": "/TypeScript/断言"
+        },
+        {
+          "text": "类型守卫",
+          "link": "/TypeScript/类型守卫"
+        },
+        {
+          "text": "声明文件",
+          "link": "/TypeScript/声明文件"
+        },
+        {
+          "text": "tsconfig",
+          "link": "/TypeScript/tsconfig"
+        }
+      ]
+    }
+  ],
+  "/Web/": [
+    {
+      "text": "Web",
+      "items": [
+        {
+          "text": "安全",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "对称加密",
+              "link": "/Web/安全/对称加密"
+            },
+            {
+              "text": "非对称加密",
+              "link": "/Web/安全/非对称加密"
+            },
+            {
+              "text": "哈希函数",
+              "link": "/Web/安全/哈希函数"
+            },
+            {
+              "text": "Cookie",
+              "link": "/Web/安全/Cookie"
+            },
+            {
+              "text": "HTTPS",
+              "link": "/Web/安全/HTTPS"
+            },
+            {
+              "text": "JWT",
+              "link": "/Web/安全/JWT"
+            },
+            {
+              "text": "Session",
+              "link": "/Web/安全/Session"
+            }
+          ]
+        },
+        {
+          "text": "请求与响应",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "防盗链",
+              "link": "/Web/请求与响应/防盗链"
+            },
+            {
+              "text": "预检",
+              "link": "/Web/请求与响应/预检"
+            },
+            {
+              "text": "自定义响应头",
+              "link": "/Web/请求与响应/自定义响应头"
+            },
+            {
+              "text": "Cache-Control",
+              "link": "/Web/请求与响应/Cache-Control"
+            },
+            {
+              "text": "CORS",
+              "link": "/Web/请求与响应/CORS"
+            }
+          ]
+        },
+        {
+          "text": "短链接",
+          "link": "/Web/短链接"
+        },
+        {
+          "text": "域名",
+          "link": "/Web/域名"
+        },
+        {
+          "text": "favicons",
+          "link": "/Web/favicons"
+        },
+        {
+          "text": "HTTP2",
+          "link": "/Web/HTTP2"
+        },
+        {
+          "text": "SSE",
+          "link": "/Web/SSE"
+        },
+        {
+          "text": "SSO",
+          "link": "/Web/SSO"
+        }
+      ]
+    }
+  ],
   "/WebAPI/": [
     {
       "text": "WebAPI",
@@ -1370,130 +1494,6 @@ export default {
         {
           "text": "URLSearchParams",
           "link": "/WebAPI/URLSearchParams"
-        }
-      ]
-    }
-  ],
-  "/nuxt/": [
-    {
-      "text": "nuxt",
-      "items": [
-        {
-          "text": "布局",
-          "link": "/nuxt/布局"
-        },
-        {
-          "text": "服务器",
-          "link": "/nuxt/服务器"
-        },
-        {
-          "text": "基础",
-          "link": "/nuxt/基础"
-        },
-        {
-          "text": "路由",
-          "link": "/nuxt/路由"
-        },
-        {
-          "text": "视图",
-          "link": "/nuxt/视图"
-        },
-        {
-          "text": "数据请求",
-          "link": "/nuxt/数据请求"
-        },
-        {
-          "text": "资源管理",
-          "link": "/nuxt/资源管理"
-        },
-        {
-          "text": "SEO与元数据",
-          "link": "/nuxt/SEO与元数据"
-        }
-      ]
-    }
-  ],
-  "/package/": [
-    {
-      "text": "package",
-      "items": [
-        {
-          "text": "echarts",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "Event",
-              "collapsible": true,
-              "collapsed": false,
-              "items": [
-                {
-                  "text": "updateAxisPointer",
-                  "link": "/package/echarts/Event/updateAxisPointer"
-                }
-              ]
-            },
-            {
-              "text": "图表容器",
-              "link": "/package/echarts/图表容器"
-            },
-            {
-              "text": "增量更新",
-              "link": "/package/echarts/增量更新"
-            },
-            {
-              "text": "dataset",
-              "link": "/package/echarts/dataset"
-            },
-            {
-              "text": "legend",
-              "link": "/package/echarts/legend"
-            },
-            {
-              "text": "series",
-              "link": "/package/echarts/series"
-            },
-            {
-              "text": "xAxis",
-              "link": "/package/echarts/xAxis"
-            }
-          ]
-        },
-        {
-          "text": "antfu-utils",
-          "link": "/package/antfu-utils"
-        },
-        {
-          "text": "cross-env",
-          "link": "/package/cross-env"
-        },
-        {
-          "text": "file-saver",
-          "link": "/package/file-saver"
-        },
-        {
-          "text": "nodemon",
-          "link": "/package/nodemon"
-        },
-        {
-          "text": "sequelize",
-          "link": "/package/sequelize"
-        },
-        {
-          "text": "ts-node",
-          "link": "/package/ts-node"
-        },
-        {
-          "text": "tsx",
-          "link": "/package/tsx"
-        },
-        {
-          "text": "unplugin-auto-import",
-          "link": "/package/unplugin-auto-import"
-        },
-        {
-          "text": "unplugin-vue-components",
-          "link": "/package/unplugin-vue-components"
         }
       ]
     }

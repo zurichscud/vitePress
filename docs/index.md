@@ -19,7 +19,7 @@ hero:
 features:
   - title: 百科
     details: 4篇文档
-    link: /百科/CMS
+    link: /百科/bin
   - title: 前端工程化
     details: 5篇文档
     link: /前端工程化/@antfueslint-config
@@ -31,7 +31,7 @@ features:
     link: /组件库/TDesign/Card
   - title: CSS
     details: 67篇文档
-    link: /CSS/CSS变量
+    link: /CSS/calc
   - title: HTML
     details: 29篇文档
     link: /HTML/HTML元素间的关系
@@ -61,7 +61,7 @@ features:
     link: /vue/pinia/action
   - title: Web
     details: 18篇文档
-    link: /Web/HTTP2
+    link: /Web/favicons
   - title: WebAPI
     details: 24篇文档
     link: /WebAPI/CSSStyleDeclaration
