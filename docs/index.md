@@ -60,7 +60,7 @@ features:
     details: 61篇文档
     link: /vue/pinia/action
   - title: Web
-    details: 18篇文档
+    details: 19篇文档
     link: /Web/HTTP2
   - title: WebAPI
     details: 24篇文档
