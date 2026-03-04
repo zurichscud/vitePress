@@ -1438,6 +1438,10 @@ export default {
               ]
             },
             {
+              "text": "地图",
+              "link": "/package/echarts/地图"
+            },
+            {
               "text": "图表容器",
               "link": "/package/echarts/图表容器"
             },
@@ -1448,6 +1452,10 @@ export default {
             {
               "text": "dataset",
               "link": "/package/echarts/dataset"
+            },
+            {
+              "text": "GeoJSON",
+              "link": "/package/echarts/GeoJSON"
             },
             {
               "text": "legend",
@@ -1536,6 +1544,25 @@ export default {
         {
           "text": "gzip压缩",
           "link": "/性能优化/gzip压缩"
+        }
+      ]
+    }
+  ],
+  "/数据库/": [
+    {
+      "text": "数据库",
+      "items": [
+        {
+          "text": "表格",
+          "link": "/数据库/表格"
+        },
+        {
+          "text": "DDL",
+          "link": "/数据库/DDL"
+        },
+        {
+          "text": "Query",
+          "link": "/数据库/Query"
         }
       ]
     }

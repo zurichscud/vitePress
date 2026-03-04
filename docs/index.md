@@ -23,6 +23,9 @@ features:
   - title: 前端工程化
     details: 5篇文档
     link: /前端工程化/@antfueslint-config
+  - title: 数据库
+    details: 3篇文档
+    link: /数据库/DDL
   - title: 性能优化
     details: 1篇文档
     link: /性能优化/gzip压缩
@@ -48,7 +51,7 @@ features:
     details: 8篇文档
     link: /nuxt/SEO与元数据
   - title: package
-    details: 16篇文档
+    details: 18篇文档
     link: /package/antfu-utils
   - title: TypeScript
     details: 21篇文档
