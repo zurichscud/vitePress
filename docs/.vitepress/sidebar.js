@@ -1,5 +1,170 @@
 // 自动生成，请勿修改
 export default {
+  "/HTML/": [
+    {
+      "text": "HTML",
+      "items": [
+        {
+          "text": "表单",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "button",
+              "link": "/HTML/表单/button"
+            },
+            {
+              "text": "check",
+              "link": "/HTML/表单/check"
+            },
+            {
+              "text": "form",
+              "link": "/HTML/表单/form"
+            },
+            {
+              "text": "input",
+              "link": "/HTML/表单/input"
+            },
+            {
+              "text": "label",
+              "link": "/HTML/表单/label"
+            },
+            {
+              "text": "select",
+              "link": "/HTML/表单/select"
+            },
+            {
+              "text": "textarea",
+              "link": "/HTML/表单/textarea"
+            }
+          ]
+        },
+        {
+          "text": "超链接",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "唤起应用",
+              "link": "/HTML/超链接/唤起应用"
+            },
+            {
+              "text": "链接",
+              "link": "/HTML/超链接/链接"
+            },
+            {
+              "text": "锚点",
+              "link": "/HTML/超链接/锚点"
+            }
+          ]
+        },
+        {
+          "text": "可替换元素",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "可替换元素",
+              "link": "/HTML/可替换元素/可替换元素"
+            },
+            {
+              "text": "iframe",
+              "link": "/HTML/可替换元素/iframe"
+            },
+            {
+              "text": "img",
+              "link": "/HTML/可替换元素/img"
+            }
+          ]
+        },
+        {
+          "text": "列表",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "列表",
+              "link": "/HTML/列表/列表"
+            },
+            {
+              "text": "列表样式",
+              "link": "/HTML/列表/列表样式"
+            }
+          ]
+        },
+        {
+          "text": "属性",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "布尔属性",
+              "link": "/HTML/属性/1-布尔属性"
+            },
+            {
+              "text": "自定义属性",
+              "link": "/HTML/属性/2-自定义属性"
+            },
+            {
+              "text": "表现型属性",
+              "link": "/HTML/属性/表现型属性"
+            },
+            {
+              "text": "全局属性",
+              "link": "/HTML/属性/全局属性"
+            }
+          ]
+        },
+        {
+          "text": "元数据",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "标准元数据名称",
+              "link": "/HTML/元数据/标准元数据名称"
+            },
+            {
+              "text": "meta标签",
+              "link": "/HTML/元数据/meta标签"
+            }
+          ]
+        },
+        {
+          "text": "表格",
+          "link": "/HTML/表格"
+        },
+        {
+          "text": "调试工具",
+          "link": "/HTML/调试工具"
+        },
+        {
+          "text": "浏览器渲染流程",
+          "link": "/HTML/浏览器渲染流程"
+        },
+        {
+          "text": "路径",
+          "link": "/HTML/路径"
+        },
+        {
+          "text": "图片格式",
+          "link": "/HTML/图片格式"
+        },
+        {
+          "text": "HTML元素间的关系",
+          "link": "/HTML/HTML元素间的关系"
+        },
+        {
+          "text": "HTML字符实体",
+          "link": "/HTML/HTML字符实体"
+        },
+        {
+          "text": "SVG",
+          "link": "/HTML/SVG"
+        }
+      ]
+    }
+  ],
   "/CSS/": [
     {
       "text": "CSS",
@@ -377,6 +542,274 @@ export default {
       ]
     }
   ],
+  "/Spring/": [
+    {
+      "text": "Spring",
+      "items": [
+        {
+          "text": "Maven",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "安装与配置",
+              "link": "/Spring/Maven/安装与配置"
+            },
+            {
+              "text": "模块",
+              "link": "/Spring/Maven/模块"
+            },
+            {
+              "text": "生命周期",
+              "link": "/Spring/Maven/生命周期"
+            },
+            {
+              "text": "项目结构",
+              "link": "/Spring/Maven/项目结构"
+            },
+            {
+              "text": "依赖管理",
+              "link": "/Spring/Maven/依赖管理"
+            }
+          ]
+        },
+        {
+          "text": "JAVA运行",
+          "link": "/Spring/JAVA运行"
+        }
+      ]
+    }
+  ],
+  "/Node/": [
+    {
+      "text": "Node",
+      "items": [
+        {
+          "text": "包管理",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "npm",
+              "link": "/Node/包管理/npm"
+            },
+            {
+              "text": "nvm",
+              "link": "/Node/包管理/nvm"
+            },
+            {
+              "text": "pnpm",
+              "link": "/Node/包管理/pnpm"
+            },
+            {
+              "text": "yarn",
+              "link": "/Node/包管理/yarn"
+            }
+          ]
+        },
+        {
+          "text": "架构",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "定时任务",
+              "link": "/Node/架构/定时任务"
+            },
+            {
+              "text": "控制反转",
+              "link": "/Node/架构/控制反转"
+            },
+            {
+              "text": "云函数",
+              "link": "/Node/架构/云函数"
+            },
+            {
+              "text": "inversify-express-utils",
+              "link": "/Node/架构/inversify-express-utils"
+            },
+            {
+              "text": "inversify",
+              "link": "/Node/架构/inversify"
+            }
+          ]
+        },
+        {
+          "text": "模块化",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "CommonJS",
+              "link": "/Node/模块化/CommonJS"
+            }
+          ]
+        },
+        {
+          "text": "全局API",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "全局变量",
+              "link": "/Node/全局API/全局变量"
+            },
+            {
+              "text": "process",
+              "link": "/Node/全局API/process"
+            }
+          ]
+        },
+        {
+          "text": "文件系统",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "fs",
+              "link": "/Node/文件系统/fs"
+            },
+            {
+              "text": "link",
+              "link": "/Node/文件系统/link"
+            },
+            {
+              "text": "path",
+              "link": "/Node/文件系统/path"
+            },
+            {
+              "text": "stream",
+              "link": "/Node/文件系统/stream"
+            },
+            {
+              "text": "zlib",
+              "link": "/Node/文件系统/zlib"
+            }
+          ]
+        },
+        {
+          "text": "express",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "基本用法",
+              "link": "/Node/express/基本用法"
+            },
+            {
+              "text": "静态资源服务",
+              "link": "/Node/express/静态资源服务"
+            },
+            {
+              "text": "路由",
+              "link": "/Node/express/路由"
+            },
+            {
+              "text": "中间件",
+              "link": "/Node/express/中间件"
+            }
+          ]
+        },
+        {
+          "text": "http",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "动静分离",
+              "link": "/Node/http/动静分离"
+            },
+            {
+              "text": "反向代理",
+              "link": "/Node/http/反向代理"
+            },
+            {
+              "text": "邮件服务",
+              "link": "/Node/http/邮件服务"
+            },
+            {
+              "text": "url",
+              "link": "/Node/http/url"
+            },
+            {
+              "text": "web服务器",
+              "link": "/Node/http/web服务器"
+            }
+          ]
+        },
+        {
+          "text": "package",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "版本号",
+              "link": "/Node/package/版本号"
+            },
+            {
+              "text": "配置项",
+              "link": "/Node/package/配置项"
+            },
+            {
+              "text": "type",
+              "link": "/Node/package/type"
+            }
+          ]
+        },
+        {
+          "text": "Prisma",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "基本使用",
+              "link": "/Node/Prisma/基本使用"
+            }
+          ]
+        },
+        {
+          "text": "创建Node项目",
+          "link": "/Node/创建Node项目"
+        },
+        {
+          "text": "环境配置",
+          "link": "/Node/环境配置"
+        },
+        {
+          "text": "脚手架",
+          "link": "/Node/脚手架"
+        },
+        {
+          "text": "Buffer",
+          "link": "/Node/Buffer"
+        },
+        {
+          "text": "child_process",
+          "link": "/Node/child_process"
+        },
+        {
+          "text": "crypto",
+          "link": "/Node/crypto"
+        },
+        {
+          "text": "EventEmitter",
+          "link": "/Node/EventEmitter"
+        },
+        {
+          "text": "os",
+          "link": "/Node/os"
+        },
+        {
+          "text": "SSR渲染",
+          "link": "/Node/SSR渲染"
+        },
+        {
+          "text": "util",
+          "link": "/Node/util"
+        }
+      ]
+    }
+  ],
   "/JavaScript/": [
     {
       "text": "JavaScript",
@@ -629,209 +1062,6 @@ export default {
       ]
     }
   ],
-  "/HTML/": [
-    {
-      "text": "HTML",
-      "items": [
-        {
-          "text": "表单",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "button",
-              "link": "/HTML/表单/button"
-            },
-            {
-              "text": "check",
-              "link": "/HTML/表单/check"
-            },
-            {
-              "text": "form",
-              "link": "/HTML/表单/form"
-            },
-            {
-              "text": "input",
-              "link": "/HTML/表单/input"
-            },
-            {
-              "text": "label",
-              "link": "/HTML/表单/label"
-            },
-            {
-              "text": "select",
-              "link": "/HTML/表单/select"
-            },
-            {
-              "text": "textarea",
-              "link": "/HTML/表单/textarea"
-            }
-          ]
-        },
-        {
-          "text": "超链接",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "唤起应用",
-              "link": "/HTML/超链接/唤起应用"
-            },
-            {
-              "text": "链接",
-              "link": "/HTML/超链接/链接"
-            },
-            {
-              "text": "锚点",
-              "link": "/HTML/超链接/锚点"
-            }
-          ]
-        },
-        {
-          "text": "可替换元素",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "可替换元素",
-              "link": "/HTML/可替换元素/可替换元素"
-            },
-            {
-              "text": "iframe",
-              "link": "/HTML/可替换元素/iframe"
-            },
-            {
-              "text": "img",
-              "link": "/HTML/可替换元素/img"
-            }
-          ]
-        },
-        {
-          "text": "列表",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "列表",
-              "link": "/HTML/列表/列表"
-            },
-            {
-              "text": "列表样式",
-              "link": "/HTML/列表/列表样式"
-            }
-          ]
-        },
-        {
-          "text": "属性",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "布尔属性",
-              "link": "/HTML/属性/1-布尔属性"
-            },
-            {
-              "text": "自定义属性",
-              "link": "/HTML/属性/2-自定义属性"
-            },
-            {
-              "text": "表现型属性",
-              "link": "/HTML/属性/表现型属性"
-            },
-            {
-              "text": "全局属性",
-              "link": "/HTML/属性/全局属性"
-            }
-          ]
-        },
-        {
-          "text": "元数据",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "标准元数据名称",
-              "link": "/HTML/元数据/标准元数据名称"
-            },
-            {
-              "text": "meta标签",
-              "link": "/HTML/元数据/meta标签"
-            }
-          ]
-        },
-        {
-          "text": "表格",
-          "link": "/HTML/表格"
-        },
-        {
-          "text": "调试工具",
-          "link": "/HTML/调试工具"
-        },
-        {
-          "text": "浏览器渲染流程",
-          "link": "/HTML/浏览器渲染流程"
-        },
-        {
-          "text": "路径",
-          "link": "/HTML/路径"
-        },
-        {
-          "text": "图片格式",
-          "link": "/HTML/图片格式"
-        },
-        {
-          "text": "HTML元素间的关系",
-          "link": "/HTML/HTML元素间的关系"
-        },
-        {
-          "text": "HTML字符实体",
-          "link": "/HTML/HTML字符实体"
-        },
-        {
-          "text": "SVG",
-          "link": "/HTML/SVG"
-        }
-      ]
-    }
-  ],
-  "/Spring/": [
-    {
-      "text": "Spring",
-      "items": [
-        {
-          "text": "Maven",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "安装与配置",
-              "link": "/Spring/Maven/安装与配置"
-            },
-            {
-              "text": "模块",
-              "link": "/Spring/Maven/模块"
-            },
-            {
-              "text": "生命周期",
-              "link": "/Spring/Maven/生命周期"
-            },
-            {
-              "text": "项目结构",
-              "link": "/Spring/Maven/项目结构"
-            },
-            {
-              "text": "依赖管理",
-              "link": "/Spring/Maven/依赖管理"
-            }
-          ]
-        },
-        {
-          "text": "JAVA运行",
-          "link": "/Spring/JAVA运行"
-        }
-      ]
-    }
-  ],
   "/TypeScript/": [
     {
       "text": "TypeScript",
@@ -1029,10 +1259,6 @@ export default {
           "link": "/Web/短链接"
         },
         {
-          "text": "域名",
-          "link": "/Web/域名"
-        },
-        {
           "text": "favicons",
           "link": "/Web/favicons"
         },
@@ -1186,236 +1412,6 @@ export default {
       ]
     }
   ],
-  "/Node/": [
-    {
-      "text": "Node",
-      "items": [
-        {
-          "text": "包管理",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "npm",
-              "link": "/Node/包管理/npm"
-            },
-            {
-              "text": "nvm",
-              "link": "/Node/包管理/nvm"
-            },
-            {
-              "text": "pnpm",
-              "link": "/Node/包管理/pnpm"
-            },
-            {
-              "text": "yarn",
-              "link": "/Node/包管理/yarn"
-            }
-          ]
-        },
-        {
-          "text": "架构",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "定时任务",
-              "link": "/Node/架构/定时任务"
-            },
-            {
-              "text": "控制反转",
-              "link": "/Node/架构/控制反转"
-            },
-            {
-              "text": "云函数",
-              "link": "/Node/架构/云函数"
-            },
-            {
-              "text": "inversify-express-utils",
-              "link": "/Node/架构/inversify-express-utils"
-            },
-            {
-              "text": "inversify",
-              "link": "/Node/架构/inversify"
-            }
-          ]
-        },
-        {
-          "text": "模块化",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "CommonJS",
-              "link": "/Node/模块化/CommonJS"
-            }
-          ]
-        },
-        {
-          "text": "全局API",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "全局变量",
-              "link": "/Node/全局API/全局变量"
-            },
-            {
-              "text": "process",
-              "link": "/Node/全局API/process"
-            }
-          ]
-        },
-        {
-          "text": "文件系统",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "fs",
-              "link": "/Node/文件系统/fs"
-            },
-            {
-              "text": "link",
-              "link": "/Node/文件系统/link"
-            },
-            {
-              "text": "path",
-              "link": "/Node/文件系统/path"
-            },
-            {
-              "text": "stream",
-              "link": "/Node/文件系统/stream"
-            },
-            {
-              "text": "zlib",
-              "link": "/Node/文件系统/zlib"
-            }
-          ]
-        },
-        {
-          "text": "express",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "基本用法",
-              "link": "/Node/express/基本用法"
-            },
-            {
-              "text": "静态资源服务",
-              "link": "/Node/express/静态资源服务"
-            },
-            {
-              "text": "路由",
-              "link": "/Node/express/路由"
-            },
-            {
-              "text": "中间件",
-              "link": "/Node/express/中间件"
-            }
-          ]
-        },
-        {
-          "text": "http",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "动静分离",
-              "link": "/Node/http/动静分离"
-            },
-            {
-              "text": "反向代理",
-              "link": "/Node/http/反向代理"
-            },
-            {
-              "text": "邮件服务",
-              "link": "/Node/http/邮件服务"
-            },
-            {
-              "text": "url",
-              "link": "/Node/http/url"
-            },
-            {
-              "text": "web服务器",
-              "link": "/Node/http/web服务器"
-            }
-          ]
-        },
-        {
-          "text": "package",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "版本号",
-              "link": "/Node/package/版本号"
-            },
-            {
-              "text": "配置项",
-              "link": "/Node/package/配置项"
-            },
-            {
-              "text": "type",
-              "link": "/Node/package/type"
-            }
-          ]
-        },
-        {
-          "text": "Prisma",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "基本使用",
-              "link": "/Node/Prisma/基本使用"
-            }
-          ]
-        },
-        {
-          "text": "创建Node项目",
-          "link": "/Node/创建Node项目"
-        },
-        {
-          "text": "环境配置",
-          "link": "/Node/环境配置"
-        },
-        {
-          "text": "脚手架",
-          "link": "/Node/脚手架"
-        },
-        {
-          "text": "Buffer",
-          "link": "/Node/Buffer"
-        },
-        {
-          "text": "child_process",
-          "link": "/Node/child_process"
-        },
-        {
-          "text": "crypto",
-          "link": "/Node/crypto"
-        },
-        {
-          "text": "EventEmitter",
-          "link": "/Node/EventEmitter"
-        },
-        {
-          "text": "os",
-          "link": "/Node/os"
-        },
-        {
-          "text": "SSR渲染",
-          "link": "/Node/SSR渲染"
-        },
-        {
-          "text": "util",
-          "link": "/Node/util"
-        }
-      ]
-    }
-  ],
   "/nuxt/": [
     {
       "text": "nuxt",
@@ -1548,6 +1544,29 @@ export default {
       ]
     }
   ],
+  "/云服务/": [
+    {
+      "text": "云服务",
+      "items": [
+        {
+          "text": "域名",
+          "link": "/云服务/域名"
+        },
+        {
+          "text": "ECS",
+          "link": "/云服务/ECS"
+        },
+        {
+          "text": "OSS",
+          "link": "/云服务/OSS"
+        },
+        {
+          "text": "SSL",
+          "link": "/云服务/SSL"
+        }
+      ]
+    }
+  ],
   "/前端工程化/": [
     {
       "text": "前端工程化",
@@ -1571,17 +1590,6 @@ export default {
         {
           "text": "vscode",
           "link": "/前端工程化/vscode"
-        }
-      ]
-    }
-  ],
-  "/性能优化/": [
-    {
-      "text": "性能优化",
-      "items": [
-        {
-          "text": "gzip压缩",
-          "link": "/性能优化/gzip压缩"
         }
       ]
     }
@@ -1620,151 +1628,17 @@ export default {
         {
           "text": "CMS",
           "link": "/百科/CMS"
-        },
-        {
-          "text": "OSS",
-          "link": "/百科/OSS"
         }
       ]
     }
   ],
-  "/vitepress/": [
+  "/性能优化/": [
     {
-      "text": "vitepress",
+      "text": "性能优化",
       "items": [
         {
-          "text": "插件",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "vitepress-plugin-group-icons",
-              "link": "/vitepress/插件/1-vitepress-plugin-group-icons"
-            },
-            {
-              "text": "demo",
-              "link": "/vitepress/插件/2-demo"
-            }
-          ]
-        },
-        {
-          "text": "基础",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "快速开始",
-              "link": "/vitepress/基础/快速开始"
-            },
-            {
-              "text": "路由",
-              "link": "/vitepress/基础/路由"
-            },
-            {
-              "text": "资源处理",
-              "link": "/vitepress/基础/资源处理"
-            }
-          ]
-        },
-        {
-          "text": "默认主题",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "编辑链接",
-              "link": "/vitepress/默认主题/编辑链接"
-            },
-            {
-              "text": "布局",
-              "link": "/vitepress/默认主题/布局"
-            },
-            {
-              "text": "侧边栏",
-              "link": "/vitepress/默认主题/侧边栏"
-            },
-            {
-              "text": "导航栏",
-              "link": "/vitepress/默认主题/导航栏"
-            },
-            {
-              "text": "上下页链接",
-              "link": "/vitepress/默认主题/上下页链接"
-            },
-            {
-              "text": "页脚",
-              "link": "/vitepress/默认主题/页脚"
-            },
-            {
-              "text": "最后更新时间",
-              "link": "/vitepress/默认主题/最后更新时间"
-            }
-          ]
-        },
-        {
-          "text": "内置组件",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "Badge",
-              "link": "/vitepress/内置组件/Badge"
-            },
-            {
-              "text": "ClientOnly",
-              "link": "/vitepress/内置组件/ClientOnly"
-            },
-            {
-              "text": "Content",
-              "link": "/vitepress/内置组件/Content"
-            }
-          ]
-        },
-        {
-          "text": "自定义",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "自定义主题",
-              "link": "/vitepress/自定义/1-自定义主题"
-            },
-            {
-              "text": "扩展默认主题",
-              "link": "/vitepress/自定义/2-扩展默认主题"
-            },
-            {
-              "text": "构建时数据加载",
-              "link": "/vitepress/自定义/3-构建时数据加载"
-            }
-          ]
-        },
-        {
-          "text": "markdown语法",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "运行时API",
-              "link": "/vitepress/markdown语法/运行时API"
-            },
-            {
-              "text": "frontmatter",
-              "link": "/vitepress/markdown语法/frontmatter"
-            },
-            {
-              "text": "markdown基础",
-              "link": "/vitepress/markdown语法/markdown基础"
-            },
-            {
-              "text": "markdown扩展",
-              "link": "/vitepress/markdown语法/markdown扩展"
-            },
-            {
-              "text": "markdown中使用Vue",
-              "link": "/vitepress/markdown语法/markdown中使用Vue"
-            }
-          ]
+          "text": "gzip压缩",
+          "link": "/性能优化/gzip压缩"
         }
       ]
     }
@@ -2190,6 +2064,147 @@ export default {
             {
               "text": "Guards",
               "link": "/xstate/State machines/9.Guards"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "/vitepress/": [
+    {
+      "text": "vitepress",
+      "items": [
+        {
+          "text": "插件",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "vitepress-plugin-group-icons",
+              "link": "/vitepress/插件/1-vitepress-plugin-group-icons"
+            },
+            {
+              "text": "demo",
+              "link": "/vitepress/插件/2-demo"
+            }
+          ]
+        },
+        {
+          "text": "基础",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "快速开始",
+              "link": "/vitepress/基础/快速开始"
+            },
+            {
+              "text": "路由",
+              "link": "/vitepress/基础/路由"
+            },
+            {
+              "text": "资源处理",
+              "link": "/vitepress/基础/资源处理"
+            }
+          ]
+        },
+        {
+          "text": "默认主题",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "编辑链接",
+              "link": "/vitepress/默认主题/编辑链接"
+            },
+            {
+              "text": "布局",
+              "link": "/vitepress/默认主题/布局"
+            },
+            {
+              "text": "侧边栏",
+              "link": "/vitepress/默认主题/侧边栏"
+            },
+            {
+              "text": "导航栏",
+              "link": "/vitepress/默认主题/导航栏"
+            },
+            {
+              "text": "上下页链接",
+              "link": "/vitepress/默认主题/上下页链接"
+            },
+            {
+              "text": "页脚",
+              "link": "/vitepress/默认主题/页脚"
+            },
+            {
+              "text": "最后更新时间",
+              "link": "/vitepress/默认主题/最后更新时间"
+            }
+          ]
+        },
+        {
+          "text": "内置组件",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "Badge",
+              "link": "/vitepress/内置组件/Badge"
+            },
+            {
+              "text": "ClientOnly",
+              "link": "/vitepress/内置组件/ClientOnly"
+            },
+            {
+              "text": "Content",
+              "link": "/vitepress/内置组件/Content"
+            }
+          ]
+        },
+        {
+          "text": "自定义",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "自定义主题",
+              "link": "/vitepress/自定义/1-自定义主题"
+            },
+            {
+              "text": "扩展默认主题",
+              "link": "/vitepress/自定义/2-扩展默认主题"
+            },
+            {
+              "text": "构建时数据加载",
+              "link": "/vitepress/自定义/3-构建时数据加载"
+            }
+          ]
+        },
+        {
+          "text": "markdown语法",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "运行时API",
+              "link": "/vitepress/markdown语法/运行时API"
+            },
+            {
+              "text": "frontmatter",
+              "link": "/vitepress/markdown语法/frontmatter"
+            },
+            {
+              "text": "markdown基础",
+              "link": "/vitepress/markdown语法/markdown基础"
+            },
+            {
+              "text": "markdown扩展",
+              "link": "/vitepress/markdown语法/markdown扩展"
+            },
+            {
+              "text": "markdown中使用Vue",
+              "link": "/vitepress/markdown语法/markdown中使用Vue"
             }
           ]
         }

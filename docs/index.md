@@ -18,7 +18,7 @@ hero:
 
 features:
   - title: 百科
-    details: 4篇文档
+    details: 3篇文档
     link: /百科/CMS
   - title: 前端工程化
     details: 5篇文档
@@ -29,6 +29,9 @@ features:
   - title: 性能优化
     details: 1篇文档
     link: /性能优化/gzip压缩
+  - title: 云服务
+    details: 4篇文档
+    link: /云服务/ECS
   - title: 组件库
     details: 12篇文档
     link: /组件库/TDesign/Card
@@ -66,7 +69,7 @@ features:
     details: 61篇文档
     link: /vue/pinia/action
   - title: Web
-    details: 19篇文档
+    details: 18篇文档
     link: /Web/HTTP2
   - title: WebAPI
     details: 24篇文档
