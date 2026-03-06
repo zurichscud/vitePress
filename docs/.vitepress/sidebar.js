@@ -790,236 +790,18 @@ export default {
         {
           "text": "curl",
           "link": "/Linux/curl"
-        }
-      ]
-    }
-  ],
-  "/Node/": [
-    {
-      "text": "Node",
-      "items": [
-        {
-          "text": "包管理",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "npm",
-              "link": "/Node/包管理/npm"
-            },
-            {
-              "text": "nvm",
-              "link": "/Node/包管理/nvm"
-            },
-            {
-              "text": "pnpm",
-              "link": "/Node/包管理/pnpm"
-            },
-            {
-              "text": "yarn",
-              "link": "/Node/包管理/yarn"
-            }
-          ]
         },
         {
-          "text": "架构",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "定时任务",
-              "link": "/Node/架构/定时任务"
-            },
-            {
-              "text": "控制反转",
-              "link": "/Node/架构/控制反转"
-            },
-            {
-              "text": "云函数",
-              "link": "/Node/架构/云函数"
-            },
-            {
-              "text": "inversify-express-utils",
-              "link": "/Node/架构/inversify-express-utils"
-            },
-            {
-              "text": "inversify",
-              "link": "/Node/架构/inversify"
-            }
-          ]
+          "text": "shell",
+          "link": "/Linux/shell"
         },
         {
-          "text": "模块化",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "CommonJS",
-              "link": "/Node/模块化/CommonJS"
-            }
-          ]
+          "text": "shell脚本",
+          "link": "/Linux/shell脚本"
         },
         {
-          "text": "全局API",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "全局变量",
-              "link": "/Node/全局API/全局变量"
-            },
-            {
-              "text": "process",
-              "link": "/Node/全局API/process"
-            }
-          ]
-        },
-        {
-          "text": "文件系统",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "fs",
-              "link": "/Node/文件系统/fs"
-            },
-            {
-              "text": "link",
-              "link": "/Node/文件系统/link"
-            },
-            {
-              "text": "path",
-              "link": "/Node/文件系统/path"
-            },
-            {
-              "text": "stream",
-              "link": "/Node/文件系统/stream"
-            },
-            {
-              "text": "zlib",
-              "link": "/Node/文件系统/zlib"
-            }
-          ]
-        },
-        {
-          "text": "express",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "基本用法",
-              "link": "/Node/express/基本用法"
-            },
-            {
-              "text": "静态资源服务",
-              "link": "/Node/express/静态资源服务"
-            },
-            {
-              "text": "路由",
-              "link": "/Node/express/路由"
-            },
-            {
-              "text": "中间件",
-              "link": "/Node/express/中间件"
-            }
-          ]
-        },
-        {
-          "text": "http",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "动静分离",
-              "link": "/Node/http/动静分离"
-            },
-            {
-              "text": "反向代理",
-              "link": "/Node/http/反向代理"
-            },
-            {
-              "text": "邮件服务",
-              "link": "/Node/http/邮件服务"
-            },
-            {
-              "text": "url",
-              "link": "/Node/http/url"
-            },
-            {
-              "text": "web服务器",
-              "link": "/Node/http/web服务器"
-            }
-          ]
-        },
-        {
-          "text": "package",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "版本号",
-              "link": "/Node/package/版本号"
-            },
-            {
-              "text": "配置项",
-              "link": "/Node/package/配置项"
-            },
-            {
-              "text": "type",
-              "link": "/Node/package/type"
-            }
-          ]
-        },
-        {
-          "text": "Prisma",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "基本使用",
-              "link": "/Node/Prisma/基本使用"
-            }
-          ]
-        },
-        {
-          "text": "创建Node项目",
-          "link": "/Node/创建Node项目"
-        },
-        {
-          "text": "环境配置",
-          "link": "/Node/环境配置"
-        },
-        {
-          "text": "脚手架",
-          "link": "/Node/脚手架"
-        },
-        {
-          "text": "Buffer",
-          "link": "/Node/Buffer"
-        },
-        {
-          "text": "child_process",
-          "link": "/Node/child_process"
-        },
-        {
-          "text": "crypto",
-          "link": "/Node/crypto"
-        },
-        {
-          "text": "EventEmitter",
-          "link": "/Node/EventEmitter"
-        },
-        {
-          "text": "os",
-          "link": "/Node/os"
-        },
-        {
-          "text": "SSR渲染",
-          "link": "/Node/SSR渲染"
-        },
-        {
-          "text": "util",
-          "link": "/Node/util"
+          "text": "zsh",
+          "link": "/Linux/zsh"
         }
       ]
     }
@@ -1447,6 +1229,236 @@ export default {
         {
           "text": "SEO与元数据",
           "link": "/nuxt/SEO与元数据"
+        }
+      ]
+    }
+  ],
+  "/Node/": [
+    {
+      "text": "Node",
+      "items": [
+        {
+          "text": "包管理",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "npm",
+              "link": "/Node/包管理/npm"
+            },
+            {
+              "text": "nvm",
+              "link": "/Node/包管理/nvm"
+            },
+            {
+              "text": "pnpm",
+              "link": "/Node/包管理/pnpm"
+            },
+            {
+              "text": "yarn",
+              "link": "/Node/包管理/yarn"
+            }
+          ]
+        },
+        {
+          "text": "架构",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "定时任务",
+              "link": "/Node/架构/定时任务"
+            },
+            {
+              "text": "控制反转",
+              "link": "/Node/架构/控制反转"
+            },
+            {
+              "text": "云函数",
+              "link": "/Node/架构/云函数"
+            },
+            {
+              "text": "inversify-express-utils",
+              "link": "/Node/架构/inversify-express-utils"
+            },
+            {
+              "text": "inversify",
+              "link": "/Node/架构/inversify"
+            }
+          ]
+        },
+        {
+          "text": "模块化",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "CommonJS",
+              "link": "/Node/模块化/CommonJS"
+            }
+          ]
+        },
+        {
+          "text": "全局API",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "全局变量",
+              "link": "/Node/全局API/全局变量"
+            },
+            {
+              "text": "process",
+              "link": "/Node/全局API/process"
+            }
+          ]
+        },
+        {
+          "text": "文件系统",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "fs",
+              "link": "/Node/文件系统/fs"
+            },
+            {
+              "text": "link",
+              "link": "/Node/文件系统/link"
+            },
+            {
+              "text": "path",
+              "link": "/Node/文件系统/path"
+            },
+            {
+              "text": "stream",
+              "link": "/Node/文件系统/stream"
+            },
+            {
+              "text": "zlib",
+              "link": "/Node/文件系统/zlib"
+            }
+          ]
+        },
+        {
+          "text": "express",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "基本用法",
+              "link": "/Node/express/基本用法"
+            },
+            {
+              "text": "静态资源服务",
+              "link": "/Node/express/静态资源服务"
+            },
+            {
+              "text": "路由",
+              "link": "/Node/express/路由"
+            },
+            {
+              "text": "中间件",
+              "link": "/Node/express/中间件"
+            }
+          ]
+        },
+        {
+          "text": "http",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "动静分离",
+              "link": "/Node/http/动静分离"
+            },
+            {
+              "text": "反向代理",
+              "link": "/Node/http/反向代理"
+            },
+            {
+              "text": "邮件服务",
+              "link": "/Node/http/邮件服务"
+            },
+            {
+              "text": "url",
+              "link": "/Node/http/url"
+            },
+            {
+              "text": "web服务器",
+              "link": "/Node/http/web服务器"
+            }
+          ]
+        },
+        {
+          "text": "package",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "版本号",
+              "link": "/Node/package/版本号"
+            },
+            {
+              "text": "配置项",
+              "link": "/Node/package/配置项"
+            },
+            {
+              "text": "type",
+              "link": "/Node/package/type"
+            }
+          ]
+        },
+        {
+          "text": "Prisma",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "基本使用",
+              "link": "/Node/Prisma/基本使用"
+            }
+          ]
+        },
+        {
+          "text": "创建Node项目",
+          "link": "/Node/创建Node项目"
+        },
+        {
+          "text": "环境配置",
+          "link": "/Node/环境配置"
+        },
+        {
+          "text": "脚手架",
+          "link": "/Node/脚手架"
+        },
+        {
+          "text": "Buffer",
+          "link": "/Node/Buffer"
+        },
+        {
+          "text": "child_process",
+          "link": "/Node/child_process"
+        },
+        {
+          "text": "crypto",
+          "link": "/Node/crypto"
+        },
+        {
+          "text": "EventEmitter",
+          "link": "/Node/EventEmitter"
+        },
+        {
+          "text": "os",
+          "link": "/Node/os"
+        },
+        {
+          "text": "SSR渲染",
+          "link": "/Node/SSR渲染"
+        },
+        {
+          "text": "util",
+          "link": "/Node/util"
         }
       ]
     }
