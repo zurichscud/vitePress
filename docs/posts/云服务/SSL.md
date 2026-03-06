@@ -111,9 +111,9 @@ acme.sh --register-account -m your@email.com
 
 5. 更改申请方
 
-6. ```
+```
    acme.sh --set-default-ca --server letsencrypt
-   ```
+```
 
 6. 配置DNS-API
 
@@ -139,10 +139,10 @@ acme.sh --issue --dns dns_tencent -d example.com -d *.example.com
 等待DNS验证，如果出现如下消息，说明SSL证书已申请成功
 
 ```sh
-[Fri Mar  6 04:11:13 PM CST 2026] Your cert is in: /root/.acme.sh/zurichscud.site_ecc/zurichscud.site.cer
-[Fri Mar  6 04:11:13 PM CST 2026] Your cert key is in: /root/.acme.sh/zurichscud.site_ecc/zurichscud.site.key
-[Fri Mar  6 04:11:13 PM CST 2026] The intermediate CA cert is in: /root/.acme.sh/zurichscud.site_ecc/ca.cer
-[Fri Mar  6 04:11:13 PM CST 2026] And the full-chain cert is in: /root/.acme.sh/zurichscud.site_ecc/fullchain.cer
+Your cert is in: /root/.acme.sh/zurichscud.site_ecc/zurichscud.site.cer
+Your cert key is in: /root/.acme.sh/zurichscud.site_ecc/zurichscud.site.key
+The intermediate CA cert is in: /root/.acme.sh/zurichscud.site_ecc/ca.cer
+And the full-chain cert is in: /root/.acme.sh/zurichscud.site_ecc/fullchain.cer
 ```
 
 | 文件                | 用途                   |
@@ -171,11 +171,11 @@ acme.sh --install-cert \
 ```
 
 ```sh
-Fri Mar  6 04:17:09 PM CST 2026] The domain 'zurichscud.site' seems to already have an ECC cert, let's use it.
-[Fri Mar  6 04:17:09 PM CST 2026] Installing key to: /etc/nginx/ssl/zurichscud.site.key
-[Fri Mar  6 04:17:09 PM CST 2026] Installing full chain to: /etc/nginx/ssl/zurichscud.site.pem
-[Fri Mar  6 04:17:09 PM CST 2026] Running reload cmd: nginx -s reload
-[Fri Mar  6 04:17:09 PM CST 2026] Reload successful
+The domain 'zurichscud.site' seems to already have an ECC cert, let's use it.
+Installing key to: /etc/nginx/ssl/zurichscud.site.key
+Installing full chain to: /etc/nginx/ssl/zurichscud.site.pem
+Running reload cmd: nginx -s reload
+Reload successful
 ```
 
 
