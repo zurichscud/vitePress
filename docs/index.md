@@ -45,7 +45,7 @@ features:
     details: 49篇文档
     link: /JavaScript/Promise
   - title: Linux
-    details: 4篇文档
+    details: 10篇文档
     link: /Linux/curl
   - title: Node
     details: 40篇文档

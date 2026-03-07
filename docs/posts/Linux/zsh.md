@@ -63,3 +63,17 @@ plugins=(
 )
 ```
 
+### 安装字体
+
+- 下载字体
+
+```http
+https://github.com/romkatv/dotfiles-public/blob/master/.local/share/fonts/NerdFonts/MesloLGS%20NF%20Regular.ttf
+```
+
+- 配置vscode终端字体
+
+```json
+terminal.integrated.fontFamily": "MesloLGS NF"
+```
+
