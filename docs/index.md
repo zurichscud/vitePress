@@ -45,7 +45,7 @@ features:
     details: 49篇文档
     link: /JavaScript/Promise
   - title: Linux
-    details: 10篇文档
+    details: 15篇文档
     link: /Linux/curl
   - title: Node
     details: 40篇文档
@@ -57,7 +57,7 @@ features:
     details: 18篇文档
     link: /package/antfu-utils
   - title: Spring
-    details: 6篇文档
+    details: 9篇文档
     link: /Spring/JAVA运行
   - title: TypeScript
     details: 21篇文档
