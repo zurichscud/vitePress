@@ -57,7 +57,7 @@ features:
     details: 18篇文档
     link: /package/antfu-utils
   - title: Spring
-    details: 9篇文档
+    details: 13篇文档
     link: /Spring/JAVA运行
   - title: TypeScript
     details: 21篇文档
