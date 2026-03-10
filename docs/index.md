@@ -41,6 +41,9 @@ features:
   - title: HTML
     details: 29篇文档
     link: /HTML/HTML元素间的关系
+  - title: JAVA
+    details: 1篇文档
+    link: /JAVA/注解
   - title: JavaScript
     details: 49篇文档
     link: /JavaScript/Promise
@@ -57,7 +60,7 @@ features:
     details: 18篇文档
     link: /package/antfu-utils
   - title: Spring
-    details: 13篇文档
+    details: 19篇文档
     link: /Spring/JAVA运行
   - title: TypeScript
     details: 21篇文档
