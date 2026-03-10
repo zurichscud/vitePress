@@ -536,89 +536,23 @@ export default {
       "text": "JAVA",
       "items": [
         {
+          "text": "入门",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "this",
+              "link": "/JAVA/入门/this"
+            }
+          ]
+        },
+        {
+          "text": "JAVA运行",
+          "link": "/JAVA/1.JAVA运行"
+        },
+        {
           "text": "注解",
           "link": "/JAVA/注解"
-        }
-      ]
-    }
-  ],
-  "/Linux/": [
-    {
-      "text": "Linux",
-      "items": [
-        {
-          "text": "权限",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "权限控制",
-              "link": "/Linux/权限/权限控制"
-            },
-            {
-              "text": "用户与用户组",
-              "link": "/Linux/权限/用户与用户组"
-            },
-            {
-              "text": "root",
-              "link": "/Linux/权限/root"
-            }
-          ]
-        },
-        {
-          "text": "应用管理",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "包管理",
-              "link": "/Linux/应用管理/包管理"
-            },
-            {
-              "text": "快捷键",
-              "link": "/Linux/应用管理/快捷键"
-            },
-            {
-              "text": "应用",
-              "link": "/Linux/应用管理/应用"
-            }
-          ]
-        },
-        {
-          "text": "变量",
-          "link": "/Linux/变量"
-        },
-        {
-          "text": "进程",
-          "link": "/Linux/进程"
-        },
-        {
-          "text": "命令",
-          "link": "/Linux/命令"
-        },
-        {
-          "text": "文件命令",
-          "link": "/Linux/文件命令"
-        },
-        {
-          "text": "curl",
-          "link": "/Linux/curl"
-        },
-        {
-          "text": "shell",
-          "link": "/Linux/shell"
-        },
-        {
-          "text": "shell脚本",
-          "link": "/Linux/shell脚本"
-        },
-        {
-          "text": "vim",
-          "link": "/Linux/vim"
-        },
-        {
-          "text": "zsh",
-          "link": "/Linux/zsh"
         }
       ]
     }
@@ -1455,127 +1389,83 @@ export default {
       ]
     }
   ],
-  "/Spring/": [
+  "/Linux/": [
     {
-      "text": "Spring",
+      "text": "Linux",
       "items": [
         {
-          "text": "Maven",
+          "text": "权限",
           "collapsible": true,
           "collapsed": false,
           "items": [
             {
-              "text": "多模块",
-              "collapsible": true,
-              "collapsed": false,
-              "items": [
-                {
-                  "text": "模块",
-                  "link": "/Spring/Maven/多模块/1.模块"
-                },
-                {
-                  "text": "模块聚合",
-                  "link": "/Spring/Maven/多模块/2.模块聚合"
-                },
-                {
-                  "text": "模块继承",
-                  "link": "/Spring/Maven/多模块/3.模块继承"
-                }
-              ]
+              "text": "权限控制",
+              "link": "/Linux/权限/权限控制"
             },
             {
-              "text": "基础",
-              "collapsible": true,
-              "collapsed": false,
-              "items": [
-                {
-                  "text": "安装与配置",
-                  "link": "/Spring/Maven/基础/1.安装与配置"
-                },
-                {
-                  "text": "项目结构",
-                  "link": "/Spring/Maven/基础/2.项目结构"
-                },
-                {
-                  "text": "依赖管理",
-                  "link": "/Spring/Maven/基础/3.依赖管理"
-                },
-                {
-                  "text": "版本管理",
-                  "link": "/Spring/Maven/基础/4.版本管理"
-                },
-                {
-                  "text": "生命周期",
-                  "link": "/Spring/Maven/基础/5.生命周期"
-                }
-              ]
+              "text": "用户与用户组",
+              "link": "/Linux/权限/用户与用户组"
             },
             {
-              "text": "配置",
-              "collapsible": true,
-              "collapsed": false,
-              "items": [
-                {
-                  "text": "属性",
-                  "link": "/Spring/Maven/配置/1.属性"
-                },
-                {
-                  "text": "资源配置",
-                  "link": "/Spring/Maven/配置/2.资源配置"
-                },
-                {
-                  "text": "多环境",
-                  "link": "/Spring/Maven/配置/3.多环境"
-                },
-                {
-                  "text": "pom配置",
-                  "link": "/Spring/Maven/配置/4.pom配置"
-                }
-              ]
+              "text": "root",
+              "link": "/Linux/权限/root"
             }
           ]
         },
         {
-          "text": "Springboot",
+          "text": "应用管理",
           "collapsible": true,
           "collapsed": false,
           "items": [
             {
-              "text": "容器",
-              "collapsible": true,
-              "collapsed": false,
-              "items": [
-                {
-                  "text": "条件注解",
-                  "link": "/Spring/Springboot/容器/条件注解"
-                },
-                {
-                  "text": "注解",
-                  "link": "/Spring/Springboot/容器/注解"
-                }
-              ]
+              "text": "包管理",
+              "link": "/Linux/应用管理/包管理"
             },
             {
-              "text": "QuickStart",
-              "link": "/Spring/Springboot/1.QuickStart"
+              "text": "快捷键",
+              "link": "/Linux/应用管理/快捷键"
             },
             {
-              "text": "Starter",
-              "link": "/Spring/Springboot/2.Starter"
-            },
-            {
-              "text": "主程序",
-              "link": "/Spring/Springboot/3.主程序"
-            },
-            {
-              "text": "配置文件",
-              "link": "/Spring/Springboot/4.配置文件"
+              "text": "应用",
+              "link": "/Linux/应用管理/应用"
             }
           ]
         },
         {
-          "text": "JAVA运行",
-          "link": "/Spring/JAVA运行"
+          "text": "变量",
+          "link": "/Linux/变量"
+        },
+        {
+          "text": "进程",
+          "link": "/Linux/进程"
+        },
+        {
+          "text": "命令",
+          "link": "/Linux/命令"
+        },
+        {
+          "text": "文件命令",
+          "link": "/Linux/文件命令"
+        },
+        {
+          "text": "curl",
+          "link": "/Linux/curl"
+        },
+        {
+          "text": "shell",
+          "link": "/Linux/shell"
+        },
+        {
+          "text": "shell脚本",
+          "link": "/Linux/shell脚本"
+        },
+        {
+          "text": "vim",
+          "link": "/Linux/vim"
+        },
+        {
+          "text": "zsh",
+          "link": "/Linux/zsh"
         }
       ]
     }
@@ -1807,147 +1697,10 @@ export default {
         {
           "text": "CMS",
           "link": "/百科/CMS"
-        }
-      ]
-    }
-  ],
-  "/vitepress/": [
-    {
-      "text": "vitepress",
-      "items": [
-        {
-          "text": "插件",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "vitepress-plugin-group-icons",
-              "link": "/vitepress/插件/1-vitepress-plugin-group-icons"
-            },
-            {
-              "text": "demo",
-              "link": "/vitepress/插件/2-demo"
-            }
-          ]
         },
         {
-          "text": "基础",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "快速开始",
-              "link": "/vitepress/基础/快速开始"
-            },
-            {
-              "text": "路由",
-              "link": "/vitepress/基础/路由"
-            },
-            {
-              "text": "资源处理",
-              "link": "/vitepress/基础/资源处理"
-            }
-          ]
-        },
-        {
-          "text": "默认主题",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "编辑链接",
-              "link": "/vitepress/默认主题/编辑链接"
-            },
-            {
-              "text": "布局",
-              "link": "/vitepress/默认主题/布局"
-            },
-            {
-              "text": "侧边栏",
-              "link": "/vitepress/默认主题/侧边栏"
-            },
-            {
-              "text": "导航栏",
-              "link": "/vitepress/默认主题/导航栏"
-            },
-            {
-              "text": "上下页链接",
-              "link": "/vitepress/默认主题/上下页链接"
-            },
-            {
-              "text": "页脚",
-              "link": "/vitepress/默认主题/页脚"
-            },
-            {
-              "text": "最后更新时间",
-              "link": "/vitepress/默认主题/最后更新时间"
-            }
-          ]
-        },
-        {
-          "text": "内置组件",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "Badge",
-              "link": "/vitepress/内置组件/Badge"
-            },
-            {
-              "text": "ClientOnly",
-              "link": "/vitepress/内置组件/ClientOnly"
-            },
-            {
-              "text": "Content",
-              "link": "/vitepress/内置组件/Content"
-            }
-          ]
-        },
-        {
-          "text": "自定义",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "自定义主题",
-              "link": "/vitepress/自定义/1-自定义主题"
-            },
-            {
-              "text": "扩展默认主题",
-              "link": "/vitepress/自定义/2-扩展默认主题"
-            },
-            {
-              "text": "构建时数据加载",
-              "link": "/vitepress/自定义/3-构建时数据加载"
-            }
-          ]
-        },
-        {
-          "text": "markdown语法",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "运行时API",
-              "link": "/vitepress/markdown语法/运行时API"
-            },
-            {
-              "text": "frontmatter",
-              "link": "/vitepress/markdown语法/frontmatter"
-            },
-            {
-              "text": "markdown基础",
-              "link": "/vitepress/markdown语法/markdown基础"
-            },
-            {
-              "text": "markdown扩展",
-              "link": "/vitepress/markdown语法/markdown扩展"
-            },
-            {
-              "text": "markdown中使用Vue",
-              "link": "/vitepress/markdown语法/markdown中使用Vue"
-            }
-          ]
+          "text": "YAML",
+          "link": "/百科/YAML"
         }
       ]
     }
@@ -2287,6 +2040,147 @@ export default {
       ]
     }
   ],
+  "/vitepress/": [
+    {
+      "text": "vitepress",
+      "items": [
+        {
+          "text": "插件",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "vitepress-plugin-group-icons",
+              "link": "/vitepress/插件/1-vitepress-plugin-group-icons"
+            },
+            {
+              "text": "demo",
+              "link": "/vitepress/插件/2-demo"
+            }
+          ]
+        },
+        {
+          "text": "基础",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "快速开始",
+              "link": "/vitepress/基础/快速开始"
+            },
+            {
+              "text": "路由",
+              "link": "/vitepress/基础/路由"
+            },
+            {
+              "text": "资源处理",
+              "link": "/vitepress/基础/资源处理"
+            }
+          ]
+        },
+        {
+          "text": "默认主题",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "编辑链接",
+              "link": "/vitepress/默认主题/编辑链接"
+            },
+            {
+              "text": "布局",
+              "link": "/vitepress/默认主题/布局"
+            },
+            {
+              "text": "侧边栏",
+              "link": "/vitepress/默认主题/侧边栏"
+            },
+            {
+              "text": "导航栏",
+              "link": "/vitepress/默认主题/导航栏"
+            },
+            {
+              "text": "上下页链接",
+              "link": "/vitepress/默认主题/上下页链接"
+            },
+            {
+              "text": "页脚",
+              "link": "/vitepress/默认主题/页脚"
+            },
+            {
+              "text": "最后更新时间",
+              "link": "/vitepress/默认主题/最后更新时间"
+            }
+          ]
+        },
+        {
+          "text": "内置组件",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "Badge",
+              "link": "/vitepress/内置组件/Badge"
+            },
+            {
+              "text": "ClientOnly",
+              "link": "/vitepress/内置组件/ClientOnly"
+            },
+            {
+              "text": "Content",
+              "link": "/vitepress/内置组件/Content"
+            }
+          ]
+        },
+        {
+          "text": "自定义",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "自定义主题",
+              "link": "/vitepress/自定义/1-自定义主题"
+            },
+            {
+              "text": "扩展默认主题",
+              "link": "/vitepress/自定义/2-扩展默认主题"
+            },
+            {
+              "text": "构建时数据加载",
+              "link": "/vitepress/自定义/3-构建时数据加载"
+            }
+          ]
+        },
+        {
+          "text": "markdown语法",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "运行时API",
+              "link": "/vitepress/markdown语法/运行时API"
+            },
+            {
+              "text": "frontmatter",
+              "link": "/vitepress/markdown语法/frontmatter"
+            },
+            {
+              "text": "markdown基础",
+              "link": "/vitepress/markdown语法/markdown基础"
+            },
+            {
+              "text": "markdown扩展",
+              "link": "/vitepress/markdown语法/markdown扩展"
+            },
+            {
+              "text": "markdown中使用Vue",
+              "link": "/vitepress/markdown语法/markdown中使用Vue"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "/xstate/": [
     {
       "text": "xstate",
@@ -2435,6 +2329,214 @@ export default {
             {
               "text": "Tree",
               "link": "/组件库/TDesign/Tree"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "/Spring/": [
+    {
+      "text": "Spring",
+      "items": [
+        {
+          "text": "Maven",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "多模块",
+              "collapsible": true,
+              "collapsed": false,
+              "items": [
+                {
+                  "text": "模块",
+                  "link": "/Spring/Maven/多模块/1.模块"
+                },
+                {
+                  "text": "模块聚合",
+                  "link": "/Spring/Maven/多模块/2.模块聚合"
+                },
+                {
+                  "text": "模块继承",
+                  "link": "/Spring/Maven/多模块/3.模块继承"
+                }
+              ]
+            },
+            {
+              "text": "基础",
+              "collapsible": true,
+              "collapsed": false,
+              "items": [
+                {
+                  "text": "安装与配置",
+                  "link": "/Spring/Maven/基础/1.安装与配置"
+                },
+                {
+                  "text": "项目结构",
+                  "link": "/Spring/Maven/基础/2.项目结构"
+                },
+                {
+                  "text": "依赖管理",
+                  "link": "/Spring/Maven/基础/3.依赖管理"
+                },
+                {
+                  "text": "版本管理",
+                  "link": "/Spring/Maven/基础/4.版本管理"
+                },
+                {
+                  "text": "生命周期",
+                  "link": "/Spring/Maven/基础/5.生命周期"
+                }
+              ]
+            },
+            {
+              "text": "配置",
+              "collapsible": true,
+              "collapsed": false,
+              "items": [
+                {
+                  "text": "属性",
+                  "link": "/Spring/Maven/配置/1.属性"
+                },
+                {
+                  "text": "资源配置",
+                  "link": "/Spring/Maven/配置/2.资源配置"
+                },
+                {
+                  "text": "多环境",
+                  "link": "/Spring/Maven/配置/3.多环境"
+                },
+                {
+                  "text": "pom配置",
+                  "link": "/Spring/Maven/配置/4.pom配置"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Springboot",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "请求处理",
+              "collapsible": true,
+              "collapsed": false,
+              "items": [
+                {
+                  "text": "矩阵变量",
+                  "link": "/Spring/Springboot/请求处理/矩阵变量"
+                },
+                {
+                  "text": "路径参数",
+                  "link": "/Spring/Springboot/请求处理/路径参数"
+                },
+                {
+                  "text": "请求参数",
+                  "link": "/Spring/Springboot/请求处理/请求参数"
+                },
+                {
+                  "text": "Cookie",
+                  "link": "/Spring/Springboot/请求处理/Cookie"
+                },
+                {
+                  "text": "Header",
+                  "link": "/Spring/Springboot/请求处理/Header"
+                },
+                {
+                  "text": "JSON参数",
+                  "link": "/Spring/Springboot/请求处理/JSON参数"
+                }
+              ]
+            },
+            {
+              "text": "容器",
+              "collapsible": true,
+              "collapsed": false,
+              "items": [
+                {
+                  "text": "配置文件注入",
+                  "link": "/Spring/Springboot/容器/配置文件注入"
+                },
+                {
+                  "text": "条件注解",
+                  "link": "/Spring/Springboot/容器/条件注解"
+                },
+                {
+                  "text": "注解",
+                  "link": "/Spring/Springboot/容器/注解"
+                }
+              ]
+            },
+            {
+              "text": "入门",
+              "collapsible": true,
+              "collapsed": false,
+              "items": [
+                {
+                  "text": "QuickStart",
+                  "link": "/Spring/Springboot/入门/1.QuickStart"
+                },
+                {
+                  "text": "Starter",
+                  "link": "/Spring/Springboot/入门/2.Starter"
+                },
+                {
+                  "text": "主程序",
+                  "link": "/Spring/Springboot/入门/3.主程序"
+                },
+                {
+                  "text": "配置文件",
+                  "link": "/Spring/Springboot/入门/4.配置文件"
+                },
+                {
+                  "text": "SpringInitailizr",
+                  "link": "/Spring/Springboot/入门/5.SpringInitailizr"
+                }
+              ]
+            },
+            {
+              "text": "异常处理",
+              "collapsible": true,
+              "collapsed": false,
+              "items": [
+                {
+                  "text": "默认错误处理",
+                  "link": "/Spring/Springboot/异常处理/默认错误处理"
+                }
+              ]
+            },
+            {
+              "text": "原理",
+              "collapsible": true,
+              "collapsed": false,
+              "items": [
+                {
+                  "text": "自动配置",
+                  "link": "/Spring/Springboot/原理/自动配置"
+                }
+              ]
+            },
+            {
+              "text": "web",
+              "collapsible": true,
+              "collapsed": false,
+              "items": [
+                {
+                  "text": "静态资源",
+                  "link": "/Spring/Springboot/web/静态资源"
+                },
+                {
+                  "text": "拦截器",
+                  "link": "/Spring/Springboot/web/拦截器"
+                },
+                {
+                  "text": "文件上传",
+                  "link": "/Spring/Springboot/web/文件上传"
+                }
+              ]
             }
           ]
         }
