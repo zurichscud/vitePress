@@ -536,10 +536,33 @@ export default {
       "text": "JAVA",
       "items": [
         {
+          "text": "面向对象",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "方法重载",
+              "link": "/JAVA/面向对象/方法重载"
+            },
+            {
+              "text": "构造方法",
+              "link": "/JAVA/面向对象/构造方法"
+            },
+            {
+              "text": "Object类",
+              "link": "/JAVA/面向对象/Object类"
+            }
+          ]
+        },
+        {
           "text": "入门",
           "collapsible": true,
           "collapsed": false,
           "items": [
+            {
+              "text": "JVM内存分析",
+              "link": "/JAVA/入门/JVM内存分析"
+            },
             {
               "text": "this",
               "link": "/JAVA/入门/this"
@@ -551,8 +574,20 @@ export default {
           "link": "/JAVA/1.JAVA运行"
         },
         {
+          "text": "包机制",
+          "link": "/JAVA/包机制"
+        },
+        {
+          "text": "访问权限修饰符",
+          "link": "/JAVA/访问权限修饰符"
+        },
+        {
           "text": "注解",
           "link": "/JAVA/注解"
+        },
+        {
+          "text": "idea",
+          "link": "/JAVA/idea"
         }
       ]
     }
@@ -805,6 +840,87 @@ export default {
         {
           "text": "RegExp",
           "link": "/JavaScript/RegExp"
+        }
+      ]
+    }
+  ],
+  "/Linux/": [
+    {
+      "text": "Linux",
+      "items": [
+        {
+          "text": "权限",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "权限控制",
+              "link": "/Linux/权限/权限控制"
+            },
+            {
+              "text": "用户与用户组",
+              "link": "/Linux/权限/用户与用户组"
+            },
+            {
+              "text": "root",
+              "link": "/Linux/权限/root"
+            }
+          ]
+        },
+        {
+          "text": "应用管理",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "包管理",
+              "link": "/Linux/应用管理/包管理"
+            },
+            {
+              "text": "快捷键",
+              "link": "/Linux/应用管理/快捷键"
+            },
+            {
+              "text": "应用",
+              "link": "/Linux/应用管理/应用"
+            }
+          ]
+        },
+        {
+          "text": "变量",
+          "link": "/Linux/变量"
+        },
+        {
+          "text": "进程",
+          "link": "/Linux/进程"
+        },
+        {
+          "text": "命令",
+          "link": "/Linux/命令"
+        },
+        {
+          "text": "文件命令",
+          "link": "/Linux/文件命令"
+        },
+        {
+          "text": "curl",
+          "link": "/Linux/curl"
+        },
+        {
+          "text": "shell",
+          "link": "/Linux/shell"
+        },
+        {
+          "text": "shell脚本",
+          "link": "/Linux/shell脚本"
+        },
+        {
+          "text": "vim",
+          "link": "/Linux/vim"
+        },
+        {
+          "text": "zsh",
+          "link": "/Linux/zsh"
         }
       ]
     }
@@ -1389,87 +1505,6 @@ export default {
       ]
     }
   ],
-  "/Linux/": [
-    {
-      "text": "Linux",
-      "items": [
-        {
-          "text": "权限",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "权限控制",
-              "link": "/Linux/权限/权限控制"
-            },
-            {
-              "text": "用户与用户组",
-              "link": "/Linux/权限/用户与用户组"
-            },
-            {
-              "text": "root",
-              "link": "/Linux/权限/root"
-            }
-          ]
-        },
-        {
-          "text": "应用管理",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "包管理",
-              "link": "/Linux/应用管理/包管理"
-            },
-            {
-              "text": "快捷键",
-              "link": "/Linux/应用管理/快捷键"
-            },
-            {
-              "text": "应用",
-              "link": "/Linux/应用管理/应用"
-            }
-          ]
-        },
-        {
-          "text": "变量",
-          "link": "/Linux/变量"
-        },
-        {
-          "text": "进程",
-          "link": "/Linux/进程"
-        },
-        {
-          "text": "命令",
-          "link": "/Linux/命令"
-        },
-        {
-          "text": "文件命令",
-          "link": "/Linux/文件命令"
-        },
-        {
-          "text": "curl",
-          "link": "/Linux/curl"
-        },
-        {
-          "text": "shell",
-          "link": "/Linux/shell"
-        },
-        {
-          "text": "shell脚本",
-          "link": "/Linux/shell脚本"
-        },
-        {
-          "text": "vim",
-          "link": "/Linux/vim"
-        },
-        {
-          "text": "zsh",
-          "link": "/Linux/zsh"
-        }
-      ]
-    }
-  ],
   "/nuxt/": [
     {
       "text": "nuxt",
@@ -1668,8 +1703,27 @@ export default {
       "text": "数据库",
       "items": [
         {
+          "text": "应用",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "统计",
+              "link": "/数据库/应用/统计"
+            },
+            {
+              "text": "消息",
+              "link": "/数据库/应用/消息"
+            }
+          ]
+        },
+        {
           "text": "表格",
           "link": "/数据库/表格"
+        },
+        {
+          "text": "Activiti",
+          "link": "/数据库/Activiti"
         },
         {
           "text": "DDL",
@@ -1701,6 +1755,147 @@ export default {
         {
           "text": "YAML",
           "link": "/百科/YAML"
+        }
+      ]
+    }
+  ],
+  "/vitepress/": [
+    {
+      "text": "vitepress",
+      "items": [
+        {
+          "text": "插件",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "vitepress-plugin-group-icons",
+              "link": "/vitepress/插件/1-vitepress-plugin-group-icons"
+            },
+            {
+              "text": "demo",
+              "link": "/vitepress/插件/2-demo"
+            }
+          ]
+        },
+        {
+          "text": "基础",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "快速开始",
+              "link": "/vitepress/基础/快速开始"
+            },
+            {
+              "text": "路由",
+              "link": "/vitepress/基础/路由"
+            },
+            {
+              "text": "资源处理",
+              "link": "/vitepress/基础/资源处理"
+            }
+          ]
+        },
+        {
+          "text": "默认主题",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "编辑链接",
+              "link": "/vitepress/默认主题/编辑链接"
+            },
+            {
+              "text": "布局",
+              "link": "/vitepress/默认主题/布局"
+            },
+            {
+              "text": "侧边栏",
+              "link": "/vitepress/默认主题/侧边栏"
+            },
+            {
+              "text": "导航栏",
+              "link": "/vitepress/默认主题/导航栏"
+            },
+            {
+              "text": "上下页链接",
+              "link": "/vitepress/默认主题/上下页链接"
+            },
+            {
+              "text": "页脚",
+              "link": "/vitepress/默认主题/页脚"
+            },
+            {
+              "text": "最后更新时间",
+              "link": "/vitepress/默认主题/最后更新时间"
+            }
+          ]
+        },
+        {
+          "text": "内置组件",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "Badge",
+              "link": "/vitepress/内置组件/Badge"
+            },
+            {
+              "text": "ClientOnly",
+              "link": "/vitepress/内置组件/ClientOnly"
+            },
+            {
+              "text": "Content",
+              "link": "/vitepress/内置组件/Content"
+            }
+          ]
+        },
+        {
+          "text": "自定义",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "自定义主题",
+              "link": "/vitepress/自定义/1-自定义主题"
+            },
+            {
+              "text": "扩展默认主题",
+              "link": "/vitepress/自定义/2-扩展默认主题"
+            },
+            {
+              "text": "构建时数据加载",
+              "link": "/vitepress/自定义/3-构建时数据加载"
+            }
+          ]
+        },
+        {
+          "text": "markdown语法",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "运行时API",
+              "link": "/vitepress/markdown语法/运行时API"
+            },
+            {
+              "text": "frontmatter",
+              "link": "/vitepress/markdown语法/frontmatter"
+            },
+            {
+              "text": "markdown基础",
+              "link": "/vitepress/markdown语法/markdown基础"
+            },
+            {
+              "text": "markdown扩展",
+              "link": "/vitepress/markdown语法/markdown扩展"
+            },
+            {
+              "text": "markdown中使用Vue",
+              "link": "/vitepress/markdown语法/markdown中使用Vue"
+            }
+          ]
         }
       ]
     }
@@ -2040,147 +2235,6 @@ export default {
       ]
     }
   ],
-  "/vitepress/": [
-    {
-      "text": "vitepress",
-      "items": [
-        {
-          "text": "插件",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "vitepress-plugin-group-icons",
-              "link": "/vitepress/插件/1-vitepress-plugin-group-icons"
-            },
-            {
-              "text": "demo",
-              "link": "/vitepress/插件/2-demo"
-            }
-          ]
-        },
-        {
-          "text": "基础",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "快速开始",
-              "link": "/vitepress/基础/快速开始"
-            },
-            {
-              "text": "路由",
-              "link": "/vitepress/基础/路由"
-            },
-            {
-              "text": "资源处理",
-              "link": "/vitepress/基础/资源处理"
-            }
-          ]
-        },
-        {
-          "text": "默认主题",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "编辑链接",
-              "link": "/vitepress/默认主题/编辑链接"
-            },
-            {
-              "text": "布局",
-              "link": "/vitepress/默认主题/布局"
-            },
-            {
-              "text": "侧边栏",
-              "link": "/vitepress/默认主题/侧边栏"
-            },
-            {
-              "text": "导航栏",
-              "link": "/vitepress/默认主题/导航栏"
-            },
-            {
-              "text": "上下页链接",
-              "link": "/vitepress/默认主题/上下页链接"
-            },
-            {
-              "text": "页脚",
-              "link": "/vitepress/默认主题/页脚"
-            },
-            {
-              "text": "最后更新时间",
-              "link": "/vitepress/默认主题/最后更新时间"
-            }
-          ]
-        },
-        {
-          "text": "内置组件",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "Badge",
-              "link": "/vitepress/内置组件/Badge"
-            },
-            {
-              "text": "ClientOnly",
-              "link": "/vitepress/内置组件/ClientOnly"
-            },
-            {
-              "text": "Content",
-              "link": "/vitepress/内置组件/Content"
-            }
-          ]
-        },
-        {
-          "text": "自定义",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "自定义主题",
-              "link": "/vitepress/自定义/1-自定义主题"
-            },
-            {
-              "text": "扩展默认主题",
-              "link": "/vitepress/自定义/2-扩展默认主题"
-            },
-            {
-              "text": "构建时数据加载",
-              "link": "/vitepress/自定义/3-构建时数据加载"
-            }
-          ]
-        },
-        {
-          "text": "markdown语法",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "运行时API",
-              "link": "/vitepress/markdown语法/运行时API"
-            },
-            {
-              "text": "frontmatter",
-              "link": "/vitepress/markdown语法/frontmatter"
-            },
-            {
-              "text": "markdown基础",
-              "link": "/vitepress/markdown语法/markdown基础"
-            },
-            {
-              "text": "markdown扩展",
-              "link": "/vitepress/markdown语法/markdown扩展"
-            },
-            {
-              "text": "markdown中使用Vue",
-              "link": "/vitepress/markdown语法/markdown中使用Vue"
-            }
-          ]
-        }
-      ]
-    }
-  ],
   "/xstate/": [
     {
       "text": "xstate",
@@ -2494,6 +2548,14 @@ export default {
                 {
                   "text": "SpringInitailizr",
                   "link": "/Spring/Springboot/入门/5.SpringInitailizr"
+                },
+                {
+                  "text": "多环境",
+                  "link": "/Spring/Springboot/入门/多环境"
+                },
+                {
+                  "text": "Ant路径匹配",
+                  "link": "/Spring/Springboot/入门/Ant路径匹配"
                 }
               ]
             },

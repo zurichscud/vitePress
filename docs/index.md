@@ -24,8 +24,8 @@ features:
     details: 5篇文档
     link: /前端工程化/@antfueslint-config
   - title: 数据库
-    details: 3篇文档
-    link: /数据库/DDL
+    details: 6篇文档
+    link: /数据库/Activiti
   - title: 性能优化
     details: 1篇文档
     link: /性能优化/gzip压缩
@@ -42,7 +42,7 @@ features:
     details: 29篇文档
     link: /HTML/HTML元素间的关系
   - title: JAVA
-    details: 3篇文档
+    details: 10篇文档
     link: /JAVA/1.JAVA运行
   - title: JavaScript
     details: 49篇文档
@@ -60,7 +60,7 @@ features:
     details: 18篇文档
     link: /package/antfu-utils
   - title: Spring
-    details: 31篇文档
+    details: 33篇文档
     link: /Spring/Maven/基础/1.安装与配置
   - title: TypeScript
     details: 21篇文档

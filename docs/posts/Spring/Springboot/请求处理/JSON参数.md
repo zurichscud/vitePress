@@ -1,6 +1,6 @@
 # JSON参数
 
-如果请求以JSON的形式传输，
+我们可以使用`@RequestBody`解析请求中的JSON参数
 
 ## 绑定到对象
 

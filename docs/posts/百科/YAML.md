@@ -2,7 +2,7 @@
 
 YAML（**YAML Ain't Markup Language**）是一种常用于配置文件的语言，例如 `application.yml`、`docker-compose.yml` 等。它的特点是**简洁、可读性强、使用缩进表示层级结构**。
 
-
+YAML文件后缀可以是`.yml`或者`.yaml`
 
 ## 基本语法
 
