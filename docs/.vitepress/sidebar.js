@@ -366,71 +366,6 @@ export default {
       ]
     }
   ],
-  "/JAVA/": [
-    {
-      "text": "JAVA",
-      "items": [
-        {
-          "text": "面向对象",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "方法重载",
-              "link": "/JAVA/面向对象/方法重载"
-            },
-            {
-              "text": "构造方法",
-              "link": "/JAVA/面向对象/构造方法"
-            },
-            {
-              "text": "静态成员",
-              "link": "/JAVA/面向对象/静态成员"
-            },
-            {
-              "text": "Object类",
-              "link": "/JAVA/面向对象/Object类"
-            }
-          ]
-        },
-        {
-          "text": "入门",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "JVM内存分析",
-              "link": "/JAVA/入门/JVM内存分析"
-            },
-            {
-              "text": "this",
-              "link": "/JAVA/入门/this"
-            }
-          ]
-        },
-        {
-          "text": "JAVA运行",
-          "link": "/JAVA/1.JAVA运行"
-        },
-        {
-          "text": "包机制",
-          "link": "/JAVA/包机制"
-        },
-        {
-          "text": "访问权限修饰符",
-          "link": "/JAVA/访问权限修饰符"
-        },
-        {
-          "text": "注解",
-          "link": "/JAVA/注解"
-        },
-        {
-          "text": "idea",
-          "link": "/JAVA/idea"
-        }
-      ]
-    }
-  ],
   "/HTML/": [
     {
       "text": "HTML",
@@ -592,6 +527,75 @@ export default {
         {
           "text": "SVG",
           "link": "/HTML/SVG"
+        }
+      ]
+    }
+  ],
+  "/JAVA/": [
+    {
+      "text": "JAVA",
+      "items": [
+        {
+          "text": "面向对象",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "方法重载",
+              "link": "/JAVA/面向对象/方法重载"
+            },
+            {
+              "text": "构造方法",
+              "link": "/JAVA/面向对象/构造方法"
+            },
+            {
+              "text": "继承",
+              "link": "/JAVA/面向对象/继承"
+            },
+            {
+              "text": "静态成员",
+              "link": "/JAVA/面向对象/静态成员"
+            },
+            {
+              "text": "Object类",
+              "link": "/JAVA/面向对象/Object类"
+            }
+          ]
+        },
+        {
+          "text": "入门",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "JVM内存分析",
+              "link": "/JAVA/入门/JVM内存分析"
+            },
+            {
+              "text": "this",
+              "link": "/JAVA/入门/this"
+            }
+          ]
+        },
+        {
+          "text": "JAVA运行",
+          "link": "/JAVA/1.JAVA运行"
+        },
+        {
+          "text": "包机制",
+          "link": "/JAVA/包机制"
+        },
+        {
+          "text": "访问权限修饰符",
+          "link": "/JAVA/访问权限修饰符"
+        },
+        {
+          "text": "注解",
+          "link": "/JAVA/注解"
+        },
+        {
+          "text": "idea",
+          "link": "/JAVA/idea"
         }
       ]
     }
