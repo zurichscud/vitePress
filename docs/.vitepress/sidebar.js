@@ -581,6 +581,10 @@ export default {
               "link": "/JAVA/面向对象/10.Object类"
             },
             {
+              "text": "内部类",
+              "link": "/JAVA/面向对象/11.内部类"
+            },
+            {
               "text": "常量类",
               "link": "/JAVA/面向对象/常量类"
             }
@@ -598,6 +602,29 @@ export default {
             {
               "text": "this",
               "link": "/JAVA/入门/this"
+            }
+          ]
+        },
+        {
+          "text": "数组",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "可变长度参数",
+              "link": "/JAVA/数组/可变长度参数"
+            },
+            {
+              "text": "数组概述",
+              "link": "/JAVA/数组/数组概述"
+            },
+            {
+              "text": "一维数组",
+              "link": "/JAVA/数组/一维数组"
+            },
+            {
+              "text": "Arrays",
+              "link": "/JAVA/数组/Arrays"
             }
           ]
         },
