@@ -574,11 +574,15 @@ export default {
             },
             {
               "text": "接口",
-              "link": "/JAVA/面向对象/接口"
+              "link": "/JAVA/面向对象/9.接口"
             },
             {
               "text": "Object类",
-              "link": "/JAVA/面向对象/Object类"
+              "link": "/JAVA/面向对象/10.Object类"
+            },
+            {
+              "text": "常量类",
+              "link": "/JAVA/面向对象/常量类"
             }
           ]
         },
@@ -1183,138 +1187,6 @@ export default {
       ]
     }
   ],
-  "/nuxt/": [
-    {
-      "text": "nuxt",
-      "items": [
-        {
-          "text": "布局",
-          "link": "/nuxt/布局"
-        },
-        {
-          "text": "服务器",
-          "link": "/nuxt/服务器"
-        },
-        {
-          "text": "基础",
-          "link": "/nuxt/基础"
-        },
-        {
-          "text": "路由",
-          "link": "/nuxt/路由"
-        },
-        {
-          "text": "视图",
-          "link": "/nuxt/视图"
-        },
-        {
-          "text": "数据请求",
-          "link": "/nuxt/数据请求"
-        },
-        {
-          "text": "资源管理",
-          "link": "/nuxt/资源管理"
-        },
-        {
-          "text": "SEO与元数据",
-          "link": "/nuxt/SEO与元数据"
-        }
-      ]
-    }
-  ],
-  "/package/": [
-    {
-      "text": "package",
-      "items": [
-        {
-          "text": "echarts",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "Event",
-              "collapsible": true,
-              "collapsed": false,
-              "items": [
-                {
-                  "text": "updateAxisPointer",
-                  "link": "/package/echarts/Event/updateAxisPointer"
-                }
-              ]
-            },
-            {
-              "text": "地图",
-              "link": "/package/echarts/地图"
-            },
-            {
-              "text": "图表容器",
-              "link": "/package/echarts/图表容器"
-            },
-            {
-              "text": "增量更新",
-              "link": "/package/echarts/增量更新"
-            },
-            {
-              "text": "dataset",
-              "link": "/package/echarts/dataset"
-            },
-            {
-              "text": "GeoJSON",
-              "link": "/package/echarts/GeoJSON"
-            },
-            {
-              "text": "legend",
-              "link": "/package/echarts/legend"
-            },
-            {
-              "text": "series",
-              "link": "/package/echarts/series"
-            },
-            {
-              "text": "xAxis",
-              "link": "/package/echarts/xAxis"
-            }
-          ]
-        },
-        {
-          "text": "antfu-utils",
-          "link": "/package/antfu-utils"
-        },
-        {
-          "text": "cross-env",
-          "link": "/package/cross-env"
-        },
-        {
-          "text": "file-saver",
-          "link": "/package/file-saver"
-        },
-        {
-          "text": "nodemon",
-          "link": "/package/nodemon"
-        },
-        {
-          "text": "sequelize",
-          "link": "/package/sequelize"
-        },
-        {
-          "text": "ts-node",
-          "link": "/package/ts-node"
-        },
-        {
-          "text": "tsx",
-          "link": "/package/tsx"
-        },
-        {
-          "text": "unplugin-auto-import",
-          "link": "/package/unplugin-auto-import"
-        },
-        {
-          "text": "unplugin-vue-components",
-          "link": "/package/unplugin-vue-components"
-        }
-      ]
-    }
-  ],
   "/TypeScript/": [
     {
       "text": "TypeScript",
@@ -1665,6 +1537,138 @@ export default {
       ]
     }
   ],
+  "/nuxt/": [
+    {
+      "text": "nuxt",
+      "items": [
+        {
+          "text": "布局",
+          "link": "/nuxt/布局"
+        },
+        {
+          "text": "服务器",
+          "link": "/nuxt/服务器"
+        },
+        {
+          "text": "基础",
+          "link": "/nuxt/基础"
+        },
+        {
+          "text": "路由",
+          "link": "/nuxt/路由"
+        },
+        {
+          "text": "视图",
+          "link": "/nuxt/视图"
+        },
+        {
+          "text": "数据请求",
+          "link": "/nuxt/数据请求"
+        },
+        {
+          "text": "资源管理",
+          "link": "/nuxt/资源管理"
+        },
+        {
+          "text": "SEO与元数据",
+          "link": "/nuxt/SEO与元数据"
+        }
+      ]
+    }
+  ],
+  "/package/": [
+    {
+      "text": "package",
+      "items": [
+        {
+          "text": "echarts",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "Event",
+              "collapsible": true,
+              "collapsed": false,
+              "items": [
+                {
+                  "text": "updateAxisPointer",
+                  "link": "/package/echarts/Event/updateAxisPointer"
+                }
+              ]
+            },
+            {
+              "text": "地图",
+              "link": "/package/echarts/地图"
+            },
+            {
+              "text": "图表容器",
+              "link": "/package/echarts/图表容器"
+            },
+            {
+              "text": "增量更新",
+              "link": "/package/echarts/增量更新"
+            },
+            {
+              "text": "dataset",
+              "link": "/package/echarts/dataset"
+            },
+            {
+              "text": "GeoJSON",
+              "link": "/package/echarts/GeoJSON"
+            },
+            {
+              "text": "legend",
+              "link": "/package/echarts/legend"
+            },
+            {
+              "text": "series",
+              "link": "/package/echarts/series"
+            },
+            {
+              "text": "xAxis",
+              "link": "/package/echarts/xAxis"
+            }
+          ]
+        },
+        {
+          "text": "antfu-utils",
+          "link": "/package/antfu-utils"
+        },
+        {
+          "text": "cross-env",
+          "link": "/package/cross-env"
+        },
+        {
+          "text": "file-saver",
+          "link": "/package/file-saver"
+        },
+        {
+          "text": "nodemon",
+          "link": "/package/nodemon"
+        },
+        {
+          "text": "sequelize",
+          "link": "/package/sequelize"
+        },
+        {
+          "text": "ts-node",
+          "link": "/package/ts-node"
+        },
+        {
+          "text": "tsx",
+          "link": "/package/tsx"
+        },
+        {
+          "text": "unplugin-auto-import",
+          "link": "/package/unplugin-auto-import"
+        },
+        {
+          "text": "unplugin-vue-components",
+          "link": "/package/unplugin-vue-components"
+        }
+      ]
+    }
+  ],
   "/云服务/": [
     {
       "text": "云服务",
@@ -1736,6 +1740,10 @@ export default {
           "collapsed": false,
           "items": [
             {
+              "text": "查询日期",
+              "link": "/数据库/应用/查询日期"
+            },
+            {
               "text": "统计",
               "link": "/数据库/应用/统计"
             },
@@ -1746,16 +1754,35 @@ export default {
           ]
         },
         {
-          "text": "表格",
-          "link": "/数据库/表格"
+          "text": "MyBatis",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "配置",
+              "link": "/数据库/MyBatis/配置"
+            },
+            {
+              "text": "QuickStart",
+              "link": "/数据库/MyBatis/QuickStart"
+            }
+          ]
         },
         {
           "text": "函数",
           "link": "/数据库/函数"
         },
         {
+          "text": "数据类型",
+          "link": "/数据库/数据类型"
+        },
+        {
           "text": "Activiti",
           "link": "/数据库/Activiti"
+        },
+        {
+          "text": "case",
+          "link": "/数据库/case"
         },
         {
           "text": "DDL",
