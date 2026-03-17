@@ -1,309 +1,5 @@
 // 自动生成，请勿修改
 export default {
-  "/JAVA/": [
-    {
-      "text": "JAVA",
-      "items": [
-        {
-          "text": "面向对象",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "static关键字",
-              "link": "/JAVA/面向对象/1.static关键字"
-            },
-            {
-              "text": "构造方法",
-              "link": "/JAVA/面向对象/2.构造方法"
-            },
-            {
-              "text": "方法重载",
-              "link": "/JAVA/面向对象/3.方法重载"
-            },
-            {
-              "text": "继承",
-              "link": "/JAVA/面向对象/4.继承"
-            },
-            {
-              "text": "多态",
-              "link": "/JAVA/面向对象/5.多态"
-            },
-            {
-              "text": "抽象类",
-              "link": "/JAVA/面向对象/6.抽象类"
-            },
-            {
-              "text": "super关键字",
-              "link": "/JAVA/面向对象/7.super关键字"
-            },
-            {
-              "text": "final关键字",
-              "link": "/JAVA/面向对象/8.final关键字"
-            },
-            {
-              "text": "接口",
-              "link": "/JAVA/面向对象/9.接口"
-            },
-            {
-              "text": "Object类",
-              "link": "/JAVA/面向对象/10.Object类"
-            },
-            {
-              "text": "内部类",
-              "link": "/JAVA/面向对象/11.内部类"
-            },
-            {
-              "text": "常量类",
-              "link": "/JAVA/面向对象/常量类"
-            }
-          ]
-        },
-        {
-          "text": "企业规范",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "数据封装",
-              "link": "/JAVA/企业规范/数据封装"
-            }
-          ]
-        },
-        {
-          "text": "入门",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "JVM内存分析",
-              "link": "/JAVA/入门/JVM内存分析"
-            },
-            {
-              "text": "this",
-              "link": "/JAVA/入门/this"
-            }
-          ]
-        },
-        {
-          "text": "数组",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "数组概述",
-              "link": "/JAVA/数组/1.数组概述"
-            },
-            {
-              "text": "一维数组",
-              "link": "/JAVA/数组/2.一维数组"
-            },
-            {
-              "text": "增强for",
-              "link": "/JAVA/数组/3.增强for"
-            },
-            {
-              "text": "可变长度参数",
-              "link": "/JAVA/数组/可变长度参数"
-            },
-            {
-              "text": "Arrays",
-              "link": "/JAVA/数组/Arrays"
-            }
-          ]
-        },
-        {
-          "text": "JAVA运行",
-          "link": "/JAVA/1.JAVA运行"
-        },
-        {
-          "text": "包机制",
-          "link": "/JAVA/包机制"
-        },
-        {
-          "text": "访问权限修饰符",
-          "link": "/JAVA/访问权限修饰符"
-        },
-        {
-          "text": "数据类型",
-          "link": "/JAVA/数据类型"
-        },
-        {
-          "text": "注解",
-          "link": "/JAVA/注解"
-        },
-        {
-          "text": "idea",
-          "link": "/JAVA/idea"
-        }
-      ]
-    }
-  ],
-  "/HTML/": [
-    {
-      "text": "HTML",
-      "items": [
-        {
-          "text": "表单",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "button",
-              "link": "/HTML/表单/button"
-            },
-            {
-              "text": "check",
-              "link": "/HTML/表单/check"
-            },
-            {
-              "text": "form",
-              "link": "/HTML/表单/form"
-            },
-            {
-              "text": "input",
-              "link": "/HTML/表单/input"
-            },
-            {
-              "text": "label",
-              "link": "/HTML/表单/label"
-            },
-            {
-              "text": "select",
-              "link": "/HTML/表单/select"
-            },
-            {
-              "text": "textarea",
-              "link": "/HTML/表单/textarea"
-            }
-          ]
-        },
-        {
-          "text": "超链接",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "唤起应用",
-              "link": "/HTML/超链接/唤起应用"
-            },
-            {
-              "text": "链接",
-              "link": "/HTML/超链接/链接"
-            },
-            {
-              "text": "锚点",
-              "link": "/HTML/超链接/锚点"
-            }
-          ]
-        },
-        {
-          "text": "可替换元素",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "可替换元素",
-              "link": "/HTML/可替换元素/可替换元素"
-            },
-            {
-              "text": "iframe",
-              "link": "/HTML/可替换元素/iframe"
-            },
-            {
-              "text": "img",
-              "link": "/HTML/可替换元素/img"
-            }
-          ]
-        },
-        {
-          "text": "列表",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "列表",
-              "link": "/HTML/列表/列表"
-            },
-            {
-              "text": "列表样式",
-              "link": "/HTML/列表/列表样式"
-            }
-          ]
-        },
-        {
-          "text": "属性",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "布尔属性",
-              "link": "/HTML/属性/1-布尔属性"
-            },
-            {
-              "text": "自定义属性",
-              "link": "/HTML/属性/2-自定义属性"
-            },
-            {
-              "text": "表现型属性",
-              "link": "/HTML/属性/表现型属性"
-            },
-            {
-              "text": "全局属性",
-              "link": "/HTML/属性/全局属性"
-            }
-          ]
-        },
-        {
-          "text": "元数据",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "标准元数据名称",
-              "link": "/HTML/元数据/标准元数据名称"
-            },
-            {
-              "text": "meta标签",
-              "link": "/HTML/元数据/meta标签"
-            }
-          ]
-        },
-        {
-          "text": "表格",
-          "link": "/HTML/表格"
-        },
-        {
-          "text": "调试工具",
-          "link": "/HTML/调试工具"
-        },
-        {
-          "text": "浏览器渲染流程",
-          "link": "/HTML/浏览器渲染流程"
-        },
-        {
-          "text": "路径",
-          "link": "/HTML/路径"
-        },
-        {
-          "text": "图片格式",
-          "link": "/HTML/图片格式"
-        },
-        {
-          "text": "HTML元素间的关系",
-          "link": "/HTML/HTML元素间的关系"
-        },
-        {
-          "text": "HTML字符实体",
-          "link": "/HTML/HTML字符实体"
-        },
-        {
-          "text": "SVG",
-          "link": "/HTML/SVG"
-        }
-      ]
-    }
-  ],
   "/CSS/": [
     {
       "text": "CSS",
@@ -670,663 +366,340 @@ export default {
       ]
     }
   ],
-  "/Linux/": [
+  "/HTML/": [
     {
-      "text": "Linux",
+      "text": "HTML",
       "items": [
         {
-          "text": "权限",
+          "text": "表单",
           "collapsible": true,
           "collapsed": false,
           "items": [
             {
-              "text": "权限控制",
-              "link": "/Linux/权限/权限控制"
+              "text": "button",
+              "link": "/HTML/表单/button"
             },
             {
-              "text": "用户与用户组",
-              "link": "/Linux/权限/用户与用户组"
+              "text": "check",
+              "link": "/HTML/表单/check"
             },
             {
-              "text": "root",
-              "link": "/Linux/权限/root"
+              "text": "form",
+              "link": "/HTML/表单/form"
+            },
+            {
+              "text": "input",
+              "link": "/HTML/表单/input"
+            },
+            {
+              "text": "label",
+              "link": "/HTML/表单/label"
+            },
+            {
+              "text": "select",
+              "link": "/HTML/表单/select"
+            },
+            {
+              "text": "textarea",
+              "link": "/HTML/表单/textarea"
             }
           ]
         },
         {
-          "text": "应用管理",
+          "text": "超链接",
           "collapsible": true,
           "collapsed": false,
           "items": [
             {
-              "text": "包管理",
-              "link": "/Linux/应用管理/包管理"
+              "text": "唤起应用",
+              "link": "/HTML/超链接/唤起应用"
             },
             {
-              "text": "快捷键",
-              "link": "/Linux/应用管理/快捷键"
+              "text": "链接",
+              "link": "/HTML/超链接/链接"
             },
             {
-              "text": "应用",
-              "link": "/Linux/应用管理/应用"
+              "text": "锚点",
+              "link": "/HTML/超链接/锚点"
             }
           ]
         },
         {
-          "text": "变量",
-          "link": "/Linux/变量"
+          "text": "可替换元素",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "可替换元素",
+              "link": "/HTML/可替换元素/可替换元素"
+            },
+            {
+              "text": "iframe",
+              "link": "/HTML/可替换元素/iframe"
+            },
+            {
+              "text": "img",
+              "link": "/HTML/可替换元素/img"
+            }
+          ]
         },
         {
-          "text": "进程",
-          "link": "/Linux/进程"
+          "text": "列表",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "列表",
+              "link": "/HTML/列表/列表"
+            },
+            {
+              "text": "列表样式",
+              "link": "/HTML/列表/列表样式"
+            }
+          ]
         },
         {
-          "text": "命令",
-          "link": "/Linux/命令"
+          "text": "属性",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "布尔属性",
+              "link": "/HTML/属性/1-布尔属性"
+            },
+            {
+              "text": "自定义属性",
+              "link": "/HTML/属性/2-自定义属性"
+            },
+            {
+              "text": "表现型属性",
+              "link": "/HTML/属性/表现型属性"
+            },
+            {
+              "text": "全局属性",
+              "link": "/HTML/属性/全局属性"
+            }
+          ]
         },
         {
-          "text": "文件命令",
-          "link": "/Linux/文件命令"
+          "text": "元数据",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "标准元数据名称",
+              "link": "/HTML/元数据/标准元数据名称"
+            },
+            {
+              "text": "meta标签",
+              "link": "/HTML/元数据/meta标签"
+            }
+          ]
         },
         {
-          "text": "curl",
-          "link": "/Linux/curl"
+          "text": "表格",
+          "link": "/HTML/表格"
         },
         {
-          "text": "shell",
-          "link": "/Linux/shell"
+          "text": "调试工具",
+          "link": "/HTML/调试工具"
         },
         {
-          "text": "shell脚本",
-          "link": "/Linux/shell脚本"
+          "text": "浏览器渲染流程",
+          "link": "/HTML/浏览器渲染流程"
         },
         {
-          "text": "vim",
-          "link": "/Linux/vim"
+          "text": "路径",
+          "link": "/HTML/路径"
         },
         {
-          "text": "zsh",
-          "link": "/Linux/zsh"
+          "text": "图片格式",
+          "link": "/HTML/图片格式"
+        },
+        {
+          "text": "HTML元素间的关系",
+          "link": "/HTML/HTML元素间的关系"
+        },
+        {
+          "text": "HTML字符实体",
+          "link": "/HTML/HTML字符实体"
+        },
+        {
+          "text": "SVG",
+          "link": "/HTML/SVG"
         }
       ]
     }
   ],
-  "/Node/": [
+  "/JAVA/": [
     {
-      "text": "Node",
+      "text": "JAVA",
       "items": [
         {
-          "text": "包管理",
+          "text": "常用类",
           "collapsible": true,
           "collapsed": false,
           "items": [
             {
-              "text": "npm",
-              "link": "/Node/包管理/npm"
-            },
-            {
-              "text": "nvm",
-              "link": "/Node/包管理/nvm"
-            },
-            {
-              "text": "pnpm",
-              "link": "/Node/包管理/pnpm"
-            },
-            {
-              "text": "yarn",
-              "link": "/Node/包管理/yarn"
+              "text": "包装类",
+              "link": "/JAVA/常用类/包装类"
             }
           ]
         },
         {
-          "text": "架构",
+          "text": "面向对象",
           "collapsible": true,
           "collapsed": false,
           "items": [
             {
-              "text": "定时任务",
-              "link": "/Node/架构/定时任务"
+              "text": "static关键字",
+              "link": "/JAVA/面向对象/1.static关键字"
             },
             {
-              "text": "控制反转",
-              "link": "/Node/架构/控制反转"
+              "text": "构造方法",
+              "link": "/JAVA/面向对象/2.构造方法"
             },
             {
-              "text": "云函数",
-              "link": "/Node/架构/云函数"
+              "text": "方法重载",
+              "link": "/JAVA/面向对象/3.方法重载"
             },
             {
-              "text": "inversify-express-utils",
-              "link": "/Node/架构/inversify-express-utils"
+              "text": "继承",
+              "link": "/JAVA/面向对象/4.继承"
             },
             {
-              "text": "inversify",
-              "link": "/Node/架构/inversify"
+              "text": "多态",
+              "link": "/JAVA/面向对象/5.多态"
+            },
+            {
+              "text": "抽象类",
+              "link": "/JAVA/面向对象/6.抽象类"
+            },
+            {
+              "text": "super关键字",
+              "link": "/JAVA/面向对象/7.super关键字"
+            },
+            {
+              "text": "final关键字",
+              "link": "/JAVA/面向对象/8.final关键字"
+            },
+            {
+              "text": "接口",
+              "link": "/JAVA/面向对象/9.接口"
+            },
+            {
+              "text": "Object类",
+              "link": "/JAVA/面向对象/10.Object类"
+            },
+            {
+              "text": "内部类",
+              "link": "/JAVA/面向对象/11.内部类"
+            },
+            {
+              "text": "常量类",
+              "link": "/JAVA/面向对象/常量类"
             }
           ]
         },
         {
-          "text": "模块化",
+          "text": "企业规范",
           "collapsible": true,
           "collapsed": false,
           "items": [
             {
-              "text": "CommonJS",
-              "link": "/Node/模块化/CommonJS"
+              "text": "数据封装",
+              "link": "/JAVA/企业规范/数据封装"
             }
           ]
         },
         {
-          "text": "全局API",
+          "text": "入门",
           "collapsible": true,
           "collapsed": false,
           "items": [
             {
-              "text": "全局变量",
-              "link": "/Node/全局API/全局变量"
+              "text": "JVM内存分析",
+              "link": "/JAVA/入门/JVM内存分析"
             },
             {
-              "text": "process",
-              "link": "/Node/全局API/process"
+              "text": "this",
+              "link": "/JAVA/入门/this"
             }
           ]
         },
         {
-          "text": "文件系统",
+          "text": "数组",
           "collapsible": true,
           "collapsed": false,
           "items": [
             {
-              "text": "fs",
-              "link": "/Node/文件系统/fs"
+              "text": "数组概述",
+              "link": "/JAVA/数组/1.数组概述"
             },
             {
-              "text": "link",
-              "link": "/Node/文件系统/link"
+              "text": "一维数组",
+              "link": "/JAVA/数组/2.一维数组"
             },
             {
-              "text": "path",
-              "link": "/Node/文件系统/path"
+              "text": "增强for",
+              "link": "/JAVA/数组/3.增强for"
             },
             {
-              "text": "stream",
-              "link": "/Node/文件系统/stream"
+              "text": "二维数组",
+              "link": "/JAVA/数组/4.二维数组"
             },
             {
-              "text": "zlib",
-              "link": "/Node/文件系统/zlib"
+              "text": "可变长度参数",
+              "link": "/JAVA/数组/可变长度参数"
+            },
+            {
+              "text": "Arrays",
+              "link": "/JAVA/数组/Arrays"
             }
           ]
         },
         {
-          "text": "express",
+          "text": "异常",
           "collapsible": true,
           "collapsed": false,
           "items": [
             {
-              "text": "基本用法",
-              "link": "/Node/express/基本用法"
+              "text": "异常体系",
+              "link": "/JAVA/异常/1.异常体系"
             },
             {
-              "text": "静态资源服务",
-              "link": "/Node/express/静态资源服务"
+              "text": "异常处理",
+              "link": "/JAVA/异常/2.异常处理"
             },
             {
-              "text": "路由",
-              "link": "/Node/express/路由"
-            },
-            {
-              "text": "中间件",
-              "link": "/Node/express/中间件"
+              "text": "自定义异常",
+              "link": "/JAVA/异常/3.自定义异常"
             }
           ]
         },
         {
-          "text": "http",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "动静分离",
-              "link": "/Node/http/动静分离"
-            },
-            {
-              "text": "反向代理",
-              "link": "/Node/http/反向代理"
-            },
-            {
-              "text": "邮件服务",
-              "link": "/Node/http/邮件服务"
-            },
-            {
-              "text": "url",
-              "link": "/Node/http/url"
-            },
-            {
-              "text": "web服务器",
-              "link": "/Node/http/web服务器"
-            }
-          ]
+          "text": "JAVA运行",
+          "link": "/JAVA/1.JAVA运行"
         },
         {
-          "text": "package",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "版本号",
-              "link": "/Node/package/版本号"
-            },
-            {
-              "text": "配置项",
-              "link": "/Node/package/配置项"
-            },
-            {
-              "text": "type",
-              "link": "/Node/package/type"
-            }
-          ]
+          "text": "包机制",
+          "link": "/JAVA/包机制"
         },
         {
-          "text": "Prisma",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "基本使用",
-              "link": "/Node/Prisma/基本使用"
-            }
-          ]
+          "text": "访问权限修饰符",
+          "link": "/JAVA/访问权限修饰符"
         },
         {
-          "text": "创建Node项目",
-          "link": "/Node/创建Node项目"
+          "text": "数据类型",
+          "link": "/JAVA/数据类型"
         },
         {
-          "text": "环境配置",
-          "link": "/Node/环境配置"
+          "text": "注解",
+          "link": "/JAVA/注解"
         },
         {
-          "text": "脚手架",
-          "link": "/Node/脚手架"
-        },
-        {
-          "text": "Buffer",
-          "link": "/Node/Buffer"
-        },
-        {
-          "text": "child_process",
-          "link": "/Node/child_process"
-        },
-        {
-          "text": "crypto",
-          "link": "/Node/crypto"
-        },
-        {
-          "text": "EventEmitter",
-          "link": "/Node/EventEmitter"
-        },
-        {
-          "text": "os",
-          "link": "/Node/os"
-        },
-        {
-          "text": "SSR渲染",
-          "link": "/Node/SSR渲染"
-        },
-        {
-          "text": "util",
-          "link": "/Node/util"
-        }
-      ]
-    }
-  ],
-  "/TypeScript/": [
-    {
-      "text": "TypeScript",
-      "items": [
-        {
-          "text": "泛型",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "泛型",
-              "link": "/TypeScript/泛型/泛型"
-            },
-            {
-              "text": "泛型工具",
-              "link": "/TypeScript/泛型/泛型工具"
-            },
-            {
-              "text": "条件类型",
-              "link": "/TypeScript/泛型/条件类型"
-            },
-            {
-              "text": "映射类型",
-              "link": "/TypeScript/泛型/映射类型"
-            }
-          ]
-        },
-        {
-          "text": "基本数据类型",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "对象类型",
-              "link": "/TypeScript/基本数据类型/对象类型"
-            },
-            {
-              "text": "函数类型",
-              "link": "/TypeScript/基本数据类型/函数类型"
-            },
-            {
-              "text": "枚举类型",
-              "link": "/TypeScript/基本数据类型/枚举类型"
-            },
-            {
-              "text": "原始类型",
-              "link": "/TypeScript/基本数据类型/原始类型"
-            },
-            {
-              "text": "组合类型",
-              "link": "/TypeScript/基本数据类型/组合类型"
-            }
-          ]
-        },
-        {
-          "text": "接口",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "索引访问类型",
-              "link": "/TypeScript/接口/索引访问类型"
-            },
-            {
-              "text": "索引签名",
-              "link": "/TypeScript/接口/索引签名"
-            }
-          ]
-        },
-        {
-          "text": "类型运算",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "类型体操",
-              "link": "/TypeScript/类型运算/类型体操"
-            },
-            {
-              "text": "类型运算符",
-              "link": "/TypeScript/类型运算/类型运算符"
-            },
-            {
-              "text": "协变与逆变",
-              "link": "/TypeScript/类型运算/协变与逆变"
-            },
-            {
-              "text": "infer关键字",
-              "link": "/TypeScript/类型运算/infer关键字"
-            }
-          ]
-        },
-        {
-          "text": "特殊数据类型",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "特殊类型",
-              "link": "/TypeScript/特殊数据类型/特殊类型"
-            }
-          ]
-        },
-        {
-          "text": "创建TS项目",
-          "link": "/TypeScript/创建TS项目"
-        },
-        {
-          "text": "断言",
-          "link": "/TypeScript/断言"
-        },
-        {
-          "text": "类型守卫",
-          "link": "/TypeScript/类型守卫"
-        },
-        {
-          "text": "声明文件",
-          "link": "/TypeScript/声明文件"
-        },
-        {
-          "text": "tsconfig",
-          "link": "/TypeScript/tsconfig"
-        }
-      ]
-    }
-  ],
-  "/WebAPI/": [
-    {
-      "text": "WebAPI",
-      "items": [
-        {
-          "text": "DOM",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "操作DOM表单",
-              "link": "/WebAPI/DOM/操作DOM表单"
-            },
-            {
-              "text": "函数防抖",
-              "link": "/WebAPI/DOM/函数防抖"
-            },
-            {
-              "text": "获取DOM",
-              "link": "/WebAPI/DOM/获取DOM"
-            },
-            {
-              "text": "监听DOM事件",
-              "link": "/WebAPI/DOM/监听DOM事件"
-            },
-            {
-              "text": "事件默认行为",
-              "link": "/WebAPI/DOM/事件默认行为"
-            },
-            {
-              "text": "Console",
-              "link": "/WebAPI/DOM/Console"
-            },
-            {
-              "text": "DOM树",
-              "link": "/WebAPI/DOM/DOM树"
-            }
-          ]
-        },
-        {
-          "text": "Event",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "UIEvent",
-              "collapsible": true,
-              "collapsed": false,
-              "items": [
-                {
-                  "text": "FocusEvent",
-                  "link": "/WebAPI/Event/UIEvent/FocusEvent"
-                },
-                {
-                  "text": "InputEvent",
-                  "link": "/WebAPI/Event/UIEvent/InputEvent"
-                },
-                {
-                  "text": "MouseEvent",
-                  "link": "/WebAPI/Event/UIEvent/MouseEvent"
-                },
-                {
-                  "text": "SubmitEvent",
-                  "link": "/WebAPI/Event/UIEvent/SubmitEvent"
-                },
-                {
-                  "text": "UIEvent",
-                  "link": "/WebAPI/Event/UIEvent/UIEvent"
-                }
-              ]
-            },
-            {
-              "text": "Event",
-              "link": "/WebAPI/Event/Event"
-            },
-            {
-              "text": "KeyboardEvent",
-              "link": "/WebAPI/Event/KeyboardEvent"
-            }
-          ]
-        },
-        {
-          "text": "EventTarget",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "EventTarget",
-              "link": "/WebAPI/EventTarget/1.EventTarget"
-            },
-            {
-              "text": "Node",
-              "link": "/WebAPI/EventTarget/2.Node"
-            },
-            {
-              "text": "Window",
-              "link": "/WebAPI/EventTarget/3.Window"
-            },
-            {
-              "text": "Element",
-              "link": "/WebAPI/EventTarget/4.Element"
-            },
-            {
-              "text": "Document",
-              "link": "/WebAPI/EventTarget/5.Document"
-            },
-            {
-              "text": "HTMLElement",
-              "link": "/WebAPI/EventTarget/6.HTMLElement"
-            }
-          ]
-        },
-        {
-          "text": "CSSStyleDeclaration",
-          "link": "/WebAPI/CSSStyleDeclaration"
-        },
-        {
-          "text": "History",
-          "link": "/WebAPI/History"
-        },
-        {
-          "text": "Location",
-          "link": "/WebAPI/Location"
-        },
-        {
-          "text": "URLSearchParams",
-          "link": "/WebAPI/URLSearchParams"
-        }
-      ]
-    }
-  ],
-  "/Web/": [
-    {
-      "text": "Web",
-      "items": [
-        {
-          "text": "安全",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "对称加密",
-              "link": "/Web/安全/对称加密"
-            },
-            {
-              "text": "非对称加密",
-              "link": "/Web/安全/非对称加密"
-            },
-            {
-              "text": "哈希函数",
-              "link": "/Web/安全/哈希函数"
-            },
-            {
-              "text": "Cookie",
-              "link": "/Web/安全/Cookie"
-            },
-            {
-              "text": "HTTPS",
-              "link": "/Web/安全/HTTPS"
-            },
-            {
-              "text": "JWT",
-              "link": "/Web/安全/JWT"
-            },
-            {
-              "text": "Session",
-              "link": "/Web/安全/Session"
-            }
-          ]
-        },
-        {
-          "text": "请求与响应",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "防盗链",
-              "link": "/Web/请求与响应/防盗链"
-            },
-            {
-              "text": "预检",
-              "link": "/Web/请求与响应/预检"
-            },
-            {
-              "text": "自定义响应头",
-              "link": "/Web/请求与响应/自定义响应头"
-            },
-            {
-              "text": "Cache-Control",
-              "link": "/Web/请求与响应/Cache-Control"
-            },
-            {
-              "text": "CORS",
-              "link": "/Web/请求与响应/CORS"
-            }
-          ]
-        },
-        {
-          "text": "短链接",
-          "link": "/Web/短链接"
-        },
-        {
-          "text": "favicons",
-          "link": "/Web/favicons"
-        },
-        {
-          "text": "HTTP2",
-          "link": "/Web/HTTP2"
-        },
-        {
-          "text": "SCL",
-          "link": "/Web/SCL"
-        },
-        {
-          "text": "SSE",
-          "link": "/Web/SSE"
-        },
-        {
-          "text": "SSO",
-          "link": "/Web/SSO"
+          "text": "idea",
+          "link": "/JAVA/idea"
         }
       ]
     }
@@ -1583,6 +956,87 @@ export default {
       ]
     }
   ],
+  "/Linux/": [
+    {
+      "text": "Linux",
+      "items": [
+        {
+          "text": "权限",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "权限控制",
+              "link": "/Linux/权限/权限控制"
+            },
+            {
+              "text": "用户与用户组",
+              "link": "/Linux/权限/用户与用户组"
+            },
+            {
+              "text": "root",
+              "link": "/Linux/权限/root"
+            }
+          ]
+        },
+        {
+          "text": "应用管理",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "包管理",
+              "link": "/Linux/应用管理/包管理"
+            },
+            {
+              "text": "快捷键",
+              "link": "/Linux/应用管理/快捷键"
+            },
+            {
+              "text": "应用",
+              "link": "/Linux/应用管理/应用"
+            }
+          ]
+        },
+        {
+          "text": "变量",
+          "link": "/Linux/变量"
+        },
+        {
+          "text": "进程",
+          "link": "/Linux/进程"
+        },
+        {
+          "text": "命令",
+          "link": "/Linux/命令"
+        },
+        {
+          "text": "文件命令",
+          "link": "/Linux/文件命令"
+        },
+        {
+          "text": "curl",
+          "link": "/Linux/curl"
+        },
+        {
+          "text": "shell",
+          "link": "/Linux/shell"
+        },
+        {
+          "text": "shell脚本",
+          "link": "/Linux/shell脚本"
+        },
+        {
+          "text": "vim",
+          "link": "/Linux/vim"
+        },
+        {
+          "text": "zsh",
+          "link": "/Linux/zsh"
+        }
+      ]
+    }
+  ],
   "/nuxt/": [
     {
       "text": "nuxt",
@@ -1618,6 +1072,236 @@ export default {
         {
           "text": "SEO与元数据",
           "link": "/nuxt/SEO与元数据"
+        }
+      ]
+    }
+  ],
+  "/Node/": [
+    {
+      "text": "Node",
+      "items": [
+        {
+          "text": "包管理",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "npm",
+              "link": "/Node/包管理/npm"
+            },
+            {
+              "text": "nvm",
+              "link": "/Node/包管理/nvm"
+            },
+            {
+              "text": "pnpm",
+              "link": "/Node/包管理/pnpm"
+            },
+            {
+              "text": "yarn",
+              "link": "/Node/包管理/yarn"
+            }
+          ]
+        },
+        {
+          "text": "架构",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "定时任务",
+              "link": "/Node/架构/定时任务"
+            },
+            {
+              "text": "控制反转",
+              "link": "/Node/架构/控制反转"
+            },
+            {
+              "text": "云函数",
+              "link": "/Node/架构/云函数"
+            },
+            {
+              "text": "inversify-express-utils",
+              "link": "/Node/架构/inversify-express-utils"
+            },
+            {
+              "text": "inversify",
+              "link": "/Node/架构/inversify"
+            }
+          ]
+        },
+        {
+          "text": "模块化",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "CommonJS",
+              "link": "/Node/模块化/CommonJS"
+            }
+          ]
+        },
+        {
+          "text": "全局API",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "全局变量",
+              "link": "/Node/全局API/全局变量"
+            },
+            {
+              "text": "process",
+              "link": "/Node/全局API/process"
+            }
+          ]
+        },
+        {
+          "text": "文件系统",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "fs",
+              "link": "/Node/文件系统/fs"
+            },
+            {
+              "text": "link",
+              "link": "/Node/文件系统/link"
+            },
+            {
+              "text": "path",
+              "link": "/Node/文件系统/path"
+            },
+            {
+              "text": "stream",
+              "link": "/Node/文件系统/stream"
+            },
+            {
+              "text": "zlib",
+              "link": "/Node/文件系统/zlib"
+            }
+          ]
+        },
+        {
+          "text": "express",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "基本用法",
+              "link": "/Node/express/基本用法"
+            },
+            {
+              "text": "静态资源服务",
+              "link": "/Node/express/静态资源服务"
+            },
+            {
+              "text": "路由",
+              "link": "/Node/express/路由"
+            },
+            {
+              "text": "中间件",
+              "link": "/Node/express/中间件"
+            }
+          ]
+        },
+        {
+          "text": "http",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "动静分离",
+              "link": "/Node/http/动静分离"
+            },
+            {
+              "text": "反向代理",
+              "link": "/Node/http/反向代理"
+            },
+            {
+              "text": "邮件服务",
+              "link": "/Node/http/邮件服务"
+            },
+            {
+              "text": "url",
+              "link": "/Node/http/url"
+            },
+            {
+              "text": "web服务器",
+              "link": "/Node/http/web服务器"
+            }
+          ]
+        },
+        {
+          "text": "package",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "版本号",
+              "link": "/Node/package/版本号"
+            },
+            {
+              "text": "配置项",
+              "link": "/Node/package/配置项"
+            },
+            {
+              "text": "type",
+              "link": "/Node/package/type"
+            }
+          ]
+        },
+        {
+          "text": "Prisma",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "基本使用",
+              "link": "/Node/Prisma/基本使用"
+            }
+          ]
+        },
+        {
+          "text": "创建Node项目",
+          "link": "/Node/创建Node项目"
+        },
+        {
+          "text": "环境配置",
+          "link": "/Node/环境配置"
+        },
+        {
+          "text": "脚手架",
+          "link": "/Node/脚手架"
+        },
+        {
+          "text": "Buffer",
+          "link": "/Node/Buffer"
+        },
+        {
+          "text": "child_process",
+          "link": "/Node/child_process"
+        },
+        {
+          "text": "crypto",
+          "link": "/Node/crypto"
+        },
+        {
+          "text": "EventEmitter",
+          "link": "/Node/EventEmitter"
+        },
+        {
+          "text": "os",
+          "link": "/Node/os"
+        },
+        {
+          "text": "SSR渲染",
+          "link": "/Node/SSR渲染"
+        },
+        {
+          "text": "util",
+          "link": "/Node/util"
         }
       ]
     }
@@ -1711,6 +1395,356 @@ export default {
         {
           "text": "unplugin-vue-components",
           "link": "/package/unplugin-vue-components"
+        }
+      ]
+    }
+  ],
+  "/TypeScript/": [
+    {
+      "text": "TypeScript",
+      "items": [
+        {
+          "text": "泛型",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "泛型",
+              "link": "/TypeScript/泛型/泛型"
+            },
+            {
+              "text": "泛型工具",
+              "link": "/TypeScript/泛型/泛型工具"
+            },
+            {
+              "text": "条件类型",
+              "link": "/TypeScript/泛型/条件类型"
+            },
+            {
+              "text": "映射类型",
+              "link": "/TypeScript/泛型/映射类型"
+            }
+          ]
+        },
+        {
+          "text": "基本数据类型",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "对象类型",
+              "link": "/TypeScript/基本数据类型/对象类型"
+            },
+            {
+              "text": "函数类型",
+              "link": "/TypeScript/基本数据类型/函数类型"
+            },
+            {
+              "text": "枚举类型",
+              "link": "/TypeScript/基本数据类型/枚举类型"
+            },
+            {
+              "text": "原始类型",
+              "link": "/TypeScript/基本数据类型/原始类型"
+            },
+            {
+              "text": "组合类型",
+              "link": "/TypeScript/基本数据类型/组合类型"
+            }
+          ]
+        },
+        {
+          "text": "接口",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "索引访问类型",
+              "link": "/TypeScript/接口/索引访问类型"
+            },
+            {
+              "text": "索引签名",
+              "link": "/TypeScript/接口/索引签名"
+            }
+          ]
+        },
+        {
+          "text": "类型运算",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "类型体操",
+              "link": "/TypeScript/类型运算/类型体操"
+            },
+            {
+              "text": "类型运算符",
+              "link": "/TypeScript/类型运算/类型运算符"
+            },
+            {
+              "text": "协变与逆变",
+              "link": "/TypeScript/类型运算/协变与逆变"
+            },
+            {
+              "text": "infer关键字",
+              "link": "/TypeScript/类型运算/infer关键字"
+            }
+          ]
+        },
+        {
+          "text": "特殊数据类型",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "特殊类型",
+              "link": "/TypeScript/特殊数据类型/特殊类型"
+            }
+          ]
+        },
+        {
+          "text": "创建TS项目",
+          "link": "/TypeScript/创建TS项目"
+        },
+        {
+          "text": "断言",
+          "link": "/TypeScript/断言"
+        },
+        {
+          "text": "类型守卫",
+          "link": "/TypeScript/类型守卫"
+        },
+        {
+          "text": "声明文件",
+          "link": "/TypeScript/声明文件"
+        },
+        {
+          "text": "tsconfig",
+          "link": "/TypeScript/tsconfig"
+        }
+      ]
+    }
+  ],
+  "/Web/": [
+    {
+      "text": "Web",
+      "items": [
+        {
+          "text": "安全",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "对称加密",
+              "link": "/Web/安全/对称加密"
+            },
+            {
+              "text": "非对称加密",
+              "link": "/Web/安全/非对称加密"
+            },
+            {
+              "text": "哈希函数",
+              "link": "/Web/安全/哈希函数"
+            },
+            {
+              "text": "Cookie",
+              "link": "/Web/安全/Cookie"
+            },
+            {
+              "text": "HTTPS",
+              "link": "/Web/安全/HTTPS"
+            },
+            {
+              "text": "JWT",
+              "link": "/Web/安全/JWT"
+            },
+            {
+              "text": "Session",
+              "link": "/Web/安全/Session"
+            }
+          ]
+        },
+        {
+          "text": "请求与响应",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "防盗链",
+              "link": "/Web/请求与响应/防盗链"
+            },
+            {
+              "text": "预检",
+              "link": "/Web/请求与响应/预检"
+            },
+            {
+              "text": "自定义响应头",
+              "link": "/Web/请求与响应/自定义响应头"
+            },
+            {
+              "text": "Cache-Control",
+              "link": "/Web/请求与响应/Cache-Control"
+            },
+            {
+              "text": "CORS",
+              "link": "/Web/请求与响应/CORS"
+            }
+          ]
+        },
+        {
+          "text": "短链接",
+          "link": "/Web/短链接"
+        },
+        {
+          "text": "favicons",
+          "link": "/Web/favicons"
+        },
+        {
+          "text": "HTTP2",
+          "link": "/Web/HTTP2"
+        },
+        {
+          "text": "SCL",
+          "link": "/Web/SCL"
+        },
+        {
+          "text": "SSE",
+          "link": "/Web/SSE"
+        },
+        {
+          "text": "SSO",
+          "link": "/Web/SSO"
+        }
+      ]
+    }
+  ],
+  "/WebAPI/": [
+    {
+      "text": "WebAPI",
+      "items": [
+        {
+          "text": "DOM",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "操作DOM表单",
+              "link": "/WebAPI/DOM/操作DOM表单"
+            },
+            {
+              "text": "函数防抖",
+              "link": "/WebAPI/DOM/函数防抖"
+            },
+            {
+              "text": "获取DOM",
+              "link": "/WebAPI/DOM/获取DOM"
+            },
+            {
+              "text": "监听DOM事件",
+              "link": "/WebAPI/DOM/监听DOM事件"
+            },
+            {
+              "text": "事件默认行为",
+              "link": "/WebAPI/DOM/事件默认行为"
+            },
+            {
+              "text": "Console",
+              "link": "/WebAPI/DOM/Console"
+            },
+            {
+              "text": "DOM树",
+              "link": "/WebAPI/DOM/DOM树"
+            }
+          ]
+        },
+        {
+          "text": "Event",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "UIEvent",
+              "collapsible": true,
+              "collapsed": false,
+              "items": [
+                {
+                  "text": "FocusEvent",
+                  "link": "/WebAPI/Event/UIEvent/FocusEvent"
+                },
+                {
+                  "text": "InputEvent",
+                  "link": "/WebAPI/Event/UIEvent/InputEvent"
+                },
+                {
+                  "text": "MouseEvent",
+                  "link": "/WebAPI/Event/UIEvent/MouseEvent"
+                },
+                {
+                  "text": "SubmitEvent",
+                  "link": "/WebAPI/Event/UIEvent/SubmitEvent"
+                },
+                {
+                  "text": "UIEvent",
+                  "link": "/WebAPI/Event/UIEvent/UIEvent"
+                }
+              ]
+            },
+            {
+              "text": "Event",
+              "link": "/WebAPI/Event/Event"
+            },
+            {
+              "text": "KeyboardEvent",
+              "link": "/WebAPI/Event/KeyboardEvent"
+            }
+          ]
+        },
+        {
+          "text": "EventTarget",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "EventTarget",
+              "link": "/WebAPI/EventTarget/1.EventTarget"
+            },
+            {
+              "text": "Node",
+              "link": "/WebAPI/EventTarget/2.Node"
+            },
+            {
+              "text": "Window",
+              "link": "/WebAPI/EventTarget/3.Window"
+            },
+            {
+              "text": "Element",
+              "link": "/WebAPI/EventTarget/4.Element"
+            },
+            {
+              "text": "Document",
+              "link": "/WebAPI/EventTarget/5.Document"
+            },
+            {
+              "text": "HTMLElement",
+              "link": "/WebAPI/EventTarget/6.HTMLElement"
+            }
+          ]
+        },
+        {
+          "text": "CSSStyleDeclaration",
+          "link": "/WebAPI/CSSStyleDeclaration"
+        },
+        {
+          "text": "History",
+          "link": "/WebAPI/History"
+        },
+        {
+          "text": "Location",
+          "link": "/WebAPI/Location"
+        },
+        {
+          "text": "URLSearchParams",
+          "link": "/WebAPI/URLSearchParams"
         }
       ]
     }
