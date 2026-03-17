@@ -611,16 +611,20 @@ export default {
           "collapsed": false,
           "items": [
             {
-              "text": "可变长度参数",
-              "link": "/JAVA/数组/可变长度参数"
-            },
-            {
               "text": "数组概述",
-              "link": "/JAVA/数组/数组概述"
+              "link": "/JAVA/数组/1.数组概述"
             },
             {
               "text": "一维数组",
-              "link": "/JAVA/数组/一维数组"
+              "link": "/JAVA/数组/2.一维数组"
+            },
+            {
+              "text": "增强for",
+              "link": "/JAVA/数组/3.增强for"
+            },
+            {
+              "text": "可变长度参数",
+              "link": "/JAVA/数组/可变长度参数"
             },
             {
               "text": "Arrays",
@@ -639,6 +643,10 @@ export default {
         {
           "text": "访问权限修饰符",
           "link": "/JAVA/访问权限修饰符"
+        },
+        {
+          "text": "数据类型",
+          "link": "/JAVA/数据类型"
         },
         {
           "text": "注解",
