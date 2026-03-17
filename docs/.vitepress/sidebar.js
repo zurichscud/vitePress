@@ -1,5 +1,309 @@
 // 自动生成，请勿修改
 export default {
+  "/JAVA/": [
+    {
+      "text": "JAVA",
+      "items": [
+        {
+          "text": "面向对象",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "static关键字",
+              "link": "/JAVA/面向对象/1.static关键字"
+            },
+            {
+              "text": "构造方法",
+              "link": "/JAVA/面向对象/2.构造方法"
+            },
+            {
+              "text": "方法重载",
+              "link": "/JAVA/面向对象/3.方法重载"
+            },
+            {
+              "text": "继承",
+              "link": "/JAVA/面向对象/4.继承"
+            },
+            {
+              "text": "多态",
+              "link": "/JAVA/面向对象/5.多态"
+            },
+            {
+              "text": "抽象类",
+              "link": "/JAVA/面向对象/6.抽象类"
+            },
+            {
+              "text": "super关键字",
+              "link": "/JAVA/面向对象/7.super关键字"
+            },
+            {
+              "text": "final关键字",
+              "link": "/JAVA/面向对象/8.final关键字"
+            },
+            {
+              "text": "接口",
+              "link": "/JAVA/面向对象/9.接口"
+            },
+            {
+              "text": "Object类",
+              "link": "/JAVA/面向对象/10.Object类"
+            },
+            {
+              "text": "内部类",
+              "link": "/JAVA/面向对象/11.内部类"
+            },
+            {
+              "text": "常量类",
+              "link": "/JAVA/面向对象/常量类"
+            }
+          ]
+        },
+        {
+          "text": "企业规范",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "数据封装",
+              "link": "/JAVA/企业规范/数据封装"
+            }
+          ]
+        },
+        {
+          "text": "入门",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "JVM内存分析",
+              "link": "/JAVA/入门/JVM内存分析"
+            },
+            {
+              "text": "this",
+              "link": "/JAVA/入门/this"
+            }
+          ]
+        },
+        {
+          "text": "数组",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "数组概述",
+              "link": "/JAVA/数组/1.数组概述"
+            },
+            {
+              "text": "一维数组",
+              "link": "/JAVA/数组/2.一维数组"
+            },
+            {
+              "text": "增强for",
+              "link": "/JAVA/数组/3.增强for"
+            },
+            {
+              "text": "可变长度参数",
+              "link": "/JAVA/数组/可变长度参数"
+            },
+            {
+              "text": "Arrays",
+              "link": "/JAVA/数组/Arrays"
+            }
+          ]
+        },
+        {
+          "text": "JAVA运行",
+          "link": "/JAVA/1.JAVA运行"
+        },
+        {
+          "text": "包机制",
+          "link": "/JAVA/包机制"
+        },
+        {
+          "text": "访问权限修饰符",
+          "link": "/JAVA/访问权限修饰符"
+        },
+        {
+          "text": "数据类型",
+          "link": "/JAVA/数据类型"
+        },
+        {
+          "text": "注解",
+          "link": "/JAVA/注解"
+        },
+        {
+          "text": "idea",
+          "link": "/JAVA/idea"
+        }
+      ]
+    }
+  ],
+  "/HTML/": [
+    {
+      "text": "HTML",
+      "items": [
+        {
+          "text": "表单",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "button",
+              "link": "/HTML/表单/button"
+            },
+            {
+              "text": "check",
+              "link": "/HTML/表单/check"
+            },
+            {
+              "text": "form",
+              "link": "/HTML/表单/form"
+            },
+            {
+              "text": "input",
+              "link": "/HTML/表单/input"
+            },
+            {
+              "text": "label",
+              "link": "/HTML/表单/label"
+            },
+            {
+              "text": "select",
+              "link": "/HTML/表单/select"
+            },
+            {
+              "text": "textarea",
+              "link": "/HTML/表单/textarea"
+            }
+          ]
+        },
+        {
+          "text": "超链接",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "唤起应用",
+              "link": "/HTML/超链接/唤起应用"
+            },
+            {
+              "text": "链接",
+              "link": "/HTML/超链接/链接"
+            },
+            {
+              "text": "锚点",
+              "link": "/HTML/超链接/锚点"
+            }
+          ]
+        },
+        {
+          "text": "可替换元素",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "可替换元素",
+              "link": "/HTML/可替换元素/可替换元素"
+            },
+            {
+              "text": "iframe",
+              "link": "/HTML/可替换元素/iframe"
+            },
+            {
+              "text": "img",
+              "link": "/HTML/可替换元素/img"
+            }
+          ]
+        },
+        {
+          "text": "列表",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "列表",
+              "link": "/HTML/列表/列表"
+            },
+            {
+              "text": "列表样式",
+              "link": "/HTML/列表/列表样式"
+            }
+          ]
+        },
+        {
+          "text": "属性",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "布尔属性",
+              "link": "/HTML/属性/1-布尔属性"
+            },
+            {
+              "text": "自定义属性",
+              "link": "/HTML/属性/2-自定义属性"
+            },
+            {
+              "text": "表现型属性",
+              "link": "/HTML/属性/表现型属性"
+            },
+            {
+              "text": "全局属性",
+              "link": "/HTML/属性/全局属性"
+            }
+          ]
+        },
+        {
+          "text": "元数据",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "标准元数据名称",
+              "link": "/HTML/元数据/标准元数据名称"
+            },
+            {
+              "text": "meta标签",
+              "link": "/HTML/元数据/meta标签"
+            }
+          ]
+        },
+        {
+          "text": "表格",
+          "link": "/HTML/表格"
+        },
+        {
+          "text": "调试工具",
+          "link": "/HTML/调试工具"
+        },
+        {
+          "text": "浏览器渲染流程",
+          "link": "/HTML/浏览器渲染流程"
+        },
+        {
+          "text": "路径",
+          "link": "/HTML/路径"
+        },
+        {
+          "text": "图片格式",
+          "link": "/HTML/图片格式"
+        },
+        {
+          "text": "HTML元素间的关系",
+          "link": "/HTML/HTML元素间的关系"
+        },
+        {
+          "text": "HTML字符实体",
+          "link": "/HTML/HTML字符实体"
+        },
+        {
+          "text": "SVG",
+          "link": "/HTML/SVG"
+        }
+      ]
+    }
+  ],
   "/CSS/": [
     {
       "text": "CSS",
@@ -362,551 +666,6 @@ export default {
         {
           "text": "table-layout",
           "link": "/CSS/table-layout"
-        }
-      ]
-    }
-  ],
-  "/HTML/": [
-    {
-      "text": "HTML",
-      "items": [
-        {
-          "text": "表单",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "button",
-              "link": "/HTML/表单/button"
-            },
-            {
-              "text": "check",
-              "link": "/HTML/表单/check"
-            },
-            {
-              "text": "form",
-              "link": "/HTML/表单/form"
-            },
-            {
-              "text": "input",
-              "link": "/HTML/表单/input"
-            },
-            {
-              "text": "label",
-              "link": "/HTML/表单/label"
-            },
-            {
-              "text": "select",
-              "link": "/HTML/表单/select"
-            },
-            {
-              "text": "textarea",
-              "link": "/HTML/表单/textarea"
-            }
-          ]
-        },
-        {
-          "text": "超链接",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "唤起应用",
-              "link": "/HTML/超链接/唤起应用"
-            },
-            {
-              "text": "链接",
-              "link": "/HTML/超链接/链接"
-            },
-            {
-              "text": "锚点",
-              "link": "/HTML/超链接/锚点"
-            }
-          ]
-        },
-        {
-          "text": "可替换元素",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "可替换元素",
-              "link": "/HTML/可替换元素/可替换元素"
-            },
-            {
-              "text": "iframe",
-              "link": "/HTML/可替换元素/iframe"
-            },
-            {
-              "text": "img",
-              "link": "/HTML/可替换元素/img"
-            }
-          ]
-        },
-        {
-          "text": "列表",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "列表",
-              "link": "/HTML/列表/列表"
-            },
-            {
-              "text": "列表样式",
-              "link": "/HTML/列表/列表样式"
-            }
-          ]
-        },
-        {
-          "text": "属性",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "布尔属性",
-              "link": "/HTML/属性/1-布尔属性"
-            },
-            {
-              "text": "自定义属性",
-              "link": "/HTML/属性/2-自定义属性"
-            },
-            {
-              "text": "表现型属性",
-              "link": "/HTML/属性/表现型属性"
-            },
-            {
-              "text": "全局属性",
-              "link": "/HTML/属性/全局属性"
-            }
-          ]
-        },
-        {
-          "text": "元数据",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "标准元数据名称",
-              "link": "/HTML/元数据/标准元数据名称"
-            },
-            {
-              "text": "meta标签",
-              "link": "/HTML/元数据/meta标签"
-            }
-          ]
-        },
-        {
-          "text": "表格",
-          "link": "/HTML/表格"
-        },
-        {
-          "text": "调试工具",
-          "link": "/HTML/调试工具"
-        },
-        {
-          "text": "浏览器渲染流程",
-          "link": "/HTML/浏览器渲染流程"
-        },
-        {
-          "text": "路径",
-          "link": "/HTML/路径"
-        },
-        {
-          "text": "图片格式",
-          "link": "/HTML/图片格式"
-        },
-        {
-          "text": "HTML元素间的关系",
-          "link": "/HTML/HTML元素间的关系"
-        },
-        {
-          "text": "HTML字符实体",
-          "link": "/HTML/HTML字符实体"
-        },
-        {
-          "text": "SVG",
-          "link": "/HTML/SVG"
-        }
-      ]
-    }
-  ],
-  "/JAVA/": [
-    {
-      "text": "JAVA",
-      "items": [
-        {
-          "text": "面向对象",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "static关键字",
-              "link": "/JAVA/面向对象/1.static关键字"
-            },
-            {
-              "text": "构造方法",
-              "link": "/JAVA/面向对象/2.构造方法"
-            },
-            {
-              "text": "方法重载",
-              "link": "/JAVA/面向对象/3.方法重载"
-            },
-            {
-              "text": "继承",
-              "link": "/JAVA/面向对象/4.继承"
-            },
-            {
-              "text": "多态",
-              "link": "/JAVA/面向对象/5.多态"
-            },
-            {
-              "text": "抽象类",
-              "link": "/JAVA/面向对象/6.抽象类"
-            },
-            {
-              "text": "super关键字",
-              "link": "/JAVA/面向对象/7.super关键字"
-            },
-            {
-              "text": "final关键字",
-              "link": "/JAVA/面向对象/8.final关键字"
-            },
-            {
-              "text": "接口",
-              "link": "/JAVA/面向对象/9.接口"
-            },
-            {
-              "text": "Object类",
-              "link": "/JAVA/面向对象/10.Object类"
-            },
-            {
-              "text": "内部类",
-              "link": "/JAVA/面向对象/11.内部类"
-            },
-            {
-              "text": "常量类",
-              "link": "/JAVA/面向对象/常量类"
-            }
-          ]
-        },
-        {
-          "text": "入门",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "JVM内存分析",
-              "link": "/JAVA/入门/JVM内存分析"
-            },
-            {
-              "text": "this",
-              "link": "/JAVA/入门/this"
-            }
-          ]
-        },
-        {
-          "text": "数组",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "数组概述",
-              "link": "/JAVA/数组/1.数组概述"
-            },
-            {
-              "text": "一维数组",
-              "link": "/JAVA/数组/2.一维数组"
-            },
-            {
-              "text": "增强for",
-              "link": "/JAVA/数组/3.增强for"
-            },
-            {
-              "text": "可变长度参数",
-              "link": "/JAVA/数组/可变长度参数"
-            },
-            {
-              "text": "Arrays",
-              "link": "/JAVA/数组/Arrays"
-            }
-          ]
-        },
-        {
-          "text": "JAVA运行",
-          "link": "/JAVA/1.JAVA运行"
-        },
-        {
-          "text": "包机制",
-          "link": "/JAVA/包机制"
-        },
-        {
-          "text": "访问权限修饰符",
-          "link": "/JAVA/访问权限修饰符"
-        },
-        {
-          "text": "数据类型",
-          "link": "/JAVA/数据类型"
-        },
-        {
-          "text": "注解",
-          "link": "/JAVA/注解"
-        },
-        {
-          "text": "idea",
-          "link": "/JAVA/idea"
-        }
-      ]
-    }
-  ],
-  "/JavaScript/": [
-    {
-      "text": "JavaScript",
-      "items": [
-        {
-          "text": "迭代",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "for...in",
-              "link": "/JavaScript/迭代/for...in"
-            },
-            {
-              "text": "for...of",
-              "link": "/JavaScript/迭代/for...of"
-            }
-          ]
-        },
-        {
-          "text": "上传与下载",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "Blob",
-              "link": "/JavaScript/上传与下载/1-Blob"
-            },
-            {
-              "text": "File",
-              "link": "/JavaScript/上传与下载/2-File"
-            },
-            {
-              "text": "FileReader",
-              "link": "/JavaScript/上传与下载/3-FileReader"
-            },
-            {
-              "text": "FormData",
-              "link": "/JavaScript/上传与下载/4-FormData"
-            },
-            {
-              "text": "URL",
-              "link": "/JavaScript/上传与下载/5-URL"
-            },
-            {
-              "text": "上传",
-              "link": "/JavaScript/上传与下载/6-上传"
-            },
-            {
-              "text": "下载",
-              "link": "/JavaScript/上传与下载/7-下载"
-            },
-            {
-              "text": "预览",
-              "link": "/JavaScript/上传与下载/8-预览"
-            },
-            {
-              "text": "上传时序问题",
-              "link": "/JavaScript/上传与下载/9-上传时序问题"
-            },
-            {
-              "text": "上传进度",
-              "link": "/JavaScript/上传与下载/10-上传进度"
-            },
-            {
-              "text": "XMLHttpRequest",
-              "link": "/JavaScript/上传与下载/11-XMLHttpRequest"
-            },
-            {
-              "text": "XMLHttpRequestUpload",
-              "link": "/JavaScript/上传与下载/12-XMLHttpRequestUpload"
-            },
-            {
-              "text": "ProgressEvent",
-              "link": "/JavaScript/上传与下载/13-ProgressEvent"
-            }
-          ]
-        },
-        {
-          "text": "数字",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "数字分隔符",
-              "link": "/JavaScript/数字/数字分隔符"
-            }
-          ]
-        },
-        {
-          "text": "数组",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "查找",
-              "link": "/JavaScript/数组/查找"
-            },
-            {
-              "text": "解构与展开",
-              "link": "/JavaScript/数组/解构与展开"
-            },
-            {
-              "text": "清空数组",
-              "link": "/JavaScript/数组/清空数组"
-            },
-            {
-              "text": "稀疏数组",
-              "link": "/JavaScript/数组/稀疏数组"
-            },
-            {
-              "text": "Array",
-              "link": "/JavaScript/数组/Array"
-            },
-            {
-              "text": "ArrayLike",
-              "link": "/JavaScript/数组/ArrayLike"
-            },
-            {
-              "text": "at",
-              "link": "/JavaScript/数组/at"
-            },
-            {
-              "text": "concat",
-              "link": "/JavaScript/数组/concat"
-            },
-            {
-              "text": "copyWithin",
-              "link": "/JavaScript/数组/copyWithin"
-            },
-            {
-              "text": "every",
-              "link": "/JavaScript/数组/every"
-            },
-            {
-              "text": "filter",
-              "link": "/JavaScript/数组/filter"
-            },
-            {
-              "text": "find",
-              "link": "/JavaScript/数组/find"
-            },
-            {
-              "text": "findIndex",
-              "link": "/JavaScript/数组/findIndex"
-            },
-            {
-              "text": "forEach",
-              "link": "/JavaScript/数组/forEach"
-            },
-            {
-              "text": "includes",
-              "link": "/JavaScript/数组/includes"
-            },
-            {
-              "text": "indexOf",
-              "link": "/JavaScript/数组/indexOf"
-            },
-            {
-              "text": "join",
-              "link": "/JavaScript/数组/join"
-            },
-            {
-              "text": "map",
-              "link": "/JavaScript/数组/map"
-            },
-            {
-              "text": "slice",
-              "link": "/JavaScript/数组/slice"
-            },
-            {
-              "text": "some",
-              "link": "/JavaScript/数组/some"
-            },
-            {
-              "text": "sort",
-              "link": "/JavaScript/数组/sort"
-            },
-            {
-              "text": "splice",
-              "link": "/JavaScript/数组/splice"
-            },
-            {
-              "text": "with",
-              "link": "/JavaScript/数组/with"
-            }
-          ]
-        },
-        {
-          "text": "原生JS",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "Array",
-              "link": "/JavaScript/原生JS/Array"
-            },
-            {
-              "text": "import",
-              "link": "/JavaScript/原生JS/import"
-            },
-            {
-              "text": "Math",
-              "link": "/JavaScript/原生JS/Math"
-            },
-            {
-              "text": "Object",
-              "link": "/JavaScript/原生JS/Object"
-            }
-          ]
-        },
-        {
-          "text": "字符串",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "replace",
-              "link": "/JavaScript/字符串/replace"
-            }
-          ]
-        },
-        {
-          "text": "WebAPI",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "BOM",
-              "link": "/JavaScript/WebAPI/BOM"
-            }
-          ]
-        },
-        {
-          "text": "异常",
-          "link": "/JavaScript/异常"
-        },
-        {
-          "text": "正则",
-          "link": "/JavaScript/正则"
-        },
-        {
-          "text": "Promise",
-          "link": "/JavaScript/Promise"
-        },
-        {
-          "text": "RegExp",
-          "link": "/JavaScript/RegExp"
         }
       ]
     }
@@ -1348,99 +1107,6 @@ export default {
       ]
     }
   ],
-  "/Web/": [
-    {
-      "text": "Web",
-      "items": [
-        {
-          "text": "安全",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "对称加密",
-              "link": "/Web/安全/对称加密"
-            },
-            {
-              "text": "非对称加密",
-              "link": "/Web/安全/非对称加密"
-            },
-            {
-              "text": "哈希函数",
-              "link": "/Web/安全/哈希函数"
-            },
-            {
-              "text": "Cookie",
-              "link": "/Web/安全/Cookie"
-            },
-            {
-              "text": "HTTPS",
-              "link": "/Web/安全/HTTPS"
-            },
-            {
-              "text": "JWT",
-              "link": "/Web/安全/JWT"
-            },
-            {
-              "text": "Session",
-              "link": "/Web/安全/Session"
-            }
-          ]
-        },
-        {
-          "text": "请求与响应",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "防盗链",
-              "link": "/Web/请求与响应/防盗链"
-            },
-            {
-              "text": "预检",
-              "link": "/Web/请求与响应/预检"
-            },
-            {
-              "text": "自定义响应头",
-              "link": "/Web/请求与响应/自定义响应头"
-            },
-            {
-              "text": "Cache-Control",
-              "link": "/Web/请求与响应/Cache-Control"
-            },
-            {
-              "text": "CORS",
-              "link": "/Web/请求与响应/CORS"
-            }
-          ]
-        },
-        {
-          "text": "短链接",
-          "link": "/Web/短链接"
-        },
-        {
-          "text": "favicons",
-          "link": "/Web/favicons"
-        },
-        {
-          "text": "HTTP2",
-          "link": "/Web/HTTP2"
-        },
-        {
-          "text": "SCL",
-          "link": "/Web/SCL"
-        },
-        {
-          "text": "SSE",
-          "link": "/Web/SSE"
-        },
-        {
-          "text": "SSO",
-          "link": "/Web/SSO"
-        }
-      ]
-    }
-  ],
   "/WebAPI/": [
     {
       "text": "WebAPI",
@@ -1568,6 +1234,351 @@ export default {
         {
           "text": "URLSearchParams",
           "link": "/WebAPI/URLSearchParams"
+        }
+      ]
+    }
+  ],
+  "/Web/": [
+    {
+      "text": "Web",
+      "items": [
+        {
+          "text": "安全",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "对称加密",
+              "link": "/Web/安全/对称加密"
+            },
+            {
+              "text": "非对称加密",
+              "link": "/Web/安全/非对称加密"
+            },
+            {
+              "text": "哈希函数",
+              "link": "/Web/安全/哈希函数"
+            },
+            {
+              "text": "Cookie",
+              "link": "/Web/安全/Cookie"
+            },
+            {
+              "text": "HTTPS",
+              "link": "/Web/安全/HTTPS"
+            },
+            {
+              "text": "JWT",
+              "link": "/Web/安全/JWT"
+            },
+            {
+              "text": "Session",
+              "link": "/Web/安全/Session"
+            }
+          ]
+        },
+        {
+          "text": "请求与响应",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "防盗链",
+              "link": "/Web/请求与响应/防盗链"
+            },
+            {
+              "text": "预检",
+              "link": "/Web/请求与响应/预检"
+            },
+            {
+              "text": "自定义响应头",
+              "link": "/Web/请求与响应/自定义响应头"
+            },
+            {
+              "text": "Cache-Control",
+              "link": "/Web/请求与响应/Cache-Control"
+            },
+            {
+              "text": "CORS",
+              "link": "/Web/请求与响应/CORS"
+            }
+          ]
+        },
+        {
+          "text": "短链接",
+          "link": "/Web/短链接"
+        },
+        {
+          "text": "favicons",
+          "link": "/Web/favicons"
+        },
+        {
+          "text": "HTTP2",
+          "link": "/Web/HTTP2"
+        },
+        {
+          "text": "SCL",
+          "link": "/Web/SCL"
+        },
+        {
+          "text": "SSE",
+          "link": "/Web/SSE"
+        },
+        {
+          "text": "SSO",
+          "link": "/Web/SSO"
+        }
+      ]
+    }
+  ],
+  "/JavaScript/": [
+    {
+      "text": "JavaScript",
+      "items": [
+        {
+          "text": "迭代",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "for...in",
+              "link": "/JavaScript/迭代/for...in"
+            },
+            {
+              "text": "for...of",
+              "link": "/JavaScript/迭代/for...of"
+            }
+          ]
+        },
+        {
+          "text": "上传与下载",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "Blob",
+              "link": "/JavaScript/上传与下载/1-Blob"
+            },
+            {
+              "text": "File",
+              "link": "/JavaScript/上传与下载/2-File"
+            },
+            {
+              "text": "FileReader",
+              "link": "/JavaScript/上传与下载/3-FileReader"
+            },
+            {
+              "text": "FormData",
+              "link": "/JavaScript/上传与下载/4-FormData"
+            },
+            {
+              "text": "URL",
+              "link": "/JavaScript/上传与下载/5-URL"
+            },
+            {
+              "text": "上传",
+              "link": "/JavaScript/上传与下载/6-上传"
+            },
+            {
+              "text": "下载",
+              "link": "/JavaScript/上传与下载/7-下载"
+            },
+            {
+              "text": "预览",
+              "link": "/JavaScript/上传与下载/8-预览"
+            },
+            {
+              "text": "上传时序问题",
+              "link": "/JavaScript/上传与下载/9-上传时序问题"
+            },
+            {
+              "text": "上传进度",
+              "link": "/JavaScript/上传与下载/10-上传进度"
+            },
+            {
+              "text": "XMLHttpRequest",
+              "link": "/JavaScript/上传与下载/11-XMLHttpRequest"
+            },
+            {
+              "text": "XMLHttpRequestUpload",
+              "link": "/JavaScript/上传与下载/12-XMLHttpRequestUpload"
+            },
+            {
+              "text": "ProgressEvent",
+              "link": "/JavaScript/上传与下载/13-ProgressEvent"
+            }
+          ]
+        },
+        {
+          "text": "数字",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "数字分隔符",
+              "link": "/JavaScript/数字/数字分隔符"
+            }
+          ]
+        },
+        {
+          "text": "数组",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "查找",
+              "link": "/JavaScript/数组/查找"
+            },
+            {
+              "text": "解构与展开",
+              "link": "/JavaScript/数组/解构与展开"
+            },
+            {
+              "text": "清空数组",
+              "link": "/JavaScript/数组/清空数组"
+            },
+            {
+              "text": "稀疏数组",
+              "link": "/JavaScript/数组/稀疏数组"
+            },
+            {
+              "text": "Array",
+              "link": "/JavaScript/数组/Array"
+            },
+            {
+              "text": "ArrayLike",
+              "link": "/JavaScript/数组/ArrayLike"
+            },
+            {
+              "text": "at",
+              "link": "/JavaScript/数组/at"
+            },
+            {
+              "text": "concat",
+              "link": "/JavaScript/数组/concat"
+            },
+            {
+              "text": "copyWithin",
+              "link": "/JavaScript/数组/copyWithin"
+            },
+            {
+              "text": "every",
+              "link": "/JavaScript/数组/every"
+            },
+            {
+              "text": "filter",
+              "link": "/JavaScript/数组/filter"
+            },
+            {
+              "text": "find",
+              "link": "/JavaScript/数组/find"
+            },
+            {
+              "text": "findIndex",
+              "link": "/JavaScript/数组/findIndex"
+            },
+            {
+              "text": "forEach",
+              "link": "/JavaScript/数组/forEach"
+            },
+            {
+              "text": "includes",
+              "link": "/JavaScript/数组/includes"
+            },
+            {
+              "text": "indexOf",
+              "link": "/JavaScript/数组/indexOf"
+            },
+            {
+              "text": "join",
+              "link": "/JavaScript/数组/join"
+            },
+            {
+              "text": "map",
+              "link": "/JavaScript/数组/map"
+            },
+            {
+              "text": "slice",
+              "link": "/JavaScript/数组/slice"
+            },
+            {
+              "text": "some",
+              "link": "/JavaScript/数组/some"
+            },
+            {
+              "text": "sort",
+              "link": "/JavaScript/数组/sort"
+            },
+            {
+              "text": "splice",
+              "link": "/JavaScript/数组/splice"
+            },
+            {
+              "text": "with",
+              "link": "/JavaScript/数组/with"
+            }
+          ]
+        },
+        {
+          "text": "原生JS",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "Array",
+              "link": "/JavaScript/原生JS/Array"
+            },
+            {
+              "text": "import",
+              "link": "/JavaScript/原生JS/import"
+            },
+            {
+              "text": "Math",
+              "link": "/JavaScript/原生JS/Math"
+            },
+            {
+              "text": "Object",
+              "link": "/JavaScript/原生JS/Object"
+            }
+          ]
+        },
+        {
+          "text": "字符串",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "replace",
+              "link": "/JavaScript/字符串/replace"
+            }
+          ]
+        },
+        {
+          "text": "WebAPI",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "BOM",
+              "link": "/JavaScript/WebAPI/BOM"
+            }
+          ]
+        },
+        {
+          "text": "异常",
+          "link": "/JavaScript/异常"
+        },
+        {
+          "text": "正则",
+          "link": "/JavaScript/正则"
+        },
+        {
+          "text": "Promise",
+          "link": "/JavaScript/Promise"
+        },
+        {
+          "text": "RegExp",
+          "link": "/JavaScript/RegExp"
         }
       ]
     }

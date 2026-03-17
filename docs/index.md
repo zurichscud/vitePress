@@ -42,7 +42,7 @@ features:
     details: 29篇文档
     link: /HTML/HTML元素间的关系
   - title: JAVA
-    details: 25篇文档
+    details: 26篇文档
     link: /JAVA/1.JAVA运行
   - title: JavaScript
     details: 49篇文档
