@@ -531,6 +531,183 @@ export default {
       ]
     }
   ],
+  "/JAVA/": [
+    {
+      "text": "JAVA",
+      "items": [
+        {
+          "text": "常用类",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "包装类",
+              "link": "/JAVA/常用类/包装类"
+            },
+            {
+              "text": "Integer",
+              "link": "/JAVA/常用类/Integer"
+            }
+          ]
+        },
+        {
+          "text": "面向对象",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "static关键字",
+              "link": "/JAVA/面向对象/1.static关键字"
+            },
+            {
+              "text": "构造方法",
+              "link": "/JAVA/面向对象/2.构造方法"
+            },
+            {
+              "text": "方法重载",
+              "link": "/JAVA/面向对象/3.方法重载"
+            },
+            {
+              "text": "继承",
+              "link": "/JAVA/面向对象/4.继承"
+            },
+            {
+              "text": "多态",
+              "link": "/JAVA/面向对象/5.多态"
+            },
+            {
+              "text": "抽象类",
+              "link": "/JAVA/面向对象/6.抽象类"
+            },
+            {
+              "text": "super关键字",
+              "link": "/JAVA/面向对象/7.super关键字"
+            },
+            {
+              "text": "final关键字",
+              "link": "/JAVA/面向对象/8.final关键字"
+            },
+            {
+              "text": "接口",
+              "link": "/JAVA/面向对象/9.接口"
+            },
+            {
+              "text": "Object类",
+              "link": "/JAVA/面向对象/10.Object类"
+            },
+            {
+              "text": "内部类",
+              "link": "/JAVA/面向对象/11.内部类"
+            },
+            {
+              "text": "常量类",
+              "link": "/JAVA/面向对象/常量类"
+            }
+          ]
+        },
+        {
+          "text": "企业规范",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "数据封装",
+              "link": "/JAVA/企业规范/数据封装"
+            }
+          ]
+        },
+        {
+          "text": "入门",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "JVM内存分析",
+              "link": "/JAVA/入门/JVM内存分析"
+            },
+            {
+              "text": "this",
+              "link": "/JAVA/入门/this"
+            }
+          ]
+        },
+        {
+          "text": "数组",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "数组概述",
+              "link": "/JAVA/数组/1.数组概述"
+            },
+            {
+              "text": "一维数组",
+              "link": "/JAVA/数组/2.一维数组"
+            },
+            {
+              "text": "增强for",
+              "link": "/JAVA/数组/3.增强for"
+            },
+            {
+              "text": "二维数组",
+              "link": "/JAVA/数组/4.二维数组"
+            },
+            {
+              "text": "可变长度参数",
+              "link": "/JAVA/数组/可变长度参数"
+            },
+            {
+              "text": "Arrays",
+              "link": "/JAVA/数组/Arrays"
+            }
+          ]
+        },
+        {
+          "text": "异常",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "异常体系",
+              "link": "/JAVA/异常/1.异常体系"
+            },
+            {
+              "text": "异常处理",
+              "link": "/JAVA/异常/2.异常处理"
+            },
+            {
+              "text": "自定义异常",
+              "link": "/JAVA/异常/3.自定义异常"
+            }
+          ]
+        },
+        {
+          "text": "JAVA运行",
+          "link": "/JAVA/1.JAVA运行"
+        },
+        {
+          "text": "包机制",
+          "link": "/JAVA/包机制"
+        },
+        {
+          "text": "访问权限修饰符",
+          "link": "/JAVA/访问权限修饰符"
+        },
+        {
+          "text": "数据类型",
+          "link": "/JAVA/数据类型"
+        },
+        {
+          "text": "注解",
+          "link": "/JAVA/注解"
+        },
+        {
+          "text": "idea",
+          "link": "/JAVA/idea"
+        }
+      ]
+    }
+  ],
   "/JavaScript/": [
     {
       "text": "JavaScript",
@@ -783,179 +960,83 @@ export default {
       ]
     }
   ],
-  "/JAVA/": [
+  "/Linux/": [
     {
-      "text": "JAVA",
+      "text": "Linux",
       "items": [
         {
-          "text": "常用类",
+          "text": "权限",
           "collapsible": true,
           "collapsed": false,
           "items": [
             {
-              "text": "包装类",
-              "link": "/JAVA/常用类/包装类"
+              "text": "权限控制",
+              "link": "/Linux/权限/权限控制"
             },
             {
-              "text": "Integer",
-              "link": "/JAVA/常用类/Integer"
+              "text": "用户与用户组",
+              "link": "/Linux/权限/用户与用户组"
+            },
+            {
+              "text": "root",
+              "link": "/Linux/权限/root"
             }
           ]
         },
         {
-          "text": "面向对象",
+          "text": "应用管理",
           "collapsible": true,
           "collapsed": false,
           "items": [
             {
-              "text": "static关键字",
-              "link": "/JAVA/面向对象/1.static关键字"
+              "text": "包管理",
+              "link": "/Linux/应用管理/包管理"
             },
             {
-              "text": "构造方法",
-              "link": "/JAVA/面向对象/2.构造方法"
+              "text": "快捷键",
+              "link": "/Linux/应用管理/快捷键"
             },
             {
-              "text": "方法重载",
-              "link": "/JAVA/面向对象/3.方法重载"
-            },
-            {
-              "text": "继承",
-              "link": "/JAVA/面向对象/4.继承"
-            },
-            {
-              "text": "多态",
-              "link": "/JAVA/面向对象/5.多态"
-            },
-            {
-              "text": "抽象类",
-              "link": "/JAVA/面向对象/6.抽象类"
-            },
-            {
-              "text": "super关键字",
-              "link": "/JAVA/面向对象/7.super关键字"
-            },
-            {
-              "text": "final关键字",
-              "link": "/JAVA/面向对象/8.final关键字"
-            },
-            {
-              "text": "接口",
-              "link": "/JAVA/面向对象/9.接口"
-            },
-            {
-              "text": "Object类",
-              "link": "/JAVA/面向对象/10.Object类"
-            },
-            {
-              "text": "内部类",
-              "link": "/JAVA/面向对象/11.内部类"
-            },
-            {
-              "text": "常量类",
-              "link": "/JAVA/面向对象/常量类"
+              "text": "应用",
+              "link": "/Linux/应用管理/应用"
             }
           ]
         },
         {
-          "text": "企业规范",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "数据封装",
-              "link": "/JAVA/企业规范/数据封装"
-            }
-          ]
+          "text": "变量",
+          "link": "/Linux/变量"
         },
         {
-          "text": "入门",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "JVM内存分析",
-              "link": "/JAVA/入门/JVM内存分析"
-            },
-            {
-              "text": "this",
-              "link": "/JAVA/入门/this"
-            }
-          ]
+          "text": "进程",
+          "link": "/Linux/进程"
         },
         {
-          "text": "数组",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "数组概述",
-              "link": "/JAVA/数组/1.数组概述"
-            },
-            {
-              "text": "一维数组",
-              "link": "/JAVA/数组/2.一维数组"
-            },
-            {
-              "text": "增强for",
-              "link": "/JAVA/数组/3.增强for"
-            },
-            {
-              "text": "二维数组",
-              "link": "/JAVA/数组/4.二维数组"
-            },
-            {
-              "text": "可变长度参数",
-              "link": "/JAVA/数组/可变长度参数"
-            },
-            {
-              "text": "Arrays",
-              "link": "/JAVA/数组/Arrays"
-            }
-          ]
+          "text": "命令",
+          "link": "/Linux/命令"
         },
         {
-          "text": "异常",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "异常体系",
-              "link": "/JAVA/异常/1.异常体系"
-            },
-            {
-              "text": "异常处理",
-              "link": "/JAVA/异常/2.异常处理"
-            },
-            {
-              "text": "自定义异常",
-              "link": "/JAVA/异常/3.自定义异常"
-            }
-          ]
+          "text": "文件命令",
+          "link": "/Linux/文件命令"
         },
         {
-          "text": "JAVA运行",
-          "link": "/JAVA/1.JAVA运行"
+          "text": "curl",
+          "link": "/Linux/curl"
         },
         {
-          "text": "包机制",
-          "link": "/JAVA/包机制"
+          "text": "shell",
+          "link": "/Linux/shell"
         },
         {
-          "text": "访问权限修饰符",
-          "link": "/JAVA/访问权限修饰符"
+          "text": "shell脚本",
+          "link": "/Linux/shell脚本"
         },
         {
-          "text": "数据类型",
-          "link": "/JAVA/数据类型"
+          "text": "vim",
+          "link": "/Linux/vim"
         },
         {
-          "text": "注解",
-          "link": "/JAVA/注解"
-        },
-        {
-          "text": "idea",
-          "link": "/JAVA/idea"
+          "text": "zsh",
+          "link": "/Linux/zsh"
         }
       ]
     }
@@ -1190,180 +1271,6 @@ export default {
       ]
     }
   ],
-  "/Linux/": [
-    {
-      "text": "Linux",
-      "items": [
-        {
-          "text": "权限",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "权限控制",
-              "link": "/Linux/权限/权限控制"
-            },
-            {
-              "text": "用户与用户组",
-              "link": "/Linux/权限/用户与用户组"
-            },
-            {
-              "text": "root",
-              "link": "/Linux/权限/root"
-            }
-          ]
-        },
-        {
-          "text": "应用管理",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "包管理",
-              "link": "/Linux/应用管理/包管理"
-            },
-            {
-              "text": "快捷键",
-              "link": "/Linux/应用管理/快捷键"
-            },
-            {
-              "text": "应用",
-              "link": "/Linux/应用管理/应用"
-            }
-          ]
-        },
-        {
-          "text": "变量",
-          "link": "/Linux/变量"
-        },
-        {
-          "text": "进程",
-          "link": "/Linux/进程"
-        },
-        {
-          "text": "命令",
-          "link": "/Linux/命令"
-        },
-        {
-          "text": "文件命令",
-          "link": "/Linux/文件命令"
-        },
-        {
-          "text": "curl",
-          "link": "/Linux/curl"
-        },
-        {
-          "text": "shell",
-          "link": "/Linux/shell"
-        },
-        {
-          "text": "shell脚本",
-          "link": "/Linux/shell脚本"
-        },
-        {
-          "text": "vim",
-          "link": "/Linux/vim"
-        },
-        {
-          "text": "zsh",
-          "link": "/Linux/zsh"
-        }
-      ]
-    }
-  ],
-  "/Web/": [
-    {
-      "text": "Web",
-      "items": [
-        {
-          "text": "安全",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "对称加密",
-              "link": "/Web/安全/对称加密"
-            },
-            {
-              "text": "非对称加密",
-              "link": "/Web/安全/非对称加密"
-            },
-            {
-              "text": "哈希函数",
-              "link": "/Web/安全/哈希函数"
-            },
-            {
-              "text": "Cookie",
-              "link": "/Web/安全/Cookie"
-            },
-            {
-              "text": "HTTPS",
-              "link": "/Web/安全/HTTPS"
-            },
-            {
-              "text": "JWT",
-              "link": "/Web/安全/JWT"
-            },
-            {
-              "text": "Session",
-              "link": "/Web/安全/Session"
-            }
-          ]
-        },
-        {
-          "text": "请求与响应",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "防盗链",
-              "link": "/Web/请求与响应/防盗链"
-            },
-            {
-              "text": "预检",
-              "link": "/Web/请求与响应/预检"
-            },
-            {
-              "text": "自定义响应头",
-              "link": "/Web/请求与响应/自定义响应头"
-            },
-            {
-              "text": "Cache-Control",
-              "link": "/Web/请求与响应/Cache-Control"
-            },
-            {
-              "text": "CORS",
-              "link": "/Web/请求与响应/CORS"
-            }
-          ]
-        },
-        {
-          "text": "短链接",
-          "link": "/Web/短链接"
-        },
-        {
-          "text": "favicons",
-          "link": "/Web/favicons"
-        },
-        {
-          "text": "HTTP2",
-          "link": "/Web/HTTP2"
-        },
-        {
-          "text": "SCL",
-          "link": "/Web/SCL"
-        },
-        {
-          "text": "SSE",
-          "link": "/Web/SSE"
-        },
-        {
-          "text": "SSO",
-          "link": "/Web/SSO"
-        }
-      ]
-    }
-  ],
   "/TypeScript/": [
     {
       "text": "TypeScript",
@@ -1486,6 +1393,99 @@ export default {
         {
           "text": "tsconfig",
           "link": "/TypeScript/tsconfig"
+        }
+      ]
+    }
+  ],
+  "/Web/": [
+    {
+      "text": "Web",
+      "items": [
+        {
+          "text": "安全",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "对称加密",
+              "link": "/Web/安全/对称加密"
+            },
+            {
+              "text": "非对称加密",
+              "link": "/Web/安全/非对称加密"
+            },
+            {
+              "text": "哈希函数",
+              "link": "/Web/安全/哈希函数"
+            },
+            {
+              "text": "Cookie",
+              "link": "/Web/安全/Cookie"
+            },
+            {
+              "text": "HTTPS",
+              "link": "/Web/安全/HTTPS"
+            },
+            {
+              "text": "JWT",
+              "link": "/Web/安全/JWT"
+            },
+            {
+              "text": "Session",
+              "link": "/Web/安全/Session"
+            }
+          ]
+        },
+        {
+          "text": "请求与响应",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "防盗链",
+              "link": "/Web/请求与响应/防盗链"
+            },
+            {
+              "text": "预检",
+              "link": "/Web/请求与响应/预检"
+            },
+            {
+              "text": "自定义响应头",
+              "link": "/Web/请求与响应/自定义响应头"
+            },
+            {
+              "text": "Cache-Control",
+              "link": "/Web/请求与响应/Cache-Control"
+            },
+            {
+              "text": "CORS",
+              "link": "/Web/请求与响应/CORS"
+            }
+          ]
+        },
+        {
+          "text": "短链接",
+          "link": "/Web/短链接"
+        },
+        {
+          "text": "favicons",
+          "link": "/Web/favicons"
+        },
+        {
+          "text": "HTTP2",
+          "link": "/Web/HTTP2"
+        },
+        {
+          "text": "SCL",
+          "link": "/Web/SCL"
+        },
+        {
+          "text": "SSE",
+          "link": "/Web/SSE"
+        },
+        {
+          "text": "SSO",
+          "link": "/Web/SSO"
         }
       ]
     }
@@ -1937,6 +1937,28 @@ export default {
         {
           "text": "YAML",
           "link": "/百科/YAML"
+        }
+      ]
+    }
+  ],
+  "/Agent/": [
+    {
+      "text": "Agent",
+      "items": [
+        {
+          "text": "MCP",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "MCP安装",
+              "link": "/Agent/MCP/MCP安装"
+            },
+            {
+              "text": "mysql",
+              "link": "/Agent/MCP/mysql"
+            }
+          ]
         }
       ]
     }

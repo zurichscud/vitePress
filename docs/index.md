@@ -35,6 +35,9 @@ features:
   - title: 组件库
     details: 12篇文档
     link: /组件库/TDesign/Card
+  - title: Agent
+    details: 2篇文档
+    link: /Agent/MCP/MCP安装
   - title: CSS
     details: 67篇文档
     link: /CSS/CSS变量
