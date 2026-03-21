@@ -15,7 +15,7 @@ pnpm add -g @benborla29/mcp-server-mysql
 ### 使用命令行添加
 
 ```sh
-claude mcp add mcp_server_mysql \
+claude mcp add \
   --env MYSQL_HOST="127.0.0.1" \
   --env MYSQL_PORT="3306" \
   --env MYSQL_USER="root" \
@@ -24,6 +24,7 @@ claude mcp add mcp_server_mysql \
   --env ALLOW_INSERT_OPERATION="false" \
   --env ALLOW_UPDATE_OPERATION="false" \
   --env ALLOW_DELETE_OPERATION="false" \
+  mcp_server_mysql
   -- npx -y @benborla29/mcp-server-mysql
 ```
 
