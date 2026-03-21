@@ -708,258 +708,6 @@ export default {
       ]
     }
   ],
-  "/JavaScript/": [
-    {
-      "text": "JavaScript",
-      "items": [
-        {
-          "text": "迭代",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "for...in",
-              "link": "/JavaScript/迭代/for...in"
-            },
-            {
-              "text": "for...of",
-              "link": "/JavaScript/迭代/for...of"
-            }
-          ]
-        },
-        {
-          "text": "上传与下载",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "Blob",
-              "link": "/JavaScript/上传与下载/1-Blob"
-            },
-            {
-              "text": "File",
-              "link": "/JavaScript/上传与下载/2-File"
-            },
-            {
-              "text": "FileReader",
-              "link": "/JavaScript/上传与下载/3-FileReader"
-            },
-            {
-              "text": "FormData",
-              "link": "/JavaScript/上传与下载/4-FormData"
-            },
-            {
-              "text": "URL",
-              "link": "/JavaScript/上传与下载/5-URL"
-            },
-            {
-              "text": "上传",
-              "link": "/JavaScript/上传与下载/6-上传"
-            },
-            {
-              "text": "下载",
-              "link": "/JavaScript/上传与下载/7-下载"
-            },
-            {
-              "text": "预览",
-              "link": "/JavaScript/上传与下载/8-预览"
-            },
-            {
-              "text": "上传时序问题",
-              "link": "/JavaScript/上传与下载/9-上传时序问题"
-            },
-            {
-              "text": "上传进度",
-              "link": "/JavaScript/上传与下载/10-上传进度"
-            },
-            {
-              "text": "XMLHttpRequest",
-              "link": "/JavaScript/上传与下载/11-XMLHttpRequest"
-            },
-            {
-              "text": "XMLHttpRequestUpload",
-              "link": "/JavaScript/上传与下载/12-XMLHttpRequestUpload"
-            },
-            {
-              "text": "ProgressEvent",
-              "link": "/JavaScript/上传与下载/13-ProgressEvent"
-            }
-          ]
-        },
-        {
-          "text": "数字",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "数字分隔符",
-              "link": "/JavaScript/数字/数字分隔符"
-            }
-          ]
-        },
-        {
-          "text": "数组",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "查找",
-              "link": "/JavaScript/数组/查找"
-            },
-            {
-              "text": "解构与展开",
-              "link": "/JavaScript/数组/解构与展开"
-            },
-            {
-              "text": "清空数组",
-              "link": "/JavaScript/数组/清空数组"
-            },
-            {
-              "text": "稀疏数组",
-              "link": "/JavaScript/数组/稀疏数组"
-            },
-            {
-              "text": "Array",
-              "link": "/JavaScript/数组/Array"
-            },
-            {
-              "text": "ArrayLike",
-              "link": "/JavaScript/数组/ArrayLike"
-            },
-            {
-              "text": "at",
-              "link": "/JavaScript/数组/at"
-            },
-            {
-              "text": "concat",
-              "link": "/JavaScript/数组/concat"
-            },
-            {
-              "text": "copyWithin",
-              "link": "/JavaScript/数组/copyWithin"
-            },
-            {
-              "text": "every",
-              "link": "/JavaScript/数组/every"
-            },
-            {
-              "text": "filter",
-              "link": "/JavaScript/数组/filter"
-            },
-            {
-              "text": "find",
-              "link": "/JavaScript/数组/find"
-            },
-            {
-              "text": "findIndex",
-              "link": "/JavaScript/数组/findIndex"
-            },
-            {
-              "text": "forEach",
-              "link": "/JavaScript/数组/forEach"
-            },
-            {
-              "text": "includes",
-              "link": "/JavaScript/数组/includes"
-            },
-            {
-              "text": "indexOf",
-              "link": "/JavaScript/数组/indexOf"
-            },
-            {
-              "text": "join",
-              "link": "/JavaScript/数组/join"
-            },
-            {
-              "text": "map",
-              "link": "/JavaScript/数组/map"
-            },
-            {
-              "text": "slice",
-              "link": "/JavaScript/数组/slice"
-            },
-            {
-              "text": "some",
-              "link": "/JavaScript/数组/some"
-            },
-            {
-              "text": "sort",
-              "link": "/JavaScript/数组/sort"
-            },
-            {
-              "text": "splice",
-              "link": "/JavaScript/数组/splice"
-            },
-            {
-              "text": "with",
-              "link": "/JavaScript/数组/with"
-            }
-          ]
-        },
-        {
-          "text": "原生JS",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "Array",
-              "link": "/JavaScript/原生JS/Array"
-            },
-            {
-              "text": "import",
-              "link": "/JavaScript/原生JS/import"
-            },
-            {
-              "text": "Math",
-              "link": "/JavaScript/原生JS/Math"
-            },
-            {
-              "text": "Object",
-              "link": "/JavaScript/原生JS/Object"
-            }
-          ]
-        },
-        {
-          "text": "字符串",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "replace",
-              "link": "/JavaScript/字符串/replace"
-            }
-          ]
-        },
-        {
-          "text": "WebAPI",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "BOM",
-              "link": "/JavaScript/WebAPI/BOM"
-            }
-          ]
-        },
-        {
-          "text": "异常",
-          "link": "/JavaScript/异常"
-        },
-        {
-          "text": "正则",
-          "link": "/JavaScript/正则"
-        },
-        {
-          "text": "Promise",
-          "link": "/JavaScript/Promise"
-        },
-        {
-          "text": "RegExp",
-          "link": "/JavaScript/RegExp"
-        }
-      ]
-    }
-  ],
   "/Linux/": [
     {
       "text": "Linux",
@@ -1621,6 +1369,258 @@ export default {
       ]
     }
   ],
+  "/JavaScript/": [
+    {
+      "text": "JavaScript",
+      "items": [
+        {
+          "text": "迭代",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "for...in",
+              "link": "/JavaScript/迭代/for...in"
+            },
+            {
+              "text": "for...of",
+              "link": "/JavaScript/迭代/for...of"
+            }
+          ]
+        },
+        {
+          "text": "上传与下载",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "Blob",
+              "link": "/JavaScript/上传与下载/1-Blob"
+            },
+            {
+              "text": "File",
+              "link": "/JavaScript/上传与下载/2-File"
+            },
+            {
+              "text": "FileReader",
+              "link": "/JavaScript/上传与下载/3-FileReader"
+            },
+            {
+              "text": "FormData",
+              "link": "/JavaScript/上传与下载/4-FormData"
+            },
+            {
+              "text": "URL",
+              "link": "/JavaScript/上传与下载/5-URL"
+            },
+            {
+              "text": "上传",
+              "link": "/JavaScript/上传与下载/6-上传"
+            },
+            {
+              "text": "下载",
+              "link": "/JavaScript/上传与下载/7-下载"
+            },
+            {
+              "text": "预览",
+              "link": "/JavaScript/上传与下载/8-预览"
+            },
+            {
+              "text": "上传时序问题",
+              "link": "/JavaScript/上传与下载/9-上传时序问题"
+            },
+            {
+              "text": "上传进度",
+              "link": "/JavaScript/上传与下载/10-上传进度"
+            },
+            {
+              "text": "XMLHttpRequest",
+              "link": "/JavaScript/上传与下载/11-XMLHttpRequest"
+            },
+            {
+              "text": "XMLHttpRequestUpload",
+              "link": "/JavaScript/上传与下载/12-XMLHttpRequestUpload"
+            },
+            {
+              "text": "ProgressEvent",
+              "link": "/JavaScript/上传与下载/13-ProgressEvent"
+            }
+          ]
+        },
+        {
+          "text": "数字",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "数字分隔符",
+              "link": "/JavaScript/数字/数字分隔符"
+            }
+          ]
+        },
+        {
+          "text": "数组",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "查找",
+              "link": "/JavaScript/数组/查找"
+            },
+            {
+              "text": "解构与展开",
+              "link": "/JavaScript/数组/解构与展开"
+            },
+            {
+              "text": "清空数组",
+              "link": "/JavaScript/数组/清空数组"
+            },
+            {
+              "text": "稀疏数组",
+              "link": "/JavaScript/数组/稀疏数组"
+            },
+            {
+              "text": "Array",
+              "link": "/JavaScript/数组/Array"
+            },
+            {
+              "text": "ArrayLike",
+              "link": "/JavaScript/数组/ArrayLike"
+            },
+            {
+              "text": "at",
+              "link": "/JavaScript/数组/at"
+            },
+            {
+              "text": "concat",
+              "link": "/JavaScript/数组/concat"
+            },
+            {
+              "text": "copyWithin",
+              "link": "/JavaScript/数组/copyWithin"
+            },
+            {
+              "text": "every",
+              "link": "/JavaScript/数组/every"
+            },
+            {
+              "text": "filter",
+              "link": "/JavaScript/数组/filter"
+            },
+            {
+              "text": "find",
+              "link": "/JavaScript/数组/find"
+            },
+            {
+              "text": "findIndex",
+              "link": "/JavaScript/数组/findIndex"
+            },
+            {
+              "text": "forEach",
+              "link": "/JavaScript/数组/forEach"
+            },
+            {
+              "text": "includes",
+              "link": "/JavaScript/数组/includes"
+            },
+            {
+              "text": "indexOf",
+              "link": "/JavaScript/数组/indexOf"
+            },
+            {
+              "text": "join",
+              "link": "/JavaScript/数组/join"
+            },
+            {
+              "text": "map",
+              "link": "/JavaScript/数组/map"
+            },
+            {
+              "text": "slice",
+              "link": "/JavaScript/数组/slice"
+            },
+            {
+              "text": "some",
+              "link": "/JavaScript/数组/some"
+            },
+            {
+              "text": "sort",
+              "link": "/JavaScript/数组/sort"
+            },
+            {
+              "text": "splice",
+              "link": "/JavaScript/数组/splice"
+            },
+            {
+              "text": "with",
+              "link": "/JavaScript/数组/with"
+            }
+          ]
+        },
+        {
+          "text": "原生JS",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "Array",
+              "link": "/JavaScript/原生JS/Array"
+            },
+            {
+              "text": "import",
+              "link": "/JavaScript/原生JS/import"
+            },
+            {
+              "text": "Math",
+              "link": "/JavaScript/原生JS/Math"
+            },
+            {
+              "text": "Object",
+              "link": "/JavaScript/原生JS/Object"
+            }
+          ]
+        },
+        {
+          "text": "字符串",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "replace",
+              "link": "/JavaScript/字符串/replace"
+            }
+          ]
+        },
+        {
+          "text": "WebAPI",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "BOM",
+              "link": "/JavaScript/WebAPI/BOM"
+            }
+          ]
+        },
+        {
+          "text": "异常",
+          "link": "/JavaScript/异常"
+        },
+        {
+          "text": "正则",
+          "link": "/JavaScript/正则"
+        },
+        {
+          "text": "Promise",
+          "link": "/JavaScript/Promise"
+        },
+        {
+          "text": "RegExp",
+          "link": "/JavaScript/RegExp"
+        }
+      ]
+    }
+  ],
   "/git/": [
     {
       "text": "git",
@@ -1951,12 +1951,12 @@ export default {
           "collapsed": false,
           "items": [
             {
-              "text": "MCP安装",
-              "link": "/Agent/MCP/MCP安装"
+              "text": "mcp-server-mysql",
+              "link": "/Agent/MCP/mcp-server-mysql"
             },
             {
-              "text": "mysql",
-              "link": "/Agent/MCP/mysql"
+              "text": "MCP安装",
+              "link": "/Agent/MCP/MCP安装"
             }
           ]
         }
