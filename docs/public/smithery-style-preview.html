@@ -4,493 +4,122 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MySQL Server - MCP | Smithery Replica</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/iconify-icon@2.3.0/dist/iconify-icon.min.js"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              smithBg: "rgb(231, 229, 223)",
+              smithPanel: "rgb(245, 245, 245)",
+              smithText: "rgb(36, 36, 36)",
+              smithMuted: "rgb(102, 102, 102)",
+              smithOrange: "rgb(255, 91, 0)"
+            },
+            boxShadow: {
+              insetLine: "inset 0 0 0 1px rgba(255,255,255,.35)"
+            },
+            maxWidth: {
+              shell: "1216px"
+            },
+            borderRadius: {
+              smith: "6.4px"
+            }
+          }
+        }
+      };
+    </script>
     <style>
-      :root {
-        --bg: rgb(231, 229, 223);
-        --panel: rgb(245, 245, 245);
-        --text: rgb(36, 36, 36);
-        --muted: rgb(102, 102, 102);
-        --line: rgba(36, 36, 36, 0.12);
-        --line-soft: rgba(36, 36, 36, 0.08);
-        --orange: rgb(255, 91, 0);
-        --radius: 6.4px;
-        --container: 1216px;
-      }
-
-      * {
-        box-sizing: border-box;
-      }
-
-      html,
       body {
-        margin: 0;
-        min-height: 100%;
-      }
-
-      body {
-        background: var(--bg);
-        color: var(--text);
         font-family: Georgia, "Times New Roman", "Noto Serif", serif;
       }
 
-      a {
-        color: inherit;
-        text-decoration: none;
-      }
-
-      .container {
-        width: min(calc(100% - 48px), var(--container));
-        margin: 0 auto;
-      }
-
-      .topbar {
-        border-bottom: 1px solid var(--line-soft);
-      }
-
-      .topbar-inner {
-        height: 73px;
-        display: flex;
-        align-items: center;
-        gap: 14px;
-      }
-
-      .brand {
-        width: 18px;
-        height: 18px;
-        border-radius: 4px;
+      .smith-grid {
         background:
           linear-gradient(90deg, transparent 31%, rgba(255, 255, 255, 0.75) 31%, rgba(255, 255, 255, 0.75) 36%, transparent 36%, transparent 64%, rgba(255, 255, 255, 0.75) 64%, rgba(255, 255, 255, 0.75) 69%, transparent 69%),
           linear-gradient(0deg, transparent 31%, rgba(255, 255, 255, 0.75) 31%, rgba(255, 255, 255, 0.75) 36%, transparent 36%, transparent 64%, rgba(255, 255, 255, 0.75) 64%, rgba(255, 255, 255, 0.75) 69%, transparent 69%),
-          var(--orange);
-        flex: 0 0 auto;
+          rgb(255, 91, 0);
       }
 
-      .search {
-        flex: 1 1 auto;
-        position: relative;
-        max-width: 595px;
-      }
-
-      .search::before {
-        content: "⌕";
-        position: absolute;
-        left: 14px;
-        top: 50%;
-        transform: translateY(-52%);
-        color: var(--muted);
-        font-size: 18px;
-        pointer-events: none;
-      }
-
-      .search input {
-        width: 100%;
-        height: 48px;
-        border-radius: var(--radius);
-        border: 1px solid rgb(235, 235, 235);
-        background: var(--panel);
-        padding: 12px 12px 12px 40px;
-        color: var(--text);
-        font: 400 16px/24px Georgia, "Times New Roman", serif;
-        outline: none;
-      }
-
-      .search input::placeholder {
-        color: rgb(129, 129, 129);
-      }
-
-      .nav {
-        margin-left: 6px;
-        display: flex;
-        align-items: center;
-        gap: 6px;
-        font-size: 14px;
-        line-height: 20px;
-        font-weight: 600;
-      }
-
-      .nav a,
-      .publish,
-      .login {
-        padding: 10px 14px;
-        border-radius: var(--radius);
-      }
-
-      .publish {
-        border: 1px solid rgba(36, 36, 36, 0.08);
-        background: rgba(255, 255, 255, 0.48);
-      }
-
-      .page {
-        min-height: calc(100vh - 73px);
-        display: flex;
-        flex-direction: column;
-      }
-
-      .main {
-        flex: 1 0 auto;
-        padding-top: 28px;
-      }
-
-      .hero {
-        display: flex;
-        align-items: flex-start;
-        gap: 16px;
-      }
-
-      .server-icon {
-        width: 44px;
-        height: 44px;
-        border-radius: var(--radius);
-        background:
-          radial-gradient(circle at 68% 28%, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0) 30%),
-          linear-gradient(135deg, rgb(17, 110, 163), rgb(20, 82, 123));
-        box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.35);
-        position: relative;
-        overflow: hidden;
-      }
-
-      .server-icon::before {
-        content: "";
-        position: absolute;
-        inset: 6px 10px 8px 8px;
-        border: 2px solid rgba(255, 255, 255, 0.8);
-        border-top-left-radius: 18px;
-        border-bottom-right-radius: 18px;
-        border-top-right-radius: 4px;
-        border-bottom-left-radius: 4px;
-        transform: rotate(8deg);
-      }
-
-      .hero-text h1 {
-        margin: 0;
-        font-size: 24px;
-        line-height: 30px;
-        font-weight: 700;
-      }
-
-      .slug {
-        margin-top: 2px;
-        color: var(--muted);
-        font-size: 16px;
-        line-height: 24px;
-      }
-
-      .tabs {
-        margin-top: 24px;
-        display: flex;
-        gap: 6px;
-        align-items: flex-end;
-        border-bottom: 1px solid rgba(36, 36, 36, 0.16);
-      }
-
-      .tab {
-        position: relative;
-        display: inline-flex;
-        align-items: center;
-        gap: 8px;
-        padding: 8px 12px;
-        border-radius: 6.4px 6.4px 0 0;
-        font-size: 14px;
-        line-height: 20px;
-        font-weight: 600;
-      }
-
-      .tab.active::after {
-        content: "";
-        position: absolute;
-        left: 0;
-        right: 0;
-        bottom: -1px;
-        height: 2px;
-        background: var(--orange);
-      }
-
-      .content {
-        display: grid;
-        grid-template-columns: minmax(0, 695px) minmax(280px, 1fr);
-        gap: 42px;
-        padding-top: 36px;
-      }
-
-      .section {
-        margin-bottom: 24px;
-      }
-
-      .section h2,
-      .sidebar h2 {
-        margin: 0 0 16px;
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        font-size: 20px;
-        line-height: 28px;
-        font-weight: 600;
-      }
-
-      .copy {
-        margin: 0;
-        font-size: 16px;
-        line-height: 26px;
-      }
-
-      .muted {
-        color: var(--muted);
-      }
-
-      .empty-title {
-        margin: 38px 0 8px;
-        font-size: 18px;
-        line-height: 28px;
-        font-style: italic;
-        color: var(--muted);
-      }
-
-      .alert-card {
-        border: 1px solid rgba(94, 94, 94, 0.3);
-        border-radius: var(--radius);
-        padding: 48px 16px;
-        text-align: center;
-      }
-
-      .alert-card strong {
-        display: block;
-        font-size: 17px;
-        line-height: 28px;
-        font-weight: 600;
-      }
-
-      .cta {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-        margin-top: 26px;
-        background: var(--orange);
-        color: white;
-        border-radius: var(--radius);
-        padding: 10px 16px;
-        font-size: 16px;
-        line-height: 24px;
-        font-weight: 600;
-      }
-
-      .footer {
-        margin-top: 120px;
-        border-top: 1px solid rgba(36, 36, 36, 0.18);
-        padding: 32px 0 40px;
-      }
-
-      .footer-grid {
-        display: grid;
-        grid-template-columns: 280px 1fr 1fr 1fr;
-        gap: 24px;
-      }
-
-      .footer-brand {
-        color: var(--orange);
-        font-size: 18px;
-        line-height: 28px;
-        font-weight: 700;
-      }
-
-      .footer-tagline {
-        margin-top: 8px;
-        color: var(--muted);
-        font-size: 14px;
-        line-height: 20px;
-      }
-
-      .footer-col h3 {
-        margin: 0 0 8px;
-        font-size: 14px;
-        line-height: 20px;
-        font-weight: 700;
-      }
-
-      .footer-col a,
-      .footer-col div {
-        display: block;
-        margin-top: 6px;
-        color: var(--muted);
-        font-size: 14px;
-        line-height: 20px;
-      }
-
-      .footer-bottom {
-        margin-top: 44px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 20px;
-        color: var(--muted);
-        font-size: 12px;
-        line-height: 16px;
-      }
-
-      .theme {
-        display: flex;
-        align-items: center;
-        gap: 12px;
-      }
-
-      .theme-box {
-        width: 28px;
-        height: 28px;
-        border-radius: var(--radius);
-        border: 1px solid rgba(36, 36, 36, 0.12);
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        background: rgba(255, 255, 255, 0.45);
-        font-size: 14px;
-      }
-
-      @media (max-width: 1000px) {
-        .topbar-inner {
-          height: auto;
-          padding: 16px 0;
-          flex-wrap: wrap;
-        }
-
-        .search {
-          max-width: none;
-          order: 2;
-          width: 100%;
-        }
-
-        .content,
-        .footer-grid {
-          grid-template-columns: 1fr;
-        }
-      }
-
-      @media (max-width: 720px) {
-        .container {
-          width: min(calc(100% - 24px), var(--container));
-        }
-
-        .nav {
-          width: 100%;
-          margin-left: 0;
-          flex-wrap: wrap;
-        }
-
-        .tabs {
-          overflow-x: auto;
-          white-space: nowrap;
-        }
-
-        .footer {
-          margin-top: 64px;
-        }
-
-        .footer-bottom {
-          flex-direction: column;
-          align-items: flex-start;
-        }
-      }
     </style>
   </head>
-  <body>
-    <div class="page">
-      <header class="topbar">
-        <div class="container topbar-inner">
-          <div class="brand" aria-hidden="true"></div>
-          <label class="search" aria-label="Search MCPs">
-            <input type="text" placeholder="Search MCPs..." />
-          </label>
-          <nav class="nav" aria-label="Main navigation">
-            <a href="#">MCPs</a>
-            <a href="#">Skills</a>
-            <a href="#">Docs</a>
-            <a href="#">Pricing</a>
-            <a class="publish" href="#">Publish &#709;</a>
-            <a class="login" href="#">Login</a>
-          </nav>
-        </div>
-      </header>
-
-      <main class="main">
-        <div class="container">
-          <section class="hero">
-            <div class="server-icon" aria-hidden="true"></div>
-            <div class="hero-text">
-              <h1>MySQL Server</h1>
-              <div class="slug">benborla29/mcp-server-mysql</div>
+  <body class="min-h-screen bg-smithBg text-smithText">
+    <div class="min-h-screen pt-7">
+      <main>
+        <div class="mx-auto w-[calc(100%-48px)] max-w-shell max-md:w-[calc(100%-24px)]">
+          <section class="flex items-start gap-4">
+            <div class="relative flex h-11 w-11 items-center justify-center overflow-hidden rounded-smith bg-[linear-gradient(135deg,rgb(17,110,163),rgb(20,82,123))] shadow-insetLine">
+              <iconify-icon icon="simple-icons:mysql" class="text-[24px] text-white"></iconify-icon>
+            </div>
+            <div>
+              <h1 class="m-0 text-[24px] font-bold leading-[30px]">MySQL Server</h1>
+              <div class="mt-0.5 text-[16px] leading-6 text-smithMuted">benborla29/mcp-server-mysql</div>
             </div>
           </section>
 
-          <nav class="tabs" aria-label="Sections">
-            <a class="tab active" href="#">&#9432; Overview</a>
-            <a class="tab" href="#">&#9711; Performance</a>
-            <a class="tab" href="#">&#8764; Usage</a>
-            <a class="tab" href="#">&lt;&gt; API</a>
+          <nav class="mt-6 flex items-end gap-1.5 overflow-x-auto whitespace-nowrap border-b border-black/15" aria-label="Sections">
+            <a href="#" class="relative inline-flex items-center gap-2 rounded-t-smith px-3 py-2 text-[14px] font-semibold leading-5 after:absolute after:bottom-[-1px] after:left-0 after:right-0 after:h-[2px] after:bg-smithOrange">
+              <iconify-icon icon="lucide:circle-alert" class="text-[15px]"></iconify-icon>
+              <span>Overview</span>
+            </a>
+            <a href="#" class="inline-flex items-center gap-2 rounded-t-smith px-3 py-2 text-[14px] font-semibold leading-5">
+              <iconify-icon icon="lucide:gauge" class="text-[15px]"></iconify-icon>
+              <span>Performance</span>
+            </a>
+            <a href="#" class="inline-flex items-center gap-2 rounded-t-smith px-3 py-2 text-[14px] font-semibold leading-5">
+              <iconify-icon icon="lucide:activity" class="text-[15px]"></iconify-icon>
+              <span>Usage</span>
+            </a>
+            <a href="#" class="inline-flex items-center gap-2 rounded-t-smith px-3 py-2 text-[14px] font-semibold leading-5">
+              <iconify-icon icon="lucide:code-xml" class="text-[15px]"></iconify-icon>
+              <span>API</span>
+            </a>
           </nav>
 
-          <section class="content">
+          <section class="grid grid-cols-[minmax(0,695px)_minmax(280px,1fr)] gap-[42px] pt-9 max-[1000px]:grid-cols-1">
             <div>
-              <section class="section">
-                <h2>&#9432; About</h2>
-                <p class="copy">
+              <section id="about" class="mb-6 scroll-mt-8">
+                <h2 class="mb-4 flex items-center gap-2 text-[20px] font-semibold leading-7">
+                  <iconify-icon icon="lucide:circle-alert" class="text-[18px]"></iconify-icon>
+                  <span>About</span>
+                </h2>
+                <p class="m-0 text-[16px] leading-[26px]">
                   A Model Context Protocol server that provides read-only access to
                   MySQL databases. This server enables LLMs to inspect database
                   schemas and execute read-only queries.
                 </p>
               </section>
 
-              <section class="section">
-                <h2>＋ Capabilities</h2>
-                <div class="empty-title">No capabilities found</div>
-                <p class="copy muted">We couldn't list capabilities for this server.</p>
+              <section id="capabilities" class="mb-6 scroll-mt-8">
+                <h2 class="mb-4 flex items-center gap-2 text-[20px] font-semibold leading-7">
+                  <iconify-icon icon="lucide:plus" class="text-[18px]"></iconify-icon>
+                  <span>Capabilities</span>
+                </h2>
+                <div class="mb-2 mt-[38px] text-[18px] italic leading-7 text-smithMuted">No capabilities found</div>
+                <p class="m-0 text-[16px] leading-[26px] text-smithMuted">We couldn't list capabilities for this server.</p>
               </section>
             </div>
 
-            <aside class="sidebar">
-              <h2>&#128279; Connect</h2>
-              <div class="alert-card">
-                <strong>No deployments found</strong>
-                <a class="cta" href="#">Browse other servers &#8594;</a>
-              </div>
+            <aside class="max-[1000px]:order-first">
+              <h2 class="mb-4 flex items-center gap-2 text-[20px] font-semibold leading-7">
+                <iconify-icon icon="lucide:list" class="text-[18px]"></iconify-icon>
+                <span>On this page</span>
+              </h2>
+              <nav class="rounded-smith border border-black/15 bg-black/[0.02] p-4">
+                <a href="#about" class="flex items-center gap-2 rounded-smith px-2 py-2 text-[14px] font-semibold leading-5 text-smithText">
+                  <iconify-icon icon="lucide:circle-alert" class="text-[15px]"></iconify-icon>
+                  <span>About</span>
+                </a>
+                <a href="#capabilities" class="mt-1 flex items-center gap-2 rounded-smith px-2 py-2 text-[14px] font-semibold leading-5 text-smithMuted transition-colors hover:text-smithText">
+                  <iconify-icon icon="lucide:plus" class="text-[15px]"></iconify-icon>
+                  <span>Capabilities</span>
+                </a>
+              </nav>
             </aside>
           </section>
         </div>
       </main>
-
-      <footer class="footer">
-        <div class="container">
-          <div class="footer-grid">
-            <div>
-              <div class="footer-brand">&#9638; Smithery</div>
-              <div class="footer-tagline">Accelerating the Agent Economy</div>
-            </div>
-            <div class="footer-col">
-              <h3>Resources</h3>
-              <a href="#">Documentation</a>
-              <a href="#">Privacy Policy</a>
-              <a href="#">System Status</a>
-            </div>
-            <div class="footer-col">
-              <h3>Company</h3>
-              <a href="#">Pricing</a>
-              <a href="#">About</a>
-              <a href="#">Blog</a>
-            </div>
-            <div class="footer-col">
-              <h3>Connect</h3>
-              <div>X&nbsp;&nbsp;GitHub&nbsp;&nbsp;Discord</div>
-            </div>
-          </div>
-
-          <div class="footer-bottom">
-            <div>&copy; 2026 Smithery. All rights reserved.</div>
-            <div class="theme">
-              <span>&#9728;</span>
-              <span class="theme-box">&#128187;</span>
-              <span>&#9790;</span>
-            </div>
-          </div>
-        </div>
-      </footer>
     </div>
   </body>
 </html>
