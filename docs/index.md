@@ -19,12 +19,12 @@ hero:
 features:
   - title: 百科
     details: 4篇文档
-    link: /百科/bin
+    link: /百科/CMS
   - title: 前端工程化
     details: 5篇文档
     link: /前端工程化/@antfueslint-config
   - title: 数据库
-    details: 18篇文档
+    details: 20篇文档
     link: /数据库/Activiti
   - title: 性能优化
     details: 1篇文档
@@ -40,7 +40,7 @@ features:
     link: /Agent/ClaudeCode/Claudemd
   - title: CSS
     details: 67篇文档
-    link: /CSS/calc
+    link: /CSS/CSS变量
   - title: git
     details: 1篇文档
     link: /git/远程仓库
@@ -79,7 +79,7 @@ features:
     link: /vue/pinia/action
   - title: Web
     details: 18篇文档
-    link: /Web/favicons
+    link: /Web/HTTP2
   - title: WebAPI
     details: 24篇文档
     link: /WebAPI/CSSStyleDeclaration

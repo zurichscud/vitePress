@@ -1,12 +1,178 @@
 // 自动生成，请勿修改
 export default {
-  "/git/": [
+  "/JAVA/": [
     {
-      "text": "git",
+      "text": "JAVA",
       "items": [
         {
-          "text": "远程仓库",
-          "link": "/git/远程仓库"
+          "text": "常用类",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "包装类",
+              "link": "/JAVA/常用类/包装类"
+            },
+            {
+              "text": "Integer",
+              "link": "/JAVA/常用类/Integer"
+            }
+          ]
+        },
+        {
+          "text": "面向对象",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "static关键字",
+              "link": "/JAVA/面向对象/1.static关键字"
+            },
+            {
+              "text": "构造方法",
+              "link": "/JAVA/面向对象/2.构造方法"
+            },
+            {
+              "text": "方法重载",
+              "link": "/JAVA/面向对象/3.方法重载"
+            },
+            {
+              "text": "继承",
+              "link": "/JAVA/面向对象/4.继承"
+            },
+            {
+              "text": "多态",
+              "link": "/JAVA/面向对象/5.多态"
+            },
+            {
+              "text": "抽象类",
+              "link": "/JAVA/面向对象/6.抽象类"
+            },
+            {
+              "text": "super关键字",
+              "link": "/JAVA/面向对象/7.super关键字"
+            },
+            {
+              "text": "final关键字",
+              "link": "/JAVA/面向对象/8.final关键字"
+            },
+            {
+              "text": "接口",
+              "link": "/JAVA/面向对象/9.接口"
+            },
+            {
+              "text": "Object类",
+              "link": "/JAVA/面向对象/10.Object类"
+            },
+            {
+              "text": "内部类",
+              "link": "/JAVA/面向对象/11.内部类"
+            },
+            {
+              "text": "常量类",
+              "link": "/JAVA/面向对象/常量类"
+            }
+          ]
+        },
+        {
+          "text": "企业规范",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "数据封装",
+              "link": "/JAVA/企业规范/数据封装"
+            }
+          ]
+        },
+        {
+          "text": "入门",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "JVM内存分析",
+              "link": "/JAVA/入门/JVM内存分析"
+            },
+            {
+              "text": "this",
+              "link": "/JAVA/入门/this"
+            }
+          ]
+        },
+        {
+          "text": "数组",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "数组概述",
+              "link": "/JAVA/数组/1.数组概述"
+            },
+            {
+              "text": "一维数组",
+              "link": "/JAVA/数组/2.一维数组"
+            },
+            {
+              "text": "增强for",
+              "link": "/JAVA/数组/3.增强for"
+            },
+            {
+              "text": "二维数组",
+              "link": "/JAVA/数组/4.二维数组"
+            },
+            {
+              "text": "可变长度参数",
+              "link": "/JAVA/数组/可变长度参数"
+            },
+            {
+              "text": "Arrays",
+              "link": "/JAVA/数组/Arrays"
+            }
+          ]
+        },
+        {
+          "text": "异常",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "异常体系",
+              "link": "/JAVA/异常/1.异常体系"
+            },
+            {
+              "text": "异常处理",
+              "link": "/JAVA/异常/2.异常处理"
+            },
+            {
+              "text": "自定义异常",
+              "link": "/JAVA/异常/3.自定义异常"
+            }
+          ]
+        },
+        {
+          "text": "JAVA运行",
+          "link": "/JAVA/1.JAVA运行"
+        },
+        {
+          "text": "包机制",
+          "link": "/JAVA/包机制"
+        },
+        {
+          "text": "访问权限修饰符",
+          "link": "/JAVA/访问权限修饰符"
+        },
+        {
+          "text": "数据类型",
+          "link": "/JAVA/数据类型"
+        },
+        {
+          "text": "注解",
+          "link": "/JAVA/注解"
+        },
+        {
+          "text": "idea",
+          "link": "/JAVA/idea"
         }
       ]
     }
@@ -542,183 +708,6 @@ export default {
       ]
     }
   ],
-  "/JAVA/": [
-    {
-      "text": "JAVA",
-      "items": [
-        {
-          "text": "常用类",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "包装类",
-              "link": "/JAVA/常用类/包装类"
-            },
-            {
-              "text": "Integer",
-              "link": "/JAVA/常用类/Integer"
-            }
-          ]
-        },
-        {
-          "text": "面向对象",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "static关键字",
-              "link": "/JAVA/面向对象/1.static关键字"
-            },
-            {
-              "text": "构造方法",
-              "link": "/JAVA/面向对象/2.构造方法"
-            },
-            {
-              "text": "方法重载",
-              "link": "/JAVA/面向对象/3.方法重载"
-            },
-            {
-              "text": "继承",
-              "link": "/JAVA/面向对象/4.继承"
-            },
-            {
-              "text": "多态",
-              "link": "/JAVA/面向对象/5.多态"
-            },
-            {
-              "text": "抽象类",
-              "link": "/JAVA/面向对象/6.抽象类"
-            },
-            {
-              "text": "super关键字",
-              "link": "/JAVA/面向对象/7.super关键字"
-            },
-            {
-              "text": "final关键字",
-              "link": "/JAVA/面向对象/8.final关键字"
-            },
-            {
-              "text": "接口",
-              "link": "/JAVA/面向对象/9.接口"
-            },
-            {
-              "text": "Object类",
-              "link": "/JAVA/面向对象/10.Object类"
-            },
-            {
-              "text": "内部类",
-              "link": "/JAVA/面向对象/11.内部类"
-            },
-            {
-              "text": "常量类",
-              "link": "/JAVA/面向对象/常量类"
-            }
-          ]
-        },
-        {
-          "text": "企业规范",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "数据封装",
-              "link": "/JAVA/企业规范/数据封装"
-            }
-          ]
-        },
-        {
-          "text": "入门",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "JVM内存分析",
-              "link": "/JAVA/入门/JVM内存分析"
-            },
-            {
-              "text": "this",
-              "link": "/JAVA/入门/this"
-            }
-          ]
-        },
-        {
-          "text": "数组",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "数组概述",
-              "link": "/JAVA/数组/1.数组概述"
-            },
-            {
-              "text": "一维数组",
-              "link": "/JAVA/数组/2.一维数组"
-            },
-            {
-              "text": "增强for",
-              "link": "/JAVA/数组/3.增强for"
-            },
-            {
-              "text": "二维数组",
-              "link": "/JAVA/数组/4.二维数组"
-            },
-            {
-              "text": "可变长度参数",
-              "link": "/JAVA/数组/可变长度参数"
-            },
-            {
-              "text": "Arrays",
-              "link": "/JAVA/数组/Arrays"
-            }
-          ]
-        },
-        {
-          "text": "异常",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "异常体系",
-              "link": "/JAVA/异常/1.异常体系"
-            },
-            {
-              "text": "异常处理",
-              "link": "/JAVA/异常/2.异常处理"
-            },
-            {
-              "text": "自定义异常",
-              "link": "/JAVA/异常/3.自定义异常"
-            }
-          ]
-        },
-        {
-          "text": "JAVA运行",
-          "link": "/JAVA/1.JAVA运行"
-        },
-        {
-          "text": "包机制",
-          "link": "/JAVA/包机制"
-        },
-        {
-          "text": "访问权限修饰符",
-          "link": "/JAVA/访问权限修饰符"
-        },
-        {
-          "text": "数据类型",
-          "link": "/JAVA/数据类型"
-        },
-        {
-          "text": "注解",
-          "link": "/JAVA/注解"
-        },
-        {
-          "text": "idea",
-          "link": "/JAVA/idea"
-        }
-      ]
-    }
-  ],
   "/JavaScript/": [
     {
       "text": "JavaScript",
@@ -1052,45 +1041,6 @@ export default {
       ]
     }
   ],
-  "/nuxt/": [
-    {
-      "text": "nuxt",
-      "items": [
-        {
-          "text": "布局",
-          "link": "/nuxt/布局"
-        },
-        {
-          "text": "服务器",
-          "link": "/nuxt/服务器"
-        },
-        {
-          "text": "基础",
-          "link": "/nuxt/基础"
-        },
-        {
-          "text": "路由",
-          "link": "/nuxt/路由"
-        },
-        {
-          "text": "视图",
-          "link": "/nuxt/视图"
-        },
-        {
-          "text": "数据请求",
-          "link": "/nuxt/数据请求"
-        },
-        {
-          "text": "资源管理",
-          "link": "/nuxt/资源管理"
-        },
-        {
-          "text": "SEO与元数据",
-          "link": "/nuxt/SEO与元数据"
-        }
-      ]
-    }
-  ],
   "/Node/": [
     {
       "text": "Node",
@@ -1317,99 +1267,6 @@ export default {
         {
           "text": "util",
           "link": "/Node/util"
-        }
-      ]
-    }
-  ],
-  "/package/": [
-    {
-      "text": "package",
-      "items": [
-        {
-          "text": "echarts",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "Event",
-              "collapsible": true,
-              "collapsed": false,
-              "items": [
-                {
-                  "text": "updateAxisPointer",
-                  "link": "/package/echarts/Event/updateAxisPointer"
-                }
-              ]
-            },
-            {
-              "text": "地图",
-              "link": "/package/echarts/地图"
-            },
-            {
-              "text": "图表容器",
-              "link": "/package/echarts/图表容器"
-            },
-            {
-              "text": "增量更新",
-              "link": "/package/echarts/增量更新"
-            },
-            {
-              "text": "dataset",
-              "link": "/package/echarts/dataset"
-            },
-            {
-              "text": "GeoJSON",
-              "link": "/package/echarts/GeoJSON"
-            },
-            {
-              "text": "legend",
-              "link": "/package/echarts/legend"
-            },
-            {
-              "text": "series",
-              "link": "/package/echarts/series"
-            },
-            {
-              "text": "xAxis",
-              "link": "/package/echarts/xAxis"
-            }
-          ]
-        },
-        {
-          "text": "antfu-utils",
-          "link": "/package/antfu-utils"
-        },
-        {
-          "text": "cross-env",
-          "link": "/package/cross-env"
-        },
-        {
-          "text": "file-saver",
-          "link": "/package/file-saver"
-        },
-        {
-          "text": "nodemon",
-          "link": "/package/nodemon"
-        },
-        {
-          "text": "sequelize",
-          "link": "/package/sequelize"
-        },
-        {
-          "text": "ts-node",
-          "link": "/package/ts-node"
-        },
-        {
-          "text": "tsx",
-          "link": "/package/tsx"
-        },
-        {
-          "text": "unplugin-auto-import",
-          "link": "/package/unplugin-auto-import"
-        },
-        {
-          "text": "unplugin-vue-components",
-          "link": "/package/unplugin-vue-components"
         }
       ]
     }
@@ -1764,6 +1621,149 @@ export default {
       ]
     }
   ],
+  "/git/": [
+    {
+      "text": "git",
+      "items": [
+        {
+          "text": "远程仓库",
+          "link": "/git/远程仓库"
+        }
+      ]
+    }
+  ],
+  "/nuxt/": [
+    {
+      "text": "nuxt",
+      "items": [
+        {
+          "text": "布局",
+          "link": "/nuxt/布局"
+        },
+        {
+          "text": "服务器",
+          "link": "/nuxt/服务器"
+        },
+        {
+          "text": "基础",
+          "link": "/nuxt/基础"
+        },
+        {
+          "text": "路由",
+          "link": "/nuxt/路由"
+        },
+        {
+          "text": "视图",
+          "link": "/nuxt/视图"
+        },
+        {
+          "text": "数据请求",
+          "link": "/nuxt/数据请求"
+        },
+        {
+          "text": "资源管理",
+          "link": "/nuxt/资源管理"
+        },
+        {
+          "text": "SEO与元数据",
+          "link": "/nuxt/SEO与元数据"
+        }
+      ]
+    }
+  ],
+  "/package/": [
+    {
+      "text": "package",
+      "items": [
+        {
+          "text": "echarts",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "Event",
+              "collapsible": true,
+              "collapsed": false,
+              "items": [
+                {
+                  "text": "updateAxisPointer",
+                  "link": "/package/echarts/Event/updateAxisPointer"
+                }
+              ]
+            },
+            {
+              "text": "地图",
+              "link": "/package/echarts/地图"
+            },
+            {
+              "text": "图表容器",
+              "link": "/package/echarts/图表容器"
+            },
+            {
+              "text": "增量更新",
+              "link": "/package/echarts/增量更新"
+            },
+            {
+              "text": "dataset",
+              "link": "/package/echarts/dataset"
+            },
+            {
+              "text": "GeoJSON",
+              "link": "/package/echarts/GeoJSON"
+            },
+            {
+              "text": "legend",
+              "link": "/package/echarts/legend"
+            },
+            {
+              "text": "series",
+              "link": "/package/echarts/series"
+            },
+            {
+              "text": "xAxis",
+              "link": "/package/echarts/xAxis"
+            }
+          ]
+        },
+        {
+          "text": "antfu-utils",
+          "link": "/package/antfu-utils"
+        },
+        {
+          "text": "cross-env",
+          "link": "/package/cross-env"
+        },
+        {
+          "text": "file-saver",
+          "link": "/package/file-saver"
+        },
+        {
+          "text": "nodemon",
+          "link": "/package/nodemon"
+        },
+        {
+          "text": "sequelize",
+          "link": "/package/sequelize"
+        },
+        {
+          "text": "ts-node",
+          "link": "/package/ts-node"
+        },
+        {
+          "text": "tsx",
+          "link": "/package/tsx"
+        },
+        {
+          "text": "unplugin-auto-import",
+          "link": "/package/unplugin-auto-import"
+        },
+        {
+          "text": "unplugin-vue-components",
+          "link": "/package/unplugin-vue-components"
+        }
+      ]
+    }
+  ],
   "/云服务/": [
     {
       "text": "云服务",
@@ -1783,17 +1783,6 @@ export default {
         {
           "text": "SSL",
           "link": "/云服务/SSL"
-        }
-      ]
-    }
-  ],
-  "/性能优化/": [
-    {
-      "text": "性能优化",
-      "items": [
-        {
-          "text": "gzip压缩",
-          "link": "/性能优化/gzip压缩"
         }
       ]
     }
@@ -1821,6 +1810,17 @@ export default {
         {
           "text": "vscode",
           "link": "/前端工程化/vscode"
+        }
+      ]
+    }
+  ],
+  "/性能优化/": [
+    {
+      "text": "性能优化",
+      "items": [
+        {
+          "text": "gzip压缩",
+          "link": "/性能优化/gzip压缩"
         }
       ]
     }
@@ -1867,7 +1867,22 @@ export default {
           "items": [
             {
               "text": "查询",
-              "link": "/数据库/MyBatis/查询"
+              "collapsible": true,
+              "collapsed": false,
+              "items": [
+                {
+                  "text": "查询",
+                  "link": "/数据库/MyBatis/查询/查询"
+                },
+                {
+                  "text": "多对一查询",
+                  "link": "/数据库/MyBatis/查询/多对一查询"
+                },
+                {
+                  "text": "一对多查询",
+                  "link": "/数据库/MyBatis/查询/一对多查询"
+                }
+              ]
             },
             {
               "text": "获取参数",
