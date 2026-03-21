@@ -105,7 +105,7 @@ SELECT * FROM table_name;
 
 示例：
 
-```env
+```yaml
 SCHEMA_INSERT_PERMISSIONS=development:true,test:true,production:false
 SCHEMA_UPDATE_PERMISSIONS=development:true,test:true,production:false
 SCHEMA_DELETE_PERMISSIONS=development:false,test:true,production:false
