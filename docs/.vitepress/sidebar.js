@@ -604,6 +604,10 @@ export default {
               "link": "/JAVA/面向对象/12.枚举类"
             },
             {
+              "text": "注解",
+              "link": "/JAVA/面向对象/13.注解"
+            },
+            {
               "text": "常量类",
               "link": "/JAVA/面向对象/常量类"
             }
@@ -743,87 +747,6 @@ export default {
         {
           "text": "idea",
           "link": "/JAVA/idea"
-        }
-      ]
-    }
-  ],
-  "/Linux/": [
-    {
-      "text": "Linux",
-      "items": [
-        {
-          "text": "权限",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "权限控制",
-              "link": "/Linux/权限/权限控制"
-            },
-            {
-              "text": "用户与用户组",
-              "link": "/Linux/权限/用户与用户组"
-            },
-            {
-              "text": "root",
-              "link": "/Linux/权限/root"
-            }
-          ]
-        },
-        {
-          "text": "应用管理",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "包管理",
-              "link": "/Linux/应用管理/包管理"
-            },
-            {
-              "text": "快捷键",
-              "link": "/Linux/应用管理/快捷键"
-            },
-            {
-              "text": "应用",
-              "link": "/Linux/应用管理/应用"
-            }
-          ]
-        },
-        {
-          "text": "变量",
-          "link": "/Linux/变量"
-        },
-        {
-          "text": "进程",
-          "link": "/Linux/进程"
-        },
-        {
-          "text": "命令",
-          "link": "/Linux/命令"
-        },
-        {
-          "text": "文件命令",
-          "link": "/Linux/文件命令"
-        },
-        {
-          "text": "curl",
-          "link": "/Linux/curl"
-        },
-        {
-          "text": "shell",
-          "link": "/Linux/shell"
-        },
-        {
-          "text": "shell脚本",
-          "link": "/Linux/shell脚本"
-        },
-        {
-          "text": "vim",
-          "link": "/Linux/vim"
-        },
-        {
-          "text": "zsh",
-          "link": "/Linux/zsh"
         }
       ]
     }
@@ -1306,6 +1229,87 @@ export default {
         {
           "text": "util",
           "link": "/Node/util"
+        }
+      ]
+    }
+  ],
+  "/Linux/": [
+    {
+      "text": "Linux",
+      "items": [
+        {
+          "text": "权限",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "权限控制",
+              "link": "/Linux/权限/权限控制"
+            },
+            {
+              "text": "用户与用户组",
+              "link": "/Linux/权限/用户与用户组"
+            },
+            {
+              "text": "root",
+              "link": "/Linux/权限/root"
+            }
+          ]
+        },
+        {
+          "text": "应用管理",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "包管理",
+              "link": "/Linux/应用管理/包管理"
+            },
+            {
+              "text": "快捷键",
+              "link": "/Linux/应用管理/快捷键"
+            },
+            {
+              "text": "应用",
+              "link": "/Linux/应用管理/应用"
+            }
+          ]
+        },
+        {
+          "text": "变量",
+          "link": "/Linux/变量"
+        },
+        {
+          "text": "进程",
+          "link": "/Linux/进程"
+        },
+        {
+          "text": "命令",
+          "link": "/Linux/命令"
+        },
+        {
+          "text": "文件命令",
+          "link": "/Linux/文件命令"
+        },
+        {
+          "text": "curl",
+          "link": "/Linux/curl"
+        },
+        {
+          "text": "shell",
+          "link": "/Linux/shell"
+        },
+        {
+          "text": "shell脚本",
+          "link": "/Linux/shell脚本"
+        },
+        {
+          "text": "vim",
+          "link": "/Linux/vim"
+        },
+        {
+          "text": "zsh",
+          "link": "/Linux/zsh"
         }
       ]
     }
