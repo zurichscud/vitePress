@@ -551,6 +551,44 @@ export default {
           ]
         },
         {
+          "text": "泛型",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "泛型",
+              "link": "/JAVA/泛型/泛型"
+            }
+          ]
+        },
+        {
+          "text": "集合",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "Collection",
+              "link": "/JAVA/集合/1.Collection"
+            },
+            {
+              "text": "List体系",
+              "link": "/JAVA/集合/2.List体系"
+            },
+            {
+              "text": "Set",
+              "link": "/JAVA/集合/3.Set"
+            },
+            {
+              "text": "Iterator",
+              "link": "/JAVA/集合/Iterator"
+            },
+            {
+              "text": "Map",
+              "link": "/JAVA/集合/Map"
+            }
+          ]
+        },
+        {
           "text": "面向对象",
           "collapsible": true,
           "collapsed": false,
@@ -688,10 +726,6 @@ export default {
               "link": "/JAVA/数组/2.一维数组"
             },
             {
-              "text": "增强for",
-              "link": "/JAVA/数组/3.增强for"
-            },
-            {
               "text": "二维数组",
               "link": "/JAVA/数组/4.二维数组"
             },
@@ -743,6 +777,10 @@ export default {
         {
           "text": "注解",
           "link": "/JAVA/注解"
+        },
+        {
+          "text": "Example",
+          "link": "/JAVA/Example"
         },
         {
           "text": "idea",
@@ -1003,6 +1041,87 @@ export default {
       ]
     }
   ],
+  "/Linux/": [
+    {
+      "text": "Linux",
+      "items": [
+        {
+          "text": "权限",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "权限控制",
+              "link": "/Linux/权限/权限控制"
+            },
+            {
+              "text": "用户与用户组",
+              "link": "/Linux/权限/用户与用户组"
+            },
+            {
+              "text": "root",
+              "link": "/Linux/权限/root"
+            }
+          ]
+        },
+        {
+          "text": "应用管理",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "包管理",
+              "link": "/Linux/应用管理/包管理"
+            },
+            {
+              "text": "快捷键",
+              "link": "/Linux/应用管理/快捷键"
+            },
+            {
+              "text": "应用",
+              "link": "/Linux/应用管理/应用"
+            }
+          ]
+        },
+        {
+          "text": "变量",
+          "link": "/Linux/变量"
+        },
+        {
+          "text": "进程",
+          "link": "/Linux/进程"
+        },
+        {
+          "text": "命令",
+          "link": "/Linux/命令"
+        },
+        {
+          "text": "文件命令",
+          "link": "/Linux/文件命令"
+        },
+        {
+          "text": "curl",
+          "link": "/Linux/curl"
+        },
+        {
+          "text": "shell",
+          "link": "/Linux/shell"
+        },
+        {
+          "text": "shell脚本",
+          "link": "/Linux/shell脚本"
+        },
+        {
+          "text": "vim",
+          "link": "/Linux/vim"
+        },
+        {
+          "text": "zsh",
+          "link": "/Linux/zsh"
+        }
+      ]
+    }
+  ],
   "/Node/": [
     {
       "text": "Node",
@@ -1229,87 +1348,6 @@ export default {
         {
           "text": "util",
           "link": "/Node/util"
-        }
-      ]
-    }
-  ],
-  "/Linux/": [
-    {
-      "text": "Linux",
-      "items": [
-        {
-          "text": "权限",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "权限控制",
-              "link": "/Linux/权限/权限控制"
-            },
-            {
-              "text": "用户与用户组",
-              "link": "/Linux/权限/用户与用户组"
-            },
-            {
-              "text": "root",
-              "link": "/Linux/权限/root"
-            }
-          ]
-        },
-        {
-          "text": "应用管理",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "包管理",
-              "link": "/Linux/应用管理/包管理"
-            },
-            {
-              "text": "快捷键",
-              "link": "/Linux/应用管理/快捷键"
-            },
-            {
-              "text": "应用",
-              "link": "/Linux/应用管理/应用"
-            }
-          ]
-        },
-        {
-          "text": "变量",
-          "link": "/Linux/变量"
-        },
-        {
-          "text": "进程",
-          "link": "/Linux/进程"
-        },
-        {
-          "text": "命令",
-          "link": "/Linux/命令"
-        },
-        {
-          "text": "文件命令",
-          "link": "/Linux/文件命令"
-        },
-        {
-          "text": "curl",
-          "link": "/Linux/curl"
-        },
-        {
-          "text": "shell",
-          "link": "/Linux/shell"
-        },
-        {
-          "text": "shell脚本",
-          "link": "/Linux/shell脚本"
-        },
-        {
-          "text": "vim",
-          "link": "/Linux/vim"
-        },
-        {
-          "text": "zsh",
-          "link": "/Linux/zsh"
         }
       ]
     }
@@ -1900,6 +1938,10 @@ export default {
             {
               "text": "运维字段",
               "link": "/数据库/应用/运维字段"
+            },
+            {
+              "text": "字符串与数组",
+              "link": "/数据库/应用/字符串与数组"
             }
           ]
         },
