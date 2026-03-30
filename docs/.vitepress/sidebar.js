@@ -1,170 +1,5 @@
 // 自动生成，请勿修改
 export default {
-  "/HTML/": [
-    {
-      "text": "HTML",
-      "items": [
-        {
-          "text": "表单",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "button",
-              "link": "/HTML/表单/button"
-            },
-            {
-              "text": "check",
-              "link": "/HTML/表单/check"
-            },
-            {
-              "text": "form",
-              "link": "/HTML/表单/form"
-            },
-            {
-              "text": "input",
-              "link": "/HTML/表单/input"
-            },
-            {
-              "text": "label",
-              "link": "/HTML/表单/label"
-            },
-            {
-              "text": "select",
-              "link": "/HTML/表单/select"
-            },
-            {
-              "text": "textarea",
-              "link": "/HTML/表单/textarea"
-            }
-          ]
-        },
-        {
-          "text": "超链接",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "唤起应用",
-              "link": "/HTML/超链接/唤起应用"
-            },
-            {
-              "text": "链接",
-              "link": "/HTML/超链接/链接"
-            },
-            {
-              "text": "锚点",
-              "link": "/HTML/超链接/锚点"
-            }
-          ]
-        },
-        {
-          "text": "可替换元素",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "可替换元素",
-              "link": "/HTML/可替换元素/可替换元素"
-            },
-            {
-              "text": "iframe",
-              "link": "/HTML/可替换元素/iframe"
-            },
-            {
-              "text": "img",
-              "link": "/HTML/可替换元素/img"
-            }
-          ]
-        },
-        {
-          "text": "列表",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "列表",
-              "link": "/HTML/列表/列表"
-            },
-            {
-              "text": "列表样式",
-              "link": "/HTML/列表/列表样式"
-            }
-          ]
-        },
-        {
-          "text": "属性",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "布尔属性",
-              "link": "/HTML/属性/1-布尔属性"
-            },
-            {
-              "text": "自定义属性",
-              "link": "/HTML/属性/2-自定义属性"
-            },
-            {
-              "text": "表现型属性",
-              "link": "/HTML/属性/表现型属性"
-            },
-            {
-              "text": "全局属性",
-              "link": "/HTML/属性/全局属性"
-            }
-          ]
-        },
-        {
-          "text": "元数据",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "标准元数据名称",
-              "link": "/HTML/元数据/标准元数据名称"
-            },
-            {
-              "text": "meta标签",
-              "link": "/HTML/元数据/meta标签"
-            }
-          ]
-        },
-        {
-          "text": "表格",
-          "link": "/HTML/表格"
-        },
-        {
-          "text": "调试工具",
-          "link": "/HTML/调试工具"
-        },
-        {
-          "text": "浏览器渲染流程",
-          "link": "/HTML/浏览器渲染流程"
-        },
-        {
-          "text": "路径",
-          "link": "/HTML/路径"
-        },
-        {
-          "text": "图片格式",
-          "link": "/HTML/图片格式"
-        },
-        {
-          "text": "HTML元素间的关系",
-          "link": "/HTML/HTML元素间的关系"
-        },
-        {
-          "text": "HTML字符实体",
-          "link": "/HTML/HTML字符实体"
-        },
-        {
-          "text": "SVG",
-          "link": "/HTML/SVG"
-        }
-      ]
-    }
-  ],
   "/CSS/": [
     {
       "text": "CSS",
@@ -527,6 +362,171 @@ export default {
         {
           "text": "table-layout",
           "link": "/CSS/table-layout"
+        }
+      ]
+    }
+  ],
+  "/HTML/": [
+    {
+      "text": "HTML",
+      "items": [
+        {
+          "text": "表单",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "button",
+              "link": "/HTML/表单/button"
+            },
+            {
+              "text": "check",
+              "link": "/HTML/表单/check"
+            },
+            {
+              "text": "form",
+              "link": "/HTML/表单/form"
+            },
+            {
+              "text": "input",
+              "link": "/HTML/表单/input"
+            },
+            {
+              "text": "label",
+              "link": "/HTML/表单/label"
+            },
+            {
+              "text": "select",
+              "link": "/HTML/表单/select"
+            },
+            {
+              "text": "textarea",
+              "link": "/HTML/表单/textarea"
+            }
+          ]
+        },
+        {
+          "text": "超链接",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "唤起应用",
+              "link": "/HTML/超链接/唤起应用"
+            },
+            {
+              "text": "链接",
+              "link": "/HTML/超链接/链接"
+            },
+            {
+              "text": "锚点",
+              "link": "/HTML/超链接/锚点"
+            }
+          ]
+        },
+        {
+          "text": "可替换元素",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "可替换元素",
+              "link": "/HTML/可替换元素/可替换元素"
+            },
+            {
+              "text": "iframe",
+              "link": "/HTML/可替换元素/iframe"
+            },
+            {
+              "text": "img",
+              "link": "/HTML/可替换元素/img"
+            }
+          ]
+        },
+        {
+          "text": "列表",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "列表",
+              "link": "/HTML/列表/列表"
+            },
+            {
+              "text": "列表样式",
+              "link": "/HTML/列表/列表样式"
+            }
+          ]
+        },
+        {
+          "text": "属性",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "布尔属性",
+              "link": "/HTML/属性/1-布尔属性"
+            },
+            {
+              "text": "自定义属性",
+              "link": "/HTML/属性/2-自定义属性"
+            },
+            {
+              "text": "表现型属性",
+              "link": "/HTML/属性/表现型属性"
+            },
+            {
+              "text": "全局属性",
+              "link": "/HTML/属性/全局属性"
+            }
+          ]
+        },
+        {
+          "text": "元数据",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "标准元数据名称",
+              "link": "/HTML/元数据/标准元数据名称"
+            },
+            {
+              "text": "meta标签",
+              "link": "/HTML/元数据/meta标签"
+            }
+          ]
+        },
+        {
+          "text": "表格",
+          "link": "/HTML/表格"
+        },
+        {
+          "text": "调试工具",
+          "link": "/HTML/调试工具"
+        },
+        {
+          "text": "浏览器渲染流程",
+          "link": "/HTML/浏览器渲染流程"
+        },
+        {
+          "text": "路径",
+          "link": "/HTML/路径"
+        },
+        {
+          "text": "图片格式",
+          "link": "/HTML/图片格式"
+        },
+        {
+          "text": "HTML元素间的关系",
+          "link": "/HTML/HTML元素间的关系"
+        },
+        {
+          "text": "HTML字符实体",
+          "link": "/HTML/HTML字符实体"
+        },
+        {
+          "text": "SVG",
+          "link": "/HTML/SVG"
         }
       ]
     }
@@ -1094,99 +1094,6 @@ export default {
       ]
     }
   ],
-  "/Web/": [
-    {
-      "text": "Web",
-      "items": [
-        {
-          "text": "安全",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "对称加密",
-              "link": "/Web/安全/对称加密"
-            },
-            {
-              "text": "非对称加密",
-              "link": "/Web/安全/非对称加密"
-            },
-            {
-              "text": "哈希函数",
-              "link": "/Web/安全/哈希函数"
-            },
-            {
-              "text": "Cookie",
-              "link": "/Web/安全/Cookie"
-            },
-            {
-              "text": "HTTPS",
-              "link": "/Web/安全/HTTPS"
-            },
-            {
-              "text": "JWT",
-              "link": "/Web/安全/JWT"
-            },
-            {
-              "text": "Session",
-              "link": "/Web/安全/Session"
-            }
-          ]
-        },
-        {
-          "text": "请求与响应",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "防盗链",
-              "link": "/Web/请求与响应/防盗链"
-            },
-            {
-              "text": "预检",
-              "link": "/Web/请求与响应/预检"
-            },
-            {
-              "text": "自定义响应头",
-              "link": "/Web/请求与响应/自定义响应头"
-            },
-            {
-              "text": "Cache-Control",
-              "link": "/Web/请求与响应/Cache-Control"
-            },
-            {
-              "text": "CORS",
-              "link": "/Web/请求与响应/CORS"
-            }
-          ]
-        },
-        {
-          "text": "短链接",
-          "link": "/Web/短链接"
-        },
-        {
-          "text": "favicons",
-          "link": "/Web/favicons"
-        },
-        {
-          "text": "HTTP2",
-          "link": "/Web/HTTP2"
-        },
-        {
-          "text": "SCL",
-          "link": "/Web/SCL"
-        },
-        {
-          "text": "SSE",
-          "link": "/Web/SSE"
-        },
-        {
-          "text": "SSO",
-          "link": "/Web/SSO"
-        }
-      ]
-    }
-  ],
   "/JAVA/": [
     {
       "text": "JAVA",
@@ -1221,11 +1128,19 @@ export default {
           "items": [
             {
               "text": "泛型",
-              "link": "/JAVA/泛型/泛型"
+              "link": "/JAVA/泛型/1.泛型"
             },
             {
               "text": "泛型继承",
-              "link": "/JAVA/泛型/泛型继承"
+              "link": "/JAVA/泛型/2.泛型继承"
+            },
+            {
+              "text": "泛型不变性",
+              "link": "/JAVA/泛型/3.泛型不变性"
+            },
+            {
+              "text": "常见泛型",
+              "link": "/JAVA/泛型/4.常见泛型"
             }
           ]
         },
@@ -1251,8 +1166,8 @@ export default {
               "link": "/JAVA/函数式编程/4.StreamAPI"
             },
             {
-              "text": "Collectors",
-              "link": "/JAVA/函数式编程/5.Collectors"
+              "text": "Collector",
+              "link": "/JAVA/函数式编程/5.Collector"
             }
           ]
         },
@@ -1496,132 +1411,6 @@ export default {
       ]
     }
   ],
-  "/TypeScript/": [
-    {
-      "text": "TypeScript",
-      "items": [
-        {
-          "text": "泛型",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "泛型",
-              "link": "/TypeScript/泛型/泛型"
-            },
-            {
-              "text": "泛型工具",
-              "link": "/TypeScript/泛型/泛型工具"
-            },
-            {
-              "text": "条件类型",
-              "link": "/TypeScript/泛型/条件类型"
-            },
-            {
-              "text": "映射类型",
-              "link": "/TypeScript/泛型/映射类型"
-            }
-          ]
-        },
-        {
-          "text": "基本数据类型",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "对象类型",
-              "link": "/TypeScript/基本数据类型/对象类型"
-            },
-            {
-              "text": "函数类型",
-              "link": "/TypeScript/基本数据类型/函数类型"
-            },
-            {
-              "text": "枚举类型",
-              "link": "/TypeScript/基本数据类型/枚举类型"
-            },
-            {
-              "text": "原始类型",
-              "link": "/TypeScript/基本数据类型/原始类型"
-            },
-            {
-              "text": "组合类型",
-              "link": "/TypeScript/基本数据类型/组合类型"
-            }
-          ]
-        },
-        {
-          "text": "接口",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "索引访问类型",
-              "link": "/TypeScript/接口/索引访问类型"
-            },
-            {
-              "text": "索引签名",
-              "link": "/TypeScript/接口/索引签名"
-            }
-          ]
-        },
-        {
-          "text": "类型运算",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "类型体操",
-              "link": "/TypeScript/类型运算/类型体操"
-            },
-            {
-              "text": "类型运算符",
-              "link": "/TypeScript/类型运算/类型运算符"
-            },
-            {
-              "text": "协变与逆变",
-              "link": "/TypeScript/类型运算/协变与逆变"
-            },
-            {
-              "text": "infer关键字",
-              "link": "/TypeScript/类型运算/infer关键字"
-            }
-          ]
-        },
-        {
-          "text": "特殊数据类型",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "特殊类型",
-              "link": "/TypeScript/特殊数据类型/特殊类型"
-            }
-          ]
-        },
-        {
-          "text": "创建TS项目",
-          "link": "/TypeScript/创建TS项目"
-        },
-        {
-          "text": "断言",
-          "link": "/TypeScript/断言"
-        },
-        {
-          "text": "类型守卫",
-          "link": "/TypeScript/类型守卫"
-        },
-        {
-          "text": "声明文件",
-          "link": "/TypeScript/声明文件"
-        },
-        {
-          "text": "tsconfig",
-          "link": "/TypeScript/tsconfig"
-        }
-      ]
-    }
-  ],
   "/WebAPI/": [
     {
       "text": "WebAPI",
@@ -1749,6 +1538,225 @@ export default {
         {
           "text": "URLSearchParams",
           "link": "/WebAPI/URLSearchParams"
+        }
+      ]
+    }
+  ],
+  "/TypeScript/": [
+    {
+      "text": "TypeScript",
+      "items": [
+        {
+          "text": "泛型",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "泛型",
+              "link": "/TypeScript/泛型/泛型"
+            },
+            {
+              "text": "泛型工具",
+              "link": "/TypeScript/泛型/泛型工具"
+            },
+            {
+              "text": "条件类型",
+              "link": "/TypeScript/泛型/条件类型"
+            },
+            {
+              "text": "映射类型",
+              "link": "/TypeScript/泛型/映射类型"
+            }
+          ]
+        },
+        {
+          "text": "基本数据类型",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "对象类型",
+              "link": "/TypeScript/基本数据类型/对象类型"
+            },
+            {
+              "text": "函数类型",
+              "link": "/TypeScript/基本数据类型/函数类型"
+            },
+            {
+              "text": "枚举类型",
+              "link": "/TypeScript/基本数据类型/枚举类型"
+            },
+            {
+              "text": "原始类型",
+              "link": "/TypeScript/基本数据类型/原始类型"
+            },
+            {
+              "text": "组合类型",
+              "link": "/TypeScript/基本数据类型/组合类型"
+            }
+          ]
+        },
+        {
+          "text": "接口",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "索引访问类型",
+              "link": "/TypeScript/接口/索引访问类型"
+            },
+            {
+              "text": "索引签名",
+              "link": "/TypeScript/接口/索引签名"
+            }
+          ]
+        },
+        {
+          "text": "类型运算",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "类型体操",
+              "link": "/TypeScript/类型运算/类型体操"
+            },
+            {
+              "text": "类型运算符",
+              "link": "/TypeScript/类型运算/类型运算符"
+            },
+            {
+              "text": "协变与逆变",
+              "link": "/TypeScript/类型运算/协变与逆变"
+            },
+            {
+              "text": "infer关键字",
+              "link": "/TypeScript/类型运算/infer关键字"
+            }
+          ]
+        },
+        {
+          "text": "特殊数据类型",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "特殊类型",
+              "link": "/TypeScript/特殊数据类型/特殊类型"
+            }
+          ]
+        },
+        {
+          "text": "创建TS项目",
+          "link": "/TypeScript/创建TS项目"
+        },
+        {
+          "text": "断言",
+          "link": "/TypeScript/断言"
+        },
+        {
+          "text": "类型守卫",
+          "link": "/TypeScript/类型守卫"
+        },
+        {
+          "text": "声明文件",
+          "link": "/TypeScript/声明文件"
+        },
+        {
+          "text": "tsconfig",
+          "link": "/TypeScript/tsconfig"
+        }
+      ]
+    }
+  ],
+  "/Web/": [
+    {
+      "text": "Web",
+      "items": [
+        {
+          "text": "安全",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "对称加密",
+              "link": "/Web/安全/对称加密"
+            },
+            {
+              "text": "非对称加密",
+              "link": "/Web/安全/非对称加密"
+            },
+            {
+              "text": "哈希函数",
+              "link": "/Web/安全/哈希函数"
+            },
+            {
+              "text": "Cookie",
+              "link": "/Web/安全/Cookie"
+            },
+            {
+              "text": "HTTPS",
+              "link": "/Web/安全/HTTPS"
+            },
+            {
+              "text": "JWT",
+              "link": "/Web/安全/JWT"
+            },
+            {
+              "text": "Session",
+              "link": "/Web/安全/Session"
+            }
+          ]
+        },
+        {
+          "text": "请求与响应",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "防盗链",
+              "link": "/Web/请求与响应/防盗链"
+            },
+            {
+              "text": "预检",
+              "link": "/Web/请求与响应/预检"
+            },
+            {
+              "text": "自定义响应头",
+              "link": "/Web/请求与响应/自定义响应头"
+            },
+            {
+              "text": "Cache-Control",
+              "link": "/Web/请求与响应/Cache-Control"
+            },
+            {
+              "text": "CORS",
+              "link": "/Web/请求与响应/CORS"
+            }
+          ]
+        },
+        {
+          "text": "短链接",
+          "link": "/Web/短链接"
+        },
+        {
+          "text": "favicons",
+          "link": "/Web/favicons"
+        },
+        {
+          "text": "HTTP2",
+          "link": "/Web/HTTP2"
+        },
+        {
+          "text": "SCL",
+          "link": "/Web/SCL"
+        },
+        {
+          "text": "SSE",
+          "link": "/Web/SSE"
+        },
+        {
+          "text": "SSO",
+          "link": "/Web/SSO"
         }
       ]
     }
@@ -1957,6 +1965,33 @@ export default {
       ]
     }
   ],
+  "/百科/": [
+    {
+      "text": "百科",
+      "items": [
+        {
+          "text": "路径",
+          "link": "/百科/路径"
+        },
+        {
+          "text": "原型",
+          "link": "/百科/原型"
+        },
+        {
+          "text": "bin",
+          "link": "/百科/bin"
+        },
+        {
+          "text": "CMS",
+          "link": "/百科/CMS"
+        },
+        {
+          "text": "YAML",
+          "link": "/百科/YAML"
+        }
+      ]
+    }
+  ],
   "/数据库/": [
     {
       "text": "数据库",
@@ -2082,6 +2117,10 @@ export default {
           "link": "/数据库/数据类型"
         },
         {
+          "text": "自增列",
+          "link": "/数据库/自增列"
+        },
+        {
           "text": "Activiti",
           "link": "/数据库/Activiti"
         },
@@ -2100,33 +2139,6 @@ export default {
         {
           "text": "Query",
           "link": "/数据库/Query"
-        }
-      ]
-    }
-  ],
-  "/百科/": [
-    {
-      "text": "百科",
-      "items": [
-        {
-          "text": "路径",
-          "link": "/百科/路径"
-        },
-        {
-          "text": "原型",
-          "link": "/百科/原型"
-        },
-        {
-          "text": "bin",
-          "link": "/百科/bin"
-        },
-        {
-          "text": "CMS",
-          "link": "/百科/CMS"
-        },
-        {
-          "text": "YAML",
-          "link": "/百科/YAML"
         }
       ]
     }

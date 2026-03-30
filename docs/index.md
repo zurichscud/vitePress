@@ -24,7 +24,7 @@ features:
     details: 5篇文档
     link: /前端工程化/@antfueslint-config
   - title: 数据库
-    details: 28篇文档
+    details: 29篇文档
     link: /数据库/Activiti
   - title: 性能优化
     details: 1篇文档
@@ -48,7 +48,7 @@ features:
     details: 29篇文档
     link: /HTML/HTML元素间的关系
   - title: JAVA
-    details: 58篇文档
+    details: 60篇文档
     link: /JAVA/1.JAVA运行
   - title: JavaScript
     details: 49篇文档
