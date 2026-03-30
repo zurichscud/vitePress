@@ -18,7 +18,7 @@ hero:
 
 features:
   - title: 百科
-    details: 4篇文档
+    details: 5篇文档
     link: /百科/CMS
   - title: 前端工程化
     details: 5篇文档
@@ -48,7 +48,7 @@ features:
     details: 29篇文档
     link: /HTML/HTML元素间的关系
   - title: JAVA
-    details: 47篇文档
+    details: 58篇文档
     link: /JAVA/1.JAVA运行
   - title: JavaScript
     details: 49篇文档
