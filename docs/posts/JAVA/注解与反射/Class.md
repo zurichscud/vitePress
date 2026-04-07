@@ -1,4 +1,4 @@
-# ClassAPI
+# Class
 
 ```java
 @Deprecated
