@@ -394,6 +394,53 @@ export default {
           ]
         },
         {
+          "text": "反射",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "反射",
+              "link": "/JAVA/反射/反射"
+            },
+            {
+              "text": "类加载器",
+              "link": "/JAVA/反射/类加载器"
+            },
+            {
+              "text": "AccessibleObject",
+              "link": "/JAVA/反射/AccessibleObject"
+            },
+            {
+              "text": "AnnotatedElement",
+              "link": "/JAVA/反射/AnnotatedElement"
+            },
+            {
+              "text": "Class",
+              "link": "/JAVA/反射/Class"
+            },
+            {
+              "text": "Constructor",
+              "link": "/JAVA/反射/Constructor"
+            },
+            {
+              "text": "Field",
+              "link": "/JAVA/反射/Field"
+            },
+            {
+              "text": "Method",
+              "link": "/JAVA/反射/Method"
+            },
+            {
+              "text": "Modifier",
+              "link": "/JAVA/反射/Modifier"
+            },
+            {
+              "text": "Parameter",
+              "link": "/JAVA/反射/Parameter"
+            }
+          ]
+        },
+        {
           "text": "泛型",
           "collapsible": true,
           "collapsed": false,
@@ -653,49 +700,33 @@ export default {
           ]
         },
         {
-          "text": "注解与反射",
+          "text": "注解",
           "collapsible": true,
           "collapsed": false,
           "items": [
             {
-              "text": "反射",
-              "link": "/JAVA/注解与反射/反射"
+              "text": "注解概述",
+              "link": "/JAVA/注解/1.注解概述"
             },
             {
-              "text": "注解",
-              "link": "/JAVA/注解与反射/注解"
+              "text": "内置注解",
+              "link": "/JAVA/注解/2.内置注解"
             },
             {
-              "text": "AccessibleObject",
-              "link": "/JAVA/注解与反射/AccessibleObject"
+              "text": "元注解",
+              "link": "/JAVA/注解/3.元注解"
             },
             {
-              "text": "AnnotatedElement",
-              "link": "/JAVA/注解与反射/AnnotatedElement"
+              "text": "自定义注解",
+              "link": "/JAVA/注解/4.自定义注解"
             },
             {
-              "text": "Class",
-              "link": "/JAVA/注解与反射/Class"
+              "text": "嵌套注解",
+              "link": "/JAVA/注解/5.嵌套注解"
             },
             {
-              "text": "Constructor",
-              "link": "/JAVA/注解与反射/Constructor"
-            },
-            {
-              "text": "Field",
-              "link": "/JAVA/注解与反射/Field"
-            },
-            {
-              "text": "Method",
-              "link": "/JAVA/注解与反射/Method"
-            },
-            {
-              "text": "Modifier",
-              "link": "/JAVA/注解与反射/Modifier"
-            },
-            {
-              "text": "Parameter",
-              "link": "/JAVA/注解与反射/Parameter"
+              "text": "组合注解",
+              "link": "/JAVA/注解/6.组合注解"
             }
           ]
         },
@@ -722,6 +753,171 @@ export default {
         {
           "text": "idea",
           "link": "/JAVA/idea"
+        }
+      ]
+    }
+  ],
+  "/HTML/": [
+    {
+      "text": "HTML",
+      "items": [
+        {
+          "text": "表单",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "button",
+              "link": "/HTML/表单/button"
+            },
+            {
+              "text": "check",
+              "link": "/HTML/表单/check"
+            },
+            {
+              "text": "form",
+              "link": "/HTML/表单/form"
+            },
+            {
+              "text": "input",
+              "link": "/HTML/表单/input"
+            },
+            {
+              "text": "label",
+              "link": "/HTML/表单/label"
+            },
+            {
+              "text": "select",
+              "link": "/HTML/表单/select"
+            },
+            {
+              "text": "textarea",
+              "link": "/HTML/表单/textarea"
+            }
+          ]
+        },
+        {
+          "text": "超链接",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "唤起应用",
+              "link": "/HTML/超链接/唤起应用"
+            },
+            {
+              "text": "链接",
+              "link": "/HTML/超链接/链接"
+            },
+            {
+              "text": "锚点",
+              "link": "/HTML/超链接/锚点"
+            }
+          ]
+        },
+        {
+          "text": "可替换元素",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "可替换元素",
+              "link": "/HTML/可替换元素/可替换元素"
+            },
+            {
+              "text": "iframe",
+              "link": "/HTML/可替换元素/iframe"
+            },
+            {
+              "text": "img",
+              "link": "/HTML/可替换元素/img"
+            }
+          ]
+        },
+        {
+          "text": "列表",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "列表",
+              "link": "/HTML/列表/列表"
+            },
+            {
+              "text": "列表样式",
+              "link": "/HTML/列表/列表样式"
+            }
+          ]
+        },
+        {
+          "text": "属性",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "布尔属性",
+              "link": "/HTML/属性/1-布尔属性"
+            },
+            {
+              "text": "自定义属性",
+              "link": "/HTML/属性/2-自定义属性"
+            },
+            {
+              "text": "表现型属性",
+              "link": "/HTML/属性/表现型属性"
+            },
+            {
+              "text": "全局属性",
+              "link": "/HTML/属性/全局属性"
+            }
+          ]
+        },
+        {
+          "text": "元数据",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "标准元数据名称",
+              "link": "/HTML/元数据/标准元数据名称"
+            },
+            {
+              "text": "meta标签",
+              "link": "/HTML/元数据/meta标签"
+            }
+          ]
+        },
+        {
+          "text": "表格",
+          "link": "/HTML/表格"
+        },
+        {
+          "text": "调试工具",
+          "link": "/HTML/调试工具"
+        },
+        {
+          "text": "浏览器渲染流程",
+          "link": "/HTML/浏览器渲染流程"
+        },
+        {
+          "text": "路径",
+          "link": "/HTML/路径"
+        },
+        {
+          "text": "图片格式",
+          "link": "/HTML/图片格式"
+        },
+        {
+          "text": "HTML元素间的关系",
+          "link": "/HTML/HTML元素间的关系"
+        },
+        {
+          "text": "HTML字符实体",
+          "link": "/HTML/HTML字符实体"
+        },
+        {
+          "text": "SVG",
+          "link": "/HTML/SVG"
         }
       ]
     }
@@ -1415,264 +1611,6 @@ export default {
       ]
     }
   ],
-  "/Web/": [
-    {
-      "text": "Web",
-      "items": [
-        {
-          "text": "安全",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "对称加密",
-              "link": "/Web/安全/对称加密"
-            },
-            {
-              "text": "非对称加密",
-              "link": "/Web/安全/非对称加密"
-            },
-            {
-              "text": "哈希函数",
-              "link": "/Web/安全/哈希函数"
-            },
-            {
-              "text": "Cookie",
-              "link": "/Web/安全/Cookie"
-            },
-            {
-              "text": "HTTPS",
-              "link": "/Web/安全/HTTPS"
-            },
-            {
-              "text": "JWT",
-              "link": "/Web/安全/JWT"
-            },
-            {
-              "text": "Session",
-              "link": "/Web/安全/Session"
-            }
-          ]
-        },
-        {
-          "text": "请求与响应",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "防盗链",
-              "link": "/Web/请求与响应/防盗链"
-            },
-            {
-              "text": "预检",
-              "link": "/Web/请求与响应/预检"
-            },
-            {
-              "text": "自定义响应头",
-              "link": "/Web/请求与响应/自定义响应头"
-            },
-            {
-              "text": "Cache-Control",
-              "link": "/Web/请求与响应/Cache-Control"
-            },
-            {
-              "text": "CORS",
-              "link": "/Web/请求与响应/CORS"
-            }
-          ]
-        },
-        {
-          "text": "短链接",
-          "link": "/Web/短链接"
-        },
-        {
-          "text": "favicons",
-          "link": "/Web/favicons"
-        },
-        {
-          "text": "HTTP2",
-          "link": "/Web/HTTP2"
-        },
-        {
-          "text": "SCL",
-          "link": "/Web/SCL"
-        },
-        {
-          "text": "SSE",
-          "link": "/Web/SSE"
-        },
-        {
-          "text": "SSO",
-          "link": "/Web/SSO"
-        }
-      ]
-    }
-  ],
-  "/HTML/": [
-    {
-      "text": "HTML",
-      "items": [
-        {
-          "text": "表单",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "button",
-              "link": "/HTML/表单/button"
-            },
-            {
-              "text": "check",
-              "link": "/HTML/表单/check"
-            },
-            {
-              "text": "form",
-              "link": "/HTML/表单/form"
-            },
-            {
-              "text": "input",
-              "link": "/HTML/表单/input"
-            },
-            {
-              "text": "label",
-              "link": "/HTML/表单/label"
-            },
-            {
-              "text": "select",
-              "link": "/HTML/表单/select"
-            },
-            {
-              "text": "textarea",
-              "link": "/HTML/表单/textarea"
-            }
-          ]
-        },
-        {
-          "text": "超链接",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "唤起应用",
-              "link": "/HTML/超链接/唤起应用"
-            },
-            {
-              "text": "链接",
-              "link": "/HTML/超链接/链接"
-            },
-            {
-              "text": "锚点",
-              "link": "/HTML/超链接/锚点"
-            }
-          ]
-        },
-        {
-          "text": "可替换元素",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "可替换元素",
-              "link": "/HTML/可替换元素/可替换元素"
-            },
-            {
-              "text": "iframe",
-              "link": "/HTML/可替换元素/iframe"
-            },
-            {
-              "text": "img",
-              "link": "/HTML/可替换元素/img"
-            }
-          ]
-        },
-        {
-          "text": "列表",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "列表",
-              "link": "/HTML/列表/列表"
-            },
-            {
-              "text": "列表样式",
-              "link": "/HTML/列表/列表样式"
-            }
-          ]
-        },
-        {
-          "text": "属性",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "布尔属性",
-              "link": "/HTML/属性/1-布尔属性"
-            },
-            {
-              "text": "自定义属性",
-              "link": "/HTML/属性/2-自定义属性"
-            },
-            {
-              "text": "表现型属性",
-              "link": "/HTML/属性/表现型属性"
-            },
-            {
-              "text": "全局属性",
-              "link": "/HTML/属性/全局属性"
-            }
-          ]
-        },
-        {
-          "text": "元数据",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "标准元数据名称",
-              "link": "/HTML/元数据/标准元数据名称"
-            },
-            {
-              "text": "meta标签",
-              "link": "/HTML/元数据/meta标签"
-            }
-          ]
-        },
-        {
-          "text": "表格",
-          "link": "/HTML/表格"
-        },
-        {
-          "text": "调试工具",
-          "link": "/HTML/调试工具"
-        },
-        {
-          "text": "浏览器渲染流程",
-          "link": "/HTML/浏览器渲染流程"
-        },
-        {
-          "text": "路径",
-          "link": "/HTML/路径"
-        },
-        {
-          "text": "图片格式",
-          "link": "/HTML/图片格式"
-        },
-        {
-          "text": "HTML元素间的关系",
-          "link": "/HTML/HTML元素间的关系"
-        },
-        {
-          "text": "HTML字符实体",
-          "link": "/HTML/HTML字符实体"
-        },
-        {
-          "text": "SVG",
-          "link": "/HTML/SVG"
-        }
-      ]
-    }
-  ],
   "/WebAPI/": [
     {
       "text": "WebAPI",
@@ -1800,6 +1738,99 @@ export default {
         {
           "text": "URLSearchParams",
           "link": "/WebAPI/URLSearchParams"
+        }
+      ]
+    }
+  ],
+  "/Web/": [
+    {
+      "text": "Web",
+      "items": [
+        {
+          "text": "安全",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "对称加密",
+              "link": "/Web/安全/对称加密"
+            },
+            {
+              "text": "非对称加密",
+              "link": "/Web/安全/非对称加密"
+            },
+            {
+              "text": "哈希函数",
+              "link": "/Web/安全/哈希函数"
+            },
+            {
+              "text": "Cookie",
+              "link": "/Web/安全/Cookie"
+            },
+            {
+              "text": "HTTPS",
+              "link": "/Web/安全/HTTPS"
+            },
+            {
+              "text": "JWT",
+              "link": "/Web/安全/JWT"
+            },
+            {
+              "text": "Session",
+              "link": "/Web/安全/Session"
+            }
+          ]
+        },
+        {
+          "text": "请求与响应",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "防盗链",
+              "link": "/Web/请求与响应/防盗链"
+            },
+            {
+              "text": "预检",
+              "link": "/Web/请求与响应/预检"
+            },
+            {
+              "text": "自定义响应头",
+              "link": "/Web/请求与响应/自定义响应头"
+            },
+            {
+              "text": "Cache-Control",
+              "link": "/Web/请求与响应/Cache-Control"
+            },
+            {
+              "text": "CORS",
+              "link": "/Web/请求与响应/CORS"
+            }
+          ]
+        },
+        {
+          "text": "短链接",
+          "link": "/Web/短链接"
+        },
+        {
+          "text": "favicons",
+          "link": "/Web/favicons"
+        },
+        {
+          "text": "HTTP2",
+          "link": "/Web/HTTP2"
+        },
+        {
+          "text": "SCL",
+          "link": "/Web/SCL"
+        },
+        {
+          "text": "SSE",
+          "link": "/Web/SSE"
+        },
+        {
+          "text": "SSO",
+          "link": "/Web/SSO"
         }
       ]
     }
@@ -2368,98 +2399,6 @@ export default {
       ]
     }
   ],
-  "/xstate/": [
-    {
-      "text": "xstate",
-      "items": [
-        {
-          "text": "工具",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "@xstatevue",
-              "link": "/xstate/工具/@xstatevue"
-            },
-            {
-              "text": "迁移指南",
-              "link": "/xstate/工具/迁移指南"
-            },
-            {
-              "text": "example",
-              "link": "/xstate/工具/example"
-            }
-          ]
-        },
-        {
-          "text": "Actor",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "Actor Model",
-              "link": "/xstate/Actor/1.Actor Model"
-            },
-            {
-              "text": "Invoked actor",
-              "link": "/xstate/Actor/2.Invoked actor"
-            },
-            {
-              "text": "Spawned actor",
-              "link": "/xstate/Actor/3.Spawned actor"
-            },
-            {
-              "text": "Snapshot",
-              "link": "/xstate/Actor/4.Snapshot"
-            },
-            {
-              "text": "Persistence",
-              "link": "/xstate/Actor/5.Persistence"
-            }
-          ]
-        },
-        {
-          "text": "State machines",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "State machines",
-              "link": "/xstate/State machines/1.State machines"
-            },
-            {
-              "text": "Setup",
-              "link": "/xstate/State machines/2.Setup"
-            },
-            {
-              "text": "Context",
-              "link": "/xstate/State machines/3.Context"
-            },
-            {
-              "text": "States",
-              "link": "/xstate/State machines/5.States"
-            },
-            {
-              "text": "Output",
-              "link": "/xstate/State machines/6.Output"
-            },
-            {
-              "text": "Transitions",
-              "link": "/xstate/State machines/7.Transitions"
-            },
-            {
-              "text": "Actions",
-              "link": "/xstate/State machines/8.Actions"
-            },
-            {
-              "text": "Guards",
-              "link": "/xstate/State machines/9.Guards"
-            }
-          ]
-        }
-      ]
-    }
-  ],
   "/vue/": [
     {
       "text": "vue",
@@ -2789,6 +2728,98 @@ export default {
             {
               "text": "TS与组合式API",
               "link": "/vue/vue3/TS与组合式API"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "/xstate/": [
+    {
+      "text": "xstate",
+      "items": [
+        {
+          "text": "工具",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "@xstatevue",
+              "link": "/xstate/工具/@xstatevue"
+            },
+            {
+              "text": "迁移指南",
+              "link": "/xstate/工具/迁移指南"
+            },
+            {
+              "text": "example",
+              "link": "/xstate/工具/example"
+            }
+          ]
+        },
+        {
+          "text": "Actor",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "Actor Model",
+              "link": "/xstate/Actor/1.Actor Model"
+            },
+            {
+              "text": "Invoked actor",
+              "link": "/xstate/Actor/2.Invoked actor"
+            },
+            {
+              "text": "Spawned actor",
+              "link": "/xstate/Actor/3.Spawned actor"
+            },
+            {
+              "text": "Snapshot",
+              "link": "/xstate/Actor/4.Snapshot"
+            },
+            {
+              "text": "Persistence",
+              "link": "/xstate/Actor/5.Persistence"
+            }
+          ]
+        },
+        {
+          "text": "State machines",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "State machines",
+              "link": "/xstate/State machines/1.State machines"
+            },
+            {
+              "text": "Setup",
+              "link": "/xstate/State machines/2.Setup"
+            },
+            {
+              "text": "Context",
+              "link": "/xstate/State machines/3.Context"
+            },
+            {
+              "text": "States",
+              "link": "/xstate/State machines/5.States"
+            },
+            {
+              "text": "Output",
+              "link": "/xstate/State machines/6.Output"
+            },
+            {
+              "text": "Transitions",
+              "link": "/xstate/State machines/7.Transitions"
+            },
+            {
+              "text": "Actions",
+              "link": "/xstate/State machines/8.Actions"
+            },
+            {
+              "text": "Guards",
+              "link": "/xstate/State machines/9.Guards"
             }
           ]
         }
