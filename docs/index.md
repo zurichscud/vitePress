@@ -47,8 +47,11 @@ features:
   - title: HTML
     details: 29篇文档
     link: /HTML/HTML元素间的关系
+  - title: Hutool
+    details: 1篇文档
+    link: /Hutool/BeanUtil
   - title: JAVA
-    details: 75篇文档
+    details: 76篇文档
     link: /JAVA/1.JAVA运行
   - title: JavaScript
     details: 49篇文档
@@ -66,7 +69,7 @@ features:
     details: 18篇文档
     link: /package/antfu-utils
   - title: Spring
-    details: 34篇文档
+    details: 37篇文档
     link: /Spring/Maven/基础/1.安装与配置
   - title: TypeScript
     details: 21篇文档
