@@ -69,7 +69,7 @@ features:
     details: 18篇文档
     link: /package/antfu-utils
   - title: Spring
-    details: 37篇文档
+    details: 42篇文档
     link: /Spring/Maven/基础/1.安装与配置
   - title: TypeScript
     details: 21篇文档
