@@ -834,6 +834,25 @@ export default {
           ]
         },
         {
+          "text": "设计模式",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "代理模式",
+              "link": "/JAVA/设计模式/代理模式"
+            },
+            {
+              "text": "工厂模式",
+              "link": "/JAVA/设计模式/工厂模式"
+            },
+            {
+              "text": "OCP",
+              "link": "/JAVA/设计模式/OCP"
+            }
+          ]
+        },
+        {
           "text": "数组",
           "collapsible": true,
           "collapsed": false,
@@ -1189,87 +1208,6 @@ export default {
       ]
     }
   ],
-  "/Linux/": [
-    {
-      "text": "Linux",
-      "items": [
-        {
-          "text": "权限",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "权限控制",
-              "link": "/Linux/权限/权限控制"
-            },
-            {
-              "text": "用户与用户组",
-              "link": "/Linux/权限/用户与用户组"
-            },
-            {
-              "text": "root",
-              "link": "/Linux/权限/root"
-            }
-          ]
-        },
-        {
-          "text": "应用管理",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "包管理",
-              "link": "/Linux/应用管理/包管理"
-            },
-            {
-              "text": "快捷键",
-              "link": "/Linux/应用管理/快捷键"
-            },
-            {
-              "text": "应用",
-              "link": "/Linux/应用管理/应用"
-            }
-          ]
-        },
-        {
-          "text": "变量",
-          "link": "/Linux/变量"
-        },
-        {
-          "text": "进程",
-          "link": "/Linux/进程"
-        },
-        {
-          "text": "命令",
-          "link": "/Linux/命令"
-        },
-        {
-          "text": "文件命令",
-          "link": "/Linux/文件命令"
-        },
-        {
-          "text": "curl",
-          "link": "/Linux/curl"
-        },
-        {
-          "text": "shell",
-          "link": "/Linux/shell"
-        },
-        {
-          "text": "shell脚本",
-          "link": "/Linux/shell脚本"
-        },
-        {
-          "text": "vim",
-          "link": "/Linux/vim"
-        },
-        {
-          "text": "zsh",
-          "link": "/Linux/zsh"
-        }
-      ]
-    }
-  ],
   "/Node/": [
     {
       "text": "Node",
@@ -1500,95 +1438,83 @@ export default {
       ]
     }
   ],
-  "/Web/": [
+  "/Linux/": [
     {
-      "text": "Web",
+      "text": "Linux",
       "items": [
         {
-          "text": "安全",
+          "text": "权限",
           "collapsible": true,
           "collapsed": false,
           "items": [
             {
-              "text": "对称加密",
-              "link": "/Web/安全/对称加密"
+              "text": "权限控制",
+              "link": "/Linux/权限/权限控制"
             },
             {
-              "text": "非对称加密",
-              "link": "/Web/安全/非对称加密"
+              "text": "用户与用户组",
+              "link": "/Linux/权限/用户与用户组"
             },
             {
-              "text": "哈希函数",
-              "link": "/Web/安全/哈希函数"
-            },
-            {
-              "text": "Cookie",
-              "link": "/Web/安全/Cookie"
-            },
-            {
-              "text": "HTTPS",
-              "link": "/Web/安全/HTTPS"
-            },
-            {
-              "text": "JWT",
-              "link": "/Web/安全/JWT"
-            },
-            {
-              "text": "Session",
-              "link": "/Web/安全/Session"
+              "text": "root",
+              "link": "/Linux/权限/root"
             }
           ]
         },
         {
-          "text": "请求与响应",
+          "text": "应用管理",
           "collapsible": true,
           "collapsed": false,
           "items": [
             {
-              "text": "防盗链",
-              "link": "/Web/请求与响应/防盗链"
+              "text": "包管理",
+              "link": "/Linux/应用管理/包管理"
             },
             {
-              "text": "预检",
-              "link": "/Web/请求与响应/预检"
+              "text": "快捷键",
+              "link": "/Linux/应用管理/快捷键"
             },
             {
-              "text": "自定义响应头",
-              "link": "/Web/请求与响应/自定义响应头"
-            },
-            {
-              "text": "Cache-Control",
-              "link": "/Web/请求与响应/Cache-Control"
-            },
-            {
-              "text": "CORS",
-              "link": "/Web/请求与响应/CORS"
+              "text": "应用",
+              "link": "/Linux/应用管理/应用"
             }
           ]
         },
         {
-          "text": "短链接",
-          "link": "/Web/短链接"
+          "text": "变量",
+          "link": "/Linux/变量"
         },
         {
-          "text": "favicons",
-          "link": "/Web/favicons"
+          "text": "进程",
+          "link": "/Linux/进程"
         },
         {
-          "text": "HTTP2",
-          "link": "/Web/HTTP2"
+          "text": "命令",
+          "link": "/Linux/命令"
         },
         {
-          "text": "SCL",
-          "link": "/Web/SCL"
+          "text": "文件命令",
+          "link": "/Linux/文件命令"
         },
         {
-          "text": "SSE",
-          "link": "/Web/SSE"
+          "text": "curl",
+          "link": "/Linux/curl"
         },
         {
-          "text": "SSO",
-          "link": "/Web/SSO"
+          "text": "shell",
+          "link": "/Linux/shell"
+        },
+        {
+          "text": "shell脚本",
+          "link": "/Linux/shell脚本"
+        },
+        {
+          "text": "vim",
+          "link": "/Linux/vim"
+        },
+        {
+          "text": "zsh",
+          "link": "/Linux/zsh"
         }
       ]
     }
@@ -1715,6 +1641,99 @@ export default {
         {
           "text": "tsconfig",
           "link": "/TypeScript/tsconfig"
+        }
+      ]
+    }
+  ],
+  "/Web/": [
+    {
+      "text": "Web",
+      "items": [
+        {
+          "text": "安全",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "对称加密",
+              "link": "/Web/安全/对称加密"
+            },
+            {
+              "text": "非对称加密",
+              "link": "/Web/安全/非对称加密"
+            },
+            {
+              "text": "哈希函数",
+              "link": "/Web/安全/哈希函数"
+            },
+            {
+              "text": "Cookie",
+              "link": "/Web/安全/Cookie"
+            },
+            {
+              "text": "HTTPS",
+              "link": "/Web/安全/HTTPS"
+            },
+            {
+              "text": "JWT",
+              "link": "/Web/安全/JWT"
+            },
+            {
+              "text": "Session",
+              "link": "/Web/安全/Session"
+            }
+          ]
+        },
+        {
+          "text": "请求与响应",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "防盗链",
+              "link": "/Web/请求与响应/防盗链"
+            },
+            {
+              "text": "预检",
+              "link": "/Web/请求与响应/预检"
+            },
+            {
+              "text": "自定义响应头",
+              "link": "/Web/请求与响应/自定义响应头"
+            },
+            {
+              "text": "Cache-Control",
+              "link": "/Web/请求与响应/Cache-Control"
+            },
+            {
+              "text": "CORS",
+              "link": "/Web/请求与响应/CORS"
+            }
+          ]
+        },
+        {
+          "text": "短链接",
+          "link": "/Web/短链接"
+        },
+        {
+          "text": "favicons",
+          "link": "/Web/favicons"
+        },
+        {
+          "text": "HTTP2",
+          "link": "/Web/HTTP2"
+        },
+        {
+          "text": "SCL",
+          "link": "/Web/SCL"
+        },
+        {
+          "text": "SSE",
+          "link": "/Web/SSE"
+        },
+        {
+          "text": "SSO",
+          "link": "/Web/SSO"
         }
       ]
     }
@@ -1854,6 +1873,14 @@ export default {
     {
       "text": "git",
       "items": [
+        {
+          "text": "仓库嵌套",
+          "link": "/git/仓库嵌套"
+        },
+        {
+          "text": "代理",
+          "link": "/git/代理"
+        },
         {
           "text": "远程仓库",
           "link": "/git/远程仓库"
@@ -2072,6 +2099,10 @@ export default {
               "link": "/数据库/应用/查询日期"
             },
             {
+              "text": "查询是否重复",
+              "link": "/数据库/应用/查询是否重复"
+            },
+            {
               "text": "金额",
               "link": "/数据库/应用/金额"
             },
@@ -2175,8 +2206,16 @@ export default {
           "link": "/数据库/函数"
         },
         {
+          "text": "联合主键",
+          "link": "/数据库/联合主键"
+        },
+        {
           "text": "数据类型",
           "link": "/数据库/数据类型"
+        },
+        {
+          "text": "问题排查",
+          "link": "/数据库/问题排查"
         },
         {
           "text": "自增列",
@@ -2201,6 +2240,10 @@ export default {
         {
           "text": "Query",
           "link": "/数据库/Query"
+        },
+        {
+          "text": "Scheme",
+          "link": "/数据库/Scheme"
         }
       ]
     }
@@ -2236,6 +2279,17 @@ export default {
     {
       "text": "Agent",
       "items": [
+        {
+          "text": "应用场景",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "CodeReview",
+              "link": "/Agent/应用场景/CodeReview"
+            }
+          ]
+        },
         {
           "text": "ClaudeCode",
           "collapsible": true,
@@ -2277,6 +2331,32 @@ export default {
     {
       "text": "Spring",
       "items": [
+        {
+          "text": "JSR-303",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "注解",
+              "link": "/Spring/JSR-303/注解"
+            }
+          ]
+        },
+        {
+          "text": "Lomok",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "全局配置文件",
+              "link": "/Spring/Lomok/全局配置文件"
+            },
+            {
+              "text": "注解",
+              "link": "/Spring/Lomok/注解"
+            }
+          ]
+        },
         {
           "text": "Maven",
           "collapsible": true,
@@ -2367,8 +2447,8 @@ export default {
               "link": "/Spring/Spring/2.Spring容器"
             },
             {
-              "text": "Spring对IOC的实现",
-              "link": "/Spring/Spring/3.Spring对IOC的实现"
+              "text": "构造注入",
+              "link": "/Spring/Spring/3.构造注入"
             },
             {
               "text": "set注入",
@@ -2387,8 +2467,16 @@ export default {
               "link": "/Spring/Spring/7.Bean的实例化"
             },
             {
-              "text": "工厂模式",
-              "link": "/Spring/Spring/工厂模式"
+              "text": "Bean的生命周期",
+              "link": "/Spring/Spring/8.Bean的生命周期"
+            },
+            {
+              "text": "注解开发",
+              "link": "/Spring/Spring/9.注解开发"
+            },
+            {
+              "text": "注解注入",
+              "link": "/Spring/Spring/10.注解注入"
             }
           ]
         },
