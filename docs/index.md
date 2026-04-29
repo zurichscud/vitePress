@@ -36,7 +36,7 @@ features:
     details: 12篇文档
     link: /组件库/TDesign/Card
   - title: Agent
-    details: 6篇文档
+    details: 8篇文档
     link: /Agent/ClaudeCode/Claudemd
   - title: CSS
     details: 67篇文档
@@ -69,7 +69,7 @@ features:
     details: 18篇文档
     link: /package/antfu-utils
   - title: Spring
-    details: 51篇文档
+    details: 57篇文档
     link: /Spring/JSR-303/注解
   - title: TypeScript
     details: 21篇文档

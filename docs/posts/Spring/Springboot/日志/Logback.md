@@ -12,7 +12,7 @@ TRACE < DEBUG < INFO < WARN < ERROR
 
 我们可以指定项目中不同文件的日志级别。root表示整个项目的日志级别，日志级别采用局部优先策略
 
-```yaml
+```yaml [application.yaml]
 logging:
   level:
     root: debug
