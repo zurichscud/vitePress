@@ -69,7 +69,7 @@ features:
     details: 18篇文档
     link: /package/antfu-utils
   - title: Spring
-    details: 57篇文档
+    details: 55篇文档
     link: /Spring/JSR-303/注解
   - title: TypeScript
     details: 21篇文档
