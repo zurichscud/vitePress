@@ -366,6 +366,17 @@ export default {
       ]
     }
   ],
+  "/Hutool/": [
+    {
+      "text": "Hutool",
+      "items": [
+        {
+          "text": "BeanUtil",
+          "link": "/Hutool/BeanUtil"
+        }
+      ]
+    }
+  ],
   "/HTML/": [
     {
       "text": "HTML",
@@ -527,431 +538,6 @@ export default {
         {
           "text": "SVG",
           "link": "/HTML/SVG"
-        }
-      ]
-    }
-  ],
-  "/Hutool/": [
-    {
-      "text": "Hutool",
-      "items": [
-        {
-          "text": "BeanUtil",
-          "link": "/Hutool/BeanUtil"
-        }
-      ]
-    }
-  ],
-  "/JAVA/": [
-    {
-      "text": "JAVA",
-      "items": [
-        {
-          "text": "常用类",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "包装类",
-              "link": "/JAVA/常用类/包装类"
-            },
-            {
-              "text": "Comparable",
-              "link": "/JAVA/常用类/Comparable"
-            },
-            {
-              "text": "Comparator",
-              "link": "/JAVA/常用类/Comparator"
-            },
-            {
-              "text": "Integer",
-              "link": "/JAVA/常用类/Integer"
-            },
-            {
-              "text": "Optional",
-              "link": "/JAVA/常用类/Optional"
-            }
-          ]
-        },
-        {
-          "text": "反射",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "反射",
-              "link": "/JAVA/反射/反射"
-            },
-            {
-              "text": "类加载器",
-              "link": "/JAVA/反射/类加载器"
-            },
-            {
-              "text": "AccessibleObject",
-              "link": "/JAVA/反射/AccessibleObject"
-            },
-            {
-              "text": "AnnotatedElement",
-              "link": "/JAVA/反射/AnnotatedElement"
-            },
-            {
-              "text": "Class",
-              "link": "/JAVA/反射/Class"
-            },
-            {
-              "text": "Constructor",
-              "link": "/JAVA/反射/Constructor"
-            },
-            {
-              "text": "Field",
-              "link": "/JAVA/反射/Field"
-            },
-            {
-              "text": "Method",
-              "link": "/JAVA/反射/Method"
-            },
-            {
-              "text": "Modifier",
-              "link": "/JAVA/反射/Modifier"
-            },
-            {
-              "text": "Parameter",
-              "link": "/JAVA/反射/Parameter"
-            }
-          ]
-        },
-        {
-          "text": "泛型",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "泛型",
-              "link": "/JAVA/泛型/1.泛型"
-            },
-            {
-              "text": "泛型继承",
-              "link": "/JAVA/泛型/2.泛型继承"
-            },
-            {
-              "text": "集合泛型",
-              "link": "/JAVA/泛型/3.集合泛型"
-            },
-            {
-              "text": "接口泛型",
-              "link": "/JAVA/泛型/4.接口泛型"
-            }
-          ]
-        },
-        {
-          "text": "函数式编程",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "lambda表达式",
-              "link": "/JAVA/函数式编程/1.lambda表达式"
-            },
-            {
-              "text": "函数式接口",
-              "link": "/JAVA/函数式编程/2.函数式接口"
-            },
-            {
-              "text": "方法引用",
-              "link": "/JAVA/函数式编程/3.方法引用"
-            },
-            {
-              "text": "Stream",
-              "link": "/JAVA/函数式编程/4.Stream"
-            },
-            {
-              "text": "Collector",
-              "link": "/JAVA/函数式编程/5.Collector"
-            }
-          ]
-        },
-        {
-          "text": "集合",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "Collection",
-              "link": "/JAVA/集合/1.Collection"
-            },
-            {
-              "text": "List体系",
-              "link": "/JAVA/集合/2.List体系"
-            },
-            {
-              "text": "Set体系",
-              "link": "/JAVA/集合/3.Set体系"
-            },
-            {
-              "text": "Map体系",
-              "link": "/JAVA/集合/4.Map体系"
-            },
-            {
-              "text": "MapAPI",
-              "link": "/JAVA/集合/5.MapAPI"
-            },
-            {
-              "text": "HashMap",
-              "link": "/JAVA/集合/6.HashMap"
-            },
-            {
-              "text": "Collections",
-              "link": "/JAVA/集合/7.Collections"
-            },
-            {
-              "text": "Iterator",
-              "link": "/JAVA/集合/Iterator"
-            }
-          ]
-        },
-        {
-          "text": "面向对象",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "static关键字",
-              "link": "/JAVA/面向对象/1.static关键字"
-            },
-            {
-              "text": "构造方法",
-              "link": "/JAVA/面向对象/2.构造方法"
-            },
-            {
-              "text": "方法重载",
-              "link": "/JAVA/面向对象/3.方法重载"
-            },
-            {
-              "text": "继承",
-              "link": "/JAVA/面向对象/4.继承"
-            },
-            {
-              "text": "多态",
-              "link": "/JAVA/面向对象/5.多态"
-            },
-            {
-              "text": "抽象类",
-              "link": "/JAVA/面向对象/6.抽象类"
-            },
-            {
-              "text": "super关键字",
-              "link": "/JAVA/面向对象/7.super关键字"
-            },
-            {
-              "text": "final关键字",
-              "link": "/JAVA/面向对象/8.final关键字"
-            },
-            {
-              "text": "接口",
-              "link": "/JAVA/面向对象/9.接口"
-            },
-            {
-              "text": "Object类",
-              "link": "/JAVA/面向对象/10.Object类"
-            },
-            {
-              "text": "内部类",
-              "link": "/JAVA/面向对象/11.内部类"
-            },
-            {
-              "text": "枚举类",
-              "link": "/JAVA/面向对象/12.枚举类"
-            },
-            {
-              "text": "注解",
-              "link": "/JAVA/面向对象/13.注解"
-            },
-            {
-              "text": "常量类",
-              "link": "/JAVA/面向对象/常量类"
-            }
-          ]
-        },
-        {
-          "text": "企业规范",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "数据封装",
-              "link": "/JAVA/企业规范/数据封装"
-            }
-          ]
-        },
-        {
-          "text": "日期",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "Date",
-              "link": "/JAVA/日期/1.Date"
-            },
-            {
-              "text": "SimpleDateFormat",
-              "link": "/JAVA/日期/2.SimpleDateFormat"
-            },
-            {
-              "text": "Calendar",
-              "link": "/JAVA/日期/3.Calendar"
-            },
-            {
-              "text": "LoaclDate",
-              "link": "/JAVA/日期/4.LoaclDate"
-            },
-            {
-              "text": "LocalTime",
-              "link": "/JAVA/日期/5.LocalTime"
-            },
-            {
-              "text": "LocalDateTime",
-              "link": "/JAVA/日期/6.LocalDateTime"
-            },
-            {
-              "text": "DateTimeFormatter",
-              "link": "/JAVA/日期/7.DateTimeFormatter"
-            }
-          ]
-        },
-        {
-          "text": "入门",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "JVM内存分析",
-              "link": "/JAVA/入门/JVM内存分析"
-            },
-            {
-              "text": "this",
-              "link": "/JAVA/入门/this"
-            }
-          ]
-        },
-        {
-          "text": "设计模式",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "代理模式",
-              "link": "/JAVA/设计模式/代理模式"
-            },
-            {
-              "text": "工厂模式",
-              "link": "/JAVA/设计模式/工厂模式"
-            },
-            {
-              "text": "OCP",
-              "link": "/JAVA/设计模式/OCP"
-            }
-          ]
-        },
-        {
-          "text": "数组",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "数组概述",
-              "link": "/JAVA/数组/1.数组概述"
-            },
-            {
-              "text": "一维数组",
-              "link": "/JAVA/数组/2.一维数组"
-            },
-            {
-              "text": "二维数组",
-              "link": "/JAVA/数组/4.二维数组"
-            },
-            {
-              "text": "可变长度参数",
-              "link": "/JAVA/数组/可变长度参数"
-            },
-            {
-              "text": "Arrays",
-              "link": "/JAVA/数组/Arrays"
-            }
-          ]
-        },
-        {
-          "text": "异常",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "异常体系",
-              "link": "/JAVA/异常/1.异常体系"
-            },
-            {
-              "text": "异常处理",
-              "link": "/JAVA/异常/2.异常处理"
-            },
-            {
-              "text": "自定义异常",
-              "link": "/JAVA/异常/3.自定义异常"
-            }
-          ]
-        },
-        {
-          "text": "注解",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "注解概述",
-              "link": "/JAVA/注解/1.注解概述"
-            },
-            {
-              "text": "内置注解",
-              "link": "/JAVA/注解/2.内置注解"
-            },
-            {
-              "text": "元注解",
-              "link": "/JAVA/注解/3.元注解"
-            },
-            {
-              "text": "自定义注解",
-              "link": "/JAVA/注解/4.自定义注解"
-            },
-            {
-              "text": "嵌套注解",
-              "link": "/JAVA/注解/5.嵌套注解"
-            },
-            {
-              "text": "组合注解",
-              "link": "/JAVA/注解/6.组合注解"
-            }
-          ]
-        },
-        {
-          "text": "JAVA运行",
-          "link": "/JAVA/1.JAVA运行"
-        },
-        {
-          "text": "包机制",
-          "link": "/JAVA/包机制"
-        },
-        {
-          "text": "访问权限修饰符",
-          "link": "/JAVA/访问权限修饰符"
-        },
-        {
-          "text": "数据类型",
-          "link": "/JAVA/数据类型"
-        },
-        {
-          "text": "Example",
-          "link": "/JAVA/Example"
-        },
-        {
-          "text": "idea",
-          "link": "/JAVA/idea"
         }
       ]
     }
@@ -1515,6 +1101,420 @@ export default {
         {
           "text": "util",
           "link": "/Node/util"
+        }
+      ]
+    }
+  ],
+  "/JAVA/": [
+    {
+      "text": "JAVA",
+      "items": [
+        {
+          "text": "常用类",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "包装类",
+              "link": "/JAVA/常用类/包装类"
+            },
+            {
+              "text": "Comparable",
+              "link": "/JAVA/常用类/Comparable"
+            },
+            {
+              "text": "Comparator",
+              "link": "/JAVA/常用类/Comparator"
+            },
+            {
+              "text": "Integer",
+              "link": "/JAVA/常用类/Integer"
+            },
+            {
+              "text": "Optional",
+              "link": "/JAVA/常用类/Optional"
+            }
+          ]
+        },
+        {
+          "text": "反射",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "反射",
+              "link": "/JAVA/反射/反射"
+            },
+            {
+              "text": "类加载器",
+              "link": "/JAVA/反射/类加载器"
+            },
+            {
+              "text": "AccessibleObject",
+              "link": "/JAVA/反射/AccessibleObject"
+            },
+            {
+              "text": "AnnotatedElement",
+              "link": "/JAVA/反射/AnnotatedElement"
+            },
+            {
+              "text": "Class",
+              "link": "/JAVA/反射/Class"
+            },
+            {
+              "text": "Constructor",
+              "link": "/JAVA/反射/Constructor"
+            },
+            {
+              "text": "Field",
+              "link": "/JAVA/反射/Field"
+            },
+            {
+              "text": "Method",
+              "link": "/JAVA/反射/Method"
+            },
+            {
+              "text": "Modifier",
+              "link": "/JAVA/反射/Modifier"
+            },
+            {
+              "text": "Parameter",
+              "link": "/JAVA/反射/Parameter"
+            }
+          ]
+        },
+        {
+          "text": "泛型",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "泛型",
+              "link": "/JAVA/泛型/1.泛型"
+            },
+            {
+              "text": "泛型继承",
+              "link": "/JAVA/泛型/2.泛型继承"
+            },
+            {
+              "text": "集合泛型",
+              "link": "/JAVA/泛型/3.集合泛型"
+            },
+            {
+              "text": "接口泛型",
+              "link": "/JAVA/泛型/4.接口泛型"
+            }
+          ]
+        },
+        {
+          "text": "函数式编程",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "lambda表达式",
+              "link": "/JAVA/函数式编程/1.lambda表达式"
+            },
+            {
+              "text": "函数式接口",
+              "link": "/JAVA/函数式编程/2.函数式接口"
+            },
+            {
+              "text": "方法引用",
+              "link": "/JAVA/函数式编程/3.方法引用"
+            },
+            {
+              "text": "Stream",
+              "link": "/JAVA/函数式编程/4.Stream"
+            },
+            {
+              "text": "Collector",
+              "link": "/JAVA/函数式编程/5.Collector"
+            }
+          ]
+        },
+        {
+          "text": "集合",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "Collection",
+              "link": "/JAVA/集合/1.Collection"
+            },
+            {
+              "text": "List体系",
+              "link": "/JAVA/集合/2.List体系"
+            },
+            {
+              "text": "Set体系",
+              "link": "/JAVA/集合/3.Set体系"
+            },
+            {
+              "text": "Map体系",
+              "link": "/JAVA/集合/4.Map体系"
+            },
+            {
+              "text": "MapAPI",
+              "link": "/JAVA/集合/5.MapAPI"
+            },
+            {
+              "text": "HashMap",
+              "link": "/JAVA/集合/6.HashMap"
+            },
+            {
+              "text": "Collections",
+              "link": "/JAVA/集合/7.Collections"
+            },
+            {
+              "text": "Iterator",
+              "link": "/JAVA/集合/Iterator"
+            }
+          ]
+        },
+        {
+          "text": "面向对象",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "static关键字",
+              "link": "/JAVA/面向对象/1.static关键字"
+            },
+            {
+              "text": "构造方法",
+              "link": "/JAVA/面向对象/2.构造方法"
+            },
+            {
+              "text": "方法重载",
+              "link": "/JAVA/面向对象/3.方法重载"
+            },
+            {
+              "text": "继承",
+              "link": "/JAVA/面向对象/4.继承"
+            },
+            {
+              "text": "多态",
+              "link": "/JAVA/面向对象/5.多态"
+            },
+            {
+              "text": "抽象类",
+              "link": "/JAVA/面向对象/6.抽象类"
+            },
+            {
+              "text": "super关键字",
+              "link": "/JAVA/面向对象/7.super关键字"
+            },
+            {
+              "text": "final关键字",
+              "link": "/JAVA/面向对象/8.final关键字"
+            },
+            {
+              "text": "接口",
+              "link": "/JAVA/面向对象/9.接口"
+            },
+            {
+              "text": "Object类",
+              "link": "/JAVA/面向对象/10.Object类"
+            },
+            {
+              "text": "内部类",
+              "link": "/JAVA/面向对象/11.内部类"
+            },
+            {
+              "text": "枚举类",
+              "link": "/JAVA/面向对象/12.枚举类"
+            },
+            {
+              "text": "注解",
+              "link": "/JAVA/面向对象/13.注解"
+            },
+            {
+              "text": "常量类",
+              "link": "/JAVA/面向对象/常量类"
+            }
+          ]
+        },
+        {
+          "text": "企业规范",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "数据封装",
+              "link": "/JAVA/企业规范/数据封装"
+            }
+          ]
+        },
+        {
+          "text": "日期",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "Date",
+              "link": "/JAVA/日期/1.Date"
+            },
+            {
+              "text": "SimpleDateFormat",
+              "link": "/JAVA/日期/2.SimpleDateFormat"
+            },
+            {
+              "text": "Calendar",
+              "link": "/JAVA/日期/3.Calendar"
+            },
+            {
+              "text": "LoaclDate",
+              "link": "/JAVA/日期/4.LoaclDate"
+            },
+            {
+              "text": "LocalTime",
+              "link": "/JAVA/日期/5.LocalTime"
+            },
+            {
+              "text": "LocalDateTime",
+              "link": "/JAVA/日期/6.LocalDateTime"
+            },
+            {
+              "text": "DateTimeFormatter",
+              "link": "/JAVA/日期/7.DateTimeFormatter"
+            }
+          ]
+        },
+        {
+          "text": "入门",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "JVM内存分析",
+              "link": "/JAVA/入门/JVM内存分析"
+            },
+            {
+              "text": "this",
+              "link": "/JAVA/入门/this"
+            }
+          ]
+        },
+        {
+          "text": "设计模式",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "代理模式",
+              "link": "/JAVA/设计模式/代理模式"
+            },
+            {
+              "text": "工厂模式",
+              "link": "/JAVA/设计模式/工厂模式"
+            },
+            {
+              "text": "OCP",
+              "link": "/JAVA/设计模式/OCP"
+            }
+          ]
+        },
+        {
+          "text": "数组",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "数组概述",
+              "link": "/JAVA/数组/1.数组概述"
+            },
+            {
+              "text": "一维数组",
+              "link": "/JAVA/数组/2.一维数组"
+            },
+            {
+              "text": "二维数组",
+              "link": "/JAVA/数组/4.二维数组"
+            },
+            {
+              "text": "可变长度参数",
+              "link": "/JAVA/数组/可变长度参数"
+            },
+            {
+              "text": "Arrays",
+              "link": "/JAVA/数组/Arrays"
+            }
+          ]
+        },
+        {
+          "text": "异常",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "异常体系",
+              "link": "/JAVA/异常/1.异常体系"
+            },
+            {
+              "text": "异常处理",
+              "link": "/JAVA/异常/2.异常处理"
+            },
+            {
+              "text": "自定义异常",
+              "link": "/JAVA/异常/3.自定义异常"
+            }
+          ]
+        },
+        {
+          "text": "注解",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "注解概述",
+              "link": "/JAVA/注解/1.注解概述"
+            },
+            {
+              "text": "内置注解",
+              "link": "/JAVA/注解/2.内置注解"
+            },
+            {
+              "text": "元注解",
+              "link": "/JAVA/注解/3.元注解"
+            },
+            {
+              "text": "自定义注解",
+              "link": "/JAVA/注解/4.自定义注解"
+            },
+            {
+              "text": "嵌套注解",
+              "link": "/JAVA/注解/5.嵌套注解"
+            },
+            {
+              "text": "组合注解",
+              "link": "/JAVA/注解/6.组合注解"
+            }
+          ]
+        },
+        {
+          "text": "JAVA运行",
+          "link": "/JAVA/1.JAVA运行"
+        },
+        {
+          "text": "包机制",
+          "link": "/JAVA/包机制"
+        },
+        {
+          "text": "访问权限修饰符",
+          "link": "/JAVA/访问权限修饰符"
+        },
+        {
+          "text": "数据类型",
+          "link": "/JAVA/数据类型"
+        },
+        {
+          "text": "Example",
+          "link": "/JAVA/Example"
+        },
+        {
+          "text": "idea",
+          "link": "/JAVA/idea"
         }
       ]
     }
@@ -2680,6 +2680,10 @@ export default {
                 {
                   "text": "文件上传",
                   "link": "/Spring/Springboot/web/文件上传"
+                },
+                {
+                  "text": "MediaType",
+                  "link": "/Spring/Springboot/web/MediaType"
                 }
               ]
             }

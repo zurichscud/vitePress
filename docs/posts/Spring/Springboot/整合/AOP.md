@@ -11,7 +11,7 @@
 </dependency>
 ```
 
-Spring Boot 的 `spring-boot-starter-aop` 依赖里，自动包含了 `spring-aop` 和 `aspectjweaver`。
+Spring Boot 的 `spring-boot-starter-aop` 依赖里，已经包含了 `spring-aop` 和 `aspectjweaver`。
 
 ## 配置
 
