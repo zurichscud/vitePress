@@ -1,382 +1,5 @@
 // 自动生成，请勿修改
 export default {
-  "/CSS/": [
-    {
-      "text": "CSS",
-      "items": [
-        {
-          "text": "基础",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "css分类",
-              "link": "/CSS/1-基础/1-css分类"
-            },
-            {
-              "text": "选择器",
-              "link": "/CSS/1-基础/2-选择器"
-            },
-            {
-              "text": "属性值的计算过程",
-              "link": "/CSS/1-基础/3-属性值的计算过程"
-            },
-            {
-              "text": "伪类",
-              "link": "/CSS/1-基础/4-伪类"
-            },
-            {
-              "text": "伪元素",
-              "link": "/CSS/1-基础/伪元素"
-            },
-            {
-              "text": "CSS特性",
-              "link": "/CSS/1-基础/CSS特性"
-            },
-            {
-              "text": "Emmt",
-              "link": "/CSS/1-基础/Emmt"
-            }
-          ]
-        },
-        {
-          "text": "文本",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "文本样式",
-              "link": "/CSS/3-文本/1-文本样式"
-            },
-            {
-              "text": "iconfont",
-              "link": "/CSS/3-文本/2-iconfont"
-            },
-            {
-              "text": "字体",
-              "link": "/CSS/3-文本/3-字体"
-            },
-            {
-              "text": "white-space",
-              "link": "/CSS/3-文本/white-space"
-            },
-            {
-              "text": "word-break",
-              "link": "/CSS/3-文本/word-break"
-            }
-          ]
-        },
-        {
-          "text": "盒模型",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "边框",
-              "link": "/CSS/4-盒模型/1-边框"
-            },
-            {
-              "text": "内边距",
-              "link": "/CSS/4-盒模型/3-内边距"
-            },
-            {
-              "text": "外边距",
-              "link": "/CSS/4-盒模型/4-外边距"
-            },
-            {
-              "text": "尺寸计算",
-              "link": "/CSS/4-盒模型/5-尺寸计算"
-            },
-            {
-              "text": "盒子背景",
-              "link": "/CSS/4-盒模型/6-盒子背景"
-            },
-            {
-              "text": "渐变",
-              "link": "/CSS/4-盒模型/7-渐变"
-            },
-            {
-              "text": "阴影",
-              "link": "/CSS/4-盒模型/8-阴影"
-            },
-            {
-              "text": "溢出",
-              "link": "/CSS/4-盒模型/9-溢出"
-            },
-            {
-              "text": "可替换元素",
-              "link": "/CSS/4-盒模型/可替换元素"
-            },
-            {
-              "text": "outline",
-              "link": "/CSS/4-盒模型/outline"
-            }
-          ]
-        },
-        {
-          "text": "定位",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "定位",
-              "link": "/CSS/5-定位/3-定位"
-            },
-            {
-              "text": "子绝父相",
-              "link": "/CSS/5-定位/4-子绝父相"
-            },
-            {
-              "text": "标准流",
-              "link": "/CSS/5-定位/标准流"
-            },
-            {
-              "text": "模式切换",
-              "link": "/CSS/5-定位/模式切换"
-            },
-            {
-              "text": "z-index",
-              "link": "/CSS/5-定位/z-index"
-            }
-          ]
-        },
-        {
-          "text": "弹性布局",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "基本概念",
-              "link": "/CSS/6-弹性布局/1-基本概念"
-            },
-            {
-              "text": "弹性盒本质",
-              "link": "/CSS/6-弹性布局/2-弹性盒本质"
-            },
-            {
-              "text": "弹性限度",
-              "link": "/CSS/6-弹性布局/3-弹性限度"
-            },
-            {
-              "text": "从单行到多行",
-              "link": "/CSS/6-弹性布局/4-从单行到多行"
-            },
-            {
-              "text": "给子项多一点自由",
-              "link": "/CSS/6-弹性布局/5-给子项多一点自由"
-            },
-            {
-              "text": "案例",
-              "link": "/CSS/6-弹性布局/6-案例"
-            }
-          ]
-        },
-        {
-          "text": "网格布局",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "网格布局",
-              "link": "/CSS/7-网格布局/1-网格布局"
-            },
-            {
-              "text": "网格布局默认行为",
-              "link": "/CSS/7-网格布局/2-网格布局默认行为"
-            },
-            {
-              "text": "绘制网格",
-              "link": "/CSS/7-网格布局/3-绘制网格"
-            },
-            {
-              "text": "对齐",
-              "link": "/CSS/7-网格布局/4-对齐"
-            },
-            {
-              "text": "网格线定位",
-              "link": "/CSS/7-网格布局/5-网格线定位"
-            },
-            {
-              "text": "命名网格",
-              "link": "/CSS/7-网格布局/6-命名网格"
-            },
-            {
-              "text": "24分栏",
-              "link": "/CSS/7-网格布局/7-24分栏"
-            }
-          ]
-        },
-        {
-          "text": "变换",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "2D变换",
-              "link": "/CSS/8-变换/2D变换"
-            },
-            {
-              "text": "3D变换",
-              "link": "/CSS/8-变换/3D变换"
-            },
-            {
-              "text": "过渡",
-              "link": "/CSS/8-变换/过渡"
-            },
-            {
-              "text": "clip-path",
-              "link": "/CSS/8-变换/clip-path"
-            }
-          ]
-        },
-        {
-          "text": "案例",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "网页排版",
-              "link": "/CSS/9-案例/网页排版"
-            }
-          ]
-        },
-        {
-          "text": "动画",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "动画时间线",
-              "link": "/CSS/动画/动画时间线"
-            },
-            {
-              "text": "逐帧动画",
-              "link": "/CSS/动画/逐帧动画"
-            },
-            {
-              "text": "animation",
-              "link": "/CSS/动画/animation"
-            }
-          ]
-        },
-        {
-          "text": "默认样式设计",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "表格样式",
-              "link": "/CSS/默认样式设计/4-表格样式"
-            },
-            {
-              "text": "按钮样式",
-              "link": "/CSS/默认样式设计/按钮样式"
-            },
-            {
-              "text": "表单样式",
-              "link": "/CSS/默认样式设计/表单样式"
-            },
-            {
-              "text": "样式初始化",
-              "link": "/CSS/默认样式设计/样式初始化"
-            }
-          ]
-        },
-        {
-          "text": "视觉",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "背景滤镜",
-              "link": "/CSS/视觉/背景滤镜"
-            },
-            {
-              "text": "滤镜",
-              "link": "/CSS/视觉/滤镜"
-            },
-            {
-              "text": "阴影",
-              "link": "/CSS/视觉/阴影"
-            },
-            {
-              "text": "圆角",
-              "link": "/CSS/视觉/圆角"
-            },
-            {
-              "text": "cursor",
-              "link": "/CSS/视觉/cursor"
-            }
-          ]
-        },
-        {
-          "text": "CSS框架",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "BEM",
-              "link": "/CSS/CSS框架/BEM"
-            },
-            {
-              "text": "Less",
-              "link": "/CSS/CSS框架/Less"
-            },
-            {
-              "text": "SCSS",
-              "link": "/CSS/CSS框架/SCSS"
-            }
-          ]
-        },
-        {
-          "text": "SVG",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "SVG属性",
-              "link": "/CSS/SVG/SVG属性"
-            },
-            {
-              "text": "SVG样式",
-              "link": "/CSS/SVG/SVG样式"
-            }
-          ]
-        },
-        {
-          "text": "透明度",
-          "link": "/CSS/透明度"
-        },
-        {
-          "text": "颜色",
-          "link": "/CSS/颜色"
-        },
-        {
-          "text": "calc",
-          "link": "/CSS/calc"
-        },
-        {
-          "text": "CSS变量",
-          "link": "/CSS/CSS变量"
-        },
-        {
-          "text": "table-layout",
-          "link": "/CSS/table-layout"
-        }
-      ]
-    }
-  ],
-  "/Hutool/": [
-    {
-      "text": "Hutool",
-      "items": [
-        {
-          "text": "BeanUtil",
-          "link": "/Hutool/BeanUtil"
-        }
-      ]
-    }
-  ],
   "/HTML/": [
     {
       "text": "HTML",
@@ -542,565 +165,99 @@ export default {
       ]
     }
   ],
-  "/JavaScript/": [
+  "/Hutool/": [
     {
-      "text": "JavaScript",
+      "text": "Hutool",
       "items": [
         {
-          "text": "迭代",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "for...in",
-              "link": "/JavaScript/迭代/for...in"
-            },
-            {
-              "text": "for...of",
-              "link": "/JavaScript/迭代/for...of"
-            }
-          ]
-        },
-        {
-          "text": "上传与下载",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "Blob",
-              "link": "/JavaScript/上传与下载/1-Blob"
-            },
-            {
-              "text": "File",
-              "link": "/JavaScript/上传与下载/2-File"
-            },
-            {
-              "text": "FileReader",
-              "link": "/JavaScript/上传与下载/3-FileReader"
-            },
-            {
-              "text": "FormData",
-              "link": "/JavaScript/上传与下载/4-FormData"
-            },
-            {
-              "text": "URL",
-              "link": "/JavaScript/上传与下载/5-URL"
-            },
-            {
-              "text": "上传",
-              "link": "/JavaScript/上传与下载/6-上传"
-            },
-            {
-              "text": "下载",
-              "link": "/JavaScript/上传与下载/7-下载"
-            },
-            {
-              "text": "预览",
-              "link": "/JavaScript/上传与下载/8-预览"
-            },
-            {
-              "text": "上传时序问题",
-              "link": "/JavaScript/上传与下载/9-上传时序问题"
-            },
-            {
-              "text": "上传进度",
-              "link": "/JavaScript/上传与下载/10-上传进度"
-            },
-            {
-              "text": "XMLHttpRequest",
-              "link": "/JavaScript/上传与下载/11-XMLHttpRequest"
-            },
-            {
-              "text": "XMLHttpRequestUpload",
-              "link": "/JavaScript/上传与下载/12-XMLHttpRequestUpload"
-            },
-            {
-              "text": "ProgressEvent",
-              "link": "/JavaScript/上传与下载/13-ProgressEvent"
-            }
-          ]
-        },
-        {
-          "text": "数字",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "数字分隔符",
-              "link": "/JavaScript/数字/数字分隔符"
-            }
-          ]
-        },
-        {
-          "text": "数组",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "查找",
-              "link": "/JavaScript/数组/查找"
-            },
-            {
-              "text": "解构与展开",
-              "link": "/JavaScript/数组/解构与展开"
-            },
-            {
-              "text": "清空数组",
-              "link": "/JavaScript/数组/清空数组"
-            },
-            {
-              "text": "稀疏数组",
-              "link": "/JavaScript/数组/稀疏数组"
-            },
-            {
-              "text": "Array",
-              "link": "/JavaScript/数组/Array"
-            },
-            {
-              "text": "ArrayLike",
-              "link": "/JavaScript/数组/ArrayLike"
-            },
-            {
-              "text": "at",
-              "link": "/JavaScript/数组/at"
-            },
-            {
-              "text": "concat",
-              "link": "/JavaScript/数组/concat"
-            },
-            {
-              "text": "copyWithin",
-              "link": "/JavaScript/数组/copyWithin"
-            },
-            {
-              "text": "every",
-              "link": "/JavaScript/数组/every"
-            },
-            {
-              "text": "filter",
-              "link": "/JavaScript/数组/filter"
-            },
-            {
-              "text": "find",
-              "link": "/JavaScript/数组/find"
-            },
-            {
-              "text": "findIndex",
-              "link": "/JavaScript/数组/findIndex"
-            },
-            {
-              "text": "forEach",
-              "link": "/JavaScript/数组/forEach"
-            },
-            {
-              "text": "includes",
-              "link": "/JavaScript/数组/includes"
-            },
-            {
-              "text": "indexOf",
-              "link": "/JavaScript/数组/indexOf"
-            },
-            {
-              "text": "join",
-              "link": "/JavaScript/数组/join"
-            },
-            {
-              "text": "map",
-              "link": "/JavaScript/数组/map"
-            },
-            {
-              "text": "slice",
-              "link": "/JavaScript/数组/slice"
-            },
-            {
-              "text": "some",
-              "link": "/JavaScript/数组/some"
-            },
-            {
-              "text": "sort",
-              "link": "/JavaScript/数组/sort"
-            },
-            {
-              "text": "splice",
-              "link": "/JavaScript/数组/splice"
-            },
-            {
-              "text": "with",
-              "link": "/JavaScript/数组/with"
-            }
-          ]
-        },
-        {
-          "text": "原生JS",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "Array",
-              "link": "/JavaScript/原生JS/Array"
-            },
-            {
-              "text": "import",
-              "link": "/JavaScript/原生JS/import"
-            },
-            {
-              "text": "Math",
-              "link": "/JavaScript/原生JS/Math"
-            },
-            {
-              "text": "Object",
-              "link": "/JavaScript/原生JS/Object"
-            }
-          ]
-        },
-        {
-          "text": "字符串",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "replace",
-              "link": "/JavaScript/字符串/replace"
-            }
-          ]
-        },
-        {
-          "text": "WebAPI",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "BOM",
-              "link": "/JavaScript/WebAPI/BOM"
-            }
-          ]
-        },
-        {
-          "text": "异常",
-          "link": "/JavaScript/异常"
-        },
-        {
-          "text": "正则",
-          "link": "/JavaScript/正则"
-        },
-        {
-          "text": "Promise",
-          "link": "/JavaScript/Promise"
-        },
-        {
-          "text": "RegExp",
-          "link": "/JavaScript/RegExp"
+          "text": "BeanUtil",
+          "link": "/Hutool/BeanUtil"
         }
       ]
     }
   ],
-  "/Linux/": [
+  "/Agent/": [
     {
-      "text": "Linux",
+      "text": "Agent",
       "items": [
         {
-          "text": "权限",
+          "text": "应用场景",
           "collapsible": true,
           "collapsed": false,
           "items": [
             {
-              "text": "权限控制",
-              "link": "/Linux/权限/权限控制"
-            },
-            {
-              "text": "用户与用户组",
-              "link": "/Linux/权限/用户与用户组"
-            },
-            {
-              "text": "root",
-              "link": "/Linux/权限/root"
+              "text": "CodeReview",
+              "link": "/Agent/应用场景/CodeReview"
             }
           ]
         },
         {
-          "text": "应用管理",
+          "text": "ClaudeCode",
           "collapsible": true,
           "collapsed": false,
           "items": [
             {
-              "text": "包管理",
-              "link": "/Linux/应用管理/包管理"
+              "text": "命令",
+              "link": "/Agent/ClaudeCode/命令"
             },
             {
-              "text": "快捷键",
-              "link": "/Linux/应用管理/快捷键"
+              "text": "Claudemd",
+              "link": "/Agent/ClaudeCode/Claudemd"
             },
             {
-              "text": "应用",
-              "link": "/Linux/应用管理/应用"
+              "text": "MCP安装",
+              "link": "/Agent/ClaudeCode/MCP安装"
             }
           ]
         },
         {
-          "text": "变量",
-          "link": "/Linux/变量"
-        },
-        {
-          "text": "进程",
-          "link": "/Linux/进程"
-        },
-        {
-          "text": "命令",
-          "link": "/Linux/命令"
-        },
-        {
-          "text": "文件命令",
-          "link": "/Linux/文件命令"
-        },
-        {
-          "text": "curl",
-          "link": "/Linux/curl"
-        },
-        {
-          "text": "shell",
-          "link": "/Linux/shell"
-        },
-        {
-          "text": "shell脚本",
-          "link": "/Linux/shell脚本"
-        },
-        {
-          "text": "vim",
-          "link": "/Linux/vim"
-        },
-        {
-          "text": "zsh",
-          "link": "/Linux/zsh"
-        }
-      ]
-    }
-  ],
-  "/Node/": [
-    {
-      "text": "Node",
-      "items": [
-        {
-          "text": "包管理",
+          "text": "MCP",
           "collapsible": true,
           "collapsed": false,
           "items": [
             {
-              "text": "npm",
-              "link": "/Node/包管理/npm"
+              "text": "mcp-server-mysql",
+              "link": "/Agent/MCP/mcp-server-mysql"
             },
             {
-              "text": "nvm",
-              "link": "/Node/包管理/nvm"
-            },
-            {
-              "text": "pnpm",
-              "link": "/Node/包管理/pnpm"
-            },
-            {
-              "text": "yarn",
-              "link": "/Node/包管理/yarn"
+              "text": "MCP",
+              "link": "/Agent/MCP/MCP"
             }
           ]
         },
         {
-          "text": "架构",
+          "text": "Prompt",
           "collapsible": true,
           "collapsed": false,
           "items": [
             {
-              "text": "定时任务",
-              "link": "/Node/架构/定时任务"
-            },
-            {
-              "text": "控制反转",
-              "link": "/Node/架构/控制反转"
-            },
-            {
-              "text": "云函数",
-              "link": "/Node/架构/云函数"
-            },
-            {
-              "text": "inversify-express-utils",
-              "link": "/Node/架构/inversify-express-utils"
-            },
-            {
-              "text": "inversify",
-              "link": "/Node/架构/inversify"
+              "text": "总结",
+              "link": "/Agent/Prompt/总结"
             }
           ]
         },
         {
-          "text": "模块化",
+          "text": "SKILL",
           "collapsible": true,
           "collapsed": false,
           "items": [
             {
-              "text": "CommonJS",
-              "link": "/Node/模块化/CommonJS"
+              "text": "SKILL原理",
+              "link": "/Agent/SKILL/SKILL原理"
+            },
+            {
+              "text": "Springboot规范",
+              "link": "/Agent/SKILL/Springboot规范"
             }
           ]
         },
         {
-          "text": "全局API",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "全局变量",
-              "link": "/Node/全局API/全局变量"
-            },
-            {
-              "text": "process",
-              "link": "/Node/全局API/process"
-            }
-          ]
+          "text": "价格",
+          "link": "/Agent/价格"
         },
         {
-          "text": "文件系统",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "fs",
-              "link": "/Node/文件系统/fs"
-            },
-            {
-              "text": "link",
-              "link": "/Node/文件系统/link"
-            },
-            {
-              "text": "path",
-              "link": "/Node/文件系统/path"
-            },
-            {
-              "text": "stream",
-              "link": "/Node/文件系统/stream"
-            },
-            {
-              "text": "zlib",
-              "link": "/Node/文件系统/zlib"
-            }
-          ]
-        },
-        {
-          "text": "express",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "基本用法",
-              "link": "/Node/express/基本用法"
-            },
-            {
-              "text": "静态资源服务",
-              "link": "/Node/express/静态资源服务"
-            },
-            {
-              "text": "路由",
-              "link": "/Node/express/路由"
-            },
-            {
-              "text": "中间件",
-              "link": "/Node/express/中间件"
-            }
-          ]
-        },
-        {
-          "text": "http",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "动静分离",
-              "link": "/Node/http/动静分离"
-            },
-            {
-              "text": "反向代理",
-              "link": "/Node/http/反向代理"
-            },
-            {
-              "text": "邮件服务",
-              "link": "/Node/http/邮件服务"
-            },
-            {
-              "text": "url",
-              "link": "/Node/http/url"
-            },
-            {
-              "text": "web服务器",
-              "link": "/Node/http/web服务器"
-            }
-          ]
-        },
-        {
-          "text": "package",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "版本号",
-              "link": "/Node/package/版本号"
-            },
-            {
-              "text": "配置项",
-              "link": "/Node/package/配置项"
-            },
-            {
-              "text": "type",
-              "link": "/Node/package/type"
-            }
-          ]
-        },
-        {
-          "text": "Prisma",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "基本使用",
-              "link": "/Node/Prisma/基本使用"
-            }
-          ]
-        },
-        {
-          "text": "创建Node项目",
-          "link": "/Node/创建Node项目"
-        },
-        {
-          "text": "环境配置",
-          "link": "/Node/环境配置"
-        },
-        {
-          "text": "脚手架",
-          "link": "/Node/脚手架"
-        },
-        {
-          "text": "Buffer",
-          "link": "/Node/Buffer"
-        },
-        {
-          "text": "child_process",
-          "link": "/Node/child_process"
-        },
-        {
-          "text": "crypto",
-          "link": "/Node/crypto"
-        },
-        {
-          "text": "EventEmitter",
-          "link": "/Node/EventEmitter"
-        },
-        {
-          "text": "os",
-          "link": "/Node/os"
-        },
-        {
-          "text": "SSR渲染",
-          "link": "/Node/SSR渲染"
-        },
-        {
-          "text": "util",
-          "link": "/Node/util"
+          "text": "mermaid",
+          "link": "/Agent/mermaid"
         }
       ]
     }
@@ -1519,95 +676,701 @@ export default {
       ]
     }
   ],
-  "/Web/": [
+  "/CSS/": [
     {
-      "text": "Web",
+      "text": "CSS",
       "items": [
         {
-          "text": "安全",
+          "text": "基础",
           "collapsible": true,
           "collapsed": false,
           "items": [
             {
-              "text": "对称加密",
-              "link": "/Web/安全/对称加密"
+              "text": "css分类",
+              "link": "/CSS/1-基础/1-css分类"
             },
             {
-              "text": "非对称加密",
-              "link": "/Web/安全/非对称加密"
+              "text": "选择器",
+              "link": "/CSS/1-基础/2-选择器"
             },
             {
-              "text": "哈希函数",
-              "link": "/Web/安全/哈希函数"
+              "text": "属性值的计算过程",
+              "link": "/CSS/1-基础/3-属性值的计算过程"
             },
             {
-              "text": "Cookie",
-              "link": "/Web/安全/Cookie"
+              "text": "伪类",
+              "link": "/CSS/1-基础/4-伪类"
             },
             {
-              "text": "HTTPS",
-              "link": "/Web/安全/HTTPS"
+              "text": "伪元素",
+              "link": "/CSS/1-基础/伪元素"
             },
             {
-              "text": "JWT",
-              "link": "/Web/安全/JWT"
+              "text": "CSS特性",
+              "link": "/CSS/1-基础/CSS特性"
             },
             {
-              "text": "Session",
-              "link": "/Web/安全/Session"
+              "text": "Emmt",
+              "link": "/CSS/1-基础/Emmt"
             }
           ]
         },
         {
-          "text": "请求与响应",
+          "text": "文本",
           "collapsible": true,
           "collapsed": false,
           "items": [
             {
-              "text": "防盗链",
-              "link": "/Web/请求与响应/防盗链"
+              "text": "文本样式",
+              "link": "/CSS/3-文本/1-文本样式"
             },
             {
-              "text": "预检",
-              "link": "/Web/请求与响应/预检"
+              "text": "iconfont",
+              "link": "/CSS/3-文本/2-iconfont"
             },
             {
-              "text": "自定义响应头",
-              "link": "/Web/请求与响应/自定义响应头"
+              "text": "字体",
+              "link": "/CSS/3-文本/3-字体"
             },
             {
-              "text": "Cache-Control",
-              "link": "/Web/请求与响应/Cache-Control"
+              "text": "white-space",
+              "link": "/CSS/3-文本/white-space"
             },
             {
-              "text": "CORS",
-              "link": "/Web/请求与响应/CORS"
+              "text": "word-break",
+              "link": "/CSS/3-文本/word-break"
             }
           ]
         },
         {
-          "text": "短链接",
-          "link": "/Web/短链接"
+          "text": "盒模型",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "边框",
+              "link": "/CSS/4-盒模型/1-边框"
+            },
+            {
+              "text": "内边距",
+              "link": "/CSS/4-盒模型/3-内边距"
+            },
+            {
+              "text": "外边距",
+              "link": "/CSS/4-盒模型/4-外边距"
+            },
+            {
+              "text": "尺寸计算",
+              "link": "/CSS/4-盒模型/5-尺寸计算"
+            },
+            {
+              "text": "盒子背景",
+              "link": "/CSS/4-盒模型/6-盒子背景"
+            },
+            {
+              "text": "渐变",
+              "link": "/CSS/4-盒模型/7-渐变"
+            },
+            {
+              "text": "阴影",
+              "link": "/CSS/4-盒模型/8-阴影"
+            },
+            {
+              "text": "溢出",
+              "link": "/CSS/4-盒模型/9-溢出"
+            },
+            {
+              "text": "可替换元素",
+              "link": "/CSS/4-盒模型/可替换元素"
+            },
+            {
+              "text": "outline",
+              "link": "/CSS/4-盒模型/outline"
+            }
+          ]
         },
         {
-          "text": "favicons",
-          "link": "/Web/favicons"
+          "text": "定位",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "定位",
+              "link": "/CSS/5-定位/3-定位"
+            },
+            {
+              "text": "子绝父相",
+              "link": "/CSS/5-定位/4-子绝父相"
+            },
+            {
+              "text": "标准流",
+              "link": "/CSS/5-定位/标准流"
+            },
+            {
+              "text": "模式切换",
+              "link": "/CSS/5-定位/模式切换"
+            },
+            {
+              "text": "z-index",
+              "link": "/CSS/5-定位/z-index"
+            }
+          ]
         },
         {
-          "text": "HTTP2",
-          "link": "/Web/HTTP2"
+          "text": "弹性布局",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "基本概念",
+              "link": "/CSS/6-弹性布局/1-基本概念"
+            },
+            {
+              "text": "弹性盒本质",
+              "link": "/CSS/6-弹性布局/2-弹性盒本质"
+            },
+            {
+              "text": "弹性限度",
+              "link": "/CSS/6-弹性布局/3-弹性限度"
+            },
+            {
+              "text": "从单行到多行",
+              "link": "/CSS/6-弹性布局/4-从单行到多行"
+            },
+            {
+              "text": "给子项多一点自由",
+              "link": "/CSS/6-弹性布局/5-给子项多一点自由"
+            },
+            {
+              "text": "案例",
+              "link": "/CSS/6-弹性布局/6-案例"
+            }
+          ]
         },
         {
-          "text": "SCL",
-          "link": "/Web/SCL"
+          "text": "网格布局",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "网格布局",
+              "link": "/CSS/7-网格布局/1-网格布局"
+            },
+            {
+              "text": "网格布局默认行为",
+              "link": "/CSS/7-网格布局/2-网格布局默认行为"
+            },
+            {
+              "text": "绘制网格",
+              "link": "/CSS/7-网格布局/3-绘制网格"
+            },
+            {
+              "text": "对齐",
+              "link": "/CSS/7-网格布局/4-对齐"
+            },
+            {
+              "text": "网格线定位",
+              "link": "/CSS/7-网格布局/5-网格线定位"
+            },
+            {
+              "text": "命名网格",
+              "link": "/CSS/7-网格布局/6-命名网格"
+            },
+            {
+              "text": "24分栏",
+              "link": "/CSS/7-网格布局/7-24分栏"
+            }
+          ]
         },
         {
-          "text": "SSE",
-          "link": "/Web/SSE"
+          "text": "变换",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "2D变换",
+              "link": "/CSS/8-变换/2D变换"
+            },
+            {
+              "text": "3D变换",
+              "link": "/CSS/8-变换/3D变换"
+            },
+            {
+              "text": "过渡",
+              "link": "/CSS/8-变换/过渡"
+            },
+            {
+              "text": "clip-path",
+              "link": "/CSS/8-变换/clip-path"
+            }
+          ]
         },
         {
-          "text": "SSO",
-          "link": "/Web/SSO"
+          "text": "案例",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "网页排版",
+              "link": "/CSS/9-案例/网页排版"
+            }
+          ]
+        },
+        {
+          "text": "动画",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "动画时间线",
+              "link": "/CSS/动画/动画时间线"
+            },
+            {
+              "text": "逐帧动画",
+              "link": "/CSS/动画/逐帧动画"
+            },
+            {
+              "text": "animation",
+              "link": "/CSS/动画/animation"
+            }
+          ]
+        },
+        {
+          "text": "默认样式设计",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "表格样式",
+              "link": "/CSS/默认样式设计/4-表格样式"
+            },
+            {
+              "text": "按钮样式",
+              "link": "/CSS/默认样式设计/按钮样式"
+            },
+            {
+              "text": "表单样式",
+              "link": "/CSS/默认样式设计/表单样式"
+            },
+            {
+              "text": "样式初始化",
+              "link": "/CSS/默认样式设计/样式初始化"
+            }
+          ]
+        },
+        {
+          "text": "视觉",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "背景滤镜",
+              "link": "/CSS/视觉/背景滤镜"
+            },
+            {
+              "text": "滤镜",
+              "link": "/CSS/视觉/滤镜"
+            },
+            {
+              "text": "阴影",
+              "link": "/CSS/视觉/阴影"
+            },
+            {
+              "text": "圆角",
+              "link": "/CSS/视觉/圆角"
+            },
+            {
+              "text": "cursor",
+              "link": "/CSS/视觉/cursor"
+            }
+          ]
+        },
+        {
+          "text": "CSS框架",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "BEM",
+              "link": "/CSS/CSS框架/BEM"
+            },
+            {
+              "text": "Less",
+              "link": "/CSS/CSS框架/Less"
+            },
+            {
+              "text": "SCSS",
+              "link": "/CSS/CSS框架/SCSS"
+            }
+          ]
+        },
+        {
+          "text": "SVG",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "SVG属性",
+              "link": "/CSS/SVG/SVG属性"
+            },
+            {
+              "text": "SVG样式",
+              "link": "/CSS/SVG/SVG样式"
+            }
+          ]
+        },
+        {
+          "text": "透明度",
+          "link": "/CSS/透明度"
+        },
+        {
+          "text": "颜色",
+          "link": "/CSS/颜色"
+        },
+        {
+          "text": "calc",
+          "link": "/CSS/calc"
+        },
+        {
+          "text": "CSS变量",
+          "link": "/CSS/CSS变量"
+        },
+        {
+          "text": "table-layout",
+          "link": "/CSS/table-layout"
+        }
+      ]
+    }
+  ],
+  "/JavaScript/": [
+    {
+      "text": "JavaScript",
+      "items": [
+        {
+          "text": "迭代",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "for...in",
+              "link": "/JavaScript/迭代/for...in"
+            },
+            {
+              "text": "for...of",
+              "link": "/JavaScript/迭代/for...of"
+            }
+          ]
+        },
+        {
+          "text": "上传与下载",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "Blob",
+              "link": "/JavaScript/上传与下载/1-Blob"
+            },
+            {
+              "text": "File",
+              "link": "/JavaScript/上传与下载/2-File"
+            },
+            {
+              "text": "FileReader",
+              "link": "/JavaScript/上传与下载/3-FileReader"
+            },
+            {
+              "text": "FormData",
+              "link": "/JavaScript/上传与下载/4-FormData"
+            },
+            {
+              "text": "URL",
+              "link": "/JavaScript/上传与下载/5-URL"
+            },
+            {
+              "text": "上传",
+              "link": "/JavaScript/上传与下载/6-上传"
+            },
+            {
+              "text": "下载",
+              "link": "/JavaScript/上传与下载/7-下载"
+            },
+            {
+              "text": "预览",
+              "link": "/JavaScript/上传与下载/8-预览"
+            },
+            {
+              "text": "上传时序问题",
+              "link": "/JavaScript/上传与下载/9-上传时序问题"
+            },
+            {
+              "text": "上传进度",
+              "link": "/JavaScript/上传与下载/10-上传进度"
+            },
+            {
+              "text": "XMLHttpRequest",
+              "link": "/JavaScript/上传与下载/11-XMLHttpRequest"
+            },
+            {
+              "text": "XMLHttpRequestUpload",
+              "link": "/JavaScript/上传与下载/12-XMLHttpRequestUpload"
+            },
+            {
+              "text": "ProgressEvent",
+              "link": "/JavaScript/上传与下载/13-ProgressEvent"
+            }
+          ]
+        },
+        {
+          "text": "数字",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "数字分隔符",
+              "link": "/JavaScript/数字/数字分隔符"
+            }
+          ]
+        },
+        {
+          "text": "数组",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "查找",
+              "link": "/JavaScript/数组/查找"
+            },
+            {
+              "text": "解构与展开",
+              "link": "/JavaScript/数组/解构与展开"
+            },
+            {
+              "text": "清空数组",
+              "link": "/JavaScript/数组/清空数组"
+            },
+            {
+              "text": "稀疏数组",
+              "link": "/JavaScript/数组/稀疏数组"
+            },
+            {
+              "text": "Array",
+              "link": "/JavaScript/数组/Array"
+            },
+            {
+              "text": "ArrayLike",
+              "link": "/JavaScript/数组/ArrayLike"
+            },
+            {
+              "text": "at",
+              "link": "/JavaScript/数组/at"
+            },
+            {
+              "text": "concat",
+              "link": "/JavaScript/数组/concat"
+            },
+            {
+              "text": "copyWithin",
+              "link": "/JavaScript/数组/copyWithin"
+            },
+            {
+              "text": "every",
+              "link": "/JavaScript/数组/every"
+            },
+            {
+              "text": "filter",
+              "link": "/JavaScript/数组/filter"
+            },
+            {
+              "text": "find",
+              "link": "/JavaScript/数组/find"
+            },
+            {
+              "text": "findIndex",
+              "link": "/JavaScript/数组/findIndex"
+            },
+            {
+              "text": "forEach",
+              "link": "/JavaScript/数组/forEach"
+            },
+            {
+              "text": "includes",
+              "link": "/JavaScript/数组/includes"
+            },
+            {
+              "text": "indexOf",
+              "link": "/JavaScript/数组/indexOf"
+            },
+            {
+              "text": "join",
+              "link": "/JavaScript/数组/join"
+            },
+            {
+              "text": "map",
+              "link": "/JavaScript/数组/map"
+            },
+            {
+              "text": "slice",
+              "link": "/JavaScript/数组/slice"
+            },
+            {
+              "text": "some",
+              "link": "/JavaScript/数组/some"
+            },
+            {
+              "text": "sort",
+              "link": "/JavaScript/数组/sort"
+            },
+            {
+              "text": "splice",
+              "link": "/JavaScript/数组/splice"
+            },
+            {
+              "text": "with",
+              "link": "/JavaScript/数组/with"
+            }
+          ]
+        },
+        {
+          "text": "原生JS",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "Array",
+              "link": "/JavaScript/原生JS/Array"
+            },
+            {
+              "text": "import",
+              "link": "/JavaScript/原生JS/import"
+            },
+            {
+              "text": "Math",
+              "link": "/JavaScript/原生JS/Math"
+            },
+            {
+              "text": "Object",
+              "link": "/JavaScript/原生JS/Object"
+            }
+          ]
+        },
+        {
+          "text": "字符串",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "replace",
+              "link": "/JavaScript/字符串/replace"
+            }
+          ]
+        },
+        {
+          "text": "WebAPI",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "BOM",
+              "link": "/JavaScript/WebAPI/BOM"
+            }
+          ]
+        },
+        {
+          "text": "异常",
+          "link": "/JavaScript/异常"
+        },
+        {
+          "text": "正则",
+          "link": "/JavaScript/正则"
+        },
+        {
+          "text": "Promise",
+          "link": "/JavaScript/Promise"
+        },
+        {
+          "text": "RegExp",
+          "link": "/JavaScript/RegExp"
+        }
+      ]
+    }
+  ],
+  "/Linux/": [
+    {
+      "text": "Linux",
+      "items": [
+        {
+          "text": "权限",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "权限控制",
+              "link": "/Linux/权限/权限控制"
+            },
+            {
+              "text": "用户与用户组",
+              "link": "/Linux/权限/用户与用户组"
+            },
+            {
+              "text": "root",
+              "link": "/Linux/权限/root"
+            }
+          ]
+        },
+        {
+          "text": "应用管理",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "包管理",
+              "link": "/Linux/应用管理/包管理"
+            },
+            {
+              "text": "快捷键",
+              "link": "/Linux/应用管理/快捷键"
+            },
+            {
+              "text": "应用",
+              "link": "/Linux/应用管理/应用"
+            }
+          ]
+        },
+        {
+          "text": "变量",
+          "link": "/Linux/变量"
+        },
+        {
+          "text": "进程",
+          "link": "/Linux/进程"
+        },
+        {
+          "text": "命令",
+          "link": "/Linux/命令"
+        },
+        {
+          "text": "文件命令",
+          "link": "/Linux/文件命令"
+        },
+        {
+          "text": "curl",
+          "link": "/Linux/curl"
+        },
+        {
+          "text": "shell",
+          "link": "/Linux/shell"
+        },
+        {
+          "text": "shell脚本",
+          "link": "/Linux/shell脚本"
+        },
+        {
+          "text": "vim",
+          "link": "/Linux/vim"
+        },
+        {
+          "text": "zsh",
+          "link": "/Linux/zsh"
         }
       ]
     }
@@ -1734,6 +1497,348 @@ export default {
         {
           "text": "tsconfig",
           "link": "/TypeScript/tsconfig"
+        }
+      ]
+    }
+  ],
+  "/Node/": [
+    {
+      "text": "Node",
+      "items": [
+        {
+          "text": "包管理",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "npm",
+              "link": "/Node/包管理/npm"
+            },
+            {
+              "text": "nvm",
+              "link": "/Node/包管理/nvm"
+            },
+            {
+              "text": "pnpm",
+              "link": "/Node/包管理/pnpm"
+            },
+            {
+              "text": "yarn",
+              "link": "/Node/包管理/yarn"
+            }
+          ]
+        },
+        {
+          "text": "架构",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "定时任务",
+              "link": "/Node/架构/定时任务"
+            },
+            {
+              "text": "控制反转",
+              "link": "/Node/架构/控制反转"
+            },
+            {
+              "text": "云函数",
+              "link": "/Node/架构/云函数"
+            },
+            {
+              "text": "inversify-express-utils",
+              "link": "/Node/架构/inversify-express-utils"
+            },
+            {
+              "text": "inversify",
+              "link": "/Node/架构/inversify"
+            }
+          ]
+        },
+        {
+          "text": "模块化",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "CommonJS",
+              "link": "/Node/模块化/CommonJS"
+            }
+          ]
+        },
+        {
+          "text": "全局API",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "全局变量",
+              "link": "/Node/全局API/全局变量"
+            },
+            {
+              "text": "process",
+              "link": "/Node/全局API/process"
+            }
+          ]
+        },
+        {
+          "text": "文件系统",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "fs",
+              "link": "/Node/文件系统/fs"
+            },
+            {
+              "text": "link",
+              "link": "/Node/文件系统/link"
+            },
+            {
+              "text": "path",
+              "link": "/Node/文件系统/path"
+            },
+            {
+              "text": "stream",
+              "link": "/Node/文件系统/stream"
+            },
+            {
+              "text": "zlib",
+              "link": "/Node/文件系统/zlib"
+            }
+          ]
+        },
+        {
+          "text": "express",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "基本用法",
+              "link": "/Node/express/基本用法"
+            },
+            {
+              "text": "静态资源服务",
+              "link": "/Node/express/静态资源服务"
+            },
+            {
+              "text": "路由",
+              "link": "/Node/express/路由"
+            },
+            {
+              "text": "中间件",
+              "link": "/Node/express/中间件"
+            }
+          ]
+        },
+        {
+          "text": "http",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "动静分离",
+              "link": "/Node/http/动静分离"
+            },
+            {
+              "text": "反向代理",
+              "link": "/Node/http/反向代理"
+            },
+            {
+              "text": "邮件服务",
+              "link": "/Node/http/邮件服务"
+            },
+            {
+              "text": "url",
+              "link": "/Node/http/url"
+            },
+            {
+              "text": "web服务器",
+              "link": "/Node/http/web服务器"
+            }
+          ]
+        },
+        {
+          "text": "package",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "版本号",
+              "link": "/Node/package/版本号"
+            },
+            {
+              "text": "配置项",
+              "link": "/Node/package/配置项"
+            },
+            {
+              "text": "type",
+              "link": "/Node/package/type"
+            }
+          ]
+        },
+        {
+          "text": "Prisma",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "基本使用",
+              "link": "/Node/Prisma/基本使用"
+            }
+          ]
+        },
+        {
+          "text": "创建Node项目",
+          "link": "/Node/创建Node项目"
+        },
+        {
+          "text": "环境配置",
+          "link": "/Node/环境配置"
+        },
+        {
+          "text": "脚手架",
+          "link": "/Node/脚手架"
+        },
+        {
+          "text": "Buffer",
+          "link": "/Node/Buffer"
+        },
+        {
+          "text": "child_process",
+          "link": "/Node/child_process"
+        },
+        {
+          "text": "crypto",
+          "link": "/Node/crypto"
+        },
+        {
+          "text": "EventEmitter",
+          "link": "/Node/EventEmitter"
+        },
+        {
+          "text": "os",
+          "link": "/Node/os"
+        },
+        {
+          "text": "SSR渲染",
+          "link": "/Node/SSR渲染"
+        },
+        {
+          "text": "util",
+          "link": "/Node/util"
+        }
+      ]
+    }
+  ],
+  "/Web/": [
+    {
+      "text": "Web",
+      "items": [
+        {
+          "text": "安全",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "对称加密",
+              "link": "/Web/安全/对称加密"
+            },
+            {
+              "text": "非对称加密",
+              "link": "/Web/安全/非对称加密"
+            },
+            {
+              "text": "哈希函数",
+              "link": "/Web/安全/哈希函数"
+            },
+            {
+              "text": "Cookie",
+              "link": "/Web/安全/Cookie"
+            },
+            {
+              "text": "HTTPS",
+              "link": "/Web/安全/HTTPS"
+            },
+            {
+              "text": "JWT",
+              "link": "/Web/安全/JWT"
+            },
+            {
+              "text": "Session",
+              "link": "/Web/安全/Session"
+            }
+          ]
+        },
+        {
+          "text": "请求与响应",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "防盗链",
+              "link": "/Web/请求与响应/防盗链"
+            },
+            {
+              "text": "预检",
+              "link": "/Web/请求与响应/预检"
+            },
+            {
+              "text": "自定义响应头",
+              "link": "/Web/请求与响应/自定义响应头"
+            },
+            {
+              "text": "Cache-Control",
+              "link": "/Web/请求与响应/Cache-Control"
+            },
+            {
+              "text": "CORS",
+              "link": "/Web/请求与响应/CORS"
+            }
+          ]
+        },
+        {
+          "text": "短链接",
+          "link": "/Web/短链接"
+        },
+        {
+          "text": "favicons",
+          "link": "/Web/favicons"
+        },
+        {
+          "text": "HTTP2",
+          "link": "/Web/HTTP2"
+        },
+        {
+          "text": "SCL",
+          "link": "/Web/SCL"
+        },
+        {
+          "text": "SSE",
+          "link": "/Web/SSE"
+        },
+        {
+          "text": "SSO",
+          "link": "/Web/SSO"
+        }
+      ]
+    }
+  ],
+  "/git/": [
+    {
+      "text": "git",
+      "items": [
+        {
+          "text": "仓库嵌套",
+          "link": "/git/仓库嵌套"
+        },
+        {
+          "text": "代理",
+          "link": "/git/代理"
+        },
+        {
+          "text": "远程仓库",
+          "link": "/git/远程仓库"
         }
       ]
     }
@@ -1865,25 +1970,6 @@ export default {
         {
           "text": "URLSearchParams",
           "link": "/WebAPI/URLSearchParams"
-        }
-      ]
-    }
-  ],
-  "/git/": [
-    {
-      "text": "git",
-      "items": [
-        {
-          "text": "仓库嵌套",
-          "link": "/git/仓库嵌套"
-        },
-        {
-          "text": "代理",
-          "link": "/git/代理"
-        },
-        {
-          "text": "远程仓库",
-          "link": "/git/远程仓库"
         }
       ]
     }
@@ -2275,80 +2361,6 @@ export default {
       ]
     }
   ],
-  "/Agent/": [
-    {
-      "text": "Agent",
-      "items": [
-        {
-          "text": "应用场景",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "CodeReview",
-              "link": "/Agent/应用场景/CodeReview"
-            }
-          ]
-        },
-        {
-          "text": "ClaudeCode",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "命令",
-              "link": "/Agent/ClaudeCode/命令"
-            },
-            {
-              "text": "Claudemd",
-              "link": "/Agent/ClaudeCode/Claudemd"
-            },
-            {
-              "text": "MCP安装",
-              "link": "/Agent/ClaudeCode/MCP安装"
-            }
-          ]
-        },
-        {
-          "text": "MCP",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "mcp-server-mysql",
-              "link": "/Agent/MCP/mcp-server-mysql"
-            },
-            {
-              "text": "MCP",
-              "link": "/Agent/MCP/MCP"
-            }
-          ]
-        },
-        {
-          "text": "Prompt",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "总结",
-              "link": "/Agent/Prompt/总结"
-            }
-          ]
-        },
-        {
-          "text": "SKILL",
-          "collapsible": true,
-          "collapsed": false,
-          "items": [
-            {
-              "text": "Springboot规范",
-              "link": "/Agent/SKILL/Springboot规范"
-            }
-          ]
-        }
-      ]
-    }
-  ],
   "/Spring/": [
     {
       "text": "Spring",
@@ -2460,6 +2472,37 @@ export default {
           ]
         },
         {
+          "text": "Quartz",
+          "collapsible": true,
+          "collapsed": false,
+          "items": [
+            {
+              "text": "基本原理",
+              "link": "/Spring/Quartz/基本原理"
+            },
+            {
+              "text": "Job",
+              "link": "/Spring/Quartz/Job"
+            },
+            {
+              "text": "Listener",
+              "link": "/Spring/Quartz/Listener"
+            },
+            {
+              "text": "Misfire",
+              "link": "/Spring/Quartz/Misfire"
+            },
+            {
+              "text": "Scheduler",
+              "link": "/Spring/Quartz/Scheduler"
+            },
+            {
+              "text": "Trigger",
+              "link": "/Spring/Quartz/Trigger"
+            }
+          ]
+        },
+        {
           "text": "Spring",
           "collapsible": true,
           "collapsed": false,
@@ -2523,6 +2566,21 @@ export default {
           "collapsible": true,
           "collapsed": false,
           "items": [
+            {
+              "text": "定时任务",
+              "collapsible": true,
+              "collapsed": false,
+              "items": [
+                {
+                  "text": "Quartz",
+                  "link": "/Spring/Springboot/定时任务/Quartz"
+                },
+                {
+                  "text": "XXL-JOB",
+                  "link": "/Spring/Springboot/定时任务/XXL-JOB"
+                }
+              ]
+            },
             {
               "text": "请求处理",
               "collapsible": true,
